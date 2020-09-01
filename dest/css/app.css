@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* line 14, src/scss/_utilities/_extend.scss */
-.header__user-ava img, .header__user-img img {
+.header__user-ava img, .header__user-img img, .profile__news-link-img img {
   position: absolute;
   top: 0;
   left: 0;
@@ -2748,7 +2748,7 @@ picture {
 
 /* line 3, src/scss/_components/search/_search.scss */
 .search {
-  z-index: 1100;
+  z-index: 1095;
   position: fixed;
   top: 49px;
   left: 0;
@@ -2821,6 +2821,365 @@ picture {
   .search__form .main__form .c-btn:nth-of-type(2) {
     display: none;
   }
+}
+
+/* line 3, src/scss/_components/profile/_profile.scss */
+.profile {
+  padding-top: 5px;
+}
+
+/* line 6, src/scss/_components/profile/_profile.scss */
+.profile .c-grid {
+  max-width: 1370px;
+}
+
+/* line 10, src/scss/_components/profile/_profile.scss */
+.profile__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 13, src/scss/_components/profile/_profile.scss */
+.profile__wrapper-left {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+  padding-right: 20px;
+}
+
+/* line 20, src/scss/_components/profile/_profile.scss */
+.profile__wrapper-right {
+  width: 100%;
+  max-width: 365px;
+}
+
+/* line 26, src/scss/_components/profile/_profile.scss */
+.profile__section {
+  overflow: hidden;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+}
+
+/* line 33, src/scss/_components/profile/_profile.scss */
+.profile__recommended {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 37, src/scss/_components/profile/_profile.scss */
+.profile__recommended-head {
+  padding: 18px 30px;
+  background-color: #639;
+}
+
+/* line 41, src/scss/_components/profile/_profile.scss */
+.profile__recommended-head p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* line 48, src/scss/_components/profile/_profile.scss */
+.profile__recommended-body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 53, src/scss/_components/profile/_profile.scss */
+.profile__recommended-job {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 13px 20px;
+  border-bottom: 2px dotted #dfdfdf;
+  background-color: white;
+}
+
+/* line 61, src/scss/_components/profile/_profile.scss */
+.profile__recommended-job > div:nth-of-type(1) {
+  width: 68px;
+  padding-right: 18px;
+}
+
+/* line 65, src/scss/_components/profile/_profile.scss */
+.profile__recommended-job > div:nth-of-type(2) {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 72, src/scss/_components/profile/_profile.scss */
+.profile__recommended-job-img {
+  overflow: hidden;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50px;
+  height: 40px;
+}
+
+/* line 81, src/scss/_components/profile/_profile.scss */
+.profile__recommended-job-img img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+/* line 89, src/scss/_components/profile/_profile.scss */
+.profile__recommended-job p {
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 22px;
+  color: #15c;
+}
+
+/* line 99, src/scss/_components/profile/_profile.scss */
+.profile__recommended-job span {
+  display: block;
+  color: #757575;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 22px;
+}
+
+/* line 109, src/scss/_components/profile/_profile.scss */
+.profile__employers {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* line 115, src/scss/_components/profile/_profile.scss */
+.profile__employers-divider {
+  width: 100%;
+  height: 1px;
+  margin: 30px 0;
+  background-color: #dcdcdc;
+}
+
+/* line 122, src/scss/_components/profile/_profile.scss */
+.profile__employers-title {
+  padding-bottom: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #655e5e;
+}
+
+/* line 130, src/scss/_components/profile/_profile.scss */
+.profile__employers-link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 65px;
+}
+
+/* line 137, src/scss/_components/profile/_profile.scss */
+.profile__employers-link img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+/* line 144, src/scss/_components/profile/_profile.scss */
+.profile__employers-link-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+/* line 148, src/scss/_components/profile/_profile.scss */
+.profile__employers-link-wrapper > div {
+  width: -webkit-calc(100% / 3);
+  width: calc(100% / 3);
+  padding-top: 25px;
+}
+
+/* line 156, src/scss/_components/profile/_profile.scss */
+.profile__news {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+
+/* line 161, src/scss/_components/profile/_profile.scss */
+.profile__news-title {
+  padding-bottom: 30px;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #655e5e;
+}
+
+/* line 169, src/scss/_components/profile/_profile.scss */
+.profile__news-link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* line 174, src/scss/_components/profile/_profile.scss */
+.profile__news-link > div:nth-of-type(1) {
+  width: 132px;
+  padding-right: 23px;
+}
+
+/* line 178, src/scss/_components/profile/_profile.scss */
+.profile__news-link > div:nth-of-type(2) {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 185, src/scss/_components/profile/_profile.scss */
+.profile__news-link-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 189, src/scss/_components/profile/_profile.scss */
+.profile__news-link-wrapper > div {
+  padding-bottom: 14px;
+}
+
+/* line 194, src/scss/_components/profile/_profile.scss */
+.profile__news-link-img {
+  overflow: hidden;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 109px;
+  height: 109px;
+}
+
+/* line 208, src/scss/_components/profile/_profile.scss */
+.profile__news-link span {
+  display: block;
+  padding-bottom: 5px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #616161;
+}
+
+/* line 216, src/scss/_components/profile/_profile.scss */
+.profile__news-link p {
+  font-family: 'Lucida Grande', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #222;
+}
+
+/* line 224, src/scss/_components/profile/_profile.scss */
+.profile__news-link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 10px;
+  font-size: 13px;
+  color: #15c;
+  text-align: center;
 }
 
 /*# sourceMappingURL=maps/app.css.map */
