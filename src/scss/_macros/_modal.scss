@@ -1,0 +1,11 @@
+// MODAL :: START
+
+.modal {
+	z-index: 2000;
+
+	&-backdrop {
+		z-index: 1999;
+	}
+}
+
+// MODAL :: END

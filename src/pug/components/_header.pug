@@ -1,0 +1,102 @@
+// HEADER :: START
+
+header#header.header
+
+	.c-grid-fluid
+
+		.header__wrapper
+			.header__wrapper-left
+				div
+
+					.logo.logo--header
+						a.logo__btn(href="/")
+							img.logo__img(src="img/logo.png" alt="")
+
+				div
+
+			.header__wrapper-mobile(mobile-block-js)
+
+				div
+
+					.header__nav-wrapper
+						nav.header__nav
+							li.header__nav-item
+								a.header__nav-link(href="#") Home
+							li.header__nav-item
+								a.header__nav-link.is-active(href="#") My Profile
+							li.header__nav-item
+								a.header__nav-link(href="#") Dashboard
+							li.header__nav-item
+								a.header__nav-link(href="#") Job Alerts
+							li.header__nav-item
+								a.header__nav-link(href="#") Recommended Jobs
+							li.header__nav-item
+								a.header__nav-link(href="#") Applications
+							li.header__nav-item
+								a.header__nav-link(href="#") Employer Views
+							li.header__nav-item
+								a.header__nav-link(href="#") News
+
+						.header__nav-line
+
+				div
+
+					a.header__lang(href="#")
+						img(src="img/myanmar.svg" alt="")
+
+				div
+
+					.header__user
+
+						a.header__user-ava(href="#" id="headerUser" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false")
+							img(src="img/img-user.jpg" alt="")
+
+						.header__user-dropdown(class="dropdown-menu dropdown-menu-right" aria-labelledby="headerUser")
+							.header__user-head
+								div
+									.header__user-img
+										img(src="img/img-user.jpg" alt="")
+								div
+									p Htet Aung Kyaw
+									a(href="#") htetaungkyaw.viper@gmail.com
+									span 09972418987
+
+							.header__user-body
+								a.header__user-link(href="#")
+									div
+										i.icon-font.icon-graph
+									div
+										span Update Profile
+								.header__user-link-dropdown
+									a.header__user-link.header__user-link--dropdown(href="#" id="headerUserInner" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false")
+										div
+											i.icon-font.icon-graph
+										div
+											span Download CV Templates
+									.header__user-dropdownInner(class="dropdown-menu dropdown-menu-right" aria-labelledby="headerUserInner")
+										.header__user-body
+											a.header__user-link(href="#")
+												div
+												div
+													span Corporate CV Version
+											a.header__user-link(href="#")
+												div
+												div
+													span Creative CV Version
+											a.header__user-link(href="#")
+												div
+												div
+													span Classic CV Version
+								a.header__user-link(href="#")
+									div
+										i.icon-font.icon-graph
+									div
+										span Change Password
+								a.header__user-link(href="#")
+									div
+										i.icon-font.icon-graph
+									div
+										span Log Out
+
+
+// HEADER :: END

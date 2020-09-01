@@ -1,0 +1,422 @@
+@font-face {
+	font-family: "iconFont";
+	src: url('../fonts/iconFont.eot');
+	src: url('../fonts/iconFont.eot?#iefix') format('eot'),
+		url('../fonts/iconFont.woff2') format('woff2'),
+		url('../fonts/iconFont.woff') format('woff'),
+		url('../fonts/iconFont.ttf') format('truetype'),
+		url('../fonts/iconFont.svg#iconFont') format('svg');
+}
+
+@mixin icon-styles {
+	font-family: "iconFont", sans-serif;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	// speak: none; // only necessary if not using the private unicode range (firstGlyph option)
+	text-decoration: none;
+	text-transform: none;
+}
+
+%icon {
+	@include icon-styles;
+}
+
+@function icon-char($filename) {
+	$char: "";
+
+	@if $filename == antenna {
+		$char: "\E001";
+	}
+	@if $filename == approved {
+		$char: "\E002";
+	}
+	@if $filename == bank {
+		$char: "\E003";
+	}
+	@if $filename == book {
+		$char: "\E004";
+	}
+	@if $filename == calendar-1 {
+		$char: "\E005";
+	}
+	@if $filename == calendar {
+		$char: "\E006";
+	}
+	@if $filename == chevron {
+		$char: "\E007";
+	}
+	@if $filename == circle-check {
+		$char: "\E008";
+	}
+	@if $filename == clock {
+		$char: "\E009";
+	}
+	@if $filename == close {
+		$char: "\E00A";
+	}
+	@if $filename == cogwheel {
+		$char: "\E00B";
+	}
+	@if $filename == cost {
+		$char: "\E00C";
+	}
+	@if $filename == cursor {
+		$char: "\E00D";
+	}
+	@if $filename == dollar-symbol {
+		$char: "\E00E";
+	}
+	@if $filename == double-arrows {
+		$char: "\E00F";
+	}
+	@if $filename == edit {
+		$char: "\E010";
+	}
+	@if $filename == email {
+		$char: "\E011";
+	}
+	@if $filename == facebook-circle {
+		$char: "\E012";
+	}
+	@if $filename == facebook {
+		$char: "\E013";
+	}
+	@if $filename == factory {
+		$char: "\E014";
+	}
+	@if $filename == fast-forward {
+		$char: "\E015";
+	}
+	@if $filename == filter {
+		$char: "\E016";
+	}
+	@if $filename == fire {
+		$char: "\E017";
+	}
+	@if $filename == folder {
+		$char: "\E018";
+	}
+	@if $filename == google-plus-circle {
+		$char: "\E019";
+	}
+	@if $filename == google {
+		$char: "\E01A";
+	}
+	@if $filename == graph {
+		$char: "\E01B";
+	}
+	@if $filename == home {
+		$char: "\E01C";
+	}
+	@if $filename == information {
+		$char: "\E01D";
+	}
+	@if $filename == keyboard-arrow-down {
+		$char: "\E01E";
+	}
+	@if $filename == like {
+		$char: "\E01F";
+	}
+	@if $filename == linkedin-circle {
+		$char: "\E020";
+	}
+	@if $filename == linkedin {
+		$char: "\E021";
+	}
+	@if $filename == locked {
+		$char: "\E022";
+	}
+	@if $filename == mail {
+		$char: "\E023";
+	}
+	@if $filename == menu {
+		$char: "\E024";
+	}
+	@if $filename == notification {
+		$char: "\E025";
+	}
+	@if $filename == office-building {
+		$char: "\E026";
+	}
+	@if $filename == photo {
+		$char: "\E027";
+	}
+	@if $filename == pin {
+		$char: "\E028";
+	}
+	@if $filename == printer {
+		$char: "\E029";
+	}
+	@if $filename == programming {
+		$char: "\E02A";
+	}
+	@if $filename == search {
+		$char: "\E02B";
+	}
+	@if $filename == shopping-bag {
+		$char: "\E02C";
+	}
+	@if $filename == sort {
+		$char: "\E02D";
+	}
+	@if $filename == star-empty {
+		$char: "\E02E";
+	}
+	@if $filename == star {
+		$char: "\E02F";
+	}
+	@if $filename == success {
+		$char: "\E030";
+	}
+	@if $filename == three-chevron-arrows {
+		$char: "\E031";
+	}
+	@if $filename == twitter-circle {
+		$char: "\E032";
+	}
+	@if $filename == twitter {
+		$char: "\E033";
+	}
+	@if $filename == upload {
+		$char: "\E034";
+	}
+	@if $filename == user {
+		$char: "\E035";
+	}
+	@if $filename == users {
+		$char: "\E036";
+	}
+
+	@return $char;
+}
+
+@mixin icon($filename, $insert: before, $extend: true) {
+	&:#{$insert} {
+		@if $extend {
+			@extend %icon;
+		} @else {
+			@include icon-styles;
+		}
+		content: icon-char($filename);
+	}
+}
+
+.icon-antenna {
+	@include icon(antenna);
+
+}
+.icon-approved {
+	@include icon(approved);
+
+}
+.icon-bank {
+	@include icon(bank);
+
+}
+.icon-book {
+	@include icon(book);
+
+}
+.icon-calendar-1 {
+	@include icon(calendar-1);
+
+}
+.icon-calendar {
+	@include icon(calendar);
+
+}
+.icon-chevron {
+	@include icon(chevron);
+
+}
+.icon-circle-check {
+	@include icon(circle-check);
+
+}
+.icon-clock {
+	@include icon(clock);
+
+}
+.icon-close {
+	@include icon(close);
+
+}
+.icon-cogwheel {
+	@include icon(cogwheel);
+
+}
+.icon-cost {
+	@include icon(cost);
+
+}
+.icon-cursor {
+	@include icon(cursor);
+
+}
+.icon-dollar-symbol {
+	@include icon(dollar-symbol);
+
+}
+.icon-double-arrows {
+	@include icon(double-arrows);
+
+}
+.icon-edit {
+	@include icon(edit);
+
+}
+.icon-email {
+	@include icon(email);
+
+}
+.icon-facebook-circle {
+	@include icon(facebook-circle);
+
+}
+.icon-facebook {
+	@include icon(facebook);
+
+}
+.icon-factory {
+	@include icon(factory);
+
+}
+.icon-fast-forward {
+	@include icon(fast-forward);
+
+}
+.icon-filter {
+	@include icon(filter);
+
+}
+.icon-fire {
+	@include icon(fire);
+
+}
+.icon-folder {
+	@include icon(folder);
+
+}
+.icon-google-plus-circle {
+	@include icon(google-plus-circle);
+
+}
+.icon-google {
+	@include icon(google);
+
+}
+.icon-graph {
+	@include icon(graph);
+
+}
+.icon-home {
+	@include icon(home);
+
+}
+.icon-information {
+	@include icon(information);
+
+}
+.icon-keyboard-arrow-down {
+	@include icon(keyboard-arrow-down);
+
+}
+.icon-like {
+	@include icon(like);
+
+}
+.icon-linkedin-circle {
+	@include icon(linkedin-circle);
+
+}
+.icon-linkedin {
+	@include icon(linkedin);
+
+}
+.icon-locked {
+	@include icon(locked);
+
+}
+.icon-mail {
+	@include icon(mail);
+
+}
+.icon-menu {
+	@include icon(menu);
+
+}
+.icon-notification {
+	@include icon(notification);
+
+}
+.icon-office-building {
+	@include icon(office-building);
+
+}
+.icon-photo {
+	@include icon(photo);
+
+}
+.icon-pin {
+	@include icon(pin);
+
+}
+.icon-printer {
+	@include icon(printer);
+
+}
+.icon-programming {
+	@include icon(programming);
+
+}
+.icon-search {
+	@include icon(search);
+
+}
+.icon-shopping-bag {
+	@include icon(shopping-bag);
+
+}
+.icon-sort {
+	@include icon(sort);
+
+}
+.icon-star-empty {
+	@include icon(star-empty);
+
+}
+.icon-star {
+	@include icon(star);
+
+}
+.icon-success {
+	@include icon(success);
+
+}
+.icon-three-chevron-arrows {
+	@include icon(three-chevron-arrows);
+
+}
+.icon-twitter-circle {
+	@include icon(twitter-circle);
+
+}
+.icon-twitter {
+	@include icon(twitter);
+
+}
+.icon-upload {
+	@include icon(upload);
+
+}
+.icon-user {
+	@include icon(user);
+
+}
+.icon-users {
+	@include icon(users);
+
+}

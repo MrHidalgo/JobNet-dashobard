@@ -1,0 +1,13 @@
+// SECTION :: START
+
+.search {
+	z-index: 1100;
+	position: fixed;
+	top: 49px;
+	left: 0;
+	width: 100%;
+
+	@import "search--form";
+}
+
+// SECTION :: END

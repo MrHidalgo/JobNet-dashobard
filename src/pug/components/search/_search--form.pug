@@ -1,0 +1,94 @@
+// SECTION :: START
+
+form.main__form(action='' method='' autocomplete='off')
+	.main__form-field.main__form-field-1
+		label
+			p
+				i.icon-font.icon-search
+			input(type='text' name='' placeholder='Search for a title, job, company or location...')
+
+	.main__form-field.main__form-field-2
+		p#dropdownJobFunction(data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+			i.icon-font.icon-folder
+		.dropdown
+			a.dropdown-toggle(href='#' data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+				| Job Function
+			.dropdown-menu(aria-labelledby='dropdownJobFunction')
+				a.dropdown-item(href='#') Job Function
+				a.dropdown-item(href='#') Accounting/Finance
+				a.dropdown-item(href='#') Administrative
+				a.dropdown-item(href='#') Consulting
+				a.dropdown-item(href='#') Customer Service/Support
+				a.dropdown-item(href='#') Design/Architecture
+				a.dropdown-item(href='#') Doctor/Nursing/Medical Staff
+				a.dropdown-item(href='#') Driver/Security/Cleaning
+				a.dropdown-item(href='#') Education/Teaching/Childcare
+				a.dropdown-item(href='#') Engineering/Technical
+				a.dropdown-item(href='#') Fitness/Wellbeing
+				a.dropdown-item(href='#') Food and Beverage
+				a.dropdown-item(href='#') Hair/Nails and Beauty
+				a.dropdown-item(href='#') HR/Training and Recruitment
+				a.dropdown-item(href='#') Hospitality/Tourism
+				a.dropdown-item(href='#') IT Hardware/Software
+				a.dropdown-item(href='#') Legal/Risk and Compliance
+				a.dropdown-item(href='#') Logistics/Distribution/Fleet
+				a.dropdown-item(href='#') Management
+				a.dropdown-item(href='#') Manufacturing/Warehouse
+				a.dropdown-item(href='#') Marketing/Media/Creative
+				a.dropdown-item(href='#') PR/Communications
+				a.dropdown-item(href='#') Procurement/Supply Chain
+				a.dropdown-item(href='#') Project Management
+				a.dropdown-item(href='#') Quality Assurance
+				a.dropdown-item(href='#') Research and Development
+				a.dropdown-item(href='#') Sales/Business Development
+				a.dropdown-item(href='#') Science/Technology
+				a.dropdown-item(href='#') Skilled Trades / Construction
+				a.dropdown-item(href='#') Strategy/Planning
+				a.dropdown-item(href='#') Translation
+				a.dropdown-item(href='#') Voluntary work
+				a.dropdown-item(href='#') Writing/Editing
+				a.dropdown-item(href='#') Others
+
+	.main__form-field.main__form-field-3
+		p#dropdownLocation(data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+			i.icon-font.icon-pin
+		.dropdown
+			a.dropdown-toggle(href='#' data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+				| Location
+			.dropdown-menu(aria-labelledby='dropdownLocation')
+				a.dropdown-item(href='#') Location
+				a.dropdown-item(href='#') Yangon
+				a.dropdown-item(href='#') Mandalay
+				a.dropdown-item(href='#') NayPyiTaw
+				a.dropdown-item(href='#') Ayeyawady Division
+				a.dropdown-item(href='#') Bago Division
+				a.dropdown-item(href='#') Chin State
+				a.dropdown-item(href='#') Kachin State
+				a.dropdown-item(href='#') Kayah State
+				a.dropdown-item(href='#') Kayin State
+				a.dropdown-item(href='#') Magway Division
+				a.dropdown-item(href='#') Mon State
+				a.dropdown-item(href='#') Rakhine State
+				a.dropdown-item(href='#') Sagaing Division
+				a.dropdown-item(href='#') Shan State
+				a.dropdown-item(href='#') Taninthayi Division
+				a.dropdown-item(href='#') Singapore
+				a.dropdown-item(href='#') Malaysia
+				a.dropdown-item(href='#') Thailand
+				a.dropdown-item(href='#') Australia
+				a.dropdown-item(href='#') UK
+				a.dropdown-item(href='#') USA
+				a.dropdown-item(href='#') International
+
+	.main__form-field.main__form-field-4
+		.c-btn__wrapper
+			a.c-btn.c-btn--green(href="#")
+				span Search
+			a.c-btn.c-btn--green(href="#" main-more-js)
+				span
+					i.icon-font.icon-keyboard-arrow-down
+			a.c-btn.c-btn--green(href="#")
+				span
+					i.icon-font.icon-menu
+
+// SECTION :: END

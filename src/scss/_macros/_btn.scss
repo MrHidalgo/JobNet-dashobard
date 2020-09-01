@@ -1,0 +1,233 @@
+// BUTTON :: START
+
+.c-btn {
+  outline: none;
+  cursor: pointer;
+	overflow: hidden;
+	position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	min-width: 180px;
+	height: 40px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: none;
+	border-radius: 6px;
+	@include transition(box-shadow);
+	@include adaptive(1535) {
+		padding-left: 10px;
+		padding-right: 10px;
+		min-width: 150px;
+	}
+
+	&:hover {
+		box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0), 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+		@include transition(box-shadow);
+
+		&:before,
+		&:after {
+			width: 50%;
+			@include transition(width);
+		}
+
+		span {
+			@include transition(color);
+		}
+	}
+
+	&:before,
+	&:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		width: 0;
+		height: 100%;
+		@include transition(width);
+	}
+	&:before {
+		left: 0;
+	}
+	&:after {
+		right: 0;
+	}
+
+	&__wrapper {
+		display: flex;
+		align-items: center;
+
+		&--center {
+			justify-content: center;
+		}
+	}
+
+	span {
+		z-index: 2;
+		position: relative;
+		font-family: 'Quicksand', sans-serif;
+		font-size: 16px;
+		font-weight: 700;
+		@include transition(color);
+	}
+
+	&--white {
+		background-color: #fff;
+
+		&:before,
+		&:after {
+			background-color: darken(#fff, 2%);
+		}
+
+		span {
+			color: #663399;
+		}
+	}
+
+	&--green {
+		background-color: #1ac880;
+
+		&:before,
+		&:after {
+			background-color: lighten(#1ac880, 2%);
+		}
+
+		span {
+			color: #ffffff;
+		}
+	}
+
+	&--purple {
+		background-color: #663399;
+
+		&:before,
+		&:after {
+			background-color: lighten(#663399, 2%);
+		}
+
+		span {
+			color: #ffffff;
+		}
+	}
+
+	&--orange {
+		background-color: #f69322;
+
+		&:before,
+		&:after {
+			background-color: lighten(#f69322, 2%);
+		}
+
+		span {
+			color: #ffffff;
+		}
+	}
+
+	&--green {
+		background-color: #36AF90;
+
+		&:before,
+		&:after {
+			background-color: lighten(#36AF90, 2%);
+		}
+
+		span {
+			color: #ffffff;
+		}
+	}
+
+	&--borderPurple {
+		border: 1px solid #663399;
+		background-color: #fff;
+
+		&:hover {
+			span {
+				color: #ffffff;
+			}
+		}
+
+		&:before,
+		&:after {
+			background-color: lighten(#663399, 11%);
+		}
+
+		span {
+			color: #663399;
+		}
+	}
+
+	&--borderGreen {
+		border: 1px solid #36AF90;
+		background-color: #fff;
+
+		&:before,
+		&:after {
+			background-color: lighten(#DCDCDC, 11%);
+		}
+
+		span {
+			color: #36AF90;
+		}
+	}
+
+	&--borderBlue {
+		border: 1px solid #2A65D1;
+		background-color: #fff;
+
+		&:hover {
+			span {
+				color: #ffffff;
+			}
+		}
+
+		&:before,
+		&:after {
+			background-color: lighten(#2A65D1, 11%);
+		}
+
+		span {
+			color: #2A65D1;
+		}
+	}
+
+	&--borderOrange {
+		border: 1px solid #f69322;
+		background-color: transparent;
+
+		&:hover {
+			span {
+				color: #f69322;
+			}
+		}
+
+		&:before,
+		&:after {
+			background-color: lighten(#DCDCDC, 11%);
+		}
+
+		span {
+			color: #f69322;
+		}
+	}
+
+	&--borderWhite {
+		border: 1px solid #fff;
+		background-color: transparent;
+
+		&:hover {
+			span {
+				color: #000;
+			}
+		}
+
+		&:before,
+		&:after {
+			background-color: lighten(#DCDCDC, 11%);
+		}
+
+		span {
+			color: #fff;
+		}
+	}
+}
+
+// BUTTON :: END

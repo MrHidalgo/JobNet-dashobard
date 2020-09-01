@@ -1,0 +1,262 @@
+// HEADER :: START
+
+.header {
+	z-index: 1100;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	border-bottom: 1px solid #dcdcdc;
+	background-color: rgb(254, 254, 254);
+	box-shadow: 0 3px 5px 1px rgba(0, 0, 0, .24);
+
+	.c-grid-fluid {
+		padding-left: 2.3vw;
+		padding-right: 1.3vw;
+	}
+
+	&__wrapper {
+		display: flex;
+		height: 49px;
+		padding-top: 7px;
+		padding-bottom: 7px;
+
+		&-left {
+			display: flex;
+			align-items: center;
+		}
+
+		&-mobile {
+			display: flex;
+			justify-content: flex-end;
+			flex: 1;
+			min-width: 1px;
+			max-width: 100%;
+
+			> div {
+				display: flex;
+				align-items: center;
+
+				&:nth-of-type(1) {}
+				&:nth-of-type(2) {
+					padding: 0 1.45vw;
+					border-right: 1px solid #f2f2f2;
+					border-left: 1px solid #f2f2f2;
+				}
+				&:nth-of-type(3) {
+					padding-left: 1.25vw;
+				}
+			}
+		}
+	}
+
+	&__nav {
+		display: flex;
+		align-items: center;
+		height: 100%;
+
+		&-wrapper {
+			position: relative;
+			display: flex;
+			align-items: center;
+		}
+
+		&-item {
+			display: flex;
+		}
+
+		&-link {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 0 1.05vw;
+			font-size: 13px;
+			line-height: 34px;
+			font-weight: 500;
+			color: #524f4f;
+
+			&.is-active {
+				color: #639;
+			}
+		}
+
+		&-line {
+			position: absolute;
+			top: calc(100% + 6px);
+			left: 0;
+			width: 0;
+			height: 2px;
+			background-color: #639;
+			@include transition(left, width);
+		}
+	}
+
+	&__lang {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 20px;
+		height: 20px;
+
+		img {
+			display: block;
+			max-width: 100%;
+			height: auto;
+			max-height: 100%;
+		}
+	}
+
+	&__user {
+		position: relative;
+
+		&-ava {
+			overflow: hidden;
+			position: relative;
+			display: flex;
+			width: 28px;
+			height: 28px;
+			border-radius: 3px;
+
+			img {
+				@extend %imageResCoverAbs;
+			}
+		}
+
+		&-dropdown {
+			right: 0;
+			min-width: 350px;
+			padding: 0;
+			margin: 0;
+			border: none;
+			border-radius: 5px;
+			background-color: white;
+			box-shadow: 0 3px 5px 1px rgba(0, 0, 0, .24);
+		}
+
+		&-head {
+			white-space: nowrap;
+			display: flex;
+			align-items: center;
+			padding: 20px;
+
+			> div {
+				&:nth-of-type(1) {
+					padding-right: 20px;
+				}
+				&:nth-of-type(2) {
+					p,
+					a,
+					span {
+						line-height: 1;
+						font-size: 15px;
+					}
+
+					p {
+						padding-bottom: 10px;
+						font-weight: 500;
+					}
+
+					a {
+						display: flex;
+						padding-bottom: 5px;
+						color: #15c;
+					}
+
+					span {
+						display: flex;
+					}
+				}
+			}
+		}
+
+		&-img {
+			overflow: hidden;
+			position: relative;
+			width: 75px;
+			height: 75px;
+			border-radius: 5px;
+
+			img {
+				@extend %imageResCoverAbs;
+			}
+		}
+
+		&-body {
+			display: flex;
+			flex-direction: column;
+		}
+
+		&-dropdownInner {
+			white-space: nowrap;
+			top: 0;
+			right: 100%;
+			margin: 0;
+			padding: 0;
+			border: none;
+			border-radius: 5px;
+			background-color: white;
+			box-shadow: 0 3px 5px 1px rgba(0, 0, 0, .24);
+
+			.header__user-link {
+				> div {
+					&:nth-of-type(1) {
+						padding-right: 0;
+					}
+				}
+			}
+		}
+
+		&-link {
+			position: relative;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 49px;
+			padding: 15px 50px;
+			border-top: 1px solid #dcdcdc;
+			color: #646464;
+			font-size: 20px;
+			@include transition(background-color);
+
+			&:hover {
+				background-color: rgba(220, 220, 220, .1);
+				@include transition(background-color);
+			}
+
+			> div {
+				&:nth-of-type(1) {
+					padding-right: 20px;
+				}
+				&:nth-of-type(2) {
+					flex: 1;
+					min-width: 1px;
+					max-width: 100%;
+				}
+			}
+
+			&-dropdown {
+				position: relative;
+
+				&:hover {
+					.header__user-dropdownInner {
+						display: block;
+					}
+				}
+			}
+
+			.icon-font {
+				color: #646464;
+				font-size: 20px;
+			}
+
+			span {
+				display: flex;
+				font-size: 15px;
+				line-height: 1;
+				color: #999;
+			}
+		}
+	}
+}
+
+// HEADER :: END

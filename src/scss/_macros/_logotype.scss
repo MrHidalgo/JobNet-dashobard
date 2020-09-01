@@ -1,0 +1,20 @@
+// LOGOTYPE :: START
+
+.logo {
+	&__btn {
+		display: flex;
+		align-items: flex-start;
+		max-width: 187px;
+		@include adaptive(1023) {
+			max-width: 157px;
+		}
+	}
+
+	&__img {
+		display: block;
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+// LOGOTYPE :: END

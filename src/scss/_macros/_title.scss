@@ -1,0 +1,21 @@
+// TITLE :: START
+
+.c-title {
+	color: #3b3b3b;
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 1.2;
+	@include adaptive(1023) {
+		text-align: center;
+	}
+
+	&--white {
+		color: #ffffff;
+	}
+
+  a {
+		color: #663399;
+	}
+}
+
+// TITLE :: END

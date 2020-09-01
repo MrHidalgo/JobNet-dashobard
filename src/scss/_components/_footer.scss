@@ -1,0 +1,33 @@
+// FOOTER :: START
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 90px 23px 0;
+	padding: 17px 0;
+	border-top: 1px solid #dcdcdc;
+	text-align: center;
+
+	&__link {
+		display: flex;
+		color: #15c;
+		font-size: 12px;
+	}
+
+	ul {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		li {
+			padding: 0 17px;
+
+			&:not(:last-of-type) {
+				border-right: 1px solid #5d5d5d;
+			}
+		}
+	}
+}
+
+// FOOTER :: END
