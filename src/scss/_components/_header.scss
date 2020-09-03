@@ -78,6 +78,14 @@
 			&.is-active {
 				color: #639;
 			}
+
+			img {
+				margin-left: 2px;
+				display: block;
+				max-width: 18px;
+				height: auto;
+				max-height: 100%;
+			}
 		}
 
 		&-line {
