@@ -323,6 +323,21 @@ window.addEventListener('scroll', function (ev) {});
 			placeholder: 'Select an option'
 		});
 	};
+
+	var manageAccountSettingCB = function manageAccountSettingCB() {
+		$('[manage-account-js]').on('change', function (ev) {
+			if ($(ev.currentTarget).is(':checked')) {
+				$(ev.currentTarget).closest('.modal__form').find('.modal__form-field').show();
+			} else {
+				$(ev.currentTarget).closest('.modal__form').find('.modal__form-field').hide();
+			}
+		});
+		$('[manage-accountOther-js]').on('change', function (ev) {
+			if ($(ev.currentTarget).is(':checked')) {
+				$(ev.currentTarget).closest('.modal__form').find('.modal__form-field').hide();
+			}
+		});
+	};
 	/*
  * CALLBACK :: end
  * ============================================= */
@@ -351,6 +366,7 @@ window.addEventListener('scroll', function (ev) {});
 		headerNavLine();
 		profileOpportunity();
 		selectDropdown();
+		manageAccountSettingCB();
 		// ==========================================
 	};
 

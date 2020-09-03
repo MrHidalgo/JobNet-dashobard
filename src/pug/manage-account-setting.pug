@@ -5,6 +5,9 @@ pageClassName: p-manage-account-setting
 ---
 extends shared/_layout
 
+block modal
+	include components/modal/_modal-manage
+
 block content
 	div.body.body--start(class!= pageClassName)
 

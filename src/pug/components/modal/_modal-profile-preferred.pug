@@ -1,0 +1,76 @@
+// SECTION :: START
+
+#modalProfilePreferred.modal-profile-preferred.modal.fade(tabindex='-1', role='dialog', aria-labelledby='modalProfilePreferred', aria-hidden='true')
+	.modal-dialog(role='document')
+		.modal-content
+			.modal-header
+				div
+					h5.modal-title Update Preferred Industries to work
+				div
+					button.close(type='button', data-dismiss='modal', aria-label='Close')
+						i.icon-font.icon-close
+
+			.modal-body
+
+				.modal__step
+					p STEP 8 : PREFERRED INDUSTRIES
+
+				form.modal__form(action='' method='' autocomplete='off')
+					.modal__form-field
+						label.modal__form-label(for="preferred_industries")!= "Preferred Industries to work"
+						select#preferred_industries(multiple="multiple" select-dropdown-js)
+							option(value='1', selected='') Accounting/Audit/Tax Services
+							option(value='2') Advertising/PR/Marketing
+							option(value='3') Agriculture/Forestry/Fishing
+							option(value='4') Airlines/Aviation
+							option(value='5') Arts/Performing Arts
+							option(value='6') Athletics/Sports
+							option(value='7') Automotive
+							option(value='39') Banking/ Financial Services/ Microfinance
+							option(value='8') Biotechnology/Pharmaceuticals
+							option(value='9') Broadcasting/Music/Film
+							option(value='10') Chemicals/Petro-Chemicals
+							option(value='11') Clothing/Garment/Textile
+							option(value='13') Construction/Building/Architecture
+							option(value='49') Consulting/Professional Services
+							option(value='14') Education/Training
+							option(value='15') Electronics/Electrical Equipment
+							option(value='16') Energy/Water/Oil & Gas/Waste
+							option(value='17') Engineering/Machinery
+							option(value='18') Entertainment
+							option(value='40') FMCG
+							option(value='19') Food and Beverage/Catering
+							option(value='20') Government/Embassy/Armed Forces
+							option(value='21') Healthcare/Beauty Care
+							option(value='55') Hospitality/Hotels
+							option(value='23') Insurance/Pensions
+							option(value='24') Interior Design/Decoration
+							option(value='41') Internet Services
+							option(value='12') IT/Computer
+							option(value='42') Jewellery/Gems
+							option(value='25') Legal Services
+							option(value='26') Logistics/Transport
+							option(value='28') Manufacturing
+							option(value='29') Media/Publishing
+							option(value='30') Medical/Hospital
+							option(value='56') Mining
+							option(value='31') NGO/UN/Non Profit
+							option(value='43') Pharmaceutical/Life Sciences
+							option(value='44') Printing/Graphic Design
+							option(value='32') Real Estate/Property Development
+							option(value='33') Recruitment/Employment Agency
+							option(value='34') Retail/Wholesale
+							option(value='35') Security/Surveillance
+							option(value='36') Telecommunications
+							option(value='37') Tourism/Travel Agency
+							option(value='38') Trading/Distribution/Import/Export
+							option(value='45') Others
+
+			.modal-footer.c-btn__wrapper
+				button.c-btn.c-btn--borderGray(type='button', data-dismiss='modal')
+					span Cancel
+				button.c-btn.c-btn--borderGreen(type='button')
+					span Save
+
+
+// SECTION :: END

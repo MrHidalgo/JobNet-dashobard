@@ -76,6 +76,14 @@
 		&:not(:last-of-type) {
 			margin-bottom: 18px;
 		}
+
+		&-empty {
+			p {
+				padding-bottom: 15px;
+				text-align: center;
+				font-size: 15px;
+			}
+		}
 	}
 }
 

@@ -34,29 +34,14 @@
 		box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
 	}
 
-
-
-	&__languages {
-		position: relative;
-		padding: 20px 30px 20px;
-	}
-
-	&__references {
-		position: relative;
-		padding: 20px 30px 20px;
-	}
-
-	&__preferred {
-		position: relative;
-		padding: 20px 30px 20px;
-		margin-bottom: 18px;
-	}
-
 	@import "profile--main";
 	@import "profile--strength";
 	@import "profile--about";
 	@import "profile--experience";
 	@import "profile--skills";
+	@import "profile--languages";
+	@import "profile--references";
+	@import "profile--preferred";
 	@import "profile--manage";
 	@import "profile--jobs";
 	@import "profile--employers";

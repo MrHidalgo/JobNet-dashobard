@@ -382,10 +382,110 @@
                   <li>Data Analysis</li>
                   <li>Copy Writing</li>
                 </ul>
+                <div class="section__block-empty">
+                  <p>Add Skills to be found by more Employers.</p>
+                  <div class="c-btn__wrapper c-btn__wrapper--center"><a class="c-btn c-btn--green" href="#"><span>Add Skills</span></a></div>
+                </div>
               </div>
-              <div class="profile__languages section__block"></div>
-              <div class="profile__references section__block"></div>
-              <div class="profile__preferred section__block"></div><a class="profile__manage" href="/manage-account-setting.html">
+              <div class="profile__languages section__block">
+                <div class="profile__languages-header">
+                  <div>
+                    <p class="profile__languages-title">LANGUAGES</p>
+                  </div>
+                  <div><a class="profile__languages-edit" href="#" data-toggle="modal" data-target="#modalProfileLanguages"><i class="icon-font icon-edit"></i><span>Edit</span></a></div>
+                </div>
+                <div class="profile__languages-box-wrapper">
+                  <div>
+                    <div class="profile__languages-box">
+                      <p>English</p><span>Fluent</span>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="profile__languages-box">
+                      <p>English</p><span>Fluent</span>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="profile__languages-box">
+                      <p>English</p><span>Fluent</span>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="profile__languages-box">
+                      <p>English</p><span>Fluent</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="section__block-empty">
+                  <p>Add Languages to be found by more Employers.</p>
+                  <div class="c-btn__wrapper c-btn__wrapper--center"><a class="c-btn c-btn--green" href="#"><span>Add LANGUAGES</span></a></div>
+                </div>
+              </div>
+              <div class="profile__references section__block">
+                <div class="profile__references-header">
+                  <div>
+                    <p class="profile__references-title">REFERENCES</p>
+                  </div>
+                  <div><a class="profile__references-edit" href="#" data-toggle="modal" data-target="#modalProfileReferences"><i class="icon-font icon-plus"></i><span>Add</span></a></div>
+                </div>
+                <div class="profile__references-box-wrapper">
+                  <div>
+                    <div class="profile__references-box">
+                      <div>
+                        <h5>Title</h5>
+                        <p>Subtitle</p><span>Description</span>
+                      </div>
+                      <div><a href="#"><i class="icon-font icon-edit"></i><span>Edit</span></a></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="profile__references-box">
+                      <div>
+                        <h5>Title</h5>
+                        <p>Subtitle</p><span>Description</span>
+                      </div>
+                      <div><a href="#"><i class="icon-font icon-edit"></i><span>Edit</span></a></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="profile__references-box">
+                      <div>
+                        <h5>Title</h5>
+                        <p>Subtitle</p><span>Description</span>
+                      </div>
+                      <div><a href="#"><i class="icon-font icon-edit"></i><span>Edit</span></a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="section__block-empty">
+                  <p>Add References to make your profile look more professional.</p>
+                  <div class="c-btn__wrapper c-btn__wrapper--center"><a class="c-btn c-btn--green" href="#"><span>Add REFERENCES</span></a></div>
+                </div>
+              </div>
+              <div class="profile__preferred section__block">
+                <div class="profile__preferred-header">
+                  <div>
+                    <p class="profile__preferred-title">PREFERRED INDUSTRIES TO WORK</p>
+                  </div>
+                  <div><a class="profile__preferred-edit" href="#" data-toggle="modal" data-target="#modalProfilePreferred"><i class="icon-font icon-edit"></i><span>Edit</span></a></div>
+                </div>
+                <div class="profile__preferred-box-wrapper">
+                  <div>
+                    <div class="profile__preferred-box">
+                      <div>
+                        <div class="profile__preferred-box-icon"><i class="icon-font icon-bank"></i></div>
+                      </div>
+                      <div><a href="#">Accounting/Audit/Tax Services</a>
+                        <p>23 open jobs</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="section__block-empty">
+                  <p>You did not add preferred industry yet. Add preferred industry to make look your profile more professional.</p>
+                  <div class="c-btn__wrapper c-btn__wrapper--center"><a class="c-btn c-btn--green" href="#"><span>Add PREFERRED INDUSTRIES</span></a></div>
+                </div>
+              </div><a class="profile__manage" href="/manage-account-setting.html">
                 <div><i class="icon-font icon-settings"></i></div>
                 <div>
                   <p>Manage your account and privacy.</p><span>Go to your Settings.</span>
@@ -1177,7 +1277,7 @@
                 <div>
                   <div class="modal__form-field">
                     <label class="modal__form-label" for="job_functions">Job Functions <span>*</span></label>
-                    <select id="job_functions" select-dropdown-js multiple>
+                    <select id="job_functions" select-dropdown-js multiple="multiple">
                       <option value="1" selected>Accounting, Finance</option>
                       <option value="2">Administrative</option>
                       <option value="7">Architecture, Design</option>
@@ -2188,6 +2288,7 @@
               <p>STEP 5 : YOUR SKILLS</p>
             </div>
             <form class="modal__form" action="" method="" autocomplete="off">
+              <p class="modal__form-title">Skills achieved</p>
               <div class="modal__form-group">
                 <div>
                   <div class="modal__form-field">
@@ -2261,6 +2362,247 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECTION :: END-->
+    <!-- SECTION :: START-->
+    <div class="modal-profile-languages modal fade" id="modalProfileLanguages" tabindex="-1" role="dialog" aria-labelledby="modalProfileLanguages" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div>
+              <h5 class="modal-title">Update Languages Used</h5>
+            </div>
+            <div>
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close"><i class="icon-font icon-close"></i></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="modal__step">
+              <p>STEP 6 : YOUR LANGUAGES</p>
+            </div>
+            <form class="modal__form" action="" method="" autocomplete="off">
+              <p class="modal__form-title">Languages used</p>
+              <div class="modal__form-group">
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="language">Language <span>*</span></label>
+                    <input type="text" id="language" name="language" placeholder="Type new language here">
+                  </div>
+                </div>
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="proficiency">Proficiency</label>
+                    <select id="proficiency">
+                      <option value="0" selected>Choose Proficiency Level</option>
+                      <option value="1">Basic</option>
+                      <option value="2">Conversational</option>
+                      <option value="3">Fluent</option>
+                      <option value="4">Native Tongue</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer c-btn__wrapper">
+            <button class="c-btn c-btn--borderGray" type="button" data-dismiss="modal"><span>Cancel</span></button>
+            <button class="c-btn c-btn--borderGreen" type="button"><span>Save</span></button>
+          </div>
+          <div class="modal-footer">
+            <div class="modal__box-wrapper">
+              <div>
+                <div class="modal__box">
+                  <div>
+                    <p><strong>Language </strong> : English</p>
+                    <p><strong>roficiency Level </strong> : Fluent</p>
+                  </div>
+                  <div><a href="#"><i class="icon-font icon-delete"></i><span>Delete</span></a></div>
+                </div>
+              </div>
+              <div>
+                <div class="modal__box">
+                  <div>
+                    <p><strong>Language </strong> : English</p>
+                    <p><strong>roficiency Level </strong> : Fluent</p>
+                  </div>
+                  <div><a href="#"><i class="icon-font icon-delete"></i><span>Delete</span></a></div>
+                </div>
+              </div>
+              <div>
+                <div class="modal__box">
+                  <div>
+                    <p><strong>Language </strong> : English</p>
+                    <p><strong>roficiency Level </strong> : Fluent</p>
+                  </div>
+                  <div><a href="#"><i class="icon-font icon-delete"></i><span>Delete</span></a></div>
+                </div>
+              </div>
+              <div>
+                <div class="modal__box">
+                  <div>
+                    <p><strong>Language </strong> : English</p>
+                    <p><strong>roficiency Level </strong> : Fluent</p>
+                  </div>
+                  <div><a href="#"><i class="icon-font icon-delete"></i><span>Delete</span></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECTION :: END-->
+    <!-- SECTION :: START-->
+    <div class="modal-profile-references modal fade" id="modalProfileReferences" tabindex="-1" role="dialog" aria-labelledby="modalProfileReferences" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div>
+              <h5 class="modal-title">Update Reference Details</h5>
+            </div>
+            <div>
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close"><i class="icon-font icon-close"></i></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="modal__step">
+              <p>STEP 7 : YOUR REFERENCES</p>
+            </div>
+            <form class="modal__form" action="" method="" autocomplete="off">
+              <p class="modal__form-title">References</p>
+              <div class="modal__form-group">
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="first_name">First Name <span>*</span></label>
+                    <input type="text" id="first_name" name="first_name" placeholder="First Name">
+                  </div>
+                </div>
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="last_name">Last Name <span>*</span></label>
+                    <input type="text" id="last_name" name="last_name" placeholder="Last Name">
+                  </div>
+                </div>
+              </div>
+              <div class="modal__form-group">
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="position">Position</label>
+                    <input type="text" id="position" name="position" placeholder="Position">
+                  </div>
+                </div>
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="company">Company</label>
+                    <input type="text" id="company" name="company" placeholder="Company">
+                  </div>
+                </div>
+              </div>
+              <div class="modal__form-group">
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="phone">Phone</label>
+                    <input type="text" id="phone" name="phone" placeholder="Phone">
+                  </div>
+                </div>
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email">
+                  </div>
+                </div>
+              </div>
+              <div class="modal__form-field">
+                <label class="modal__form-label" for="comments">Comments</label>
+                <textarea name="comments" id="comments" placeholder="Comments"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer c-btn__wrapper">
+            <button class="c-btn c-btn--borderGray" type="button" data-dismiss="modal"><span>Cancel</span></button>
+            <button class="c-btn c-btn--borderRed" type="button" data-dismiss="modal"><span>Delete</span></button>
+            <button class="c-btn c-btn--borderGreen" type="button"><span>Save</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECTION :: END-->
+    <!-- SECTION :: START-->
+    <div class="modal-profile-preferred modal fade" id="modalProfilePreferred" tabindex="-1" role="dialog" aria-labelledby="modalProfilePreferred" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div>
+              <h5 class="modal-title">Update Preferred Industries to work</h5>
+            </div>
+            <div>
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close"><i class="icon-font icon-close"></i></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="modal__step">
+              <p>STEP 8 : PREFERRED INDUSTRIES</p>
+            </div>
+            <form class="modal__form" action="" method="" autocomplete="off">
+              <div class="modal__form-field">
+                <label class="modal__form-label" for="preferred_industries">Preferred Industries to work</label>
+                <select id="preferred_industries" multiple="multiple" select-dropdown-js>
+                  <option value="1" selected="">Accounting/Audit/Tax Services</option>
+                  <option value="2">Advertising/PR/Marketing</option>
+                  <option value="3">Agriculture/Forestry/Fishing</option>
+                  <option value="4">Airlines/Aviation</option>
+                  <option value="5">Arts/Performing Arts</option>
+                  <option value="6">Athletics/Sports</option>
+                  <option value="7">Automotive</option>
+                  <option value="39">Banking/ Financial Services/ Microfinance</option>
+                  <option value="8">Biotechnology/Pharmaceuticals</option>
+                  <option value="9">Broadcasting/Music/Film</option>
+                  <option value="10">Chemicals/Petro-Chemicals</option>
+                  <option value="11">Clothing/Garment/Textile</option>
+                  <option value="13">Construction/Building/Architecture</option>
+                  <option value="49">Consulting/Professional Services</option>
+                  <option value="14">Education/Training</option>
+                  <option value="15">Electronics/Electrical Equipment</option>
+                  <option value="16">Energy/Water/Oil & Gas/Waste</option>
+                  <option value="17">Engineering/Machinery</option>
+                  <option value="18">Entertainment</option>
+                  <option value="40">FMCG</option>
+                  <option value="19">Food and Beverage/Catering</option>
+                  <option value="20">Government/Embassy/Armed Forces</option>
+                  <option value="21">Healthcare/Beauty Care</option>
+                  <option value="55">Hospitality/Hotels</option>
+                  <option value="23">Insurance/Pensions</option>
+                  <option value="24">Interior Design/Decoration</option>
+                  <option value="41">Internet Services</option>
+                  <option value="12">IT/Computer</option>
+                  <option value="42">Jewellery/Gems</option>
+                  <option value="25">Legal Services</option>
+                  <option value="26">Logistics/Transport</option>
+                  <option value="28">Manufacturing</option>
+                  <option value="29">Media/Publishing</option>
+                  <option value="30">Medical/Hospital</option>
+                  <option value="56">Mining</option>
+                  <option value="31">NGO/UN/Non Profit</option>
+                  <option value="43">Pharmaceutical/Life Sciences</option>
+                  <option value="44">Printing/Graphic Design</option>
+                  <option value="32">Real Estate/Property Development</option>
+                  <option value="33">Recruitment/Employment Agency</option>
+                  <option value="34">Retail/Wholesale</option>
+                  <option value="35">Security/Surveillance</option>
+                  <option value="36">Telecommunications</option>
+                  <option value="37">Tourism/Travel Agency</option>
+                  <option value="38">Trading/Distribution/Import/Export</option>
+                  <option value="45">Others</option>
+                </select>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer c-btn__wrapper">
+            <button class="c-btn c-btn--borderGray" type="button" data-dismiss="modal"><span>Cancel</span></button>
+            <button class="c-btn c-btn--borderGreen" type="button"><span>Save</span></button>
           </div>
         </div>
       </div>

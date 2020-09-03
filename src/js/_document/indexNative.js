@@ -77,6 +77,22 @@
 			placeholder: 'Select an option'
 		});
 	};
+
+
+	const manageAccountSettingCB = () => {
+		$('[manage-account-js]').on('change', (ev) => {
+			if($(ev.currentTarget).is(':checked')) {
+				$(ev.currentTarget).closest('.modal__form').find('.modal__form-field').show();
+			} else {
+				$(ev.currentTarget).closest('.modal__form').find('.modal__form-field').hide();
+			}
+		});
+		$('[manage-accountOther-js]').on('change', (ev) => {
+			if($(ev.currentTarget).is(':checked')) {
+				$(ev.currentTarget).closest('.modal__form').find('.modal__form-field').hide();
+			}
+		});
+	};
 	/*
 	* CALLBACK :: end
 	* ============================================= */
@@ -106,6 +122,7 @@
 		headerNavLine();
 		profileOpportunity();
 		selectDropdown();
+		manageAccountSettingCB();
 		// ==========================================
 	};
 

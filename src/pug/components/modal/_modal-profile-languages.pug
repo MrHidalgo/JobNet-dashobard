@@ -1,0 +1,54 @@
+// SECTION :: START
+
+#modalProfileLanguages.modal-profile-languages.modal.fade(tabindex='-1', role='dialog', aria-labelledby='modalProfileLanguages', aria-hidden='true')
+	.modal-dialog(role='document')
+		.modal-content
+			.modal-header
+				div
+					h5.modal-title Update Languages Used
+				div
+					button.close(type='button', data-dismiss='modal', aria-label='Close')
+						i.icon-font.icon-close
+
+			.modal-body
+
+				.modal__step
+					p STEP 6 : YOUR LANGUAGES
+
+				form.modal__form(action='' method='' autocomplete='off')
+					p.modal__form-title Languages used
+					.modal__form-group
+						div
+							.modal__form-field
+								label.modal__form-label(for="language")!= "Language <span>*</span>"
+								input(type='text' id='language' name='language' placeholder="Type new language here")
+						div
+							.modal__form-field
+								label.modal__form-label(for="proficiency")!= "Proficiency"
+								select#proficiency
+									option(value='0' selected) Choose Proficiency Level
+									option(value='1') Basic
+									option(value='2') Conversational
+									option(value='3') Fluent
+									option(value='4') Native Tongue
+
+			.modal-footer.c-btn__wrapper
+				button.c-btn.c-btn--borderGray(type='button', data-dismiss='modal')
+					span Cancel
+				button.c-btn.c-btn--borderGreen(type='button')
+					span Save
+
+			.modal-footer
+				.modal__box-wrapper
+					each val, idx in [1,2,3,4]
+						div
+							.modal__box
+								div
+									p!= "<strong>Language </strong> : English"
+									p!= "<strong>roficiency Level </strong> : Fluent"
+								div
+									a(href="#")
+										i.icon-font.icon-delete
+										span Delete
+
+// SECTION :: END

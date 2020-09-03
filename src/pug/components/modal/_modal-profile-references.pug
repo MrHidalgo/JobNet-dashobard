@@ -1,0 +1,60 @@
+// SECTION :: START
+
+#modalProfileReferences.modal-profile-references.modal.fade(tabindex='-1', role='dialog', aria-labelledby='modalProfileReferences', aria-hidden='true')
+	.modal-dialog(role='document')
+		.modal-content
+			.modal-header
+				div
+					h5.modal-title Update Reference Details
+				div
+					button.close(type='button', data-dismiss='modal', aria-label='Close')
+						i.icon-font.icon-close
+
+			.modal-body
+
+				.modal__step
+					p STEP 7 : YOUR REFERENCES
+
+				form.modal__form(action='' method='' autocomplete='off')
+					p.modal__form-title References
+					.modal__form-group
+						div
+							.modal__form-field
+								label.modal__form-label(for="first_name")!= "First Name <span>*</span>"
+								input(type='text' id='first_name' name='first_name' placeholder='First Name')
+						div
+							.modal__form-field
+								label.modal__form-label(for="last_name")!= "Last Name <span>*</span>"
+								input(type='text' id='last_name' name='last_name' placeholder="Last Name")
+					.modal__form-group
+						div
+							.modal__form-field
+								label.modal__form-label(for="position")!= "Position"
+								input(type='text' id='position' name='position' placeholder='Position')
+						div
+							.modal__form-field
+								label.modal__form-label(for="company")!= "Company"
+								input(type='text' id='company' name='company' placeholder='Company')
+					.modal__form-group
+						div
+							.modal__form-field
+								label.modal__form-label(for="phone")!= "Phone"
+								input(type='text' id='phone' name='phone' placeholder='Phone')
+						div
+							.modal__form-field
+								label.modal__form-label(for="email")!= "Email"
+								input(type='email' id='email' name='email' placeholder='Email')
+					.modal__form-field
+						label.modal__form-label(for="comments")!= "Comments"
+						textarea(name='comments' id='comments' placeholder='Comments')
+
+			.modal-footer.c-btn__wrapper
+				button.c-btn.c-btn--borderGray(type='button', data-dismiss='modal')
+					span Cancel
+				button.c-btn.c-btn--borderRed(type='button', data-dismiss='modal')
+					span Delete
+				button.c-btn.c-btn--borderGreen(type='button')
+					span Save
+
+
+// SECTION :: END

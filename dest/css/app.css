@@ -556,14 +556,15 @@ body {
           flex-direction: column;
   min-height: 100vh;
   padding-top: 134px;
+  background-color: #eee;
 }
 
-/* line 38, src/scss/_shared/_main-setting-reset.scss */
+/* line 39, src/scss/_shared/_main-setting-reset.scss */
 body.pt0 {
   padding-top: 0;
 }
 
-/* line 42, src/scss/_shared/_main-setting-reset.scss */
+/* line 43, src/scss/_shared/_main-setting-reset.scss */
 body > .body {
   display: -webkit-box;
   display: -webkit-flex;
@@ -580,7 +581,7 @@ body > .body {
           justify-content: center;
 }
 
-/* line 48, src/scss/_shared/_main-setting-reset.scss */
+/* line 49, src/scss/_shared/_main-setting-reset.scss */
 body > .body--start {
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
@@ -588,19 +589,19 @@ body > .body--start {
           justify-content: flex-start;
 }
 
-/* line 55, src/scss/_shared/_main-setting-reset.scss */
+/* line 56, src/scss/_shared/_main-setting-reset.scss */
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-/* line 58, src/scss/_shared/_main-setting-reset.scss */
+/* line 59, src/scss/_shared/_main-setting-reset.scss */
 *:before, *:after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-/* line 65, src/scss/_shared/_main-setting-reset.scss */
+/* line 66, src/scss/_shared/_main-setting-reset.scss */
 button,
 input,
 optgroup,
@@ -610,36 +611,36 @@ textarea {
   margin: 0;
 }
 
-/* line 75, src/scss/_shared/_main-setting-reset.scss */
+/* line 76, src/scss/_shared/_main-setting-reset.scss */
 button,
 input {
   overflow: visible;
 }
 
-/* line 81, src/scss/_shared/_main-setting-reset.scss */
+/* line 82, src/scss/_shared/_main-setting-reset.scss */
 button[disabled] {
   opacity: 0.55;
   cursor: not-allowed;
 }
 
-/* line 87, src/scss/_shared/_main-setting-reset.scss */
+/* line 88, src/scss/_shared/_main-setting-reset.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   outline-offset: -2px;
 }
 
-/* line 93, src/scss/_shared/_main-setting-reset.scss */
+/* line 94, src/scss/_shared/_main-setting-reset.scss */
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 99, src/scss/_shared/_main-setting-reset.scss */
+/* line 100, src/scss/_shared/_main-setting-reset.scss */
 textarea {
   overflow: auto;
 }
 
-/* line 104, src/scss/_shared/_main-setting-reset.scss */
+/* line 105, src/scss/_shared/_main-setting-reset.scss */
 p,
 h1, h2, h3, h4, h5, h6,
 hr {
@@ -647,36 +648,36 @@ hr {
   padding: 0;
 }
 
-/* line 112, src/scss/_shared/_main-setting-reset.scss */
+/* line 113, src/scss/_shared/_main-setting-reset.scss */
 ul {
   margin: 0;
   padding: 0;
 }
 
-/* line 117, src/scss/_shared/_main-setting-reset.scss */
+/* line 118, src/scss/_shared/_main-setting-reset.scss */
 ul li {
   list-style: none;
 }
 
-/* line 123, src/scss/_shared/_main-setting-reset.scss */
+/* line 124, src/scss/_shared/_main-setting-reset.scss */
 a {
   outline: none;
   text-decoration: none;
 }
 
-/* line 128, src/scss/_shared/_main-setting-reset.scss */
+/* line 129, src/scss/_shared/_main-setting-reset.scss */
 a:hover, a:focus {
   text-decoration: none;
 }
 
-/* line 135, src/scss/_shared/_main-setting-reset.scss */
+/* line 136, src/scss/_shared/_main-setting-reset.scss */
 input[type="text"] {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
 }
 
-/* line 139, src/scss/_shared/_main-setting-reset.scss */
+/* line 140, src/scss/_shared/_main-setting-reset.scss */
 picture {
   display: -webkit-box;
   display: -webkit-flex;
@@ -814,12 +815,19 @@ picture {
   margin-bottom: 18px;
 }
 
-/* line 82, src/scss/_shared/_common.scss */
+/* line 81, src/scss/_shared/_common.scss */
+.section__block-empty p {
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 15px;
+}
+
+/* line 90, src/scss/_shared/_common.scss */
 .c-checkboxToggle {
   position: relative;
 }
 
-/* line 85, src/scss/_shared/_common.scss */
+/* line 93, src/scss/_shared/_common.scss */
 .c-checkboxToggle input {
   opacity: 0;
   position: absolute;
@@ -827,7 +835,7 @@ picture {
   height: 0;
 }
 
-/* line 92, src/scss/_shared/_common.scss */
+/* line 100, src/scss/_shared/_common.scss */
 .c-checkboxToggle input:checked + label {
   border-color: #08aa86;
   -webkit-transition: border-color 0.4s ease-in-out;
@@ -835,7 +843,7 @@ picture {
   transition: border-color 0.4s ease-in-out;
 }
 
-/* line 96, src/scss/_shared/_common.scss */
+/* line 104, src/scss/_shared/_common.scss */
 .c-checkboxToggle input:checked + label i {
   -webkit-transform: translateX(100%);
       -ms-transform: translateX(100%);
@@ -849,7 +857,7 @@ picture {
   transition: transform 0.4s ease-in-out, border-color 0.4s ease-in-out, background-color 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
 }
 
-/* line 106, src/scss/_shared/_common.scss */
+/* line 114, src/scss/_shared/_common.scss */
 .c-checkboxToggle label {
   cursor: pointer;
   position: relative;
@@ -866,7 +874,7 @@ picture {
   transition: border-color 0.4s ease-in-out;
 }
 
-/* line 117, src/scss/_shared/_common.scss */
+/* line 125, src/scss/_shared/_common.scss */
 .c-checkboxToggle label i {
   z-index: 2;
   position: absolute;
@@ -885,7 +893,7 @@ picture {
   transition: transform 0.4s ease-in-out, border-color 0.4s ease-in-out, background-color 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
 }
 
-/* line 130, src/scss/_shared/_common.scss */
+/* line 138, src/scss/_shared/_common.scss */
 .c-checkboxToggle label span {
   position: absolute;
   top: 0;
@@ -906,7 +914,7 @@ picture {
   height: 100%;
 }
 
-/* line 140, src/scss/_shared/_common.scss */
+/* line 148, src/scss/_shared/_common.scss */
 .c-checkboxToggle label span u {
   position: absolute;
   padding-top: 3px;
@@ -917,27 +925,27 @@ picture {
   font-weight: 400;
 }
 
-/* line 149, src/scss/_shared/_common.scss */
+/* line 157, src/scss/_shared/_common.scss */
 .c-checkboxToggle label span u:nth-of-type(1) {
   left: 8px;
 }
 
-/* line 152, src/scss/_shared/_common.scss */
+/* line 160, src/scss/_shared/_common.scss */
 .c-checkboxToggle label span u:nth-of-type(2) {
   right: 8px;
 }
 
-/* line 160, src/scss/_shared/_common.scss */
+/* line 168, src/scss/_shared/_common.scss */
 .select2-container--open {
   z-index: 9999;
 }
 
-/* line 163, src/scss/_shared/_common.scss */
+/* line 171, src/scss/_shared/_common.scss */
 .select2-container--open > .select2-search {
   padding: 5px 10px;
 }
 
-/* line 166, src/scss/_shared/_common.scss */
+/* line 174, src/scss/_shared/_common.scss */
 .select2-container--open > .select2-search__field {
   width: 100%;
   height: 36px;
@@ -1364,85 +1372,101 @@ picture {
 }
 
 /* line 174, src/scss/_macros/_btn.scss */
+.c-btn--borderRed {
+  border: 1px solid red;
+  background-color: #fff;
+}
+
+/* line 178, src/scss/_macros/_btn.scss */
+.c-btn--borderRed:before, .c-btn--borderRed:after {
+  background-color: #f8f8f8;
+}
+
+/* line 183, src/scss/_macros/_btn.scss */
+.c-btn--borderRed span {
+  color: red;
+}
+
+/* line 188, src/scss/_macros/_btn.scss */
 .c-btn--borderBlue {
   border: 1px solid #2A65D1;
   background-color: #fff;
 }
 
-/* line 179, src/scss/_macros/_btn.scss */
+/* line 193, src/scss/_macros/_btn.scss */
 .c-btn--borderBlue:hover span {
   color: #ffffff;
 }
 
-/* line 184, src/scss/_macros/_btn.scss */
+/* line 198, src/scss/_macros/_btn.scss */
 .c-btn--borderBlue:before, .c-btn--borderBlue:after {
   background-color: #5686dd;
 }
 
-/* line 189, src/scss/_macros/_btn.scss */
+/* line 203, src/scss/_macros/_btn.scss */
 .c-btn--borderBlue span {
   color: #2A65D1;
 }
 
-/* line 194, src/scss/_macros/_btn.scss */
+/* line 208, src/scss/_macros/_btn.scss */
 .c-btn--borderOrange {
   border: 1px solid #f69322;
   background-color: transparent;
 }
 
-/* line 199, src/scss/_macros/_btn.scss */
+/* line 213, src/scss/_macros/_btn.scss */
 .c-btn--borderOrange:hover span {
   color: #f69322;
 }
 
-/* line 204, src/scss/_macros/_btn.scss */
+/* line 218, src/scss/_macros/_btn.scss */
 .c-btn--borderOrange:before, .c-btn--borderOrange:after {
   background-color: #f8f8f8;
 }
 
-/* line 209, src/scss/_macros/_btn.scss */
+/* line 223, src/scss/_macros/_btn.scss */
 .c-btn--borderOrange span {
   color: #f69322;
 }
 
-/* line 214, src/scss/_macros/_btn.scss */
+/* line 228, src/scss/_macros/_btn.scss */
 .c-btn--borderWhite {
   border: 1px solid #fff;
   background-color: transparent;
 }
 
-/* line 219, src/scss/_macros/_btn.scss */
+/* line 233, src/scss/_macros/_btn.scss */
 .c-btn--borderWhite:hover span {
   color: #000;
 }
 
-/* line 224, src/scss/_macros/_btn.scss */
+/* line 238, src/scss/_macros/_btn.scss */
 .c-btn--borderWhite:before, .c-btn--borderWhite:after {
   background-color: #f8f8f8;
 }
 
-/* line 229, src/scss/_macros/_btn.scss */
+/* line 243, src/scss/_macros/_btn.scss */
 .c-btn--borderWhite span {
   color: #fff;
 }
 
-/* line 234, src/scss/_macros/_btn.scss */
+/* line 248, src/scss/_macros/_btn.scss */
 .c-btn--borderGray {
   border: 1px solid silver;
   background-color: transparent;
 }
 
-/* line 239, src/scss/_macros/_btn.scss */
+/* line 253, src/scss/_macros/_btn.scss */
 .c-btn--borderGray:hover span {
   color: #000;
 }
 
-/* line 244, src/scss/_macros/_btn.scss */
+/* line 258, src/scss/_macros/_btn.scss */
 .c-btn--borderGray:before, .c-btn--borderGray:after {
   background-color: gainsboro;
 }
 
-/* line 249, src/scss/_macros/_btn.scss */
+/* line 263, src/scss/_macros/_btn.scss */
 .c-btn--borderGray span {
   color: gray;
 }
@@ -1457,8 +1481,8 @@ picture {
   z-index: 1999;
 }
 
-/* line 16, src/scss/_macros/_modal.scss */
-.modal.modal-profile-qr .close, .modal.modal-profile-main .close, .modal.modal-profile-experiences .close, .modal.modal-profile-education .close, .modal.modal-profile-skills .close, .modal.modal-profile-about .close {
+/* line 20, src/scss/_macros/_modal.scss */
+.modal.modal-profile-qr .close, .modal.modal-profile-main .close, .modal.modal-profile-experiences .close, .modal.modal-profile-education .close, .modal.modal-profile-skills .close, .modal.modal-profile-languages .close, .modal.modal-profile-references .close, .modal.modal-profile-preferred .close, .modal.modal-manage-account .close, .modal.modal-profile-about .close {
   outline: none;
   opacity: 1 !important;
   margin: 0;
@@ -1466,20 +1490,20 @@ picture {
   font-size: 0;
 }
 
-/* line 23, src/scss/_macros/_modal.scss */
-.modal.modal-profile-qr .close .icon-font, .modal.modal-profile-main .close .icon-font, .modal.modal-profile-experiences .close .icon-font, .modal.modal-profile-education .close .icon-font, .modal.modal-profile-skills .close .icon-font, .modal.modal-profile-about .close .icon-font {
+/* line 27, src/scss/_macros/_modal.scss */
+.modal.modal-profile-qr .close .icon-font, .modal.modal-profile-main .close .icon-font, .modal.modal-profile-experiences .close .icon-font, .modal.modal-profile-education .close .icon-font, .modal.modal-profile-skills .close .icon-font, .modal.modal-profile-languages .close .icon-font, .modal.modal-profile-references .close .icon-font, .modal.modal-profile-preferred .close .icon-font, .modal.modal-manage-account .close .icon-font, .modal.modal-profile-about .close .icon-font {
   color: #000000;
   font-size: 14px;
 }
 
-/* line 30, src/scss/_macros/_modal.scss */
-.modal.modal-profile-qr .modal-content, .modal.modal-profile-main .modal-content, .modal.modal-profile-experiences .modal-content, .modal.modal-profile-education .modal-content, .modal.modal-profile-skills .modal-content, .modal.modal-profile-about .modal-content {
+/* line 34, src/scss/_macros/_modal.scss */
+.modal.modal-profile-qr .modal-content, .modal.modal-profile-main .modal-content, .modal.modal-profile-experiences .modal-content, .modal.modal-profile-education .modal-content, .modal.modal-profile-skills .modal-content, .modal.modal-profile-languages .modal-content, .modal.modal-profile-references .modal-content, .modal.modal-profile-preferred .modal-content, .modal.modal-manage-account .modal-content, .modal.modal-profile-about .modal-content {
   overflow: hidden;
   border: none;
 }
 
-/* line 35, src/scss/_macros/_modal.scss */
-.modal.modal-profile-qr .modal-header, .modal.modal-profile-main .modal-header, .modal.modal-profile-experiences .modal-header, .modal.modal-profile-education .modal-header, .modal.modal-profile-skills .modal-header, .modal.modal-profile-about .modal-header {
+/* line 39, src/scss/_macros/_modal.scss */
+.modal.modal-profile-qr .modal-header, .modal.modal-profile-main .modal-header, .modal.modal-profile-experiences .modal-header, .modal.modal-profile-education .modal-header, .modal.modal-profile-skills .modal-header, .modal.modal-profile-languages .modal-header, .modal.modal-profile-references .modal-header, .modal.modal-profile-preferred .modal-header, .modal.modal-manage-account .modal-header, .modal.modal-profile-about .modal-header {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1494,23 +1518,250 @@ picture {
           justify-content: space-between;
 }
 
-/* line 41, src/scss/_macros/_modal.scss */
-.modal.modal-profile-qr .modal-title, .modal.modal-profile-main .modal-title, .modal.modal-profile-experiences .modal-title, .modal.modal-profile-education .modal-title, .modal.modal-profile-skills .modal-title, .modal.modal-profile-about .modal-title {
+/* line 45, src/scss/_macros/_modal.scss */
+.modal.modal-profile-qr .modal-title, .modal.modal-profile-main .modal-title, .modal.modal-profile-experiences .modal-title, .modal.modal-profile-education .modal-title, .modal.modal-profile-skills .modal-title, .modal.modal-profile-languages .modal-title, .modal.modal-profile-references .modal-title, .modal.modal-profile-preferred .modal-title, .modal.modal-manage-account .modal-title, .modal.modal-profile-about .modal-title {
   font-size: 20px;
   font-weight: 400;
 }
 
-/* line 50, src/scss/_macros/_modal.scss */
+/* line 54, src/scss/_macros/_modal.scss */
+.modal#modalManageAccount .modal-dialog {
+  max-width: 600px;
+}
+
+/* line 58, src/scss/_macros/_modal.scss */
+.modal#modalManageAccount .modal-content {
+  background-color: #fff;
+}
+
+/* line 62, src/scss/_macros/_modal.scss */
+.modal#modalManageAccount .modal-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 68, src/scss/_macros/_modal.scss */
+.modal#modalManageAccount .modal__step {
+  position: relative;
+  left: -1rem;
+  width: -webkit-calc(100% + 2rem);
+  width: calc(100% + 2rem);
+  padding: 15px 20px;
+  background-color: #7d51a8;
+}
+
+/* line 75, src/scss/_macros/_modal.scss */
+.modal#modalManageAccount .modal__step p {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+/* line 83, src/scss/_macros/_modal.scss */
+.modal#modalManageAccount .modal__form {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem 1rem 0;
+}
+
+/* line 89, src/scss/_macros/_modal.scss */
+.modal#modalManageAccount .modal__form .form-check {
+  margin-bottom: 15px;
+}
+
+/* line 92, src/scss/_macros/_modal.scss */
+.modal#modalManageAccount .modal__form .form-check-input {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin-top: 0;
+}
+
+/* line 98, src/scss/_macros/_modal.scss */
+.modal#modalManageAccount .modal__form .form-check-label {
+  line-height: 1.1;
+  font-size: 16px;
+  color: grey;
+}
+
+/* line 105, src/scss/_macros/_modal.scss */
+.modal#modalManageAccount .modal__form-field {
+  display: none;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+/* line 110, src/scss/_macros/_modal.scss */
+.modal#modalManageAccount .modal__form-field-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 114, src/scss/_macros/_modal.scss */
+.modal#modalManageAccount .modal__form-field-group > div {
+  width: 100%;
+  max-width: -webkit-calc((100% - 30px) / 3);
+  max-width: calc((100% - 30px) / 3);
+}
+
+/* line 118, src/scss/_macros/_modal.scss */
+.modal#modalManageAccount .modal__form-field-group > div .modal__form-field {
+  padding-bottom: 0;
+}
+
+/* line 124, src/scss/_macros/_modal.scss */
+.modal#modalManageAccount .modal__form-field > textarea {
+  outline: none;
+  position: relative;
+  width: 100%;
+  height: 130px;
+  padding: 0 12px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  border: 1px solid darkgray;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* line 141, src/scss/_macros/_modal.scss */
+.modal#modalManageAccount .modal__cv-header {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.14);
+}
+
+/* line 149, src/scss/_macros/_modal.scss */
+.modal#modalManageAccount .modal__cv-header[aria-expanded="true"] a {
+  display: none;
+}
+
+/* line 154, src/scss/_macros/_modal.scss */
+.modal#modalManageAccount .modal__cv-header p {
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #9932cc;
+}
+
+/* line 162, src/scss/_macros/_modal.scss */
+.modal#modalManageAccount .modal__cv-header p span {
+  color: #5d60ff;
+}
+
+/* line 167, src/scss/_macros/_modal.scss */
+.modal#modalManageAccount .modal__cv-header a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #5d60ff;
+}
+
+/* line 172, src/scss/_macros/_modal.scss */
+.modal#modalManageAccount .modal__cv-header a .icon-font {
+  margin-right: 3px;
+  font-size: 12px;
+}
+
+/* line 177, src/scss/_macros/_modal.scss */
+.modal#modalManageAccount .modal__cv-header a span {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+/* line 184, src/scss/_macros/_modal.scss */
+.modal#modalManageAccount .modal__cv-body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.14);
+}
+
+/* line 192, src/scss/_macros/_modal.scss */
+.modal#modalManageAccount .modal__cv-body-1 > div {
+  width: 100%;
+  max-width: -webkit-calc(100% / 3);
+  max-width: calc(100% / 3);
+}
+
+/* line 196, src/scss/_macros/_modal.scss */
+.modal#modalManageAccount .modal__cv-body-1 > div:nth-of-type(3) {
+  padding-top: 25px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+
+/* line 204, src/scss/_macros/_modal.scss */
+.modal#modalManageAccount .modal__cv-body-2 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 214, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal-dialog {
   max-width: 744px;
 }
 
-/* line 54, src/scss/_macros/_modal.scss */
+/* line 218, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal-content {
   background-color: #fff;
 }
 
-/* line 58, src/scss/_macros/_modal.scss */
+/* line 222, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal-footer {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1526,7 +1777,7 @@ picture {
           justify-content: space-between;
 }
 
-/* line 64, src/scss/_macros/_modal.scss */
+/* line 228, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__header {
   position: relative;
   top: -1rem;
@@ -1542,7 +1793,7 @@ picture {
   padding: 30px 30px 0;
 }
 
-/* line 73, src/scss/_macros/_modal.scss */
+/* line 237, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__header-bg {
   z-index: 0;
   position: absolute;
@@ -1552,7 +1803,7 @@ picture {
   height: 100%;
 }
 
-/* line 81, src/scss/_macros/_modal.scss */
+/* line 245, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__header-bg > div {
   width: 100%;
   height: 140px;
@@ -1563,7 +1814,7 @@ picture {
           background-size: cover;
 }
 
-/* line 91, src/scss/_macros/_modal.scss */
+/* line 255, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__header-user {
   overflow: hidden;
   position: relative;
@@ -1577,7 +1828,7 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 107, src/scss/_macros/_modal.scss */
+/* line 271, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__step {
   position: relative;
   left: -1rem;
@@ -1587,7 +1838,7 @@ picture {
   background-color: #7d51a8;
 }
 
-/* line 114, src/scss/_macros/_modal.scss */
+/* line 278, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__step p {
   text-transform: uppercase;
   color: #fff;
@@ -1595,7 +1846,7 @@ picture {
   font-size: 12px;
 }
 
-/* line 122, src/scss/_macros/_modal.scss */
+/* line 286, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__form {
   position: relative;
   display: -webkit-box;
@@ -1610,7 +1861,7 @@ picture {
   padding: 1rem 1rem 0;
 }
 
-/* line 128, src/scss/_macros/_modal.scss */
+/* line 292, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__form-title {
   position: relative;
   padding-top: 5px;
@@ -1620,7 +1871,7 @@ picture {
   color: #9932cc;
 }
 
-/* line 138, src/scss/_macros/_modal.scss */
+/* line 302, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__form .form-check-input {
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -1629,12 +1880,12 @@ picture {
   margin-top: 0;
 }
 
-/* line 144, src/scss/_macros/_modal.scss */
+/* line 308, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__form .form-check-label {
   line-height: 1.2;
 }
 
-/* line 149, src/scss/_macros/_modal.scss */
+/* line 313, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__form-group {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1646,20 +1897,20 @@ picture {
           justify-content: space-between;
 }
 
-/* line 153, src/scss/_macros/_modal.scss */
+/* line 317, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__form-group > div {
   width: 100%;
   max-width: -webkit-calc((100% - 10px) / 2);
   max-width: calc((100% - 10px) / 2);
 }
 
-/* line 159, src/scss/_macros/_modal.scss */
+/* line 323, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__form-field {
   position: relative;
   padding-bottom: 10px;
 }
 
-/* line 163, src/scss/_macros/_modal.scss */
+/* line 327, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__form-field-group {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1671,19 +1922,19 @@ picture {
           justify-content: space-between;
 }
 
-/* line 167, src/scss/_macros/_modal.scss */
+/* line 331, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__form-field-group > div {
   width: 100%;
   max-width: -webkit-calc((100% - 30px) / 3);
   max-width: calc((100% - 30px) / 3);
 }
 
-/* line 171, src/scss/_macros/_modal.scss */
+/* line 335, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__form-field-group > div .modal__form-field {
   padding-bottom: 0;
 }
 
-/* line 177, src/scss/_macros/_modal.scss */
+/* line 341, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__form-field > input,
 .modal#modalProfileMain .modal__form-field > select {
   outline: none;
@@ -1700,7 +1951,7 @@ picture {
   font-weight: 400;
 }
 
-/* line 192, src/scss/_macros/_modal.scss */
+/* line 356, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__form-field > input[type='file'] {
   height: auto;
   padding: 0;
@@ -1708,7 +1959,7 @@ picture {
   background-color: transparent;
 }
 
-/* line 199, src/scss/_macros/_modal.scss */
+/* line 363, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__form-field .select2-selection {
   outline: none;
   width: 100%;
@@ -1720,7 +1971,7 @@ picture {
   background-color: white;
 }
 
-/* line 208, src/scss/_macros/_modal.scss */
+/* line 372, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__form-field .select2-selection .select2-selection__rendered {
   line-height: 36px;
   color: rgba(0, 0, 0, 0.9);
@@ -1728,12 +1979,12 @@ picture {
   font-weight: 400;
 }
 
-/* line 215, src/scss/_macros/_modal.scss */
+/* line 379, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__form-field .select2-selection .select2-selection__arrow {
   height: 100%;
 }
 
-/* line 220, src/scss/_macros/_modal.scss */
+/* line 384, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__form-field .select2-container--default .select2-selection--multiple .select2-selection__choice {
   display: inline-block;
   margin-left: 5px;
@@ -1745,7 +1996,7 @@ picture {
   line-height: 26px;
 }
 
-/* line 231, src/scss/_macros/_modal.scss */
+/* line 395, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__form-label {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1755,12 +2006,12 @@ picture {
   font-size: 14px;
 }
 
-/* line 236, src/scss/_macros/_modal.scss */
+/* line 400, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__form-label span {
   color: red;
 }
 
-/* line 241, src/scss/_macros/_modal.scss */
+/* line 405, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__form-divider {
   width: 100%;
   height: 1px;
@@ -1768,12 +2019,12 @@ picture {
   margin: 15px 0;
 }
 
-/* line 247, src/scss/_macros/_modal.scss */
+/* line 411, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__form-divider:last-of-type {
   margin-bottom: 0;
 }
 
-/* line 254, src/scss/_macros/_modal.scss */
+/* line 418, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__cv-header {
   cursor: pointer;
   display: -webkit-box;
@@ -1791,12 +2042,12 @@ picture {
   border-bottom: 1px dashed rgba(0, 0, 0, 0.14);
 }
 
-/* line 262, src/scss/_macros/_modal.scss */
+/* line 426, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__cv-header[aria-expanded="true"] a {
   display: none;
 }
 
-/* line 267, src/scss/_macros/_modal.scss */
+/* line 431, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__cv-header p {
   position: relative;
   padding-top: 5px;
@@ -1806,12 +2057,12 @@ picture {
   color: #9932cc;
 }
 
-/* line 275, src/scss/_macros/_modal.scss */
+/* line 439, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__cv-header p span {
   color: #5d60ff;
 }
 
-/* line 280, src/scss/_macros/_modal.scss */
+/* line 444, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__cv-header a {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1824,19 +2075,19 @@ picture {
   color: #5d60ff;
 }
 
-/* line 285, src/scss/_macros/_modal.scss */
+/* line 449, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__cv-header a .icon-font {
   margin-right: 3px;
   font-size: 12px;
 }
 
-/* line 290, src/scss/_macros/_modal.scss */
+/* line 454, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__cv-header a span {
   text-transform: uppercase;
   font-size: 12px;
 }
 
-/* line 297, src/scss/_macros/_modal.scss */
+/* line 461, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__cv-body {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1851,21 +2102,21 @@ picture {
   border-bottom: 1px dashed rgba(0, 0, 0, 0.14);
 }
 
-/* line 305, src/scss/_macros/_modal.scss */
+/* line 469, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__cv-body-1 > div {
   width: 100%;
   max-width: -webkit-calc(100% / 3);
   max-width: calc(100% / 3);
 }
 
-/* line 309, src/scss/_macros/_modal.scss */
+/* line 473, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__cv-body-1 > div:nth-of-type(3) {
   padding-top: 25px;
   padding-left: 30px;
   padding-bottom: 10px;
 }
 
-/* line 317, src/scss/_macros/_modal.scss */
+/* line 481, src/scss/_macros/_modal.scss */
 .modal#modalProfileMain .modal__cv-body-2 {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -1873,17 +2124,17 @@ picture {
           justify-content: space-between;
 }
 
-/* line 328, src/scss/_macros/_modal.scss */
+/* line 492, src/scss/_macros/_modal.scss */
 .modal#modalProfileExperiences .modal-dialog, .modal#modalProfileEducation .modal-dialog {
   max-width: 744px;
 }
 
-/* line 332, src/scss/_macros/_modal.scss */
+/* line 496, src/scss/_macros/_modal.scss */
 .modal#modalProfileExperiences .modal-content, .modal#modalProfileEducation .modal-content {
   background-color: #fff;
 }
 
-/* line 336, src/scss/_macros/_modal.scss */
+/* line 500, src/scss/_macros/_modal.scss */
 .modal#modalProfileExperiences .modal-footer, .modal#modalProfileEducation .modal-footer {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1899,7 +2150,7 @@ picture {
           justify-content: space-between;
 }
 
-/* line 342, src/scss/_macros/_modal.scss */
+/* line 506, src/scss/_macros/_modal.scss */
 .modal#modalProfileExperiences .modal__step, .modal#modalProfileEducation .modal__step {
   position: relative;
   left: -1rem;
@@ -1909,7 +2160,7 @@ picture {
   background-color: #7d51a8;
 }
 
-/* line 349, src/scss/_macros/_modal.scss */
+/* line 513, src/scss/_macros/_modal.scss */
 .modal#modalProfileExperiences .modal__step p, .modal#modalProfileEducation .modal__step p {
   text-transform: uppercase;
   color: #fff;
@@ -1917,7 +2168,7 @@ picture {
   font-size: 12px;
 }
 
-/* line 357, src/scss/_macros/_modal.scss */
+/* line 521, src/scss/_macros/_modal.scss */
 .modal#modalProfileExperiences .modal__form, .modal#modalProfileEducation .modal__form {
   position: relative;
   display: -webkit-box;
@@ -1932,7 +2183,7 @@ picture {
   padding: 1rem 1rem 0;
 }
 
-/* line 363, src/scss/_macros/_modal.scss */
+/* line 527, src/scss/_macros/_modal.scss */
 .modal#modalProfileExperiences .modal__form-title, .modal#modalProfileEducation .modal__form-title {
   position: relative;
   padding-top: 5px;
@@ -1942,7 +2193,7 @@ picture {
   color: #9932cc;
 }
 
-/* line 373, src/scss/_macros/_modal.scss */
+/* line 537, src/scss/_macros/_modal.scss */
 .modal#modalProfileExperiences .modal__form .form-check-input, .modal#modalProfileEducation .modal__form .form-check-input {
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -1951,12 +2202,12 @@ picture {
   margin-top: 0;
 }
 
-/* line 379, src/scss/_macros/_modal.scss */
+/* line 543, src/scss/_macros/_modal.scss */
 .modal#modalProfileExperiences .modal__form .form-check-label, .modal#modalProfileEducation .modal__form .form-check-label {
   line-height: 1.2;
 }
 
-/* line 384, src/scss/_macros/_modal.scss */
+/* line 548, src/scss/_macros/_modal.scss */
 .modal#modalProfileExperiences .modal__form-group, .modal#modalProfileEducation .modal__form-group {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1968,20 +2219,20 @@ picture {
           justify-content: space-between;
 }
 
-/* line 388, src/scss/_macros/_modal.scss */
+/* line 552, src/scss/_macros/_modal.scss */
 .modal#modalProfileExperiences .modal__form-group > div, .modal#modalProfileEducation .modal__form-group > div {
   width: 100%;
   max-width: -webkit-calc((100% - 10px) / 2);
   max-width: calc((100% - 10px) / 2);
 }
 
-/* line 394, src/scss/_macros/_modal.scss */
+/* line 558, src/scss/_macros/_modal.scss */
 .modal#modalProfileExperiences .modal__form-field, .modal#modalProfileEducation .modal__form-field {
   position: relative;
   padding-bottom: 10px;
 }
 
-/* line 398, src/scss/_macros/_modal.scss */
+/* line 562, src/scss/_macros/_modal.scss */
 .modal#modalProfileExperiences .modal__form-field-group, .modal#modalProfileEducation .modal__form-field-group {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1993,14 +2244,14 @@ picture {
           justify-content: space-between;
 }
 
-/* line 402, src/scss/_macros/_modal.scss */
+/* line 566, src/scss/_macros/_modal.scss */
 .modal#modalProfileExperiences .modal__form-field-group > div, .modal#modalProfileEducation .modal__form-field-group > div {
   width: 100%;
   max-width: -webkit-calc((100% - 30px) / 3);
   max-width: calc((100% - 30px) / 3);
 }
 
-/* line 406, src/scss/_macros/_modal.scss */
+/* line 570, src/scss/_macros/_modal.scss */
 .modal#modalProfileExperiences .modal__form-field-group > div:nth-of-type(3), .modal#modalProfileEducation .modal__form-field-group > div:nth-of-type(3) {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2017,12 +2268,12 @@ picture {
   padding-top: 25px;
 }
 
-/* line 413, src/scss/_macros/_modal.scss */
+/* line 577, src/scss/_macros/_modal.scss */
 .modal#modalProfileExperiences .modal__form-field-group > div .modal__form-field, .modal#modalProfileEducation .modal__form-field-group > div .modal__form-field {
   padding-bottom: 0;
 }
 
-/* line 419, src/scss/_macros/_modal.scss */
+/* line 583, src/scss/_macros/_modal.scss */
 .modal#modalProfileExperiences .modal__form-field > input,
 .modal#modalProfileExperiences .modal__form-field > textarea,
 .modal#modalProfileExperiences .modal__form-field > select, .modal#modalProfileEducation .modal__form-field > input,
@@ -2042,13 +2293,13 @@ picture {
   font-weight: 400;
 }
 
-/* line 435, src/scss/_macros/_modal.scss */
+/* line 599, src/scss/_macros/_modal.scss */
 .modal#modalProfileExperiences .modal__form-field > textarea, .modal#modalProfileEducation .modal__form-field > textarea {
   resize: none;
   height: 130px;
 }
 
-/* line 440, src/scss/_macros/_modal.scss */
+/* line 604, src/scss/_macros/_modal.scss */
 .modal#modalProfileExperiences .modal__form-field .select2-selection, .modal#modalProfileEducation .modal__form-field .select2-selection {
   outline: none;
   width: 100%;
@@ -2060,7 +2311,7 @@ picture {
   background-color: white;
 }
 
-/* line 449, src/scss/_macros/_modal.scss */
+/* line 613, src/scss/_macros/_modal.scss */
 .modal#modalProfileExperiences .modal__form-field .select2-selection .select2-selection__rendered, .modal#modalProfileEducation .modal__form-field .select2-selection .select2-selection__rendered {
   line-height: 36px;
   color: rgba(0, 0, 0, 0.9);
@@ -2068,12 +2319,12 @@ picture {
   font-weight: 400;
 }
 
-/* line 456, src/scss/_macros/_modal.scss */
+/* line 620, src/scss/_macros/_modal.scss */
 .modal#modalProfileExperiences .modal__form-field .select2-selection .select2-selection__arrow, .modal#modalProfileEducation .modal__form-field .select2-selection .select2-selection__arrow {
   height: 100%;
 }
 
-/* line 461, src/scss/_macros/_modal.scss */
+/* line 625, src/scss/_macros/_modal.scss */
 .modal#modalProfileExperiences .modal__form-field .select2-container--default .select2-selection--multiple .select2-selection__choice, .modal#modalProfileEducation .modal__form-field .select2-container--default .select2-selection--multiple .select2-selection__choice {
   display: inline-block;
   margin-left: 5px;
@@ -2085,7 +2336,7 @@ picture {
   line-height: 26px;
 }
 
-/* line 472, src/scss/_macros/_modal.scss */
+/* line 636, src/scss/_macros/_modal.scss */
 .modal#modalProfileExperiences .modal__form-label, .modal#modalProfileEducation .modal__form-label {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2095,23 +2346,23 @@ picture {
   font-size: 14px;
 }
 
-/* line 477, src/scss/_macros/_modal.scss */
+/* line 641, src/scss/_macros/_modal.scss */
 .modal#modalProfileExperiences .modal__form-label span, .modal#modalProfileEducation .modal__form-label span {
   color: red;
 }
 
-/* line 487, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal-dialog {
+/* line 651, src/scss/_macros/_modal.scss */
+.modal#modalProfileReferences .modal-dialog {
   max-width: 744px;
 }
 
-/* line 491, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal-content {
+/* line 655, src/scss/_macros/_modal.scss */
+.modal#modalProfileReferences .modal-content {
   background-color: #fff;
 }
 
-/* line 495, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal-footer {
+/* line 659, src/scss/_macros/_modal.scss */
+.modal#modalProfileReferences .modal-footer {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2126,8 +2377,8 @@ picture {
           justify-content: space-between;
 }
 
-/* line 501, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__step {
+/* line 665, src/scss/_macros/_modal.scss */
+.modal#modalProfileReferences .modal__step {
   position: relative;
   left: -1rem;
   width: -webkit-calc(100% + 2rem);
@@ -2136,16 +2387,16 @@ picture {
   background-color: #7d51a8;
 }
 
-/* line 508, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__step p {
+/* line 672, src/scss/_macros/_modal.scss */
+.modal#modalProfileReferences .modal__step p {
   text-transform: uppercase;
   color: #fff;
   font-weight: 500;
   font-size: 12px;
 }
 
-/* line 516, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__form {
+/* line 680, src/scss/_macros/_modal.scss */
+.modal#modalProfileReferences .modal__form {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2159,8 +2410,8 @@ picture {
   padding: 1rem 1rem 0;
 }
 
-/* line 522, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__form-title {
+/* line 686, src/scss/_macros/_modal.scss */
+.modal#modalProfileReferences .modal__form-title {
   position: relative;
   padding-top: 5px;
   padding-bottom: 10px;
@@ -2169,8 +2420,8 @@ picture {
   color: #9932cc;
 }
 
-/* line 532, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__form .form-check-input {
+/* line 696, src/scss/_macros/_modal.scss */
+.modal#modalProfileReferences .modal__form .form-check-input {
   top: 50%;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
@@ -2178,13 +2429,13 @@ picture {
   margin-top: 0;
 }
 
-/* line 538, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__form .form-check-label {
+/* line 702, src/scss/_macros/_modal.scss */
+.modal#modalProfileReferences .modal__form .form-check-label {
   line-height: 1.2;
 }
 
-/* line 543, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__form-group {
+/* line 707, src/scss/_macros/_modal.scss */
+.modal#modalProfileReferences .modal__form-group {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2195,21 +2446,21 @@ picture {
           justify-content: space-between;
 }
 
-/* line 547, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__form-group > div {
+/* line 711, src/scss/_macros/_modal.scss */
+.modal#modalProfileReferences .modal__form-group > div {
   width: 100%;
   max-width: -webkit-calc((100% - 10px) / 2);
   max-width: calc((100% - 10px) / 2);
 }
 
-/* line 553, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__form-field {
+/* line 717, src/scss/_macros/_modal.scss */
+.modal#modalProfileReferences .modal__form-field {
   position: relative;
   padding-bottom: 10px;
 }
 
-/* line 557, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__form-field-group {
+/* line 721, src/scss/_macros/_modal.scss */
+.modal#modalProfileReferences .modal__form-field-group {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2220,15 +2471,15 @@ picture {
           justify-content: space-between;
 }
 
-/* line 561, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__form-field-group > div {
+/* line 725, src/scss/_macros/_modal.scss */
+.modal#modalProfileReferences .modal__form-field-group > div {
   width: 100%;
   max-width: -webkit-calc((100% - 30px) / 3);
   max-width: calc((100% - 30px) / 3);
 }
 
-/* line 565, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__form-field-group > div:nth-of-type(3) {
+/* line 729, src/scss/_macros/_modal.scss */
+.modal#modalProfileReferences .modal__form-field-group > div:nth-of-type(3) {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2244,15 +2495,15 @@ picture {
   padding-top: 25px;
 }
 
-/* line 572, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__form-field-group > div .modal__form-field {
+/* line 736, src/scss/_macros/_modal.scss */
+.modal#modalProfileReferences .modal__form-field-group > div .modal__form-field {
   padding-bottom: 0;
 }
 
-/* line 578, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__form-field > input,
-.modal#modalProfileSkills .modal__form-field > textarea,
-.modal#modalProfileSkills .modal__form-field > select {
+/* line 742, src/scss/_macros/_modal.scss */
+.modal#modalProfileReferences .modal__form-field > input,
+.modal#modalProfileReferences .modal__form-field > textarea,
+.modal#modalProfileReferences .modal__form-field > select {
   outline: none;
   position: relative;
   width: 100%;
@@ -2267,14 +2518,51 @@ picture {
   font-weight: 400;
 }
 
-/* line 594, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__form-field > textarea {
+/* line 758, src/scss/_macros/_modal.scss */
+.modal#modalProfileReferences .modal__form-field > textarea {
   resize: none;
   height: 130px;
 }
 
-/* line 600, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__form-label {
+/* line 763, src/scss/_macros/_modal.scss */
+.modal#modalProfileReferences .modal__form-field .select2-selection {
+  outline: none;
+  width: 100%;
+  min-height: 36px;
+  padding: 0 12px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  border: 1px solid darkgray;
+  background-color: white;
+}
+
+/* line 772, src/scss/_macros/_modal.scss */
+.modal#modalProfileReferences .modal__form-field .select2-selection .select2-selection__rendered {
+  line-height: 36px;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* line 779, src/scss/_macros/_modal.scss */
+.modal#modalProfileReferences .modal__form-field .select2-selection .select2-selection__arrow {
+  height: 100%;
+}
+
+/* line 784, src/scss/_macros/_modal.scss */
+.modal#modalProfileReferences .modal__form-field .select2-container--default .select2-selection--multiple .select2-selection__choice {
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 5px;
+  border: 1px solid darkgray;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  background-color: #fff;
+  line-height: 26px;
+}
+
+/* line 795, src/scss/_macros/_modal.scss */
+.modal#modalProfileReferences .modal__form-label {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2283,13 +2571,428 @@ picture {
   font-size: 14px;
 }
 
-/* line 605, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__form-label span {
+/* line 800, src/scss/_macros/_modal.scss */
+.modal#modalProfileReferences .modal__form-label span {
   color: red;
 }
 
-/* line 611, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__box {
+/* line 810, src/scss/_macros/_modal.scss */
+.modal#modalProfilePreferred .modal-dialog {
+  max-width: 744px;
+}
+
+/* line 814, src/scss/_macros/_modal.scss */
+.modal#modalProfilePreferred .modal-content {
+  background-color: #fff;
+}
+
+/* line 818, src/scss/_macros/_modal.scss */
+.modal#modalProfilePreferred .modal-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 824, src/scss/_macros/_modal.scss */
+.modal#modalProfilePreferred .modal__step {
+  position: relative;
+  left: -1rem;
+  width: -webkit-calc(100% + 2rem);
+  width: calc(100% + 2rem);
+  padding: 15px 20px;
+  background-color: #7d51a8;
+}
+
+/* line 831, src/scss/_macros/_modal.scss */
+.modal#modalProfilePreferred .modal__step p {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+/* line 839, src/scss/_macros/_modal.scss */
+.modal#modalProfilePreferred .modal__form {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem 1rem 0;
+}
+
+/* line 845, src/scss/_macros/_modal.scss */
+.modal#modalProfilePreferred .modal__form-title {
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #9932cc;
+}
+
+/* line 855, src/scss/_macros/_modal.scss */
+.modal#modalProfilePreferred .modal__form .form-check-input {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin-top: 0;
+}
+
+/* line 861, src/scss/_macros/_modal.scss */
+.modal#modalProfilePreferred .modal__form .form-check-label {
+  line-height: 1.2;
+}
+
+/* line 866, src/scss/_macros/_modal.scss */
+.modal#modalProfilePreferred .modal__form-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 870, src/scss/_macros/_modal.scss */
+.modal#modalProfilePreferred .modal__form-group > div {
+  width: 100%;
+  max-width: -webkit-calc((100% - 10px) / 2);
+  max-width: calc((100% - 10px) / 2);
+}
+
+/* line 876, src/scss/_macros/_modal.scss */
+.modal#modalProfilePreferred .modal__form-field {
+  position: relative;
+  padding-bottom: 10px;
+}
+
+/* line 880, src/scss/_macros/_modal.scss */
+.modal#modalProfilePreferred .modal__form-field-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 884, src/scss/_macros/_modal.scss */
+.modal#modalProfilePreferred .modal__form-field-group > div {
+  width: 100%;
+  max-width: -webkit-calc((100% - 30px) / 3);
+  max-width: calc((100% - 30px) / 3);
+}
+
+/* line 888, src/scss/_macros/_modal.scss */
+.modal#modalProfilePreferred .modal__form-field-group > div:nth-of-type(3) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 25px;
+}
+
+/* line 895, src/scss/_macros/_modal.scss */
+.modal#modalProfilePreferred .modal__form-field-group > div .modal__form-field {
+  padding-bottom: 0;
+}
+
+/* line 901, src/scss/_macros/_modal.scss */
+.modal#modalProfilePreferred .modal__form-field > input,
+.modal#modalProfilePreferred .modal__form-field > textarea,
+.modal#modalProfilePreferred .modal__form-field > select {
+  outline: none;
+  position: relative;
+  width: 100%;
+  height: 36px;
+  padding: 0 12px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  border: 1px solid darkgray;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* line 917, src/scss/_macros/_modal.scss */
+.modal#modalProfilePreferred .modal__form-field > textarea {
+  resize: none;
+  height: 130px;
+}
+
+/* line 922, src/scss/_macros/_modal.scss */
+.modal#modalProfilePreferred .modal__form-field .select2-selection {
+  outline: none;
+  width: 100%;
+  min-height: 36px;
+  padding: 0 12px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  border: 1px solid darkgray;
+  background-color: white;
+}
+
+/* line 931, src/scss/_macros/_modal.scss */
+.modal#modalProfilePreferred .modal__form-field .select2-selection .select2-selection__rendered {
+  line-height: 36px;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* line 938, src/scss/_macros/_modal.scss */
+.modal#modalProfilePreferred .modal__form-field .select2-selection .select2-selection__arrow {
+  height: 100%;
+}
+
+/* line 943, src/scss/_macros/_modal.scss */
+.modal#modalProfilePreferred .modal__form-field .select2-container--default .select2-selection--multiple .select2-selection__choice {
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 5px;
+  border: 1px solid darkgray;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  background-color: #fff;
+  line-height: 26px;
+}
+
+/* line 954, src/scss/_macros/_modal.scss */
+.modal#modalProfilePreferred .modal__form-label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+
+/* line 959, src/scss/_macros/_modal.scss */
+.modal#modalProfilePreferred .modal__form-label span {
+  color: red;
+}
+
+/* line 970, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal-dialog, .modal#modalProfileLanguages .modal-dialog {
+  max-width: 744px;
+}
+
+/* line 974, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal-content, .modal#modalProfileLanguages .modal-content {
+  background-color: #fff;
+}
+
+/* line 978, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal-footer, .modal#modalProfileLanguages .modal-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 984, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__step, .modal#modalProfileLanguages .modal__step {
+  position: relative;
+  left: -1rem;
+  width: -webkit-calc(100% + 2rem);
+  width: calc(100% + 2rem);
+  padding: 15px 20px;
+  background-color: #7d51a8;
+}
+
+/* line 991, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__step p, .modal#modalProfileLanguages .modal__step p {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+/* line 999, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form, .modal#modalProfileLanguages .modal__form {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem 1rem 0;
+}
+
+/* line 1005, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form-title, .modal#modalProfileLanguages .modal__form-title {
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #9932cc;
+}
+
+/* line 1015, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form .form-check-input, .modal#modalProfileLanguages .modal__form .form-check-input {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin-top: 0;
+}
+
+/* line 1021, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form .form-check-label, .modal#modalProfileLanguages .modal__form .form-check-label {
+  line-height: 1.2;
+}
+
+/* line 1026, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form-group, .modal#modalProfileLanguages .modal__form-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 1030, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form-group > div, .modal#modalProfileLanguages .modal__form-group > div {
+  width: 100%;
+  max-width: -webkit-calc((100% - 10px) / 2);
+  max-width: calc((100% - 10px) / 2);
+}
+
+/* line 1036, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form-field, .modal#modalProfileLanguages .modal__form-field {
+  position: relative;
+  padding-bottom: 10px;
+}
+
+/* line 1040, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form-field-group, .modal#modalProfileLanguages .modal__form-field-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 1044, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form-field-group > div, .modal#modalProfileLanguages .modal__form-field-group > div {
+  width: 100%;
+  max-width: -webkit-calc((100% - 30px) / 3);
+  max-width: calc((100% - 30px) / 3);
+}
+
+/* line 1048, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form-field-group > div:nth-of-type(3), .modal#modalProfileLanguages .modal__form-field-group > div:nth-of-type(3) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 25px;
+}
+
+/* line 1055, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form-field-group > div .modal__form-field, .modal#modalProfileLanguages .modal__form-field-group > div .modal__form-field {
+  padding-bottom: 0;
+}
+
+/* line 1061, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form-field > input,
+.modal#modalProfileSkills .modal__form-field > textarea,
+.modal#modalProfileSkills .modal__form-field > select, .modal#modalProfileLanguages .modal__form-field > input,
+.modal#modalProfileLanguages .modal__form-field > textarea,
+.modal#modalProfileLanguages .modal__form-field > select {
+  outline: none;
+  position: relative;
+  width: 100%;
+  height: 36px;
+  padding: 0 12px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  border: 1px solid darkgray;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* line 1077, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form-field > textarea, .modal#modalProfileLanguages .modal__form-field > textarea {
+  resize: none;
+  height: 130px;
+}
+
+/* line 1083, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form-label, .modal#modalProfileLanguages .modal__form-label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+
+/* line 1088, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form-label span, .modal#modalProfileLanguages .modal__form-label span {
+  color: red;
+}
+
+/* line 1094, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__box, .modal#modalProfileLanguages .modal__box {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2309,16 +3012,16 @@ picture {
   transition: background-color 0.4s ease-in-out;
 }
 
-/* line 621, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__box:hover {
+/* line 1104, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__box:hover, .modal#modalProfileLanguages .modal__box:hover {
   background-color: lightgray !important;
   -webkit-transition: background-color 0.4s ease-in-out;
   -o-transition: background-color 0.4s ease-in-out;
   transition: background-color 0.4s ease-in-out;
 }
 
-/* line 627, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__box > div:nth-of-type(1) {
+/* line 1110, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__box > div:nth-of-type(1), .modal#modalProfileLanguages .modal__box > div:nth-of-type(1) {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2339,19 +3042,19 @@ picture {
   max-width: 100%;
 }
 
-/* line 635, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__box > div:nth-of-type(1) p {
+/* line 1118, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__box > div:nth-of-type(1) p, .modal#modalProfileLanguages .modal__box > div:nth-of-type(1) p {
   width: 50%;
   font-size: 13px;
 }
 
-/* line 639, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__box > div:nth-of-type(1) p strong {
+/* line 1122, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__box > div:nth-of-type(1) p strong, .modal#modalProfileLanguages .modal__box > div:nth-of-type(1) p strong {
   font-weight: 500;
 }
 
-/* line 644, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__box > div:nth-of-type(2) {
+/* line 1127, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__box > div:nth-of-type(2), .modal#modalProfileLanguages .modal__box > div:nth-of-type(2) {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2367,8 +3070,8 @@ picture {
   width: 115px;
 }
 
-/* line 650, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__box > div:nth-of-type(2) a {
+/* line 1133, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__box > div:nth-of-type(2) a, .modal#modalProfileLanguages .modal__box > div:nth-of-type(2) a {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2380,20 +3083,20 @@ picture {
   color: #b4202a;
 }
 
-/* line 655, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__box > div:nth-of-type(2) a:hover {
+/* line 1138, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__box > div:nth-of-type(2) a:hover, .modal#modalProfileLanguages .modal__box > div:nth-of-type(2) a:hover {
   text-decoration: underline;
 }
 
-/* line 659, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__box > div:nth-of-type(2) a .icon-font {
+/* line 1142, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__box > div:nth-of-type(2) a .icon-font, .modal#modalProfileLanguages .modal__box > div:nth-of-type(2) a .icon-font {
   margin-right: 3px;
   color: #b4202a;
   font-size: 11px;
 }
 
-/* line 665, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__box > div:nth-of-type(2) a span {
+/* line 1148, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__box > div:nth-of-type(2) a span, .modal#modalProfileLanguages .modal__box > div:nth-of-type(2) a span {
   position: relative;
   top: 2px;
   line-height: 1;
@@ -2401,8 +3104,8 @@ picture {
   color: #b4202a;
 }
 
-/* line 676, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__box-wrapper {
+/* line 1159, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__box-wrapper, .modal#modalProfileLanguages .modal__box-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2415,39 +3118,39 @@ picture {
           flex-direction: column;
 }
 
-/* line 682, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__box-wrapper > div:not(:last-of-type) {
+/* line 1165, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__box-wrapper > div:not(:last-of-type), .modal#modalProfileLanguages .modal__box-wrapper > div:not(:last-of-type) {
   margin-bottom: 10px;
 }
 
-/* line 687, src/scss/_macros/_modal.scss */
-.modal#modalProfileSkills .modal__box-wrapper > div:nth-of-type(even) .modal__box {
+/* line 1170, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__box-wrapper > div:nth-of-type(even) .modal__box, .modal#modalProfileLanguages .modal__box-wrapper > div:nth-of-type(even) .modal__box {
   background-color: #f0f0fb;
 }
 
-/* line 699, src/scss/_macros/_modal.scss */
+/* line 1182, src/scss/_macros/_modal.scss */
 .modal#modalProfileQr .close .icon-font {
   color: #fff;
 }
 
-/* line 705, src/scss/_macros/_modal.scss */
+/* line 1188, src/scss/_macros/_modal.scss */
 .modal#modalProfileQr .modal-dialog {
   max-width: 360px;
 }
 
-/* line 709, src/scss/_macros/_modal.scss */
+/* line 1192, src/scss/_macros/_modal.scss */
 .modal#modalProfileQr .modal-content {
   background-color: #f3f3f3;
 }
 
-/* line 713, src/scss/_macros/_modal.scss */
+/* line 1196, src/scss/_macros/_modal.scss */
 .modal#modalProfileQr .modal-body {
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: transparent;
 }
 
-/* line 718, src/scss/_macros/_modal.scss */
+/* line 1201, src/scss/_macros/_modal.scss */
 .modal#modalProfileQr .modal-body-content {
   width: 100%;
   max-width: 300px;
@@ -2458,20 +3161,20 @@ picture {
   background-color: #fff;
 }
 
-/* line 727, src/scss/_macros/_modal.scss */
+/* line 1210, src/scss/_macros/_modal.scss */
 .modal#modalProfileQr .modal-body-content p,
 .modal#modalProfileQr .modal-body-content span {
   text-align: center;
   font-weight: 500;
 }
 
-/* line 733, src/scss/_macros/_modal.scss */
+/* line 1216, src/scss/_macros/_modal.scss */
 .modal#modalProfileQr .modal-body-content p {
   font-size: 16px;
   line-height: 24px;
 }
 
-/* line 738, src/scss/_macros/_modal.scss */
+/* line 1221, src/scss/_macros/_modal.scss */
 .modal#modalProfileQr .modal-body-content span {
   display: block;
   color: gray;
@@ -2479,7 +3182,7 @@ picture {
   line-height: 16px;
 }
 
-/* line 746, src/scss/_macros/_modal.scss */
+/* line 1229, src/scss/_macros/_modal.scss */
 .modal#modalProfileQr .modal-body-user {
   overflow: hidden;
   position: relative;
@@ -2494,7 +3197,7 @@ picture {
   background-color: #fff;
 }
 
-/* line 763, src/scss/_macros/_modal.scss */
+/* line 1246, src/scss/_macros/_modal.scss */
 .modal#modalProfileQr .modal-body-image {
   display: block;
   max-width: 100%;
@@ -2504,7 +3207,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 772, src/scss/_macros/_modal.scss */
+/* line 1255, src/scss/_macros/_modal.scss */
 .modal#modalProfileQr .modal-body-save {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2524,34 +3227,34 @@ picture {
   color: #767676;
 }
 
-/* line 781, src/scss/_macros/_modal.scss */
+/* line 1264, src/scss/_macros/_modal.scss */
 .modal#modalProfileQr .modal-body-save .icon-font {
   margin-right: 3px;
   font-size: 11px;
 }
 
-/* line 786, src/scss/_macros/_modal.scss */
+/* line 1269, src/scss/_macros/_modal.scss */
 .modal#modalProfileQr .modal-body-save span {
   font-weight: 500;
   font-size: 12px;
 }
 
-/* line 793, src/scss/_macros/_modal.scss */
+/* line 1276, src/scss/_macros/_modal.scss */
 .modal#modalProfileQr .modal-header {
   background-color: #663399;
 }
 
-/* line 797, src/scss/_macros/_modal.scss */
+/* line 1280, src/scss/_macros/_modal.scss */
 .modal#modalProfileQr .modal-title {
   color: #ffffff;
 }
 
-/* line 805, src/scss/_macros/_modal.scss */
+/* line 1288, src/scss/_macros/_modal.scss */
 .modal#modalProfileAbout .modal-dialog {
   max-width: 744px;
 }
 
-/* line 809, src/scss/_macros/_modal.scss */
+/* line 1292, src/scss/_macros/_modal.scss */
 .modal#modalProfileAbout .modal-subtitle {
   position: relative;
   padding-top: 10px;
@@ -2561,12 +3264,12 @@ picture {
   color: #9932cc;
 }
 
-/* line 818, src/scss/_macros/_modal.scss */
+/* line 1301, src/scss/_macros/_modal.scss */
 .modal#modalProfileAbout .modal-body {
   padding: 10px 30px;
 }
 
-/* line 821, src/scss/_macros/_modal.scss */
+/* line 1304, src/scss/_macros/_modal.scss */
 .modal#modalProfileAbout .modal-body-header {
   position: relative;
   left: -30px;
@@ -2584,7 +3287,7 @@ picture {
   background-color: #7d51a8;
 }
 
-/* line 830, src/scss/_macros/_modal.scss */
+/* line 1313, src/scss/_macros/_modal.scss */
 .modal#modalProfileAbout .modal-body-header p {
   text-transform: uppercase;
   font-size: 12px;
@@ -2592,7 +3295,7 @@ picture {
   color: #fff;
 }
 
-/* line 838, src/scss/_macros/_modal.scss */
+/* line 1321, src/scss/_macros/_modal.scss */
 .modal#modalProfileAbout .modal-body form {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2605,7 +3308,7 @@ picture {
           flex-direction: column;
 }
 
-/* line 842, src/scss/_macros/_modal.scss */
+/* line 1325, src/scss/_macros/_modal.scss */
 .modal#modalProfileAbout .modal-body form > div {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2619,7 +3322,7 @@ picture {
   padding: 5px;
 }
 
-/* line 848, src/scss/_macros/_modal.scss */
+/* line 1331, src/scss/_macros/_modal.scss */
 .modal#modalProfileAbout .modal-body form label {
   padding-bottom: 5px;
   cursor: pointer;
@@ -2627,12 +3330,12 @@ picture {
   color: #000000;
 }
 
-/* line 854, src/scss/_macros/_modal.scss */
+/* line 1337, src/scss/_macros/_modal.scss */
 .modal#modalProfileAbout .modal-body form label span {
   color: red;
 }
 
-/* line 859, src/scss/_macros/_modal.scss */
+/* line 1342, src/scss/_macros/_modal.scss */
 .modal#modalProfileAbout .modal-body form textarea {
   resize: none;
   outline: none;
@@ -2645,7 +3348,7 @@ picture {
   color: rgba(0, 0, 0, 0.9);
 }
 
-/* line 873, src/scss/_macros/_modal.scss */
+/* line 1356, src/scss/_macros/_modal.scss */
 .modal#modalProfileAbout .modal-footer {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4317,25 +5020,6 @@ picture {
           box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
 }
 
-/* line 39, src/scss/_components/profile/_profile.scss */
-.profile__languages {
-  position: relative;
-  padding: 20px 30px 20px;
-}
-
-/* line 44, src/scss/_components/profile/_profile.scss */
-.profile__references {
-  position: relative;
-  padding: 20px 30px 20px;
-}
-
-/* line 49, src/scss/_components/profile/_profile.scss */
-.profile__preferred {
-  position: relative;
-  padding: 20px 30px 20px;
-  margin-bottom: 18px;
-}
-
 /* line 1, src/scss/_components/profile/_profile--main.scss */
 .profile__main {
   position: relative;
@@ -5497,6 +6181,436 @@ picture {
           border-radius: 3px;
   background-color: #a385c2;
   color: #fff;
+}
+
+/* line 1, src/scss/_components/profile/_profile--languages.scss */
+.profile__languages {
+  position: relative;
+  padding: 20px 30px 20px;
+}
+
+/* line 5, src/scss/_components/profile/_profile--languages.scss */
+.profile__languages-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 34px;
+}
+
+/* line 12, src/scss/_components/profile/_profile--languages.scss */
+.profile__languages-title {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #655e5e;
+  font-weight: 500;
+  letter-spacing: 0.11px;
+}
+
+/* line 20, src/scss/_components/profile/_profile--languages.scss */
+.profile__languages-edit {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #0f58ca;
+}
+
+/* line 25, src/scss/_components/profile/_profile--languages.scss */
+.profile__languages-edit .icon-font {
+  margin-right: 3px;
+  color: #0f58ca;
+  font-size: 11px;
+}
+
+/* line 31, src/scss/_components/profile/_profile--languages.scss */
+.profile__languages-edit span {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+/* line 40, src/scss/_components/profile/_profile--languages.scss */
+.profile__languages-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 44, src/scss/_components/profile/_profile--languages.scss */
+.profile__languages-box-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+/* line 48, src/scss/_components/profile/_profile--languages.scss */
+.profile__languages-box-wrapper > div {
+  width: 100%;
+  max-width: -webkit-calc(100% / 3);
+  max-width: calc(100% / 3);
+  padding-bottom: 15px;
+}
+
+/* line 55, src/scss/_components/profile/_profile--languages.scss */
+.profile__languages-box p {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 22px;
+  color: #626262;
+}
+
+/* line 62, src/scss/_components/profile/_profile--languages.scss */
+.profile__languages-box span {
+  font-size: 15px;
+  display: block;
+  color: #4b4848;
+}
+
+/* line 1, src/scss/_components/profile/_profile--references.scss */
+.profile__references {
+  position: relative;
+  padding: 20px 30px 20px;
+}
+
+/* line 5, src/scss/_components/profile/_profile--references.scss */
+.profile__references-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 34px;
+}
+
+/* line 12, src/scss/_components/profile/_profile--references.scss */
+.profile__references-title {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #655e5e;
+  font-weight: 500;
+  letter-spacing: 0.11px;
+}
+
+/* line 20, src/scss/_components/profile/_profile--references.scss */
+.profile__references-edit {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #0f58ca;
+}
+
+/* line 25, src/scss/_components/profile/_profile--references.scss */
+.profile__references-edit .icon-font {
+  margin-right: 3px;
+  color: #0f58ca;
+  font-size: 11px;
+}
+
+/* line 31, src/scss/_components/profile/_profile--references.scss */
+.profile__references-edit span {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+/* line 40, src/scss/_components/profile/_profile--references.scss */
+.profile__references-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+/* line 45, src/scss/_components/profile/_profile--references.scss */
+.profile__references-box > div:nth-of-type(1) {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 50, src/scss/_components/profile/_profile--references.scss */
+.profile__references-box > div:nth-of-type(2) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 50px;
+}
+
+/* line 57, src/scss/_components/profile/_profile--references.scss */
+.profile__references-box-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+/* line 61, src/scss/_components/profile/_profile--references.scss */
+.profile__references-box-wrapper > div {
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+/* line 67, src/scss/_components/profile/_profile--references.scss */
+.profile__references-box h5 {
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  line-height: 22px;
+  color: #626262;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* line 77, src/scss/_components/profile/_profile--references.scss */
+.profile__references-box p {
+  line-height: 20px;
+  color: #4b4848;
+  font-size: 15px;
+}
+
+/* line 83, src/scss/_components/profile/_profile--references.scss */
+.profile__references-box span {
+  font-size: 15px;
+  line-height: 22px;
+  color: #4b4848;
+}
+
+/* line 89, src/scss/_components/profile/_profile--references.scss */
+.profile__references-box a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #0f58ca;
+}
+
+/* line 94, src/scss/_components/profile/_profile--references.scss */
+.profile__references-box a .icon-font {
+  margin-right: 3px;
+  color: #0f58ca;
+  font-size: 11px;
+}
+
+/* line 100, src/scss/_components/profile/_profile--references.scss */
+.profile__references-box a span {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+/* line 1, src/scss/_components/profile/_profile--preferred.scss */
+.profile__preferred {
+  position: relative;
+  padding: 20px 30px 20px;
+  margin-bottom: 18px;
+}
+
+/* line 6, src/scss/_components/profile/_profile--preferred.scss */
+.profile__preferred-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 34px;
+}
+
+/* line 13, src/scss/_components/profile/_profile--preferred.scss */
+.profile__preferred-title {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #655e5e;
+  font-weight: 500;
+  letter-spacing: 0.11px;
+}
+
+/* line 21, src/scss/_components/profile/_profile--preferred.scss */
+.profile__preferred-edit {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #0f58ca;
+}
+
+/* line 26, src/scss/_components/profile/_profile--preferred.scss */
+.profile__preferred-edit .icon-font {
+  margin-right: 3px;
+  color: #0f58ca;
+  font-size: 11px;
+}
+
+/* line 32, src/scss/_components/profile/_profile--preferred.scss */
+.profile__preferred-edit span {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+/* line 41, src/scss/_components/profile/_profile--preferred.scss */
+.profile__preferred-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+/* line 46, src/scss/_components/profile/_profile--preferred.scss */
+.profile__preferred-box > div:nth-of-type(1) {
+  width: 85px;
+}
+
+/* line 49, src/scss/_components/profile/_profile--preferred.scss */
+.profile__preferred-box > div:nth-of-type(2) {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 56, src/scss/_components/profile/_profile--preferred.scss */
+.profile__preferred-box-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+/* line 60, src/scss/_components/profile/_profile--preferred.scss */
+.profile__preferred-box-wrapper > div {
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+/* line 66, src/scss/_components/profile/_profile--preferred.scss */
+.profile__preferred-box-icon {
+  position: relative;
+  width: 65px;
+  height: 61px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  background-color: #eee;
+}
+
+/* line 76, src/scss/_components/profile/_profile--preferred.scss */
+.profile__preferred-box-icon .icon-font {
+  color: #663399;
+  font-size: 28px;
+}
+
+/* line 82, src/scss/_components/profile/_profile--preferred.scss */
+.profile__preferred-box a {
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  display: block;
+  color: #15c;
+  line-height: 22px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* line 93, src/scss/_components/profile/_profile--preferred.scss */
+.profile__preferred-box p {
+  line-height: 20px;
+  color: #4b4848;
+  font-size: 15px;
 }
 
 /* line 1, src/scss/_components/profile/_profile--manage.scss */

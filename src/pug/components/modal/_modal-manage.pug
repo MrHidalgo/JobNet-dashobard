@@ -1,0 +1,54 @@
+// SECTION :: START
+
+#modalManageAccount.modal-manage-account.modal.fade(tabindex='-1', role='dialog', aria-labelledby='modalManageAccount', aria-hidden='true')
+	.modal-dialog(role='document')
+		.modal-content
+			.modal-header
+				div
+					h5.modal-title Manage your account settings
+				div
+					button.close(type='button', data-dismiss='modal', aria-label='Close')
+						i.icon-font.icon-close
+
+			.modal-body
+
+				.modal__step
+					p WHY DID YOU WANT TO SHUT DOWN YOUR ACCOUNT
+
+				form.modal__form(action='' method='' autocomplete='off')
+					.form-check
+						input#manageAccountSetting1.form-check-input(type='radio' name='manageAccountSetting' manage-accountOther-js)
+						label.form-check-label(for='manageAccountSetting1') I have already found a job.
+					.form-check
+						input#manageAccountSetting2.form-check-input(type='radio' name='manageAccountSetting' manage-accountOther-js)
+						label.form-check-label(for='manageAccountSetting2') I am looking for a jobs outside of Myanmar ONLY.
+					.form-check
+						input#manageAccountSetting3.form-check-input(type='radio' name='manageAccountSetting' manage-accountOther-js)
+						label.form-check-label(for='manageAccountSetting3') I didn’t realized I signed up.
+					.form-check
+						input#manageAccountSetting4.form-check-input(type='radio' name='manageAccountSetting' manage-accountOther-js)
+						label.form-check-label(for='manageAccountSetting4') The emails are too frequent.
+					.form-check
+						input#manageAccountSetting5.form-check-input(type='radio' name='manageAccountSetting' manage-accountOther-js)
+						label.form-check-label(for='manageAccountSetting5') I do not remember creating this account and I don’t need it.
+					.form-check
+						input#manageAccountSetting6.form-check-input(type='radio' name='manageAccountSetting' manage-accountOther-js)
+						label.form-check-label(for='manageAccountSetting6') I am receiving too many irrelevant emailed jobs.
+					.form-check
+						input#manageAccountSetting7.form-check-input(type='radio' name='manageAccountSetting' manage-accountOther-js)
+						label.form-check-label(for='manageAccountSetting7') I am receiving too many emails and is annoying me.
+					.form-check
+						input#manageAccountSetting8.form-check-input(type='radio' name='manageAccountSetting' manage-account-js)
+						label.form-check-label(for='manageAccountSetting8') Other.
+
+					.modal__form-field
+						textarea
+
+			.modal-footer.c-btn__wrapper
+				button.c-btn.c-btn--borderGray(type='button', data-dismiss='modal')
+					span Cancel
+				button.c-btn.c-btn--borderGray(type='button' style='border-color: grey;')
+					span Shut Down Account
+
+
+// SECTION :: END

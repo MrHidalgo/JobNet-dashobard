@@ -171,6 +171,20 @@
 		}
 	}
 
+	&--borderRed {
+		border: 1px solid red;
+		background-color: #fff;
+
+		&:before,
+		&:after {
+			background-color: lighten(#DCDCDC, 11%);
+		}
+
+		span {
+			color: red;
+		}
+	}
+
 	&--borderBlue {
 		border: 1px solid #2A65D1;
 		background-color: #fff;

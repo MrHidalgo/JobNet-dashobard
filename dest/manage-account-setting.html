@@ -219,7 +219,7 @@
                         <p>
                           <u>Once we delete your data and information, there is no way to retrieve it again.</u>
                         </p>
-                        <div class="c-btn__wrapper"><a class="c-btn c-btn--borderGray" href="#"><span>Shut Down Account</span></a></div>
+                        <div class="c-btn__wrapper"><a class="c-btn c-btn--borderGray" href="#" data-toggle="modal" data-target="#modalManageAccount"><span>Shut Down Account</span></a></div>
                       </div>
                     </div>
                   </div>
@@ -315,6 +315,68 @@
       </ul>
     </footer>
     <!-- FOOTER :: END-->
+    <!-- SECTION :: START-->
+    <div class="modal-manage-account modal fade" id="modalManageAccount" tabindex="-1" role="dialog" aria-labelledby="modalManageAccount" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div>
+              <h5 class="modal-title">Manage your account settings</h5>
+            </div>
+            <div>
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close"><i class="icon-font icon-close"></i></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="modal__step">
+              <p>WHY DID YOU WANT TO SHUT DOWN YOUR ACCOUNT</p>
+            </div>
+            <form class="modal__form" action="" method="" autocomplete="off">
+              <div class="form-check">
+                <input class="form-check-input" id="manageAccountSetting1" type="radio" name="manageAccountSetting" manage-accountOther-js>
+                <label class="form-check-label" for="manageAccountSetting1">I have already found a job.</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" id="manageAccountSetting2" type="radio" name="manageAccountSetting" manage-accountOther-js>
+                <label class="form-check-label" for="manageAccountSetting2">I am looking for a jobs outside of Myanmar ONLY.</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" id="manageAccountSetting3" type="radio" name="manageAccountSetting" manage-accountOther-js>
+                <label class="form-check-label" for="manageAccountSetting3">I didn’t realized I signed up.</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" id="manageAccountSetting4" type="radio" name="manageAccountSetting" manage-accountOther-js>
+                <label class="form-check-label" for="manageAccountSetting4">The emails are too frequent.</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" id="manageAccountSetting5" type="radio" name="manageAccountSetting" manage-accountOther-js>
+                <label class="form-check-label" for="manageAccountSetting5">I do not remember creating this account and I don’t need it.</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" id="manageAccountSetting6" type="radio" name="manageAccountSetting" manage-accountOther-js>
+                <label class="form-check-label" for="manageAccountSetting6">I am receiving too many irrelevant emailed jobs.</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" id="manageAccountSetting7" type="radio" name="manageAccountSetting" manage-accountOther-js>
+                <label class="form-check-label" for="manageAccountSetting7">I am receiving too many emails and is annoying me.</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" id="manageAccountSetting8" type="radio" name="manageAccountSetting" manage-account-js>
+                <label class="form-check-label" for="manageAccountSetting8">Other.</label>
+              </div>
+              <div class="modal__form-field">
+                <textarea></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer c-btn__wrapper">
+            <button class="c-btn c-btn--borderGray" type="button" data-dismiss="modal"><span>Cancel</span></button>
+            <button class="c-btn c-btn--borderGray" type="button" style="border-color: grey;"><span>Shut Down Account</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECTION :: END-->
   </body>
   <!-- SCRIPT :: START-->
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
