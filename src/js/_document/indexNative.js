@@ -61,6 +61,22 @@
 			});
 		});
 	};
+
+
+	const profileOpportunity = () => {
+		$('[profile-opportunity-js]').on('click', (ev) => {
+			$('[profile-opportunity-js]').removeClass('is-active');
+			$(ev.currentTarget).addClass('is-active');
+		});
+	};
+
+
+	const selectDropdown = () => {
+		$('[select-dropdown-js]').select2({
+			width: '100%',
+			placeholder: 'Select an option'
+		});
+	};
 	/*
 	* CALLBACK :: end
 	* ============================================= */
@@ -88,6 +104,8 @@
 		mainFormFieldToggle();
 		initDatePicker();
 		headerNavLine();
+		profileOpportunity();
+		selectDropdown();
 		// ==========================================
 	};
 

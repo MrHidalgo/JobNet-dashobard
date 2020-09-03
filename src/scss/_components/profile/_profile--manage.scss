@@ -1,0 +1,39 @@
+&__manage {
+	position: relative;
+	display: flex;
+	width: 100%;
+	max-width: 340px;
+	padding: 20px 30px;
+	border-radius: 3px;
+	background-color: #f3f3f3;
+	box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+
+	> div {
+		&:nth-of-type(1) {
+			width: 19px;
+			padding-top: 3px;
+		}
+		&:nth-of-type(2) {
+			flex: 1;
+			min-width: 1px;
+			max-width: 100%;
+		}
+	}
+
+	.icon-font {
+		color: gray;
+		font-size: 15px;
+	}
+
+	p {
+		color: gray;
+		font-weight: 500;
+		font-size: 15px;
+	}
+
+	span {
+		padding-top: 5px;
+		font-size: 13px;
+		color: #222;
+	}
+}

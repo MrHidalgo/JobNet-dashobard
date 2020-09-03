@@ -66,128 +66,143 @@
 	@if $filename == cursor {
 		$char: "\E00D";
 	}
-	@if $filename == dollar-symbol {
+	@if $filename == delete {
 		$char: "\E00E";
 	}
-	@if $filename == double-arrows {
+	@if $filename == dollar-symbol {
 		$char: "\E00F";
 	}
-	@if $filename == edit {
+	@if $filename == double-arrows {
 		$char: "\E010";
 	}
-	@if $filename == email {
+	@if $filename == download {
 		$char: "\E011";
 	}
-	@if $filename == facebook-circle {
+	@if $filename == edit {
 		$char: "\E012";
 	}
-	@if $filename == facebook {
+	@if $filename == email {
 		$char: "\E013";
 	}
-	@if $filename == factory {
+	@if $filename == facebook-circle {
 		$char: "\E014";
 	}
-	@if $filename == fast-forward {
+	@if $filename == facebook {
 		$char: "\E015";
 	}
-	@if $filename == filter {
+	@if $filename == factory {
 		$char: "\E016";
 	}
-	@if $filename == fire {
+	@if $filename == fast-forward {
 		$char: "\E017";
 	}
-	@if $filename == folder {
+	@if $filename == filter {
 		$char: "\E018";
 	}
-	@if $filename == google-plus-circle {
+	@if $filename == fire {
 		$char: "\E019";
 	}
-	@if $filename == google {
+	@if $filename == folder {
 		$char: "\E01A";
 	}
-	@if $filename == graph {
+	@if $filename == google-plus-circle {
 		$char: "\E01B";
 	}
-	@if $filename == home {
+	@if $filename == google {
 		$char: "\E01C";
 	}
-	@if $filename == information {
+	@if $filename == graph {
 		$char: "\E01D";
 	}
-	@if $filename == keyboard-arrow-down {
+	@if $filename == home {
 		$char: "\E01E";
 	}
-	@if $filename == like {
+	@if $filename == information {
 		$char: "\E01F";
 	}
-	@if $filename == linkedin-circle {
+	@if $filename == keyboard-arrow-down {
 		$char: "\E020";
 	}
-	@if $filename == linkedin {
+	@if $filename == like {
 		$char: "\E021";
 	}
-	@if $filename == locked {
+	@if $filename == linkedin-circle {
 		$char: "\E022";
 	}
-	@if $filename == mail {
+	@if $filename == linkedin {
 		$char: "\E023";
 	}
-	@if $filename == menu {
+	@if $filename == locked {
 		$char: "\E024";
 	}
-	@if $filename == notification {
+	@if $filename == mail {
 		$char: "\E025";
 	}
-	@if $filename == office-building {
+	@if $filename == menu {
 		$char: "\E026";
 	}
-	@if $filename == photo {
+	@if $filename == notification {
 		$char: "\E027";
 	}
-	@if $filename == pin {
+	@if $filename == office-building {
 		$char: "\E028";
 	}
-	@if $filename == printer {
+	@if $filename == photo {
 		$char: "\E029";
 	}
-	@if $filename == programming {
+	@if $filename == pin {
 		$char: "\E02A";
 	}
-	@if $filename == search {
+	@if $filename == plus-sign {
 		$char: "\E02B";
 	}
-	@if $filename == shopping-bag {
+	@if $filename == plus {
 		$char: "\E02C";
 	}
-	@if $filename == sort {
+	@if $filename == printer {
 		$char: "\E02D";
 	}
-	@if $filename == star-empty {
+	@if $filename == programming {
 		$char: "\E02E";
 	}
-	@if $filename == star {
+	@if $filename == search {
 		$char: "\E02F";
 	}
-	@if $filename == success {
+	@if $filename == settings {
 		$char: "\E030";
 	}
-	@if $filename == three-chevron-arrows {
+	@if $filename == shopping-bag {
 		$char: "\E031";
 	}
-	@if $filename == twitter-circle {
+	@if $filename == sort {
 		$char: "\E032";
 	}
-	@if $filename == twitter {
+	@if $filename == star-empty {
 		$char: "\E033";
 	}
-	@if $filename == upload {
+	@if $filename == star {
 		$char: "\E034";
 	}
-	@if $filename == user {
+	@if $filename == success {
 		$char: "\E035";
 	}
-	@if $filename == users {
+	@if $filename == three-chevron-arrows {
 		$char: "\E036";
+	}
+	@if $filename == twitter-circle {
+		$char: "\E037";
+	}
+	@if $filename == twitter {
+		$char: "\E038";
+	}
+	@if $filename == upload {
+		$char: "\E039";
+	}
+	@if $filename == user {
+		$char: "\E03A";
+	}
+	@if $filename == users {
+		$char: "\E03B";
 	}
 
 	@return $char;
@@ -256,12 +271,20 @@
 	@include icon(cursor);
 
 }
+.icon-delete {
+	@include icon(delete);
+
+}
 .icon-dollar-symbol {
 	@include icon(dollar-symbol);
 
 }
 .icon-double-arrows {
 	@include icon(double-arrows);
+
+}
+.icon-download {
+	@include icon(download);
 
 }
 .icon-edit {
@@ -364,6 +387,14 @@
 	@include icon(pin);
 
 }
+.icon-plus-sign {
+	@include icon(plus-sign);
+
+}
+.icon-plus {
+	@include icon(plus);
+
+}
 .icon-printer {
 	@include icon(printer);
 
@@ -374,6 +405,10 @@
 }
 .icon-search {
 	@include icon(search);
+
+}
+.icon-settings {
+	@include icon(settings);
 
 }
 .icon-shopping-bag {

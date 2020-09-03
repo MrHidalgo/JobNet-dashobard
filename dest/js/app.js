@@ -309,6 +309,20 @@ window.addEventListener('scroll', function (ev) {});
 			});
 		});
 	};
+
+	var profileOpportunity = function profileOpportunity() {
+		$('[profile-opportunity-js]').on('click', function (ev) {
+			$('[profile-opportunity-js]').removeClass('is-active');
+			$(ev.currentTarget).addClass('is-active');
+		});
+	};
+
+	var selectDropdown = function selectDropdown() {
+		$('[select-dropdown-js]').select2({
+			width: '100%',
+			placeholder: 'Select an option'
+		});
+	};
 	/*
  * CALLBACK :: end
  * ============================================= */
@@ -335,6 +349,8 @@ window.addEventListener('scroll', function (ev) {});
 		mainFormFieldToggle();
 		initDatePicker();
 		headerNavLine();
+		profileOpportunity();
+		selectDropdown();
 		// ==========================================
 	};
 

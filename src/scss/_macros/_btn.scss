@@ -13,7 +13,7 @@
 	padding-left: 15px;
 	padding-right: 15px;
 	border: none;
-	border-radius: 6px;
+	border-radius: 4px;
 	@include transition(box-shadow);
 	@include adaptive(1535) {
 		padding-left: 10px;
@@ -64,9 +64,11 @@
 	span {
 		z-index: 2;
 		position: relative;
-		font-family: 'Quicksand', sans-serif;
-		font-size: 16px;
-		font-weight: 700;
+		font-family: 'GothamPro', sans-serif;
+		font-size: 13px;
+		line-height: 1;
+		font-weight: 500;
+		text-transform: uppercase;
 		@include transition(color);
 	}
 
@@ -226,6 +228,26 @@
 
 		span {
 			color: #fff;
+		}
+	}
+
+	&--borderGray {
+		border: 1px solid silver;
+		background-color: transparent;
+
+		&:hover {
+			span {
+				color: #000;
+			}
+		}
+
+		&:before,
+		&:after {
+			background-color: lighten(silver, 11%);
+		}
+
+		span {
+			color: gray;
 		}
 	}
 }

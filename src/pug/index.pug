@@ -1,9 +1,17 @@
 ---
-title: JobNet | Dashbobard
+title: JobNet | Dashboard
 
 pageClassName: p-dashboard
 ---
 extends shared/_layout
+
+block modal
+	include components/modal/_modal-profile-main
+	include components/modal/_modal-profile-qr
+	include components/modal/_modal-profile-about
+	include components/modal/_modal-profile-experience
+	include components/modal/_modal-profile-education
+	include components/modal/_modal-profile-skills
 
 block content
 	div.body.body--start(class!= pageClassName)

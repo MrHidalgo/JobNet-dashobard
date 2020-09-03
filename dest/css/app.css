@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* line 14, src/scss/_utilities/_extend.scss */
-.header__user-ava img, .header__user-img img, .profile__news-link-img img {
+.modal#modalProfileMain .modal__header-user img, .modal#modalProfileQr .modal-body-user img, .header__user-ava img, .header__user-img img, .profile__main-user img, .profile__news-link-img img {
   position: absolute;
   top: 0;
   left: 0;
@@ -175,7 +175,7 @@
 }
 
 /* line 23, src/scss/_generated/_spriteFont.scss */
-.icon-antenna:before, .icon-approved:before, .icon-bank:before, .icon-book:before, .icon-calendar-1:before, .icon-calendar:before, .icon-chevron:before, .icon-circle-check:before, .icon-clock:before, .icon-close:before, .icon-cogwheel:before, .icon-cost:before, .icon-cursor:before, .icon-dollar-symbol:before, .icon-double-arrows:before, .icon-edit:before, .icon-email:before, .icon-facebook-circle:before, .icon-facebook:before, .icon-factory:before, .icon-fast-forward:before, .icon-filter:before, .icon-fire:before, .icon-folder:before, .icon-google-plus-circle:before, .icon-google:before, .icon-graph:before, .icon-home:before, .icon-information:before, .icon-keyboard-arrow-down:before, .icon-like:before, .icon-linkedin-circle:before, .icon-linkedin:before, .icon-locked:before, .icon-mail:before, .icon-menu:before, .icon-notification:before, .icon-office-building:before, .icon-photo:before, .icon-pin:before, .icon-printer:before, .icon-programming:before, .icon-search:before, .icon-shopping-bag:before, .icon-sort:before, .icon-star-empty:before, .icon-star:before, .icon-success:before, .icon-three-chevron-arrows:before, .icon-twitter-circle:before, .icon-twitter:before, .icon-upload:before, .icon-user:before, .icon-users:before {
+.icon-antenna:before, .icon-approved:before, .icon-bank:before, .icon-book:before, .icon-calendar-1:before, .icon-calendar:before, .icon-chevron:before, .icon-circle-check:before, .icon-clock:before, .icon-close:before, .icon-cogwheel:before, .icon-cost:before, .icon-cursor:before, .icon-delete:before, .icon-dollar-symbol:before, .icon-double-arrows:before, .icon-download:before, .icon-edit:before, .icon-email:before, .icon-facebook-circle:before, .icon-facebook:before, .icon-factory:before, .icon-fast-forward:before, .icon-filter:before, .icon-fire:before, .icon-folder:before, .icon-google-plus-circle:before, .icon-google:before, .icon-graph:before, .icon-home:before, .icon-information:before, .icon-keyboard-arrow-down:before, .icon-like:before, .icon-linkedin-circle:before, .icon-linkedin:before, .icon-locked:before, .icon-mail:before, .icon-menu:before, .icon-notification:before, .icon-office-building:before, .icon-photo:before, .icon-pin:before, .icon-plus-sign:before, .icon-plus:before, .icon-printer:before, .icon-programming:before, .icon-search:before, .icon-settings:before, .icon-shopping-bag:before, .icon-sort:before, .icon-star-empty:before, .icon-star:before, .icon-success:before, .icon-three-chevron-arrows:before, .icon-twitter-circle:before, .icon-twitter:before, .icon-upload:before, .icon-user:before, .icon-users:before {
   font-family: "iconFont", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -186,274 +186,299 @@
   text-transform: none;
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
+/* line 212, src/scss/_generated/_spriteFont.scss */
 .icon-antenna:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
+/* line 212, src/scss/_generated/_spriteFont.scss */
 .icon-approved:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
+/* line 212, src/scss/_generated/_spriteFont.scss */
 .icon-bank:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
+/* line 212, src/scss/_generated/_spriteFont.scss */
 .icon-book:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
+/* line 212, src/scss/_generated/_spriteFont.scss */
 .icon-calendar-1:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
+/* line 212, src/scss/_generated/_spriteFont.scss */
 .icon-calendar:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
+/* line 212, src/scss/_generated/_spriteFont.scss */
 .icon-chevron:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
+/* line 212, src/scss/_generated/_spriteFont.scss */
 .icon-circle-check:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
+/* line 212, src/scss/_generated/_spriteFont.scss */
 .icon-clock:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
+/* line 212, src/scss/_generated/_spriteFont.scss */
 .icon-close:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
+/* line 212, src/scss/_generated/_spriteFont.scss */
 .icon-cogwheel:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
+/* line 212, src/scss/_generated/_spriteFont.scss */
 .icon-cost:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
+/* line 212, src/scss/_generated/_spriteFont.scss */
 .icon-cursor:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-dollar-symbol:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-delete:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-double-arrows:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-dollar-symbol:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-edit:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-double-arrows:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-email:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-download:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-facebook-circle:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-edit:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-facebook:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-email:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-factory:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-facebook-circle:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-fast-forward:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-facebook:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-filter:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-factory:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-fire:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-fast-forward:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-folder:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-filter:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-google-plus-circle:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-fire:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-google:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-folder:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-graph:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-google-plus-circle:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-home:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-google:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-information:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-graph:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-keyboard-arrow-down:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-home:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-like:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-information:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-linkedin-circle:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-keyboard-arrow-down:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-linkedin:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-like:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-locked:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-linkedin-circle:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-mail:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-linkedin:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-menu:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-locked:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-notification:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-mail:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-office-building:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-menu:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-photo:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-notification:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-pin:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-office-building:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-printer:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-photo:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-programming:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-pin:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-search:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-plus-sign:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-shopping-bag:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-plus:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-sort:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-printer:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-star-empty:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-programming:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-star:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-search:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-success:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-settings:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-three-chevron-arrows:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-shopping-bag:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-twitter-circle:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-sort:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-twitter:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-star-empty:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-upload:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-star:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-user:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-success:before {
   content: "";
 }
 
-/* line 197, src/scss/_generated/_spriteFont.scss */
-.icon-users:before {
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-three-chevron-arrows:before {
   content: "";
+}
+
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-twitter-circle:before {
+  content: "";
+}
+
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-twitter:before {
+  content: "";
+}
+
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-upload:before {
+  content: "";
+}
+
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-user:before {
+  content: "";
+}
+
+/* line 212, src/scss/_generated/_spriteFont.scss */
+.icon-users:before {
+  content: "";
 }
 
 @font-face {
@@ -734,6 +759,198 @@ picture {
   right: 50%;
 }
 
+/* line 43, src/scss/_shared/_common.scss */
+.section {
+  padding-top: 5px;
+}
+
+/* line 46, src/scss/_shared/_common.scss */
+.section .c-grid {
+  max-width: 1370px;
+}
+
+/* line 50, src/scss/_shared/_common.scss */
+.section__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 53, src/scss/_shared/_common.scss */
+.section__wrapper-left {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+  padding-right: 20px;
+}
+
+/* line 60, src/scss/_shared/_common.scss */
+.section__wrapper-right {
+  width: 100%;
+  max-width: 365px;
+}
+
+/* line 64, src/scss/_shared/_common.scss */
+.section__wrapper-right .section__block {
+  padding-bottom: 30px;
+  margin-bottom: 0;
+}
+
+/* line 71, src/scss/_shared/_common.scss */
+.section__block {
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+}
+
+/* line 76, src/scss/_shared/_common.scss */
+.section__block:not(:last-of-type) {
+  margin-bottom: 18px;
+}
+
+/* line 82, src/scss/_shared/_common.scss */
+.c-checkboxToggle {
+  position: relative;
+}
+
+/* line 85, src/scss/_shared/_common.scss */
+.c-checkboxToggle input {
+  opacity: 0;
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+/* line 92, src/scss/_shared/_common.scss */
+.c-checkboxToggle input:checked + label {
+  border-color: #08aa86;
+  -webkit-transition: border-color 0.4s ease-in-out;
+  -o-transition: border-color 0.4s ease-in-out;
+  transition: border-color 0.4s ease-in-out;
+}
+
+/* line 96, src/scss/_shared/_common.scss */
+.c-checkboxToggle input:checked + label i {
+  -webkit-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+          transform: translateX(100%);
+  border-color: #08aa86;
+  background-color: #08aa86;
+  -webkit-transition: border-color 0.4s ease-in-out, background-color 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+  transition: border-color 0.4s ease-in-out, background-color 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+  -o-transition: transform 0.4s ease-in-out, border-color 0.4s ease-in-out, background-color 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, border-color 0.4s ease-in-out, background-color 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, border-color 0.4s ease-in-out, background-color 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+}
+
+/* line 106, src/scss/_shared/_common.scss */
+.c-checkboxToggle label {
+  cursor: pointer;
+  position: relative;
+  width: 60px;
+  height: 30px;
+  -webkit-border-radius: 2em;
+          border-radius: 2em;
+  border: 1px solid #eee;
+  -webkit-box-shadow: inset 0 2px 2px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: inset 0 2px 2px 0 rgba(0, 0, 0, 0.15);
+  background-color: #eeeeee;
+  -webkit-transition: border-color 0.4s ease-in-out;
+  -o-transition: border-color 0.4s ease-in-out;
+  transition: border-color 0.4s ease-in-out;
+}
+
+/* line 117, src/scss/_shared/_common.scss */
+.c-checkboxToggle label i {
+  z-index: 2;
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #dcdcdc;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background-color: #ffffff;
+  -webkit-transition: border-color 0.4s ease-in-out, background-color 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+  transition: border-color 0.4s ease-in-out, background-color 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+  -o-transition: transform 0.4s ease-in-out, border-color 0.4s ease-in-out, background-color 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, border-color 0.4s ease-in-out, background-color 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, border-color 0.4s ease-in-out, background-color 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+}
+
+/* line 130, src/scss/_shared/_common.scss */
+.c-checkboxToggle label span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 140, src/scss/_shared/_common.scss */
+.c-checkboxToggle label span u {
+  position: absolute;
+  padding-top: 3px;
+  text-decoration: none;
+  color: #616161;
+  font-size: 11px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+/* line 149, src/scss/_shared/_common.scss */
+.c-checkboxToggle label span u:nth-of-type(1) {
+  left: 8px;
+}
+
+/* line 152, src/scss/_shared/_common.scss */
+.c-checkboxToggle label span u:nth-of-type(2) {
+  right: 8px;
+}
+
+/* line 160, src/scss/_shared/_common.scss */
+.select2-container--open {
+  z-index: 9999;
+}
+
+/* line 163, src/scss/_shared/_common.scss */
+.select2-container--open > .select2-search {
+  padding: 5px 10px;
+}
+
+/* line 166, src/scss/_shared/_common.scss */
+.select2-container--open > .select2-search__field {
+  width: 100%;
+  height: 36px;
+  padding: 0 12px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  border: 1px solid darkgray;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 14px;
+  font-weight: 400;
+}
+
 /* line 1, src/scss/_shared/_magnificPopup.scss */
 .c-modal {
   position: relative;
@@ -934,8 +1151,8 @@ picture {
   padding-left: 15px;
   padding-right: 15px;
   border: none;
-  -webkit-border-radius: 6px;
-          border-radius: 6px;
+  -webkit-border-radius: 4px;
+          border-radius: 4px;
   -webkit-transition: -webkit-box-shadow 0.4s ease-in-out;
   transition: -webkit-box-shadow 0.4s ease-in-out;
   -o-transition: box-shadow 0.4s ease-in-out;
@@ -1024,187 +1241,210 @@ picture {
 .c-btn span {
   z-index: 2;
   position: relative;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 16px;
-  font-weight: 700;
+  font-family: 'GothamPro', sans-serif;
+  font-size: 13px;
+  line-height: 1;
+  font-weight: 500;
+  text-transform: uppercase;
   -webkit-transition: color 0.4s ease-in-out;
   -o-transition: color 0.4s ease-in-out;
   transition: color 0.4s ease-in-out;
 }
 
-/* line 73, src/scss/_macros/_btn.scss */
+/* line 75, src/scss/_macros/_btn.scss */
 .c-btn--white {
   background-color: #fff;
 }
 
-/* line 76, src/scss/_macros/_btn.scss */
+/* line 78, src/scss/_macros/_btn.scss */
 .c-btn--white:before, .c-btn--white:after {
   background-color: #fafafa;
 }
 
-/* line 81, src/scss/_macros/_btn.scss */
+/* line 83, src/scss/_macros/_btn.scss */
 .c-btn--white span {
   color: #663399;
 }
 
-/* line 86, src/scss/_macros/_btn.scss */
+/* line 88, src/scss/_macros/_btn.scss */
 .c-btn--green {
   background-color: #1ac880;
 }
 
-/* line 89, src/scss/_macros/_btn.scss */
+/* line 91, src/scss/_macros/_btn.scss */
 .c-btn--green:before, .c-btn--green:after {
   background-color: #1bd186;
 }
 
-/* line 94, src/scss/_macros/_btn.scss */
+/* line 96, src/scss/_macros/_btn.scss */
 .c-btn--green span {
   color: #ffffff;
 }
 
-/* line 99, src/scss/_macros/_btn.scss */
+/* line 101, src/scss/_macros/_btn.scss */
 .c-btn--purple {
   background-color: #663399;
 }
 
-/* line 102, src/scss/_macros/_btn.scss */
+/* line 104, src/scss/_macros/_btn.scss */
 .c-btn--purple:before, .c-btn--purple:after {
   background-color: #6b36a1;
 }
 
-/* line 107, src/scss/_macros/_btn.scss */
+/* line 109, src/scss/_macros/_btn.scss */
 .c-btn--purple span {
   color: #ffffff;
 }
 
-/* line 112, src/scss/_macros/_btn.scss */
+/* line 114, src/scss/_macros/_btn.scss */
 .c-btn--orange {
   background-color: #f69322;
 }
 
-/* line 115, src/scss/_macros/_btn.scss */
+/* line 117, src/scss/_macros/_btn.scss */
 .c-btn--orange:before, .c-btn--orange:after {
   background-color: #f6982c;
 }
 
-/* line 120, src/scss/_macros/_btn.scss */
+/* line 122, src/scss/_macros/_btn.scss */
 .c-btn--orange span {
   color: #ffffff;
 }
 
-/* line 125, src/scss/_macros/_btn.scss */
+/* line 127, src/scss/_macros/_btn.scss */
 .c-btn--green {
   background-color: #36AF90;
 }
 
-/* line 128, src/scss/_macros/_btn.scss */
+/* line 130, src/scss/_macros/_btn.scss */
 .c-btn--green:before, .c-btn--green:after {
   background-color: #38b796;
 }
 
-/* line 133, src/scss/_macros/_btn.scss */
+/* line 135, src/scss/_macros/_btn.scss */
 .c-btn--green span {
   color: #ffffff;
 }
 
-/* line 138, src/scss/_macros/_btn.scss */
+/* line 140, src/scss/_macros/_btn.scss */
 .c-btn--borderPurple {
   border: 1px solid #663399;
   background-color: #fff;
 }
 
-/* line 143, src/scss/_macros/_btn.scss */
+/* line 145, src/scss/_macros/_btn.scss */
 .c-btn--borderPurple:hover span {
   color: #ffffff;
 }
 
-/* line 148, src/scss/_macros/_btn.scss */
+/* line 150, src/scss/_macros/_btn.scss */
 .c-btn--borderPurple:before, .c-btn--borderPurple:after {
   background-color: #8244c1;
 }
 
-/* line 153, src/scss/_macros/_btn.scss */
+/* line 155, src/scss/_macros/_btn.scss */
 .c-btn--borderPurple span {
   color: #663399;
 }
 
-/* line 158, src/scss/_macros/_btn.scss */
+/* line 160, src/scss/_macros/_btn.scss */
 .c-btn--borderGreen {
   border: 1px solid #36AF90;
   background-color: #fff;
 }
 
-/* line 162, src/scss/_macros/_btn.scss */
+/* line 164, src/scss/_macros/_btn.scss */
 .c-btn--borderGreen:before, .c-btn--borderGreen:after {
   background-color: #f8f8f8;
 }
 
-/* line 167, src/scss/_macros/_btn.scss */
+/* line 169, src/scss/_macros/_btn.scss */
 .c-btn--borderGreen span {
   color: #36AF90;
 }
 
-/* line 172, src/scss/_macros/_btn.scss */
+/* line 174, src/scss/_macros/_btn.scss */
 .c-btn--borderBlue {
   border: 1px solid #2A65D1;
   background-color: #fff;
 }
 
-/* line 177, src/scss/_macros/_btn.scss */
+/* line 179, src/scss/_macros/_btn.scss */
 .c-btn--borderBlue:hover span {
   color: #ffffff;
 }
 
-/* line 182, src/scss/_macros/_btn.scss */
+/* line 184, src/scss/_macros/_btn.scss */
 .c-btn--borderBlue:before, .c-btn--borderBlue:after {
   background-color: #5686dd;
 }
 
-/* line 187, src/scss/_macros/_btn.scss */
+/* line 189, src/scss/_macros/_btn.scss */
 .c-btn--borderBlue span {
   color: #2A65D1;
 }
 
-/* line 192, src/scss/_macros/_btn.scss */
+/* line 194, src/scss/_macros/_btn.scss */
 .c-btn--borderOrange {
   border: 1px solid #f69322;
   background-color: transparent;
 }
 
-/* line 197, src/scss/_macros/_btn.scss */
+/* line 199, src/scss/_macros/_btn.scss */
 .c-btn--borderOrange:hover span {
   color: #f69322;
 }
 
-/* line 202, src/scss/_macros/_btn.scss */
+/* line 204, src/scss/_macros/_btn.scss */
 .c-btn--borderOrange:before, .c-btn--borderOrange:after {
   background-color: #f8f8f8;
 }
 
-/* line 207, src/scss/_macros/_btn.scss */
+/* line 209, src/scss/_macros/_btn.scss */
 .c-btn--borderOrange span {
   color: #f69322;
 }
 
-/* line 212, src/scss/_macros/_btn.scss */
+/* line 214, src/scss/_macros/_btn.scss */
 .c-btn--borderWhite {
   border: 1px solid #fff;
   background-color: transparent;
 }
 
-/* line 217, src/scss/_macros/_btn.scss */
+/* line 219, src/scss/_macros/_btn.scss */
 .c-btn--borderWhite:hover span {
   color: #000;
 }
 
-/* line 222, src/scss/_macros/_btn.scss */
+/* line 224, src/scss/_macros/_btn.scss */
 .c-btn--borderWhite:before, .c-btn--borderWhite:after {
   background-color: #f8f8f8;
 }
 
-/* line 227, src/scss/_macros/_btn.scss */
+/* line 229, src/scss/_macros/_btn.scss */
 .c-btn--borderWhite span {
   color: #fff;
+}
+
+/* line 234, src/scss/_macros/_btn.scss */
+.c-btn--borderGray {
+  border: 1px solid silver;
+  background-color: transparent;
+}
+
+/* line 239, src/scss/_macros/_btn.scss */
+.c-btn--borderGray:hover span {
+  color: #000;
+}
+
+/* line 244, src/scss/_macros/_btn.scss */
+.c-btn--borderGray:before, .c-btn--borderGray:after {
+  background-color: gainsboro;
+}
+
+/* line 249, src/scss/_macros/_btn.scss */
+.c-btn--borderGray span {
+  color: gray;
 }
 
 /* line 3, src/scss/_macros/_modal.scss */
@@ -1215,6 +1455,1210 @@ picture {
 /* line 6, src/scss/_macros/_modal.scss */
 .modal-backdrop {
   z-index: 1999;
+}
+
+/* line 16, src/scss/_macros/_modal.scss */
+.modal.modal-profile-qr .close, .modal.modal-profile-main .close, .modal.modal-profile-experiences .close, .modal.modal-profile-education .close, .modal.modal-profile-skills .close, .modal.modal-profile-about .close {
+  outline: none;
+  opacity: 1 !important;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+/* line 23, src/scss/_macros/_modal.scss */
+.modal.modal-profile-qr .close .icon-font, .modal.modal-profile-main .close .icon-font, .modal.modal-profile-experiences .close .icon-font, .modal.modal-profile-education .close .icon-font, .modal.modal-profile-skills .close .icon-font, .modal.modal-profile-about .close .icon-font {
+  color: #000000;
+  font-size: 14px;
+}
+
+/* line 30, src/scss/_macros/_modal.scss */
+.modal.modal-profile-qr .modal-content, .modal.modal-profile-main .modal-content, .modal.modal-profile-experiences .modal-content, .modal.modal-profile-education .modal-content, .modal.modal-profile-skills .modal-content, .modal.modal-profile-about .modal-content {
+  overflow: hidden;
+  border: none;
+}
+
+/* line 35, src/scss/_macros/_modal.scss */
+.modal.modal-profile-qr .modal-header, .modal.modal-profile-main .modal-header, .modal.modal-profile-experiences .modal-header, .modal.modal-profile-education .modal-header, .modal.modal-profile-skills .modal-header, .modal.modal-profile-about .modal-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 41, src/scss/_macros/_modal.scss */
+.modal.modal-profile-qr .modal-title, .modal.modal-profile-main .modal-title, .modal.modal-profile-experiences .modal-title, .modal.modal-profile-education .modal-title, .modal.modal-profile-skills .modal-title, .modal.modal-profile-about .modal-title {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* line 50, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal-dialog {
+  max-width: 744px;
+}
+
+/* line 54, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal-content {
+  background-color: #fff;
+}
+
+/* line 58, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 64, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__header {
+  position: relative;
+  top: -1rem;
+  left: -1rem;
+  width: -webkit-calc(100% + 2rem);
+  width: calc(100% + 2rem);
+  height: -webkit-calc(100% + 1rem);
+  height: calc(100% + 1rem);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px 30px 0;
+}
+
+/* line 73, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__header-bg {
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 81, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__header-bg > div {
+  width: 100%;
+  height: 140px;
+  background-image: url("../img/img-profile-main-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+
+/* line 91, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__header-user {
+  overflow: hidden;
+  position: relative;
+  width: 160px;
+  height: 160px;
+  border: 1px solid #fff;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+  background-color: #ffffff;
+}
+
+/* line 107, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__step {
+  position: relative;
+  left: -1rem;
+  width: -webkit-calc(100% + 2rem);
+  width: calc(100% + 2rem);
+  padding: 15px 20px;
+  background-color: #7d51a8;
+}
+
+/* line 114, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__step p {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+/* line 122, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__form {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem 1rem 0;
+}
+
+/* line 128, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__form-title {
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #9932cc;
+}
+
+/* line 138, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__form .form-check-input {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin-top: 0;
+}
+
+/* line 144, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__form .form-check-label {
+  line-height: 1.2;
+}
+
+/* line 149, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__form-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 153, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__form-group > div {
+  width: 100%;
+  max-width: -webkit-calc((100% - 10px) / 2);
+  max-width: calc((100% - 10px) / 2);
+}
+
+/* line 159, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__form-field {
+  position: relative;
+  padding-bottom: 10px;
+}
+
+/* line 163, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__form-field-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 167, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__form-field-group > div {
+  width: 100%;
+  max-width: -webkit-calc((100% - 30px) / 3);
+  max-width: calc((100% - 30px) / 3);
+}
+
+/* line 171, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__form-field-group > div .modal__form-field {
+  padding-bottom: 0;
+}
+
+/* line 177, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__form-field > input,
+.modal#modalProfileMain .modal__form-field > select {
+  outline: none;
+  position: relative;
+  width: 100%;
+  height: 36px;
+  padding: 0 12px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  border: 1px solid darkgray;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* line 192, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__form-field > input[type='file'] {
+  height: auto;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+/* line 199, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__form-field .select2-selection {
+  outline: none;
+  width: 100%;
+  min-height: 36px;
+  padding: 0 12px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  border: 1px solid darkgray;
+  background-color: white;
+}
+
+/* line 208, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__form-field .select2-selection .select2-selection__rendered {
+  line-height: 36px;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* line 215, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__form-field .select2-selection .select2-selection__arrow {
+  height: 100%;
+}
+
+/* line 220, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__form-field .select2-container--default .select2-selection--multiple .select2-selection__choice {
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 5px;
+  border: 1px solid darkgray;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  background-color: #fff;
+  line-height: 26px;
+}
+
+/* line 231, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__form-label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+
+/* line 236, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__form-label span {
+  color: red;
+}
+
+/* line 241, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__form-divider {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.15);
+  margin: 15px 0;
+}
+
+/* line 247, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__form-divider:last-of-type {
+  margin-bottom: 0;
+}
+
+/* line 254, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__cv-header {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.14);
+}
+
+/* line 262, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__cv-header[aria-expanded="true"] a {
+  display: none;
+}
+
+/* line 267, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__cv-header p {
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #9932cc;
+}
+
+/* line 275, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__cv-header p span {
+  color: #5d60ff;
+}
+
+/* line 280, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__cv-header a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #5d60ff;
+}
+
+/* line 285, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__cv-header a .icon-font {
+  margin-right: 3px;
+  font-size: 12px;
+}
+
+/* line 290, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__cv-header a span {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+/* line 297, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__cv-body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.14);
+}
+
+/* line 305, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__cv-body-1 > div {
+  width: 100%;
+  max-width: -webkit-calc(100% / 3);
+  max-width: calc(100% / 3);
+}
+
+/* line 309, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__cv-body-1 > div:nth-of-type(3) {
+  padding-top: 25px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+
+/* line 317, src/scss/_macros/_modal.scss */
+.modal#modalProfileMain .modal__cv-body-2 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 328, src/scss/_macros/_modal.scss */
+.modal#modalProfileExperiences .modal-dialog, .modal#modalProfileEducation .modal-dialog {
+  max-width: 744px;
+}
+
+/* line 332, src/scss/_macros/_modal.scss */
+.modal#modalProfileExperiences .modal-content, .modal#modalProfileEducation .modal-content {
+  background-color: #fff;
+}
+
+/* line 336, src/scss/_macros/_modal.scss */
+.modal#modalProfileExperiences .modal-footer, .modal#modalProfileEducation .modal-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 342, src/scss/_macros/_modal.scss */
+.modal#modalProfileExperiences .modal__step, .modal#modalProfileEducation .modal__step {
+  position: relative;
+  left: -1rem;
+  width: -webkit-calc(100% + 2rem);
+  width: calc(100% + 2rem);
+  padding: 15px 20px;
+  background-color: #7d51a8;
+}
+
+/* line 349, src/scss/_macros/_modal.scss */
+.modal#modalProfileExperiences .modal__step p, .modal#modalProfileEducation .modal__step p {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+/* line 357, src/scss/_macros/_modal.scss */
+.modal#modalProfileExperiences .modal__form, .modal#modalProfileEducation .modal__form {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem 1rem 0;
+}
+
+/* line 363, src/scss/_macros/_modal.scss */
+.modal#modalProfileExperiences .modal__form-title, .modal#modalProfileEducation .modal__form-title {
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #9932cc;
+}
+
+/* line 373, src/scss/_macros/_modal.scss */
+.modal#modalProfileExperiences .modal__form .form-check-input, .modal#modalProfileEducation .modal__form .form-check-input {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin-top: 0;
+}
+
+/* line 379, src/scss/_macros/_modal.scss */
+.modal#modalProfileExperiences .modal__form .form-check-label, .modal#modalProfileEducation .modal__form .form-check-label {
+  line-height: 1.2;
+}
+
+/* line 384, src/scss/_macros/_modal.scss */
+.modal#modalProfileExperiences .modal__form-group, .modal#modalProfileEducation .modal__form-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 388, src/scss/_macros/_modal.scss */
+.modal#modalProfileExperiences .modal__form-group > div, .modal#modalProfileEducation .modal__form-group > div {
+  width: 100%;
+  max-width: -webkit-calc((100% - 10px) / 2);
+  max-width: calc((100% - 10px) / 2);
+}
+
+/* line 394, src/scss/_macros/_modal.scss */
+.modal#modalProfileExperiences .modal__form-field, .modal#modalProfileEducation .modal__form-field {
+  position: relative;
+  padding-bottom: 10px;
+}
+
+/* line 398, src/scss/_macros/_modal.scss */
+.modal#modalProfileExperiences .modal__form-field-group, .modal#modalProfileEducation .modal__form-field-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 402, src/scss/_macros/_modal.scss */
+.modal#modalProfileExperiences .modal__form-field-group > div, .modal#modalProfileEducation .modal__form-field-group > div {
+  width: 100%;
+  max-width: -webkit-calc((100% - 30px) / 3);
+  max-width: calc((100% - 30px) / 3);
+}
+
+/* line 406, src/scss/_macros/_modal.scss */
+.modal#modalProfileExperiences .modal__form-field-group > div:nth-of-type(3), .modal#modalProfileEducation .modal__form-field-group > div:nth-of-type(3) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 25px;
+}
+
+/* line 413, src/scss/_macros/_modal.scss */
+.modal#modalProfileExperiences .modal__form-field-group > div .modal__form-field, .modal#modalProfileEducation .modal__form-field-group > div .modal__form-field {
+  padding-bottom: 0;
+}
+
+/* line 419, src/scss/_macros/_modal.scss */
+.modal#modalProfileExperiences .modal__form-field > input,
+.modal#modalProfileExperiences .modal__form-field > textarea,
+.modal#modalProfileExperiences .modal__form-field > select, .modal#modalProfileEducation .modal__form-field > input,
+.modal#modalProfileEducation .modal__form-field > textarea,
+.modal#modalProfileEducation .modal__form-field > select {
+  outline: none;
+  position: relative;
+  width: 100%;
+  height: 36px;
+  padding: 0 12px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  border: 1px solid darkgray;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* line 435, src/scss/_macros/_modal.scss */
+.modal#modalProfileExperiences .modal__form-field > textarea, .modal#modalProfileEducation .modal__form-field > textarea {
+  resize: none;
+  height: 130px;
+}
+
+/* line 440, src/scss/_macros/_modal.scss */
+.modal#modalProfileExperiences .modal__form-field .select2-selection, .modal#modalProfileEducation .modal__form-field .select2-selection {
+  outline: none;
+  width: 100%;
+  min-height: 36px;
+  padding: 0 12px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  border: 1px solid darkgray;
+  background-color: white;
+}
+
+/* line 449, src/scss/_macros/_modal.scss */
+.modal#modalProfileExperiences .modal__form-field .select2-selection .select2-selection__rendered, .modal#modalProfileEducation .modal__form-field .select2-selection .select2-selection__rendered {
+  line-height: 36px;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* line 456, src/scss/_macros/_modal.scss */
+.modal#modalProfileExperiences .modal__form-field .select2-selection .select2-selection__arrow, .modal#modalProfileEducation .modal__form-field .select2-selection .select2-selection__arrow {
+  height: 100%;
+}
+
+/* line 461, src/scss/_macros/_modal.scss */
+.modal#modalProfileExperiences .modal__form-field .select2-container--default .select2-selection--multiple .select2-selection__choice, .modal#modalProfileEducation .modal__form-field .select2-container--default .select2-selection--multiple .select2-selection__choice {
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 5px;
+  border: 1px solid darkgray;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  background-color: #fff;
+  line-height: 26px;
+}
+
+/* line 472, src/scss/_macros/_modal.scss */
+.modal#modalProfileExperiences .modal__form-label, .modal#modalProfileEducation .modal__form-label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+
+/* line 477, src/scss/_macros/_modal.scss */
+.modal#modalProfileExperiences .modal__form-label span, .modal#modalProfileEducation .modal__form-label span {
+  color: red;
+}
+
+/* line 487, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal-dialog {
+  max-width: 744px;
+}
+
+/* line 491, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal-content {
+  background-color: #fff;
+}
+
+/* line 495, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 501, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__step {
+  position: relative;
+  left: -1rem;
+  width: -webkit-calc(100% + 2rem);
+  width: calc(100% + 2rem);
+  padding: 15px 20px;
+  background-color: #7d51a8;
+}
+
+/* line 508, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__step p {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+/* line 516, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem 1rem 0;
+}
+
+/* line 522, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form-title {
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #9932cc;
+}
+
+/* line 532, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form .form-check-input {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin-top: 0;
+}
+
+/* line 538, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form .form-check-label {
+  line-height: 1.2;
+}
+
+/* line 543, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 547, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form-group > div {
+  width: 100%;
+  max-width: -webkit-calc((100% - 10px) / 2);
+  max-width: calc((100% - 10px) / 2);
+}
+
+/* line 553, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form-field {
+  position: relative;
+  padding-bottom: 10px;
+}
+
+/* line 557, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form-field-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 561, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form-field-group > div {
+  width: 100%;
+  max-width: -webkit-calc((100% - 30px) / 3);
+  max-width: calc((100% - 30px) / 3);
+}
+
+/* line 565, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form-field-group > div:nth-of-type(3) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 25px;
+}
+
+/* line 572, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form-field-group > div .modal__form-field {
+  padding-bottom: 0;
+}
+
+/* line 578, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form-field > input,
+.modal#modalProfileSkills .modal__form-field > textarea,
+.modal#modalProfileSkills .modal__form-field > select {
+  outline: none;
+  position: relative;
+  width: 100%;
+  height: 36px;
+  padding: 0 12px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  border: 1px solid darkgray;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* line 594, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form-field > textarea {
+  resize: none;
+  height: 130px;
+}
+
+/* line 600, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form-label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+
+/* line 605, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__form-label span {
+  color: red;
+}
+
+/* line 611, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 57px;
+  padding: 10px;
+  border: 1px solid silver;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  background-color: #ffffff;
+  -webkit-transition: background-color 0.4s ease-in-out;
+  -o-transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
+}
+
+/* line 621, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__box:hover {
+  background-color: lightgray !important;
+  -webkit-transition: background-color 0.4s ease-in-out;
+  -o-transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
+}
+
+/* line 627, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__box > div:nth-of-type(1) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 635, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__box > div:nth-of-type(1) p {
+  width: 50%;
+  font-size: 13px;
+}
+
+/* line 639, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__box > div:nth-of-type(1) p strong {
+  font-weight: 500;
+}
+
+/* line 644, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__box > div:nth-of-type(2) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 115px;
+}
+
+/* line 650, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__box > div:nth-of-type(2) a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #b4202a;
+}
+
+/* line 655, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__box > div:nth-of-type(2) a:hover {
+  text-decoration: underline;
+}
+
+/* line 659, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__box > div:nth-of-type(2) a .icon-font {
+  margin-right: 3px;
+  color: #b4202a;
+  font-size: 11px;
+}
+
+/* line 665, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__box > div:nth-of-type(2) a span {
+  position: relative;
+  top: 2px;
+  line-height: 1;
+  font-size: 13px;
+  color: #b4202a;
+}
+
+/* line 676, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__box-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 682, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__box-wrapper > div:not(:last-of-type) {
+  margin-bottom: 10px;
+}
+
+/* line 687, src/scss/_macros/_modal.scss */
+.modal#modalProfileSkills .modal__box-wrapper > div:nth-of-type(even) .modal__box {
+  background-color: #f0f0fb;
+}
+
+/* line 699, src/scss/_macros/_modal.scss */
+.modal#modalProfileQr .close .icon-font {
+  color: #fff;
+}
+
+/* line 705, src/scss/_macros/_modal.scss */
+.modal#modalProfileQr .modal-dialog {
+  max-width: 360px;
+}
+
+/* line 709, src/scss/_macros/_modal.scss */
+.modal#modalProfileQr .modal-content {
+  background-color: #f3f3f3;
+}
+
+/* line 713, src/scss/_macros/_modal.scss */
+.modal#modalProfileQr .modal-body {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: transparent;
+}
+
+/* line 718, src/scss/_macros/_modal.scss */
+.modal#modalProfileQr .modal-body-content {
+  width: 100%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 37px 15px 10px;
+  border: 1px solid #eaeaea;
+  background-color: #fff;
+}
+
+/* line 727, src/scss/_macros/_modal.scss */
+.modal#modalProfileQr .modal-body-content p,
+.modal#modalProfileQr .modal-body-content span {
+  text-align: center;
+  font-weight: 500;
+}
+
+/* line 733, src/scss/_macros/_modal.scss */
+.modal#modalProfileQr .modal-body-content p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* line 738, src/scss/_macros/_modal.scss */
+.modal#modalProfileQr .modal-body-content span {
+  display: block;
+  color: gray;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+/* line 746, src/scss/_macros/_modal.scss */
+.modal#modalProfileQr .modal-body-user {
+  overflow: hidden;
+  position: relative;
+  width: 74px;
+  height: 74px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -37px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  border: 1px solid #e2dcdc;
+  background-color: #fff;
+}
+
+/* line 763, src/scss/_macros/_modal.scss */
+.modal#modalProfileQr .modal-body-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 772, src/scss/_macros/_modal.scss */
+.modal#modalProfileQr .modal-body-save {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 25px;
+  margin-top: 10px;
+  background-color: unset;
+  color: #767676;
+}
+
+/* line 781, src/scss/_macros/_modal.scss */
+.modal#modalProfileQr .modal-body-save .icon-font {
+  margin-right: 3px;
+  font-size: 11px;
+}
+
+/* line 786, src/scss/_macros/_modal.scss */
+.modal#modalProfileQr .modal-body-save span {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+/* line 793, src/scss/_macros/_modal.scss */
+.modal#modalProfileQr .modal-header {
+  background-color: #663399;
+}
+
+/* line 797, src/scss/_macros/_modal.scss */
+.modal#modalProfileQr .modal-title {
+  color: #ffffff;
+}
+
+/* line 805, src/scss/_macros/_modal.scss */
+.modal#modalProfileAbout .modal-dialog {
+  max-width: 744px;
+}
+
+/* line 809, src/scss/_macros/_modal.scss */
+.modal#modalProfileAbout .modal-subtitle {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #9932cc;
+}
+
+/* line 818, src/scss/_macros/_modal.scss */
+.modal#modalProfileAbout .modal-body {
+  padding: 10px 30px;
+}
+
+/* line 821, src/scss/_macros/_modal.scss */
+.modal#modalProfileAbout .modal-body-header {
+  position: relative;
+  left: -30px;
+  width: -webkit-calc(100% + 60px);
+  width: calc(100% + 60px);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 30px;
+  background-color: #7d51a8;
+}
+
+/* line 830, src/scss/_macros/_modal.scss */
+.modal#modalProfileAbout .modal-body-header p {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+}
+
+/* line 838, src/scss/_macros/_modal.scss */
+.modal#modalProfileAbout .modal-body form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 842, src/scss/_macros/_modal.scss */
+.modal#modalProfileAbout .modal-body form > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5px;
+}
+
+/* line 848, src/scss/_macros/_modal.scss */
+.modal#modalProfileAbout .modal-body form label {
+  padding-bottom: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #000000;
+}
+
+/* line 854, src/scss/_macros/_modal.scss */
+.modal#modalProfileAbout .modal-body form label span {
+  color: red;
+}
+
+/* line 859, src/scss/_macros/_modal.scss */
+.modal#modalProfileAbout .modal-body form textarea {
+  resize: none;
+  outline: none;
+  padding: 0 12px;
+  background-color: rgba(241, 187, 231, 0.12);
+  border-color: darkgray;
+  font-size: 13px;
+  height: 130px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+/* line 873, src/scss/_macros/_modal.scss */
+.modal#modalProfileAbout .modal-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 /* line 3, src/scss/_components/_header.scss */
@@ -2858,7 +4302,12 @@ picture {
   max-width: 365px;
 }
 
-/* line 26, src/scss/_components/profile/_profile.scss */
+/* line 24, src/scss/_components/profile/_profile.scss */
+.profile__wrapper-right .profile__section {
+  padding-bottom: 30px;
+}
+
+/* line 30, src/scss/_components/profile/_profile.scss */
 .profile__section {
   overflow: hidden;
   -webkit-border-radius: 3px;
@@ -2868,7 +4317,1242 @@ picture {
           box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
 }
 
-/* line 33, src/scss/_components/profile/_profile.scss */
+/* line 39, src/scss/_components/profile/_profile.scss */
+.profile__languages {
+  position: relative;
+  padding: 20px 30px 20px;
+}
+
+/* line 44, src/scss/_components/profile/_profile.scss */
+.profile__references {
+  position: relative;
+  padding: 20px 30px 20px;
+}
+
+/* line 49, src/scss/_components/profile/_profile.scss */
+.profile__preferred {
+  position: relative;
+  padding: 20px 30px 20px;
+  margin-bottom: 18px;
+}
+
+/* line 1, src/scss/_components/profile/_profile--main.scss */
+.profile__main {
+  position: relative;
+  padding: 30px 30px 20px;
+}
+
+/* line 5, src/scss/_components/profile/_profile--main.scss */
+.profile__main-bg {
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 13, src/scss/_components/profile/_profile--main.scss */
+.profile__main-bg > div {
+  width: 100%;
+  height: 140px;
+  background-image: url("../img/img-profile-main-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+
+/* line 23, src/scss/_components/profile/_profile--main.scss */
+.profile__main-box {
+  z-index: 2;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 29, src/scss/_components/profile/_profile--main.scss */
+.profile__main-box > div {
+  width: 100%;
+}
+
+/* line 34, src/scss/_components/profile/_profile--main.scss */
+.profile__main-head {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+/* line 40, src/scss/_components/profile/_profile--main.scss */
+.profile__main-head > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+/* line 46, src/scss/_components/profile/_profile--main.scss */
+.profile__main-body {
+  padding-bottom: 20px;
+}
+
+/* line 49, src/scss/_components/profile/_profile--main.scss */
+.profile__main-body-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 52, src/scss/_components/profile/_profile--main.scss */
+.profile__main-body-wrapper-1 {
+  padding-bottom: 20px;
+}
+
+/* line 58, src/scss/_components/profile/_profile--main.scss */
+.profile__main-body-wrapper-2 > div:nth-of-type(2) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+/* line 65, src/scss/_components/profile/_profile--main.scss */
+.profile__main-body-wrapper > div {
+  width: 100%;
+  max-width: 50%;
+}
+
+/* line 72, src/scss/_components/profile/_profile--main.scss */
+.profile__main-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 34px;
+  border-top: 1px solid #dcdcdc;
+}
+
+/* line 77, src/scss/_components/profile/_profile--main.scss */
+.profile__main-footer > div {
+  width: -webkit-calc(100% / 4);
+  width: calc(100% / 4);
+}
+
+/* line 81, src/scss/_components/profile/_profile--main.scss */
+.profile__main-footer p {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #757575;
+}
+
+/* line 89, src/scss/_components/profile/_profile--main.scss */
+.profile__main-footer span {
+  font-size: 14px;
+  line-height: 29px;
+}
+
+/* line 95, src/scss/_components/profile/_profile--main.scss */
+.profile__main-edit {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* line 99, src/scss/_components/profile/_profile--main.scss */
+.profile__main-edit .icon-font {
+  margin-right: 3px;
+  color: #639;
+  font-size: 16px;
+}
+
+/* line 105, src/scss/_components/profile/_profile--main.scss */
+.profile__main-edit span {
+  color: #000000;
+  font-size: 13px;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* line 114, src/scss/_components/profile/_profile--main.scss */
+.profile__main-user {
+  overflow: hidden;
+  position: relative;
+  width: 160px;
+  height: 160px;
+  border: 1px solid #fff;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+  background-color: #ffffff;
+}
+
+/* line 129, src/scss/_components/profile/_profile--main.scss */
+.profile__main-qr {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  margin-left: 10px;
+  border: 1px solid #fff;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+}
+
+/* line 138, src/scss/_components/profile/_profile--main.scss */
+.profile__main-qr img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+/* line 146, src/scss/_components/profile/_profile--main.scss */
+.profile__main-name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* line 152, src/scss/_components/profile/_profile--main.scss */
+.profile__main-position {
+  padding-bottom: 7px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* line 158, src/scss/_components/profile/_profile--main.scss */
+.profile__main-country {
+  font-weight: 500;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #757575;
+}
+
+/* line 165, src/scss/_components/profile/_profile--main.scss */
+.profile__main-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+/* line 169, src/scss/_components/profile/_profile--main.scss */
+.profile__main-info > div {
+  width: 100%;
+  max-width: 50%;
+  padding-bottom: 10px;
+}
+
+/* line 174, src/scss/_components/profile/_profile--main.scss */
+.profile__main-info > div:nth-of-type(1), .profile__main-info > div:nth-of-type(3) {
+  max-width: 40%;
+}
+
+/* line 180, src/scss/_components/profile/_profile--main.scss */
+.profile__main-info-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* line 185, src/scss/_components/profile/_profile--main.scss */
+.profile__main-info-box > div:nth-of-type(1) {
+  width: 30px;
+}
+
+/* line 188, src/scss/_components/profile/_profile--main.scss */
+.profile__main-info-box > div:nth-of-type(2) {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 195, src/scss/_components/profile/_profile--main.scss */
+.profile__main-info-box .icon-font {
+  font-size: 14px;
+  color: gray;
+}
+
+/* line 200, src/scss/_components/profile/_profile--main.scss */
+.profile__main-info-box span {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* line 208, src/scss/_components/profile/_profile--main.scss */
+.profile__main-action .c-btn {
+  min-width: 195px;
+  text-transform: uppercase;
+}
+
+/* line 212, src/scss/_components/profile/_profile--main.scss */
+.profile__main-action .c-btn:not(:last-of-type) {
+  margin-right: 15px;
+}
+
+/* line 216, src/scss/_components/profile/_profile--main.scss */
+.profile__main-action .c-btn span {
+  font-size: 14px;
+}
+
+/* line 222, src/scss/_components/profile/_profile--main.scss */
+.profile__main-update {
+  position: relative;
+}
+
+/* line 225, src/scss/_components/profile/_profile--main.scss */
+.profile__main-update .icon-font {
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 15px;
+  font-size: 8px;
+  color: #ffffff;
+}
+
+/* line 235, src/scss/_components/profile/_profile--main.scss */
+.profile__main-update + .dropdown-menu {
+  overflow-y: auto;
+  position: absolute;
+  width: 300px;
+  min-height: 200px;
+  max-height: -webkit-calc(100vh - 156px);
+  max-height: calc(100vh - 156px);
+  padding: 5px 0 10px;
+  border: 1px solid #cdcfd2;
+  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 6px 9px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 6px 9px rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 0;
+          border-radius: 0;
+  background-color: #fff;
+}
+
+/* line 247, src/scss/_components/profile/_profile--main.scss */
+.profile__main-update + .dropdown-menu .dropdown-item {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 50px;
+  padding: 8px;
+  -webkit-transition: background-color 0.4s ease-in-out;
+  -o-transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
+}
+
+/* line 255, src/scss/_components/profile/_profile--main.scss */
+.profile__main-update + .dropdown-menu .dropdown-item:hover {
+  -webkit-transition: background-color 0.4s ease-in-out;
+  -o-transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
+}
+
+/* line 258, src/scss/_components/profile/_profile--main.scss */
+.profile__main-update + .dropdown-menu .dropdown-item:hover .icon-font,
+.profile__main-update + .dropdown-menu .dropdown-item:hover p,
+.profile__main-update + .dropdown-menu .dropdown-item:hover span {
+  color: #000000;
+  -webkit-transition: color 0.4s ease-in-out;
+  -o-transition: color 0.4s ease-in-out;
+  transition: color 0.4s ease-in-out;
+}
+
+/* line 267, src/scss/_components/profile/_profile--main.scss */
+.profile__main-update + .dropdown-menu .dropdown-item > div:nth-of-type(1) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 40px;
+  padding-right: 8px;
+}
+
+/* line 273, src/scss/_components/profile/_profile--main.scss */
+.profile__main-update + .dropdown-menu .dropdown-item > div:nth-of-type(1) .icon-font {
+  font-size: 20px;
+  -webkit-transition: color 0.4s ease-in-out;
+  -o-transition: color 0.4s ease-in-out;
+  transition: color 0.4s ease-in-out;
+}
+
+/* line 279, src/scss/_components/profile/_profile--main.scss */
+.profile__main-update + .dropdown-menu .dropdown-item > div:nth-of-type(2) {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 285, src/scss/_components/profile/_profile--main.scss */
+.profile__main-update + .dropdown-menu .dropdown-item > div:nth-of-type(3) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30px;
+  padding-left: 8px;
+}
+
+/* line 291, src/scss/_components/profile/_profile--main.scss */
+.profile__main-update + .dropdown-menu .dropdown-item > div:nth-of-type(3) .icon-font {
+  font-size: 14px;
+  -webkit-transition: color 0.4s ease-in-out;
+  -o-transition: color 0.4s ease-in-out;
+  transition: color 0.4s ease-in-out;
+}
+
+/* line 298, src/scss/_components/profile/_profile--main.scss */
+.profile__main-update + .dropdown-menu .dropdown-item .icon-font,
+.profile__main-update + .dropdown-menu .dropdown-item p,
+.profile__main-update + .dropdown-menu .dropdown-item span {
+  line-height: 1.2;
+  color: #777a7d;
+}
+
+/* line 305, src/scss/_components/profile/_profile--main.scss */
+.profile__main-update + .dropdown-menu .dropdown-item p,
+.profile__main-update + .dropdown-menu .dropdown-item span {
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+}
+
+/* line 313, src/scss/_components/profile/_profile--main.scss */
+.profile__main-update + .dropdown-menu .dropdown-item p {
+  font-size: 15px;
+  -webkit-transition: color 0.4s ease-in-out;
+  -o-transition: color 0.4s ease-in-out;
+  transition: color 0.4s ease-in-out;
+}
+
+/* line 318, src/scss/_components/profile/_profile--main.scss */
+.profile__main-update + .dropdown-menu .dropdown-item span {
+  font-size: 12px;
+  -webkit-transition: color 0.4s ease-in-out;
+  -o-transition: color 0.4s ease-in-out;
+  transition: color 0.4s ease-in-out;
+}
+
+/* line 326, src/scss/_components/profile/_profile--main.scss */
+.profile__main-toggle {
+  white-space: nowrap;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  max-width: 370px;
+  min-height: 90px;
+  border: 1px dashed #06aa86;
+  padding: 7px 15px 11px;
+}
+
+/* line 338, src/scss/_components/profile/_profile--main.scss */
+.profile__main-toggle-title {
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #757575;
+}
+
+/* line 345, src/scss/_components/profile/_profile--main.scss */
+.profile__main-toggle-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 351, src/scss/_components/profile/_profile--main.scss */
+.profile__main-toggle-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* line 355, src/scss/_components/profile/_profile--main.scss */
+.profile__main-toggle-box > div {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 52px;
+  height: 26px;
+  background-color: #dcdcdc;
+  -webkit-transition: background-color 0.4s ease-in-out;
+  -o-transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
+}
+
+/* line 365, src/scss/_components/profile/_profile--main.scss */
+.profile__main-toggle-box > div.is-active {
+  background-color: #06aa86;
+  -webkit-transition: background-color 0.4s ease-in-out;
+  -o-transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
+}
+
+/* line 369, src/scss/_components/profile/_profile--main.scss */
+.profile__main-toggle-box > div.is-active i {
+  color: #ffffff;
+  -webkit-transition: color 0.4s ease-in-out;
+  -o-transition: color 0.4s ease-in-out;
+  transition: color 0.4s ease-in-out;
+}
+
+/* line 375, src/scss/_components/profile/_profile--main.scss */
+.profile__main-toggle-box > div:nth-of-type(1) {
+  -webkit-border-radius: 3px 0 0 3px;
+          border-radius: 3px 0 0 3px;
+}
+
+/* line 378, src/scss/_components/profile/_profile--main.scss */
+.profile__main-toggle-box > div:nth-of-type(2) {
+  -webkit-border-radius: 0 3px 3px 0;
+          border-radius: 0 3px 3px 0;
+}
+
+/* line 383, src/scss/_components/profile/_profile--main.scss */
+.profile__main-toggle-box i {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #757575;
+  -webkit-transition: color 0.4s ease-in-out;
+  -o-transition: color 0.4s ease-in-out;
+  transition: color 0.4s ease-in-out;
+}
+
+/* line 392, src/scss/_components/profile/_profile--main.scss */
+.profile__main-toggle span {
+  font-size: 14px;
+}
+
+/* line 1, src/scss/_components/profile/_profile--strength.scss */
+.profile__strength {
+  position: relative;
+  padding: 20px 30px;
+}
+
+/* line 5, src/scss/_components/profile/_profile--strength.scss */
+.profile__strength-title {
+  padding-bottom: 40px;
+  font-size: 16px;
+  color: #655e5e;
+  font-weight: 500;
+  letter-spacing: 0.11px;
+}
+
+/* line 13, src/scss/_components/profile/_profile--strength.scss */
+.profile__strength-progress {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 12px;
+  margin-bottom: 25px;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  background-color: #757575;
+  background-image: -webkit-gradient(linear, left top, right top, from(#06aa86), color-stop(50%, #15c), to(#639));
+  background-image: -webkit-linear-gradient(left, #06aa86 0%, #15c 50%, #639 100%);
+  background-image: -o-linear-gradient(left, #06aa86 0%, #15c 50%, #639 100%);
+  background-image: linear-gradient(to right, #06aa86 0%, #15c 50%, #639 100%);
+}
+
+/* line 23, src/scss/_components/profile/_profile--strength.scss */
+.profile__strength-progress > p {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-calc(100% / 4);
+  width: calc(100% / 4);
+  height: 100%;
+  background-color: #dcdcdc;
+}
+
+/* line 29, src/scss/_components/profile/_profile--strength.scss */
+.profile__strength-progress > p:first-of-type {
+  -webkit-border-radius: 6px 0 0 6px;
+          border-radius: 6px 0 0 6px;
+}
+
+/* line 32, src/scss/_components/profile/_profile--strength.scss */
+.profile__strength-progress > p:last-of-type {
+  -webkit-border-radius: 0 6px 6px 0;
+          border-radius: 0 6px 6px 0;
+}
+
+/* line 35, src/scss/_components/profile/_profile--strength.scss */
+.profile__strength-progress > p:not(:last-of-type) {
+  border-right: 1px solid #fff;
+}
+
+/* line 39, src/scss/_components/profile/_profile--strength.scss */
+.profile__strength-progress > p.is-active {
+  background-color: transparent;
+}
+
+/* line 44, src/scss/_components/profile/_profile--strength.scss */
+.profile__strength-progress-ind {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 32px;
+  height: 32px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  border: 1px solid #5e359d;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+}
+
+/* line 58, src/scss/_components/profile/_profile--strength.scss */
+.profile__strength-progress-ind .icon-font {
+  color: #5e359d;
+  font-size: 16px;
+}
+
+/* line 63, src/scss/_components/profile/_profile--strength.scss */
+.profile__strength-progress-ind > div {
+  position: absolute;
+  left: 50%;
+  bottom: -webkit-calc(100% + 4px);
+  bottom: calc(100% + 4px);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 27px;
+  padding: 2px 14px;
+  -webkit-border-radius: 2em;
+          border-radius: 2em;
+  background-color: #eee;
+  color: #0f58ca;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+/* line 82, src/scss/_components/profile/_profile--strength.scss */
+.profile__strength-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  border: 1px solid #dcdcdc;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  background-color: #eee;
+}
+
+/* line 90, src/scss/_components/profile/_profile--strength.scss */
+.profile__strength-box > div:nth-of-type(1) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 96px;
+  padding-right: 20px;
+}
+
+/* line 97, src/scss/_components/profile/_profile--strength.scss */
+.profile__strength-box > div:nth-of-type(2) {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 104, src/scss/_components/profile/_profile--strength.scss */
+.profile__strength-box img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+/* line 111, src/scss/_components/profile/_profile--strength.scss */
+.profile__strength-box p {
+  padding-bottom: 7px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #9801ad;
+}
+
+/* line 119, src/scss/_components/profile/_profile--strength.scss */
+.profile__strength-box span {
+  font-size: 15px;
+  line-height: 20px;
+  color: #616161;
+}
+
+/* line 1, src/scss/_components/profile/_profile--about.scss */
+.profile__about {
+  position: relative;
+  padding: 20px 30px;
+  background-color: #639;
+  background-image: -webkit-linear-gradient(295deg, #9801ad 0%, #639 100%);
+  background-image: -o-linear-gradient(295deg, #9801ad 0%, #639 100%);
+  background-image: linear-gradient(-205deg, #9801ad 0%, #639 100%);
+}
+
+/* line 7, src/scss/_components/profile/_profile--about.scss */
+.profile__about-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+/* line 13, src/scss/_components/profile/_profile--about.scss */
+.profile__about-title p {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* line 19, src/scss/_components/profile/_profile--about.scss */
+.profile__about-title a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 22, src/scss/_components/profile/_profile--about.scss */
+.profile__about-title a .icon-font {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+/* line 29, src/scss/_components/profile/_profile--about.scss */
+.profile__about-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 33, src/scss/_components/profile/_profile--about.scss */
+.profile__about-box > div {
+  width: 100%;
+  max-width: -webkit-calc((100% - 30px) / 2);
+  max-width: calc((100% - 30px) / 2);
+  height: 150px;
+  padding: 15px 15px 15px 20px;
+  border: 1px solid #999;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  background-color: #ffffff;
+}
+
+/* line 42, src/scss/_components/profile/_profile--about.scss */
+.profile__about-box > div p {
+  overflow-y: auto;
+  width: 100%;
+  height: 100%;
+  line-height: 1.6em;
+  font-size: 13px;
+  color: #616161;
+}
+
+/* line 1, src/scss/_components/profile/_profile--experience.scss */
+.profile__experiences {
+  position: relative;
+  padding: 20px 30px 20px;
+}
+
+/* line 6, src/scss/_components/profile/_profile--experience.scss */
+.profile__experiences-wrapper-1 {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+/* line 13, src/scss/_components/profile/_profile--experience.scss */
+.profile__experiences-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 34px;
+}
+
+/* line 20, src/scss/_components/profile/_profile--experience.scss */
+.profile__experiences-title {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #655e5e;
+  font-weight: 500;
+  letter-spacing: 0.11px;
+}
+
+/* line 28, src/scss/_components/profile/_profile--experience.scss */
+.profile__experiences-edit {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #0f58ca;
+}
+
+/* line 33, src/scss/_components/profile/_profile--experience.scss */
+.profile__experiences-edit .icon-font {
+  margin-right: 3px;
+  color: #0f58ca;
+  font-size: 11px;
+}
+
+/* line 39, src/scss/_components/profile/_profile--experience.scss */
+.profile__experiences-edit span {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+/* line 47, src/scss/_components/profile/_profile--experience.scss */
+.profile__experiences-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 50, src/scss/_components/profile/_profile--experience.scss */
+.profile__experiences-box:not(:last-of-type) {
+  padding-bottom: 18px;
+}
+
+/* line 55, src/scss/_components/profile/_profile--experience.scss */
+.profile__experiences-box > div:nth-of-type(1) {
+  width: 85px;
+}
+
+/* line 58, src/scss/_components/profile/_profile--experience.scss */
+.profile__experiences-box > div:nth-of-type(2) {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 63, src/scss/_components/profile/_profile--experience.scss */
+.profile__experiences-box > div:nth-of-type(2) h2 {
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  color: #626262;
+  font-weight: 500;
+  line-height: 22px;
+  font-size: 15px;
+}
+
+/* line 73, src/scss/_components/profile/_profile--experience.scss */
+.profile__experiences-box > div:nth-of-type(2) h3 {
+  line-height: 20px;
+  color: #4b4848;
+}
+
+/* line 78, src/scss/_components/profile/_profile--experience.scss */
+.profile__experiences-box > div:nth-of-type(2) p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #4b4848;
+}
+
+/* line 84, src/scss/_components/profile/_profile--experience.scss */
+.profile__experiences-box > div:nth-of-type(2) span {
+  display: block;
+  color: #797777;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+/* line 91, src/scss/_components/profile/_profile--experience.scss */
+.profile__experiences-box > div:nth-of-type(3) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 50px;
+}
+
+/* line 99, src/scss/_components/profile/_profile--experience.scss */
+.profile__experiences-box-icon {
+  position: relative;
+  width: 65px;
+  height: 61px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  background-color: #eee;
+}
+
+/* line 109, src/scss/_components/profile/_profile--experience.scss */
+.profile__experiences-box-icon .icon-font {
+  color: #663399;
+  font-size: 28px;
+}
+
+/* line 115, src/scss/_components/profile/_profile--experience.scss */
+.profile__experiences-box a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #0f58ca;
+}
+
+/* line 120, src/scss/_components/profile/_profile--experience.scss */
+.profile__experiences-box a .icon-font {
+  margin-right: 3px;
+  color: #0f58ca;
+  font-size: 13px;
+}
+
+/* line 126, src/scss/_components/profile/_profile--experience.scss */
+.profile__experiences-box a span {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+/* line 1, src/scss/_components/profile/_profile--skills.scss */
+.profile__skills {
+  position: relative;
+  padding: 20px 30px 20px;
+}
+
+/* line 5, src/scss/_components/profile/_profile--skills.scss */
+.profile__skills-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 34px;
+}
+
+/* line 12, src/scss/_components/profile/_profile--skills.scss */
+.profile__skills-title {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #655e5e;
+  font-weight: 500;
+  letter-spacing: 0.11px;
+}
+
+/* line 20, src/scss/_components/profile/_profile--skills.scss */
+.profile__skills-edit {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #0f58ca;
+}
+
+/* line 25, src/scss/_components/profile/_profile--skills.scss */
+.profile__skills-edit .icon-font {
+  margin-right: 3px;
+  color: #0f58ca;
+  font-size: 11px;
+}
+
+/* line 31, src/scss/_components/profile/_profile--skills.scss */
+.profile__skills-edit span {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+/* line 40, src/scss/_components/profile/_profile--skills.scss */
+.profile__skills-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+/* line 44, src/scss/_components/profile/_profile--skills.scss */
+.profile__skills-list li {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 25px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  font-size: 15px;
+  padding: 2px 17px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  background-color: #a385c2;
+  color: #fff;
+}
+
+/* line 1, src/scss/_components/profile/_profile--manage.scss */
+.profile__manage {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 340px;
+  padding: 20px 30px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  background-color: #f3f3f3;
+  -webkit-box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+}
+
+/* line 12, src/scss/_components/profile/_profile--manage.scss */
+.profile__manage > div:nth-of-type(1) {
+  width: 19px;
+  padding-top: 3px;
+}
+
+/* line 16, src/scss/_components/profile/_profile--manage.scss */
+.profile__manage > div:nth-of-type(2) {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 23, src/scss/_components/profile/_profile--manage.scss */
+.profile__manage .icon-font {
+  color: gray;
+  font-size: 15px;
+}
+
+/* line 28, src/scss/_components/profile/_profile--manage.scss */
+.profile__manage p {
+  color: gray;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* line 34, src/scss/_components/profile/_profile--manage.scss */
+.profile__manage span {
+  padding-top: 5px;
+  font-size: 13px;
+  color: #222;
+}
+
+/* line 1, src/scss/_components/profile/_profile--jobs.scss */
 .profile__recommended {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2881,20 +5565,20 @@ picture {
           flex-direction: column;
 }
 
-/* line 37, src/scss/_components/profile/_profile.scss */
+/* line 5, src/scss/_components/profile/_profile--jobs.scss */
 .profile__recommended-head {
   padding: 18px 30px;
   background-color: #639;
 }
 
-/* line 41, src/scss/_components/profile/_profile.scss */
+/* line 9, src/scss/_components/profile/_profile--jobs.scss */
 .profile__recommended-head p {
   color: #fff;
   font-weight: 500;
   font-size: 14px;
 }
 
-/* line 48, src/scss/_components/profile/_profile.scss */
+/* line 16, src/scss/_components/profile/_profile--jobs.scss */
 .profile__recommended-body {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2907,7 +5591,7 @@ picture {
           flex-direction: column;
 }
 
-/* line 53, src/scss/_components/profile/_profile.scss */
+/* line 21, src/scss/_components/profile/_profile--jobs.scss */
 .profile__recommended-job {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2922,13 +5606,13 @@ picture {
   background-color: white;
 }
 
-/* line 61, src/scss/_components/profile/_profile.scss */
+/* line 29, src/scss/_components/profile/_profile--jobs.scss */
 .profile__recommended-job > div:nth-of-type(1) {
   width: 68px;
   padding-right: 18px;
 }
 
-/* line 65, src/scss/_components/profile/_profile.scss */
+/* line 33, src/scss/_components/profile/_profile--jobs.scss */
 .profile__recommended-job > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -2938,7 +5622,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 72, src/scss/_components/profile/_profile.scss */
+/* line 40, src/scss/_components/profile/_profile--jobs.scss */
 .profile__recommended-job-img {
   overflow: hidden;
   position: relative;
@@ -2958,7 +5642,7 @@ picture {
   height: 40px;
 }
 
-/* line 81, src/scss/_components/profile/_profile.scss */
+/* line 49, src/scss/_components/profile/_profile--jobs.scss */
 .profile__recommended-job-img img {
   display: block;
   max-width: 100%;
@@ -2966,7 +5650,7 @@ picture {
   max-height: 100%;
 }
 
-/* line 89, src/scss/_components/profile/_profile.scss */
+/* line 57, src/scss/_components/profile/_profile--jobs.scss */
 .profile__recommended-job p {
   overflow: hidden;
   white-space: nowrap;
@@ -2978,7 +5662,7 @@ picture {
   color: #15c;
 }
 
-/* line 99, src/scss/_components/profile/_profile.scss */
+/* line 67, src/scss/_components/profile/_profile--jobs.scss */
 .profile__recommended-job span {
   display: block;
   color: #757575;
@@ -2987,7 +5671,7 @@ picture {
   line-height: 22px;
 }
 
-/* line 109, src/scss/_components/profile/_profile.scss */
+/* line 1, src/scss/_components/profile/_profile--employers.scss */
 .profile__employers {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3002,7 +5686,7 @@ picture {
   padding-right: 20px;
 }
 
-/* line 115, src/scss/_components/profile/_profile.scss */
+/* line 7, src/scss/_components/profile/_profile--employers.scss */
 .profile__employers-divider {
   width: 100%;
   height: 1px;
@@ -3010,7 +5694,7 @@ picture {
   background-color: #dcdcdc;
 }
 
-/* line 122, src/scss/_components/profile/_profile.scss */
+/* line 14, src/scss/_components/profile/_profile--employers.scss */
 .profile__employers-title {
   padding-bottom: 5px;
   font-weight: 500;
@@ -3019,7 +5703,7 @@ picture {
   color: #655e5e;
 }
 
-/* line 130, src/scss/_components/profile/_profile.scss */
+/* line 22, src/scss/_components/profile/_profile--employers.scss */
 .profile__employers-link {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3037,7 +5721,7 @@ picture {
   height: 65px;
 }
 
-/* line 137, src/scss/_components/profile/_profile.scss */
+/* line 29, src/scss/_components/profile/_profile--employers.scss */
 .profile__employers-link img {
   display: block;
   max-width: 100%;
@@ -3045,7 +5729,7 @@ picture {
   max-height: 100%;
 }
 
-/* line 144, src/scss/_components/profile/_profile.scss */
+/* line 36, src/scss/_components/profile/_profile--employers.scss */
 .profile__employers-link-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3056,21 +5740,20 @@ picture {
           flex-wrap: wrap;
 }
 
-/* line 148, src/scss/_components/profile/_profile.scss */
+/* line 40, src/scss/_components/profile/_profile--employers.scss */
 .profile__employers-link-wrapper > div {
   width: -webkit-calc(100% / 3);
   width: calc(100% / 3);
   padding-top: 25px;
 }
 
-/* line 156, src/scss/_components/profile/_profile.scss */
+/* line 1, src/scss/_components/profile/_profile--news.scss */
 .profile__news {
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 30px;
 }
 
-/* line 161, src/scss/_components/profile/_profile.scss */
+/* line 5, src/scss/_components/profile/_profile--news.scss */
 .profile__news-title {
   padding-bottom: 30px;
   font-weight: 500;
@@ -3079,7 +5762,7 @@ picture {
   color: #655e5e;
 }
 
-/* line 169, src/scss/_components/profile/_profile.scss */
+/* line 13, src/scss/_components/profile/_profile--news.scss */
 .profile__news-link {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3091,13 +5774,13 @@ picture {
           align-items: center;
 }
 
-/* line 174, src/scss/_components/profile/_profile.scss */
+/* line 18, src/scss/_components/profile/_profile--news.scss */
 .profile__news-link > div:nth-of-type(1) {
   width: 132px;
   padding-right: 23px;
 }
 
-/* line 178, src/scss/_components/profile/_profile.scss */
+/* line 22, src/scss/_components/profile/_profile--news.scss */
 .profile__news-link > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -3107,7 +5790,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 185, src/scss/_components/profile/_profile.scss */
+/* line 29, src/scss/_components/profile/_profile--news.scss */
 .profile__news-link-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3120,12 +5803,12 @@ picture {
           flex-direction: column;
 }
 
-/* line 189, src/scss/_components/profile/_profile.scss */
+/* line 33, src/scss/_components/profile/_profile--news.scss */
 .profile__news-link-wrapper > div {
   padding-bottom: 14px;
 }
 
-/* line 194, src/scss/_components/profile/_profile.scss */
+/* line 38, src/scss/_components/profile/_profile--news.scss */
 .profile__news-link-img {
   overflow: hidden;
   position: relative;
@@ -3145,7 +5828,7 @@ picture {
   height: 109px;
 }
 
-/* line 208, src/scss/_components/profile/_profile.scss */
+/* line 52, src/scss/_components/profile/_profile--news.scss */
 .profile__news-link span {
   display: block;
   padding-bottom: 5px;
@@ -3154,7 +5837,7 @@ picture {
   color: #616161;
 }
 
-/* line 216, src/scss/_components/profile/_profile.scss */
+/* line 60, src/scss/_components/profile/_profile--news.scss */
 .profile__news-link p {
   font-family: 'Lucida Grande', sans-serif;
   font-size: 14px;
@@ -3162,7 +5845,7 @@ picture {
   color: #222;
 }
 
-/* line 224, src/scss/_components/profile/_profile.scss */
+/* line 68, src/scss/_components/profile/_profile--news.scss */
 .profile__news-link {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3180,6 +5863,185 @@ picture {
   font-size: 13px;
   color: #15c;
   text-align: center;
+}
+
+/* line 4, src/scss/_components/manage-account-setting/_manage.scss */
+.manage__head {
+  padding: 18px 30px;
+  background-color: #639;
+}
+
+/* line 8, src/scss/_components/manage-account-setting/_manage.scss */
+.manage__head p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* line 15, src/scss/_components/manage-account-setting/_manage.scss */
+.manage__body {
+  position: relative;
+  padding: 30px;
+}
+
+/* line 20, src/scss/_components/manage-account-setting/_manage.scss */
+.manage__title {
+  padding-bottom: 10px;
+  font-weight: 500;
+  color: #222;
+  font-size: 16px;
+}
+
+/* line 27, src/scss/_components/manage-account-setting/_manage.scss */
+.manage__block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 32, src/scss/_components/manage-account-setting/_manage.scss */
+.manage__block > div:nth-of-type(1) {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 37, src/scss/_components/manage-account-setting/_manage.scss */
+.manage__block > div:nth-of-type(2) {
+  width: 70px;
+}
+
+/* line 42, src/scss/_components/manage-account-setting/_manage.scss */
+.manage__block-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 46, src/scss/_components/manage-account-setting/_manage.scss */
+.manage__block-wrapper > div {
+  padding: 10px 0 13px 0;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+/* line 52, src/scss/_components/manage-account-setting/_manage.scss */
+.manage__block p {
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 29.01px;
+  color: #757575;
+}
+
+/* line 62, src/scss/_components/manage-account-setting/_manage.scss */
+.manage__block span {
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #222;
+}
+
+/* line 73, src/scss/_components/manage-account-setting/_manage.scss */
+.manage__block a {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-weight: 500;
+  font-size: 13px;
+  color: #f28902;
+}
+
+/* line 82, src/scss/_components/manage-account-setting/_manage.scss */
+.manage__block u {
+  display: block;
+  text-decoration: none;
+  font-weight: 500;
+  color: #616161;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+/* line 92, src/scss/_components/manage-account-setting/_manage.scss */
+.manage__more {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 96, src/scss/_components/manage-account-setting/_manage.scss */
+.manage__more-toggle {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 0;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 12px;
+  color: #000000;
+}
+
+/* line 104, src/scss/_components/manage-account-setting/_manage.scss */
+.manage__more-toggle:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+/* line 111, src/scss/_components/manage-account-setting/_manage.scss */
+.manage__more-collapse p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #222;
+}
+
+/* line 117, src/scss/_components/manage-account-setting/_manage.scss */
+.manage__more-collapse p strong {
+  font-weight: 500;
+}
+
+/* line 121, src/scss/_components/manage-account-setting/_manage.scss */
+.manage__more-collapse p u {
+  text-decoration: underline;
+}
+
+/* line 127, src/scss/_components/manage-account-setting/_manage.scss */
+.manage__more-collapse .c-btn span {
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+/* line 132, src/scss/_components/manage-account-setting/_manage.scss */
+.manage__more-collapse .c-btn__wrapper {
+  padding-top: 15px;
 }
 
 /*# sourceMappingURL=maps/app.css.map */

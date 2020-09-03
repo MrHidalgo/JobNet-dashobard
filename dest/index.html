@@ -9,12 +9,13 @@
     <meta name="robots" content="noindex">
     <meta name="AdsBot-Google" content="noindex">
     <!-- TITLE-->
-    <title>JobNet | Dashbobard</title>
+    <title>JobNet | Dashboard</title>
     <!-- FAVICON-->
     <link rel="shortcut icon" href="./icon/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&amp;family=Roboto:wght@100;300;400;500;700;900&amp;family=Lato:wght@100;300;400;700;900&amp;display=swap" rel="stylesheet">
     <!-- STYLE :: START-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/app.css">
     <!-- STYLE :: END-->
@@ -125,7 +126,271 @@
       <section class="profile" id="profile">
         <div class="c-grid">
           <div class="profile__wrapper">
-            <div class="profile__wrapper-left"></div>
+            <div class="profile__wrapper-left">
+              <div class="profile__main section__block">
+                <div class="profile__main-bg">
+                  <div></div>
+                </div>
+                <div class="profile__main-box">
+                  <div class="profile__main-head">
+                    <div>
+                      <div class="profile__main-user"><img src="img/img-user.jpg" alt=""></div><a class="profile__main-qr" href="#" data-toggle="modal" data-target="#modalProfileQr"><img src="img/img-qr-code-small.png" alt=""></a>
+                    </div>
+                    <div><a class="profile__main-edit" href="#" data-toggle="modal" data-target="#modalProfileMain"><i class="icon-font icon-edit"></i><span>Edit</span></a></div>
+                  </div>
+                  <div class="profile__main-body">
+                    <div class="profile__main-body-wrapper profile__main-body-wrapper-1">
+                      <div>
+                        <p class="profile__main-name">Htet Aung Kyaw</p>
+                        <p class="profile__main-position">Digital Marketing Manager</p>
+                        <p class="profile__main-country">YANGON</p>
+                      </div>
+                      <div>
+                        <div class="profile__main-info">
+                          <div>
+                            <div class="profile__main-info-box">
+                              <div><i class="icon-font icon-star"></i></div>
+                              <div>
+                                <p>28 years</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div>
+                            <div class="profile__main-info-box">
+                              <div><i class="icon-font icon-star"></i></div>
+                              <div>
+                                <p>Myanmar</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div>
+                            <div class="profile__main-info-box">
+                              <div><i class="icon-font icon-star"></i></div>
+                              <div>
+                                <p>09972418987</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div>
+                            <div class="profile__main-info-box">
+                              <div><i class="icon-font icon-star"></i></div>
+                              <div>
+                                <p>htetaungkyaw.viper@gmail.com</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="profile__main-body-wrapper profile__main-body-wrapper-2">
+                      <div>
+                        <div class="c-btn__wrapper profile__main-action"><a class="c-btn c-btn--purple profile__main-update" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Update Profile</span><i class="icon-font icon-keyboard-arrow-down"></i></a>
+                          <div class="dropdown-menu"><a class="dropdown-item" href="#">
+                              <div><i class="icon-font icon-cogwheel"></i></div>
+                              <div>
+                                <p>Personal Details</p>
+                              </div>
+                              <div><i class="icon-font icon-plus-sign"></i></div></a><a class="dropdown-item" href="#">
+                              <div><i class="icon-font icon-cogwheel"></i></div>
+                              <div>
+                                <p>About Me</p>
+                              </div>
+                              <div><i class="icon-font icon-plus-sign"></i></div></a><a class="dropdown-item" href="#">
+                              <div><i class="icon-font icon-cogwheel"></i></div>
+                              <div>
+                                <p>Work Experience</p><span>2 work experiences on your profile</span>
+                              </div>
+                              <div><i class="icon-font icon-plus-sign"></i></div></a><a class="dropdown-item" href="#">
+                              <div><i class="icon-font icon-cogwheel"></i></div>
+                              <div>
+                                <p>Education</p><span>3 educations on your profile</span>
+                              </div>
+                              <div><i class="icon-font icon-plus-sign"></i></div></a><a class="dropdown-item" href="#">
+                              <div><i class="icon-font icon-cogwheel"></i></div>
+                              <div>
+                                <p>Skills</p><span>6 skills on your profile</span>
+                              </div>
+                              <div><i class="icon-font icon-plus-sign"></i></div></a><a class="dropdown-item" href="#">
+                              <div><i class="icon-font icon-cogwheel"></i></div>
+                              <div>
+                                <p>Languages</p><span>1 language on your profile</span>
+                              </div>
+                              <div><i class="icon-font icon-plus-sign"></i></div></a><a class="dropdown-item" href="#">
+                              <div><i class="icon-font icon-cogwheel"></i></div>
+                              <div>
+                                <p>Reference</p><span>0 reference on your profile</span>
+                              </div>
+                              <div><i class="icon-font icon-plus-sign"></i></div></a><a class="dropdown-item" href="#">
+                              <div><i class="icon-font icon-cogwheel"></i></div>
+                              <div>
+                                <p>Industries</p><span>1 industry on your profile</span>
+                              </div>
+                              <div><i class="icon-font icon-plus-sign"></i></div></a></div><a class="c-btn c-btn--borderGreen profile__main-upload" href="#"><span>Upload your CV</span></a>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="profile__main-toggle">
+                          <p class="profile__main-toggle-title">Show Recruiters you are Open to work</p>
+                          <div class="profile__main-toggle-wrapper">
+                            <div><span>Open to Work opportunity</span></div>
+                            <div>
+                              <div class="profile__main-toggle-box">
+                                <div profile-opportunity-js><i>Yes</i></div>
+                                <div class="is-active" profile-opportunity-js><i>No</i></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="profile__main-footer">
+                    <div>
+                      <p>EMPLOYMENT STATUS</p><span>Not Open to Work</span>
+                    </div>
+                    <div>
+                      <p>EXPERIENCE LEVEL</p><span>Manager</span>
+                    </div>
+                    <div>
+                      <p>JOB FUNCTION / CATEGORY</p><span>Marketing, Media, Creative, Administrative</span>
+                    </div>
+                    <div>
+                      <p>EXPECTED SALARY</p><span>1,500,000 Ks</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="profile__strength section__block">
+                <p class="profile__strength-title">PROFILE STRENGTH</p>
+                <div class="profile__strength-progress">
+                  <p class="is-active"></p>
+                  <p class="is-active"></p>
+                  <p class="is-active"></p>
+                  <p class="is-active"></p>
+                  <div class="profile__strength-progress-ind" style="left: 98%;"><i class="icon-font icon-cogwheel"></i>
+                    <div>98%</div>
+                  </div>
+                </div>
+                <div class="profile__strength-box">
+                  <div><img src="img/img-profile-strength-cup.png" alt=""></div>
+                  <div>
+                    <p>WHY UPDATE MY PROFILE</p><span>Upgrade your Premium profile with your most recent Work Experiences and Education, so Employers can find you and send you amazing job offers!</span>
+                  </div>
+                </div>
+              </div>
+              <div class="profile__about section__block">
+                <div class="profile__about-title">
+                  <div>
+                    <p>About Htet Aung Kyaw</p>
+                  </div>
+                  <div><a href="#" data-toggle="modal" data-target="#modalProfileAbout"><i class="icon-font icon-edit"></i></a></div>
+                </div>
+                <div class="profile__about-box">
+                  <div>
+                    <p>Digital Marketing Specialist with a proven track record in delivering growth for business website.Currently working at the JobNet.com.mm as Digital Marketing Manager ,managing the content marketing, Email marketing, Social Media Marketing, Google Adwords planning and monitor our digital activities through Google Analytic and identify best practices and improve overall digital performance.</p>
+                  </div>
+                  <div>
+                    <p>Be the best at what I do.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="profile__experiences section__block">
+                <div class="profile__experiences-wrapper profile__experiences-wrapper-1">
+                  <div class="profile__experiences-header">
+                    <div>
+                      <p class="profile__experiences-title">WORK EXPERIENCES</p>
+                    </div>
+                    <div><a class="profile__experiences-edit" href="#" data-toggle="modal" data-target="#modalProfileExperiences"><i class="icon-font icon-plus"></i><span>Add</span></a></div>
+                  </div>
+                  <div class="profile__experiences-box">
+                    <div>
+                      <div class="profile__experiences-box-icon"><i class="icon-font icon-bank"></i></div>
+                    </div>
+                    <div>
+                      <h2>Digital Marketing Manger</h2>
+                      <h3>JobNet.com.mm</h3>
+                      <p>From: September, 2017 - Present</p><span>Full responsibility to prepare and execute the JobNet digital marketing strategy and execution (with support from the Marketing Director)Full responsibility of paid digital advertising, including but not limited to:Social Media advertisingSearch Engine advertisingEmail/ Database Marketing advertisin...</span>
+                    </div>
+                    <div><a href="#"><i class="icon-font icon-edit"></i><span>Edit</span></a></div>
+                  </div>
+                  <div class="profile__experiences-box">
+                    <div>
+                      <div class="profile__experiences-box-icon"><i class="icon-font icon-bank"></i></div>
+                    </div>
+                    <div>
+                      <h2>Digital Marketing Executive</h2>
+                      <h3>JobNet</h3>
+                      <p>From: December, 2016 - August, 2017</p><span>Content WritingFacebook Campaigns Analyse and report</span>
+                    </div>
+                    <div><a href="#"><i class="icon-font icon-edit"></i><span>Edit</span></a></div>
+                  </div>
+                </div>
+                <div class="profile__experiences-wrapper profile__experiences-wrapper-2">
+                  <div class="profile__experiences-header">
+                    <div>
+                      <p class="profile__experiences-title">EDUCATION</p>
+                    </div>
+                    <div><a class="profile__experiences-edit" href="#" data-toggle="modal" data-target="#modalProfileEducation"><i class="icon-font icon-plus"></i><span>Add</span></a></div>
+                  </div>
+                  <div class="profile__experiences-box">
+                    <div>
+                      <div class="profile__experiences-box-icon"><i class="icon-font icon-bank"></i></div>
+                    </div>
+                    <div>
+                      <h2>Digital Marketing Executive</h2>
+                      <h3>JobNet</h3>
+                      <p>From: December, 2016 - August, 2017</p>
+                    </div>
+                    <div><a href="#"><i class="icon-font icon-edit"></i><span>Edit</span></a></div>
+                  </div>
+                  <div class="profile__experiences-box">
+                    <div>
+                      <div class="profile__experiences-box-icon"><i class="icon-font icon-bank"></i></div>
+                    </div>
+                    <div>
+                      <h2>Digital Marketing Executive</h2>
+                      <h3>JobNet</h3>
+                      <p>From: December, 2016 - August, 2017</p>
+                    </div>
+                    <div><a href="#"><i class="icon-font icon-edit"></i><span>Edit</span></a></div>
+                  </div>
+                  <div class="profile__experiences-box">
+                    <div>
+                      <div class="profile__experiences-box-icon"><i class="icon-font icon-bank"></i></div>
+                    </div>
+                    <div>
+                      <h2>Digital Marketing Executive</h2>
+                      <h3>JobNet</h3>
+                      <p>From: December, 2016 - August, 2017</p>
+                    </div>
+                    <div><a href="#"><i class="icon-font icon-edit"></i><span>Edit</span></a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="profile__skills section__block">
+                <div class="profile__skills-header">
+                  <div>
+                    <p class="profile__skills-title">Skills</p>
+                  </div>
+                  <div><a class="profile__skills-edit" href="#" data-toggle="modal" data-target="#modalProfileSkills"><i class="icon-font icon-edit"></i><span>Edit</span></a></div>
+                </div>
+                <ul class="profile__skills-list">
+                  <li>Content Writing</li>
+                  <li>Adwords</li>
+                  <li>Google Analytics</li>
+                  <li>Social Media PPC Marketing</li>
+                  <li>Data Analysis</li>
+                  <li>Copy Writing</li>
+                </ul>
+              </div>
+              <div class="profile__languages section__block"></div>
+              <div class="profile__references section__block"></div>
+              <div class="profile__preferred section__block"></div><a class="profile__manage" href="/manage-account-setting.html">
+                <div><i class="icon-font icon-settings"></i></div>
+                <div>
+                  <p>Manage your account and privacy.</p><span>Go to your Settings.</span>
+                </div></a>
+            </div>
             <div class="profile__wrapper-right">
               <div class="profile__section">
                 <div class="profile__recommended">
@@ -266,11 +531,1747 @@
       </ul>
     </footer>
     <!-- FOOTER :: END-->
+    <!-- SECTION :: START-->
+    <div class="modal-profile-main modal fade" id="modalProfileMain" tabindex="-1" role="dialog" aria-labelledby="modalProfileMain" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div>
+              <h5 class="modal-title">Update Personal Details</h5>
+            </div>
+            <div>
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close"><i class="icon-font icon-close"></i></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="modal__header">
+              <div class="modal__header-bg">
+                <div></div>
+              </div>
+              <div class="modal__header-user"><img src="img/img-user.jpg" alt=""></div>
+            </div>
+            <div class="modal__step">
+              <p>STEP 1 : YOUR ACCOUNT DETAILS</p>
+            </div>
+            <form class="modal__form" action="" method="" autocomplete="off">
+              <p class="modal__form-title">Your Contact Details</p>
+              <div class="modal__form-group">
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="email">Email <span>*</span></label>
+                    <input type="email" id="email" name="email">
+                  </div>
+                </div>
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="tel">Phone Number <span>*</span></label>
+                    <input type="tel" id="tel" name="tel" placeholder="">
+                  </div>
+                </div>
+              </div>
+              <div class="modal__form-group">
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="first_name">First Name <span>*</span></label>
+                    <input type="text" id="first_name" name="first_name">
+                  </div>
+                </div>
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="last_name">Last Name <span>*</span></label>
+                    <input type="text" id="last_name" name="last_name" placeholder="">
+                  </div>
+                </div>
+              </div>
+              <div class="modal__form-group">
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="gender">Gender</label>
+                    <select id="gender">
+                      <option value="0" selected="selected">Choose Gender</option>
+                      <option value="1">Male</option>
+                      <option value="2">Female</option>
+                    </select>
+                  </div>
+                </div>
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="location_division">Your Location / Division <span>*</span></label>
+                    <select id="location_division">
+                      <option value="0" selected="selected">Choose Location</option>
+                      <option value="1">Yangon</option>
+                      <option value="2">Mandalay</option>
+                      <option value="3">NayPyiTaw</option>
+                      <option value="9">Ayeyawady Division</option>
+                      <option value="5">Bago Division</option>
+                      <option value="14">Chin State</option>
+                      <option value="10">Kachin State</option>
+                      <option value="15">Kayah State</option>
+                      <option value="13">Kayin State</option>
+                      <option value="7">Magway Division</option>
+                      <option value="8">Mon State</option>
+                      <option value="11">Rakhine State</option>
+                      <option value="6">Sagaing Division</option>
+                      <option value="4">Shan State</option>
+                      <option value="12">Taninthayi Division</option>
+                      <option value="24">Singapore</option>
+                      <option value="25">Malaysia</option>
+                      <option value="26">Thailand</option>
+                      <option value="27">Australia</option>
+                      <option value="28">UK</option>
+                      <option value="29">USA</option>
+                      <option value="16">International</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="modal__form-group">
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="your_township">Your Township</label>
+                    <select id="your_township" select-dropdown-js>
+                      <option value="1">Ahlon</option>
+                      <option value="2">Bahan</option>
+                      <option value="3">Botahtaung</option>
+                      <option value="4">Dagon</option>
+                      <option value="5">Dagon Myothit (East)</option>
+                      <option value="7">Dagon Myothit (North)</option>
+                      <option value="8">Dagon Myothit (Seikkan)</option>
+                      <option value="9">Dagon Myothit (South)</option>
+                      <option value="6">Dagon Myothit (West)</option>
+                      <option value="10">Dala</option>
+                      <option value="11">Dawbon</option>
+                      <option value="12">Hlaing</option>
+                      <option value="13">Hlaingtharya</option>
+                      <option value="14">Hlegu</option>
+                      <option value="15">Hmawbi</option>
+                      <option value="16">Htantabin</option>
+                      <option value="17">Insein</option>
+                      <option value="18">Kamaryut</option>
+                      <option value="19">Kawhmu</option>
+                      <option value="20">Kayan</option>
+                      <option value="21">Kungyangon</option>
+                      <option value="22">Kyauktada</option>
+                      <option value="23">Kyauktan</option>
+                      <option value="24">Kyeemyindaing</option>
+                      <option value="25">Lanmadaw</option>
+                      <option value="26">Latha</option>
+                      <option value="27">Mayangone</option>
+                      <option value="28">Mingaladon</option>
+                      <option value="29">Mingalartaungnyunt</option>
+                      <option value="30">North Okkalapa</option>
+                      <option value="31">Pabedan</option>
+                      <option value="46">Palae Myothit</option>
+                      <option value="32">Pazundaung</option>
+                      <option value="33">Sanchaung</option>
+                      <option value="34">Seikgyikanaungto</option>
+                      <option value="45">Shwe Pauk Kan</option>
+                      <option value="35">Shwepyithar</option>
+                      <option value="36">South Okkalapa</option>
+                      <option value="37">Taikkyi</option>
+                      <option value="38">Tamwe</option>
+                      <option value="39">Thaketa</option>
+                      <option value="40">Thanlyin</option>
+                      <option value="41">Thingangkuun</option>
+                      <option value="42">Thongwa</option>
+                      <option value="43">Twantay</option>
+                      <option value="44">Yankin</option>
+                    </select>
+                  </div>
+                </div>
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="nationality">Nationality <span>*</span></label>
+                    <select id="nationality">
+                      <option value="0" selected="selected">Choose Nationality</option>
+                      <option value="4">Afhganistan</option>
+                      <option value="16">Aland Islands</option>
+                      <option value="7">Albania</option>
+                      <option value="63">Algeria</option>
+                      <option value="12">American Samoa</option>
+                      <option value="10">Anartica</option>
+                      <option value="2">Andorra</option>
+                      <option value="9">Angola</option>
+                      <option value="6">Anguilla</option>
+                      <option value="5">Antigua and Barbuda</option>
+                      <option value="11">Argentina</option>
+                      <option value="8">Armenia</option>
+                      <option value="15">Aruba</option>
+                      <option value="14">Australlia</option>
+                      <option value="13">Austria</option>
+                      <option value="17">Azerbaijan</option>
+                      <option value="19">Babados</option>
+                      <option value="33">Bahamas</option>
+                      <option value="24">Bahrian</option>
+                      <option value="20">Bangladesh</option>
+                      <option value="37">Belarus</option>
+                      <option value="21">Belgium</option>
+                      <option value="38">Belize</option>
+                      <option value="26">Benin</option>
+                      <option value="28">Bermuda</option>
+                      <option value="34">Bhutan</option>
+                      <option value="30">Bolivia</option>
+                      <option value="31">Bonaire, Saint Eustatuis and Saba</option>
+                      <option value="18">Bosnia and Herzegovina</option>
+                      <option value="36">Botswana</option>
+                      <option value="35">Bouvet Island</option>
+                      <option value="32">Brazil</option>
+                      <option value="107">British Indian Ocean Territory</option>
+                      <option value="240">British Virgin Islands</option>
+                      <option value="29">Brunei</option>
+                      <option value="23">Bulgaria</option>
+                      <option value="22">Burkina Faso</option>
+                      <option value="25">Burundi</option>
+                      <option value="118">Cambodia</option>
+                      <option value="48">Cameroon</option>
+                      <option value="39">Canada</option>
+                      <option value="53">Cape Verde</option>
+                      <option value="126">Cayman Islands</option>
+                      <option value="42">Central African Republic</option>
+                      <option value="216">Chad</option>
+                      <option value="47">Chile</option>
+                      <option value="49">China</option>
+                      <option value="55">Christmas Island</option>
+                      <option value="40">Cocos Islands</option>
+                      <option value="50">Colombia</option>
+                      <option value="120">Comoros</option>
+                      <option value="46">Cook Islands</option>
+                      <option value="51">Costa Rica</option>
+                      <option value="99">Croatia</option>
+                      <option value="52">Cuba</option>
+                      <option value="54">Curacao</option>
+                      <option value="56">Cyprus</option>
+                      <option value="57">Czech Republic</option>
+                      <option value="41">Democratic Republic of the Congo</option>
+                      <option value="60">Denmark</option>
+                      <option value="59">Djibouti</option>
+                      <option value="61">Dominica</option>
+                      <option value="62">Dominican Republic</option>
+                      <option value="222">East Timor</option>
+                      <option value="64">Ecuador</option>
+                      <option value="66">Egypt</option>
+                      <option value="211">El Savador</option>
+                      <option value="89">Equatorial Guinea</option>
+                      <option value="68">Eritrea</option>
+                      <option value="65">Estonia</option>
+                      <option value="70">Ethiopia</option>
+                      <option value="73">Falkland Islands</option>
+                      <option value="75">Faroe Islands</option>
+                      <option value="72">Fiji</option>
+                      <option value="71">Finland</option>
+                      <option value="76">France</option>
+                      <option value="81">French Guiana</option>
+                      <option value="176">French Polynesia</option>
+                      <option value="217">French Southern Territories</option>
+                      <option value="217">Svalvard and Jan Mayen</option>
+                      <option value="77">Gabon</option>
+                      <option value="86">Gambia</option>
+                      <option value="88">Gaudeloupe</option>
+                      <option value="58">Germany</option>
+                      <option value="80">Gerogia</option>
+                      <option value="83">Ghana</option>
+                      <option value="84">Gibraltar</option>
+                      <option value="90">Greece</option>
+                      <option value="85">Greenland</option>
+                      <option value="79">Grenada</option>
+                      <option value="93">Guam</option>
+                      <option value="92">Guatemala</option>
+                      <option value="82">Guernsey</option>
+                      <option value="87">Guinea</option>
+                      <option value="94">Guinea - Bissau</option>
+                      <option value="95">Guyana</option>
+                      <option value="100">Haiti</option>
+                      <option value="97">Heart Island and Mcdonald Islands</option>
+                      <option value="98">Honduras</option>
+                      <option value="96">Hong Kong</option>
+                      <option value="101">Hungary</option>
+                      <option value="110">Iceland</option>
+                      <option value="106">India</option>
+                      <option value="102">Indonesia</option>
+                      <option value="253">International</option>
+                      <option value="109">Iran</option>
+                      <option value="108">Iraq</option>
+                      <option value="103">Ireland</option>
+                      <option value="105">Isle of Man</option>
+                      <option value="104">Isreal</option>
+                      <option value="111">Italy</option>
+                      <option value="45">Ivory Coast</option>
+                      <option value="113">Jamaica</option>
+                      <option value="115">Japan</option>
+                      <option value="112">Jersey</option>
+                      <option value="114">Jordan</option>
+                      <option value="127">Kazakhstan</option>
+                      <option value="116">Kenya</option>
+                      <option value="119">Kiribati</option>
+                      <option value="124">Kosovo</option>
+                      <option value="125">Kuwait</option>
+                      <option value="117">Kyrgyzstan</option>
+                      <option value="128">Laos</option>
+                      <option value="137">Latvia</option>
+                      <option value="129">Lebanon</option>
+                      <option value="134">Lesotho</option>
+                      <option value="133">Liberia</option>
+                      <option value="138">Libya</option>
+                      <option value="131">Liechtenstien</option>
+                      <option value="135">Lithuania</option>
+                      <option value="136">Luxembourg</option>
+                      <option value="149">Macao</option>
+                      <option value="146">Macedonia</option>
+                      <option value="144">Madagascar</option>
+                      <option value="157">Malawi</option>
+                      <option value="159">Malaysia</option>
+                      <option value="156">Maldives</option>
+                      <option value="147">Mali</option>
+                      <option value="154">Malta</option>
+                      <option value="145">Marshall Islands</option>
+                      <option value="151">Martinique</option>
+                      <option value="152">Mauritania</option>
+                      <option value="155">Mauritius</option>
+                      <option value="247">Mayotte</option>
+                      <option value="158">Mexico</option>
+                      <option value="74">Micronesia</option>
+                      <option value="141">Moldova</option>
+                      <option value="140">Monaco</option>
+                      <option value="148">Mongolia</option>
+                      <option value="142">Montenegro</option>
+                      <option value="153">Montserrat</option>
+                      <option value="139">Morocco</option>
+                      <option value="160">Mozambique</option>
+                      <option value="1">Myanmar</option>
+                      <option value="161">Namibia</option>
+                      <option value="170">Nauru</option>
+                      <option value="169">Nepal</option>
+                      <option value="167">Netherlands</option>
+                      <option value="252">Netherlands Antilles</option>
+                      <option value="162">New Caledonia</option>
+                      <option value="172">New Zealand</option>
+                      <option value="166">Nicaragua</option>
+                      <option value="163">Niger</option>
+                      <option value="165">Nigeria</option>
+                      <option value="171">Niue</option>
+                      <option value="164">Norfolk Island</option>
+                      <option value="122">North Korea</option>
+                      <option value="150">Northern Marian Islands</option>
+                      <option value="168">Norway</option>
+                      <option value="173">Oman</option>
+                      <option value="179">Pakistan</option>
+                      <option value="186">Palau</option>
+                      <option value="184">Palestinian Territory</option>
+                      <option value="174">Panama</option>
+                      <option value="177">Papua New Guinea</option>
+                      <option value="187">Paraguay</option>
+                      <option value="175">Peru</option>
+                      <option value="178">Philippines</option>
+                      <option value="182">Pitcairn</option>
+                      <option value="180">Poland</option>
+                      <option value="185">Portugal</option>
+                      <option value="183">Puerto Rica</option>
+                      <option value="188">Qatar</option>
+                      <option value="43">Republic of the Congo</option>
+                      <option value="189">Reunion</option>
+                      <option value="190">Romania</option>
+                      <option value="192">Russia</option>
+                      <option value="193">Rwanda</option>
+                      <option value="27">Saint Barthelemy</option>
+                      <option value="201">Saint Helena</option>
+                      <option value="121">Saint Kitts and Nevis</option>
+                      <option value="130">Saint Lucia</option>
+                      <option value="143">Saint Martin</option>
+                      <option value="181">Saint Pierre and Miquelon</option>
+                      <option value="238">Saint Vincent and the Grenadines</option>
+                      <option value="245">Samoa</option>
+                      <option value="206">San Marino</option>
+                      <option value="210">Sao Tome and Principe</option>
+                      <option value="194">Saudi Arabia</option>
+                      <option value="207">Senegal</option>
+                      <option value="191">Serbia</option>
+                      <option value="251">Serbia and Montenegro</option>
+                      <option value="196">Seychelles</option>
+                      <option value="205">Sierra Leone</option>
+                      <option value="200">Singapore</option>
+                      <option value="212">Sint Maarten</option>
+                      <option value="204">Slovakia</option>
+                      <option value="202">Slovenia</option>
+                      <option value="195">Solomon Islands</option>
+                      <option value="208">Somalia</option>
+                      <option value="248">South Africa</option>
+                      <option value="91">South Georgia and the South Sandwich Islands</option>
+                      <option value="123">South Korea</option>
+                      <option value="198">South Sudan</option>
+                      <option value="69">Spain</option>
+                      <option value="132">Sri Lanka</option>
+                      <option value="197">Sudan</option>
+                      <option value="209">Suriname</option>
+                      <option value="203">Svalbard and Jan Mayen</option>
+                      <option value="217">French Southern Territories</option>
+                      <option value="217">Svalvard and Jan Mayen</option>
+                      <option value="214">Swaziland</option>
+                      <option value="199">Sweden</option>
+                      <option value="44">Switzerland</option>
+                      <option value="213">Syria</option>
+                      <option value="229">Taiwan</option>
+                      <option value="220">Tajikistan</option>
+                      <option value="230">Tanzania</option>
+                      <option value="224">Tazania</option>
+                      <option value="224">Tunisia</option>
+                      <option value="219">Thailand</option>
+                      <option value="218">Togo</option>
+                      <option value="221">Tokelau</option>
+                      <option value="225">Tonga</option>
+                      <option value="227">Trinidad and Tobago</option>
+                      <option value="224">Tazania</option>
+                      <option value="224">Tunisia</option>
+                      <option value="226">Turkey</option>
+                      <option value="223">Turkmenistan</option>
+                      <option value="215">Turks and Caicos Islands</option>
+                      <option value="228">Tuvalu</option>
+                      <option value="235">U.S Virgin Islands</option>
+                      <option value="235">Uruguay</option>
+                      <option value="241">U.S. Virgin Islands</option>
+                      <option value="232">Uganda</option>
+                      <option value="231">Ukraine</option>
+                      <option value="3">United Arab Emirates</option>
+                      <option value="78">United Kingdom</option>
+                      <option value="234">United States</option>
+                      <option value="233">United States Minor Outlying Islands</option>
+                      <option value="235">U.S Virgin Islands</option>
+                      <option value="235">Uruguay</option>
+                      <option value="236">Uzbekistan</option>
+                      <option value="244">Vanautu</option>
+                      <option value="244">Wallis and Futuna</option>
+                      <option value="243">Vanuatu</option>
+                      <option value="237">Vatican</option>
+                      <option value="239">Venezuela</option>
+                      <option value="242">Vietnam</option>
+                      <option value="244">Vanautu</option>
+                      <option value="244">Wallis and Futuna</option>
+                      <option value="67">Western Sahara</option>
+                      <option value="246">Yemen</option>
+                      <option value="249">Zambia</option>
+                      <option value="250">Zimbabwe</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="modal__form-group">
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label">Date of Birth</label>
+                    <div class="modal__form-field-group">
+                      <div class="modal__form-field">
+                        <select>
+                          <option value="0" selected="selected">Day</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                          <option value="9">9</option>
+                          <option value="10">10</option>
+                          <option value="11">11</option>
+                          <option value="12">12</option>
+                          <option value="13">13</option>
+                          <option value="14">14</option>
+                          <option value="15">15</option>
+                          <option value="16">16</option>
+                          <option value="17">17</option>
+                          <option value="18">18</option>
+                          <option value="19">19</option>
+                          <option value="20">20</option>
+                          <option value="21">21</option>
+                          <option value="22">22</option>
+                          <option value="23">23</option>
+                          <option value="24">24</option>
+                          <option value="25">25</option>
+                          <option value="26">26</option>
+                          <option value="27">27</option>
+                          <option value="28">28</option>
+                          <option value="29">29</option>
+                          <option value="30">30</option>
+                          <option value="31">31</option>
+                        </select>
+                      </div>
+                      <div class="modal__form-field">
+                        <select>
+                          <option value="0" selected="selected">Month</option>
+                          <option value="1">Jan</option>
+                          <option value="2">Feb</option>
+                          <option value="3">Mar</option>
+                          <option value="4">Apr</option>
+                          <option value="5">May</option>
+                          <option value="6">Jun</option>
+                          <option value="7">Jul</option>
+                          <option value="8">Aug</option>
+                          <option value="9">Sep</option>
+                          <option value="10">Oct</option>
+                          <option value="11">Nov</option>
+                          <option value="12">Dec</option>
+                        </select>
+                      </div>
+                      <div class="modal__form-field">
+                        <select>
+                          <option value="0" selected="selected">Year</option>
+                          <option value="2020">2020</option>
+                          <option value="2019">2019</option>
+                          <option value="2018">2018</option>
+                          <option value="2017">2017</option>
+                          <option value="2016">2016</option>
+                          <option value="2015">2015</option>
+                          <option value="2014">2014</option>
+                          <option value="2013">2013</option>
+                          <option value="2012">2012</option>
+                          <option value="2011">2011</option>
+                          <option value="2010">2010</option>
+                          <option value="2009">2009</option>
+                          <option value="2008">2008</option>
+                          <option value="2007">2007</option>
+                          <option value="2006">2006</option>
+                          <option value="2005">2005</option>
+                          <option value="2004">2004</option>
+                          <option value="2003">2003</option>
+                          <option value="2002">2002</option>
+                          <option value="2001">2001</option>
+                          <option value="2000">2000</option>
+                          <option value="1999">1999</option>
+                          <option value="1998">1998</option>
+                          <option value="1997">1997</option>
+                          <option value="1996">1996</option>
+                          <option value="1995">1995</option>
+                          <option value="1994">1994</option>
+                          <option value="1993">1993</option>
+                          <option value="1992">1992</option>
+                          <option value="1991">1991</option>
+                          <option value="1990">1990</option>
+                          <option value="1989">1989</option>
+                          <option value="1988">1988</option>
+                          <option value="1987">1987</option>
+                          <option value="1986">1986</option>
+                          <option value="1985">1985</option>
+                          <option value="1984">1984</option>
+                          <option value="1983">1983</option>
+                          <option value="1982">1982</option>
+                          <option value="1981">1981</option>
+                          <option value="1980">1980</option>
+                          <option value="1979">1979</option>
+                          <option value="1978">1978</option>
+                          <option value="1977">1977</option>
+                          <option value="1976">1976</option>
+                          <option value="1975">1975</option>
+                          <option value="1974">1974</option>
+                          <option value="1973">1973</option>
+                          <option value="1972">1972</option>
+                          <option value="1971">1971</option>
+                          <option value="1970">1970</option>
+                          <option value="1969">1969</option>
+                          <option value="1968">1968</option>
+                          <option value="1967">1967</option>
+                          <option value="1966">1966</option>
+                          <option value="1965">1965</option>
+                          <option value="1964">1964</option>
+                          <option value="1963">1963</option>
+                          <option value="1962">1962</option>
+                          <option value="1961">1961</option>
+                          <option value="1960">1960</option>
+                          <option value="1959">1959</option>
+                          <option value="1958">1958</option>
+                          <option value="1957">1957</option>
+                          <option value="1956">1956</option>
+                          <option value="1955">1955</option>
+                          <option value="1954">1954</option>
+                          <option value="1953">1953</option>
+                          <option value="1952">1952</option>
+                          <option value="1951">1951</option>
+                          <option value="1950">1950</option>
+                          <option value="1949">1949</option>
+                          <option value="1948">1948</option>
+                          <option value="1947">1947</option>
+                          <option value="1946">1946</option>
+                          <option value="1945">1945</option>
+                          <option value="1944">1944</option>
+                          <option value="1943">1943</option>
+                          <option value="1942">1942</option>
+                          <option value="1941">1941</option>
+                          <option value="1940">1940</option>
+                          <option value="1939">1939</option>
+                          <option value="1938">1938</option>
+                          <option value="1937">1937</option>
+                          <option value="1936">1936</option>
+                          <option value="1935">1935</option>
+                          <option value="1934">1934</option>
+                          <option value="1933">1933</option>
+                          <option value="1932">1932</option>
+                          <option value="1931">1931</option>
+                          <option value="1930">1930</option>
+                          <option value="1929">1929</option>
+                          <option value="1928">1928</option>
+                          <option value="1927">1927</option>
+                          <option value="1926">1926</option>
+                          <option value="1925">1925</option>
+                          <option value="1924">1924</option>
+                          <option value="1923">1923</option>
+                          <option value="1922">1922</option>
+                          <option value="1921">1921</option>
+                          <option value="1920">1920</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="employment_status">Employment Status <span>*</span></label>
+                    <select id="employment_status">
+                      <option value="0" selected="selected">Choose Employment Status</option>
+                      <option value="2">Open to Work</option>
+                      <option value="3">Not Open to Work</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" id="driversLicense" type="checkbox">
+                <label class="form-check-label" for="driversLicense">Drivers License</label>
+              </div>
+              <div class="modal__form-divider"></div>
+              <p class="modal__form-title">What you are looking for...</p>
+              <div class="modal__form-group">
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="job_preference">Job Preference <span>*</span></label>
+                    <select id="job_preference">
+                      <option value="0" selected="selected">Choose Job Preference</option>
+                      <option value="1">Professional</option>
+                      <option value="2">Graduate</option>
+                      <option value="3">Blue Collar</option>
+                    </select>
+                  </div>
+                </div>
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="job_type">Job Type <span>*</span></label>
+                    <select id="job_type">
+                      <option selected="selected" value="0">Choose Job Type</option>
+                      <option value="1">Full Time</option>
+                      <option value="2">Part Time</option>
+                      <option value="3">Temp/Contract</option>
+                      <option value="4">Voluntary</option>
+                      <option value="5">Graduate Program</option>
+                      <option value="6">Internship</option>
+                      <option value="7">Phd Research</option>
+                      <option value="8">Thesis work</option>
+                      <option value="9">Project specific</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="modal__form-group">
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="job_title">Job Title <span>*</span></label>
+                    <input type="text" id="job_title" name="job_title">
+                  </div>
+                </div>
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="job_functions">Job Functions <span>*</span></label>
+                    <select id="job_functions" select-dropdown-js multiple>
+                      <option value="1" selected>Accounting, Finance</option>
+                      <option value="2">Administrative</option>
+                      <option value="7">Architecture, Design</option>
+                      <option value="4">Consulting</option>
+                      <option value="6" selected>Customer Service, Support</option>
+                      <option value="23">Doctor, Nursing, Medical Staff</option>
+                      <option value="8">Driver, Delivery, Motorbike</option>
+                      <option value="9" selected>Education, Teaching, Childcare</option>
+                      <option value="10">Engineering, Technical, HSE</option>
+                      <option value="13">Food and Beverage</option>
+                      <option value="39">General Workers</option>
+                      <option value="14">Health, Beauty, Fitness</option>
+                      <option value="16">HR, Training and Recruitment</option>
+                      <option value="15">Hospitality, Hotel, Tourism</option>
+                      <option value="17">IT Hardware, Software</option>
+                      <option value="18">Legal, Risk and Compliance</option>
+                      <option value="19">Logistics, Distribution, Fleet</option>
+                      <option value="20">Management</option>
+                      <option value="21">Manufacturing, Warehouse</option>
+                      <option value="22">Marketing, Media, Creative</option>
+                      <option value="25">PR, Communications</option>
+                      <option value="38">Procurement, Supply Chain</option>
+                      <option value="24">Project, Operations Management</option>
+                      <option value="26">Quality Assurance</option>
+                      <option value="27">Research and Development</option>
+                      <option value="30">Sales, Business Development</option>
+                      <option value="31">Science, Technology</option>
+                      <option value="32">Skilled Trades , Construction</option>
+                      <option value="33">Strategy, Planning</option>
+                      <option value="34">Translation</option>
+                      <option value="35">Voluntary work</option>
+                      <option value="36">Writing, Editing</option>
+                      <option value="37">Others</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="modal__form-group">
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="experience_level">Experience level <span>*</span></label>
+                    <select id="experience_level">
+                      <option value="0" selected>Choose Experience</option>
+                      <option value="1">Entry Level</option>
+                      <option value="2">Experienced Non-Manager</option>
+                      <option value="3">Manager</option>
+                      <option value="4">Director and Above</option>
+                    </select>
+                  </div>
+                </div>
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="min_monthly_salary">Min Monthly Salary (MMK) <span>*</span></label>
+                    <input type="text" id="min_monthly_salary" name="min_monthly_salary" placeholder="">
+                  </div>
+                </div>
+              </div>
+              <div class="modal__form-divider"></div>
+              <div class="modal__cv">
+                <div class="modal__cv-header" data-toggle="collapse" data-target="#collapseCV" aria-expanded="false" aria-controls="collapseCV">
+                  <div>
+                    <p>CV Attachments <span>(Upload your CV here..)</span></p>
+                  </div>
+                  <div><a href="#"><i class="icon-font icon-plus-sign"></i><span>Add</span></a></div>
+                </div>
+                <div class="collapse" id="collapseCV">
+                  <div class="modal__cv-body modal__cv-body-1">
+                    <div>
+                      <div class="modal__form-field">
+                        <label class="modal__form-label" for="cv_file">CV File Attachment <span>*</span></label>
+                        <input type="file" id="cv_file" name="cv_file">
+                      </div>
+                    </div>
+                    <div>
+                      <div class="modal__form-field">
+                        <label class="modal__form-label" for="cv_name">CV Name (Any Choice) <span>*</span></label>
+                        <input type="email" id="cv_name" name="cv_name">
+                      </div>
+                    </div>
+                    <div>
+                      <div class="form-check">
+                        <input class="form-check-input" id="myDefaultCV" type="checkbox">
+                        <label class="form-check-label" for="myDefaultCV">My Default CV</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal__cv-body modal__cv-body-2 c-btn__wrapper"><a class="c-btn c-btn--borderGray" href="#" data-toggle="collapse" data-target="#collapseCV" aria-expanded="true" aria-controls="collapseCV"><span>Cancel</span></a><a class="c-btn c-btn--borderGreen" href="#"><span>Save CV</span></a></div>
+                </div>
+              </div>
+              <div class="modal__form-divider"></div>
+            </form>
+          </div>
+          <div class="modal-footer c-btn__wrapper">
+            <button class="c-btn c-btn--borderGray" type="button" data-dismiss="modal"><span>Cancel</span></button>
+            <button class="c-btn c-btn--borderGreen" type="button"><span>Save My Profile</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECTION :: END-->
+    <!-- SECTION :: START-->
+    <div class="modal-profile-qr modal fade" id="modalProfileQr" tabindex="-1" role="dialog" aria-labelledby="modalProfileQr" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div>
+              <h5 class="modal-title">JobNet Digital ID</h5>
+            </div>
+            <div>
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close"><i class="icon-font icon-close"></i></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body-user"><img src="img/img-user.jpg" alt=""></div>
+            <div class="modal-body-content">
+              <p>Htet Aung Kyaw</p><span>Digital Marketing Manager</span><img class="modal-body-image" src="img/img-qr-code.png" alt="">
+            </div><a class="modal-body-save" href="#"><i class="icon-font icon-download"></i><span>Save to photos</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECTION :: END-->
+    <!-- SECTION :: START-->
+    <div class="modal-profile-about modal fade" id="modalProfileAbout" tabindex="-1" role="dialog" aria-labelledby="modalProfileAbout" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div>
+              <h5 class="modal-title">Update About Me</h5>
+            </div>
+            <div>
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close"><i class="icon-font icon-close"></i></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body-header">
+              <p>STEP 2 : TELL YOUR STORY</p>
+            </div>
+            <p class="modal-subtitle">About Yourself...</p>
+            <form action="" method="" autocomplete="off">
+              <div>
+                <label for="textAbout1">Describe Yourself <span>*</span></label>
+                <textarea name="" id="textAbout1">Digital Marketing Specialist with a proven track record in delivering growth for business website.Currently working at the JobNet.com.mm as Digital Marketing Manager ,managing the content marketing, Email marketing, Social Media Marketing, Google Adwords planning and monitor our digital activities through Google Analytic and identify best practices and improve overall digital performance.</textarea>
+              </div>
+              <div>
+                <label for="textAbout2">Career Objectives</label>
+                <textarea name="" id="textAbout2">Be the best at what I do.</textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer c-btn__wrapper">
+            <button class="c-btn c-btn--borderGray" type="button" data-dismiss="modal"><span>Cancel</span></button>
+            <button class="c-btn c-btn--borderGreen" type="button"><span>Save</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECTION :: END-->
+    <!-- SECTION :: START-->
+    <div class="modal-profile-experiences modal fade" id="modalProfileExperiences" tabindex="-1" role="dialog" aria-labelledby="modalProfileExperiences" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div>
+              <h5 class="modal-title">Update Personal Details</h5>
+            </div>
+            <div>
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close"><i class="icon-font icon-close"></i></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="modal__step">
+              <p>STEP 3 : YOUR WORK EXPERIENCES</p>
+            </div>
+            <form class="modal__form" action="" method="" autocomplete="off">
+              <p class="modal__form-title">Work Experience</p>
+              <div class="modal__form-group">
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="job_title">Job Title <span>*</span></label>
+                    <input type="text" id="job_title" name="job_title">
+                  </div>
+                </div>
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="job_function">Job Function <span>*</span></label>
+                    <select id="job_function">
+                      <option value="0">Choose Job Function</option>
+                      <option value="1">Accounting, Finance</option>
+                      <option value="2">Administrative</option>
+                      <option value="7">Architecture, Design</option>
+                      <option value="4">Consulting</option>
+                      <option value="6">Customer Service, Support</option>
+                      <option value="23">Doctor, Nursing, Medical Staff</option>
+                      <option value="8">Driver, Delivery, Motorbike</option>
+                      <option value="9">Education, Teaching, Childcare</option>
+                      <option value="10">Engineering, Technical, HSE</option>
+                      <option value="13">Food and Beverage</option>
+                      <option value="39">General Workers</option>
+                      <option value="14">Health, Beauty, Fitness</option>
+                      <option value="16">HR, Training and Recruitment</option>
+                      <option value="15">Hospitality, Hotel, Tourism</option>
+                      <option value="17">IT Hardware, Software</option>
+                      <option value="18">Legal, Risk and Compliance</option>
+                      <option value="19">Logistics, Distribution, Fleet</option>
+                      <option value="20">Management</option>
+                      <option value="21">Manufacturing, Warehouse</option>
+                      <option value="22">Marketing, Media, Creative</option>
+                      <option value="25">PR, Communications</option>
+                      <option value="38">Procurement, Supply Chain</option>
+                      <option value="24">Project, Operations Management</option>
+                      <option value="26">Quality Assurance</option>
+                      <option value="27">Research and Development</option>
+                      <option value="30">Sales, Business Development</option>
+                      <option value="31">Science, Technology</option>
+                      <option value="32">Skilled Trades , Construction</option>
+                      <option value="33">Strategy, Planning</option>
+                      <option value="34">Translation</option>
+                      <option value="35">Voluntary work</option>
+                      <option value="36">Writing, Editing</option>
+                      <option value="37">Others</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="modal__form-group">
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="experience_level">Experience level <span>*</span></label>
+                    <select id="experience_level">
+                      <option value="0">Choose Experience Level</option>
+                      <option value="1">Entry Level</option>
+                      <option value="2">Experienced Non-Manager</option>
+                      <option value="3">Manager</option>
+                      <option value="4">Director and Above</option>
+                    </select>
+                  </div>
+                </div>
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="company">Company <span>*</span></label>
+                    <input type="text" id="company" name="company">
+                  </div>
+                </div>
+              </div>
+              <div class="modal__form-group">
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="industry">Industry</label>
+                    <select id="industry">
+                      <option value="0">Choose Industry</option>
+                      <option value="1">Accounting/Audit/Tax Services</option>
+                      <option value="2">Advertising/PR/Marketing</option>
+                      <option value="3">Agriculture/Forestry/Fishing</option>
+                      <option value="4">Airlines/Aviation</option>
+                      <option value="5">Arts/Performing Arts</option>
+                      <option value="6">Athletics/Sports</option>
+                      <option value="7">Automotive</option>
+                      <option value="39">Banking/ Financial Services/ Microfinance</option>
+                      <option value="8">Biotechnology/Pharmaceuticals</option>
+                      <option value="9">Broadcasting/Music/Film</option>
+                      <option value="10">Chemicals/Petro-Chemicals</option>
+                      <option value="11">Clothing/Garment/Textile</option>
+                      <option value="13">Construction/Building/Architecture</option>
+                      <option value="49">Consulting/Professional Services</option>
+                      <option value="14">Education/Training</option>
+                      <option value="15">Electronics/Electrical Equipment</option>
+                      <option value="16">Energy/Water/Oil & Gas/Waste</option>
+                      <option value="17">Engineering/Machinery</option>
+                      <option value="18">Entertainment</option>
+                      <option value="40">FMCG</option>
+                      <option value="19">Food and Beverage/Catering</option>
+                      <option value="20">Government/Embassy/Armed Forces</option>
+                      <option value="21">Healthcare/Beauty Care</option>
+                      <option value="55">Hospitality/Hotels</option>
+                      <option value="23">Insurance/Pensions</option>
+                      <option value="24">Interior Design/Decoration</option>
+                      <option value="41">Internet Services</option>
+                      <option value="12">IT/Computer</option>
+                      <option value="42">Jewellery/Gems</option>
+                      <option value="25">Legal Services</option>
+                      <option value="26">Logistics/Transport</option>
+                      <option value="28">Manufacturing</option>
+                      <option value="29">Media/Publishing</option>
+                      <option value="30">Medical/Hospital</option>
+                      <option value="56">Mining</option>
+                      <option value="31">NGO/UN/Non Profit</option>
+                      <option value="43">Pharmaceutical/Life Sciences</option>
+                      <option value="44">Printing/Graphic Design</option>
+                      <option value="32">Real Estate/Property Development</option>
+                      <option value="33">Recruitment/Employment Agency</option>
+                      <option value="34">Retail/Wholesale</option>
+                      <option value="35">Security/Surveillance</option>
+                      <option value="36">Telecommunications</option>
+                      <option value="37">Tourism/Travel Agency</option>
+                      <option value="38">Trading/Distribution/Import/Export</option>
+                      <option value="45">Others</option>
+                    </select>
+                  </div>
+                </div>
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="country">Country</label>
+                    <select id="country">
+                      <option value="0">Country Worked</option>
+                      <option value="4">Afhganistan</option>
+                      <option value="16">Aland Islands</option>
+                      <option value="7">Albania</option>
+                      <option value="63">Algeria</option>
+                      <option value="12">American Samoa</option>
+                      <option value="10">Anartica</option>
+                      <option value="2">Andorra</option>
+                      <option value="9">Angola</option>
+                      <option value="6">Anguilla</option>
+                      <option value="5">Antigua and Barbuda</option>
+                      <option value="11">Argentina</option>
+                      <option value="8">Armenia</option>
+                      <option value="15">Aruba</option>
+                      <option value="14">Australlia</option>
+                      <option value="13">Austria</option>
+                      <option value="17">Azerbaijan</option>
+                      <option value="19">Babados</option>
+                      <option value="33">Bahamas</option>
+                      <option value="24">Bahrian</option>
+                      <option value="20">Bangladesh</option>
+                      <option value="37">Belarus</option>
+                      <option value="21">Belgium</option>
+                      <option value="38">Belize</option>
+                      <option value="26">Benin</option>
+                      <option value="28">Bermuda</option>
+                      <option value="34">Bhutan</option>
+                      <option value="30">Bolivia</option>
+                      <option value="31">Bonaire, Saint Eustatuis and Saba</option>
+                      <option value="18">Bosnia and Herzegovina</option>
+                      <option value="36">Botswana</option>
+                      <option value="35">Bouvet Island</option>
+                      <option value="32">Brazil</option>
+                      <option value="107">British Indian Ocean Territory</option>
+                      <option value="240">British Virgin Islands</option>
+                      <option value="29">Brunei</option>
+                      <option value="23">Bulgaria</option>
+                      <option value="22">Burkina Faso</option>
+                      <option value="25">Burundi</option>
+                      <option value="118">Cambodia</option>
+                      <option value="48">Cameroon</option>
+                      <option value="39">Canada</option>
+                      <option value="53">Cape Verde</option>
+                      <option value="126">Cayman Islands</option>
+                      <option value="42">Central African Republic</option>
+                      <option value="216">Chad</option>
+                      <option value="47">Chile</option>
+                      <option value="49">China</option>
+                      <option value="55">Christmas Island</option>
+                      <option value="40">Cocos Islands</option>
+                      <option value="50">Colombia</option>
+                      <option value="120">Comoros</option>
+                      <option value="46">Cook Islands</option>
+                      <option value="51">Costa Rica</option>
+                      <option value="99">Croatia</option>
+                      <option value="52">Cuba</option>
+                      <option value="54">Curacao</option>
+                      <option value="56">Cyprus</option>
+                      <option value="57">Czech Republic</option>
+                      <option value="41">Democratic Republic of the Congo</option>
+                      <option value="60">Denmark</option>
+                      <option value="59">Djibouti</option>
+                      <option value="61">Dominica</option>
+                      <option value="62">Dominican Republic</option>
+                      <option value="222">East Timor</option>
+                      <option value="64">Ecuador</option>
+                      <option value="66">Egypt</option>
+                      <option value="211">El Savador</option>
+                      <option value="89">Equatorial Guinea</option>
+                      <option value="68">Eritrea</option>
+                      <option value="65">Estonia</option>
+                      <option value="70">Ethiopia</option>
+                      <option value="73">Falkland Islands</option>
+                      <option value="75">Faroe Islands</option>
+                      <option value="72">Fiji</option>
+                      <option value="71">Finland</option>
+                      <option value="76">France</option>
+                      <option value="81">French Guiana</option>
+                      <option value="176">French Polynesia</option>
+                      <option value="217">French Southern Territories</option>
+                      <option value="217">Svalvard and Jan Mayen</option>
+                      <option value="77">Gabon</option>
+                      <option value="86">Gambia</option>
+                      <option value="88">Gaudeloupe</option>
+                      <option value="58">Germany</option>
+                      <option value="80">Gerogia</option>
+                      <option value="83">Ghana</option>
+                      <option value="84">Gibraltar</option>
+                      <option value="90">Greece</option>
+                      <option value="85">Greenland</option>
+                      <option value="79">Grenada</option>
+                      <option value="93">Guam</option>
+                      <option value="92">Guatemala</option>
+                      <option value="82">Guernsey</option>
+                      <option value="87">Guinea</option>
+                      <option value="94">Guinea - Bissau</option>
+                      <option value="95">Guyana</option>
+                      <option value="100">Haiti</option>
+                      <option value="97">Heart Island and Mcdonald Islands</option>
+                      <option value="98">Honduras</option>
+                      <option value="96">Hong Kong</option>
+                      <option value="101">Hungary</option>
+                      <option value="110">Iceland</option>
+                      <option value="106">India</option>
+                      <option value="102">Indonesia</option>
+                      <option value="253">International</option>
+                      <option value="109">Iran</option>
+                      <option value="108">Iraq</option>
+                      <option value="103">Ireland</option>
+                      <option value="105">Isle of Man</option>
+                      <option value="104">Isreal</option>
+                      <option value="111">Italy</option>
+                      <option value="45">Ivory Coast</option>
+                      <option value="113">Jamaica</option>
+                      <option value="115">Japan</option>
+                      <option value="112">Jersey</option>
+                      <option value="114">Jordan</option>
+                      <option value="127">Kazakhstan</option>
+                      <option value="116">Kenya</option>
+                      <option value="119">Kiribati</option>
+                      <option value="124">Kosovo</option>
+                      <option value="125">Kuwait</option>
+                      <option value="117">Kyrgyzstan</option>
+                      <option value="128">Laos</option>
+                      <option value="137">Latvia</option>
+                      <option value="129">Lebanon</option>
+                      <option value="134">Lesotho</option>
+                      <option value="133">Liberia</option>
+                      <option value="138">Libya</option>
+                      <option value="131">Liechtenstien</option>
+                      <option value="135">Lithuania</option>
+                      <option value="136">Luxembourg</option>
+                      <option value="149">Macao</option>
+                      <option value="146">Macedonia</option>
+                      <option value="144">Madagascar</option>
+                      <option value="157">Malawi</option>
+                      <option value="159">Malaysia</option>
+                      <option value="156">Maldives</option>
+                      <option value="147">Mali</option>
+                      <option value="154">Malta</option>
+                      <option value="145">Marshall Islands</option>
+                      <option value="151">Martinique</option>
+                      <option value="152">Mauritania</option>
+                      <option value="155">Mauritius</option>
+                      <option value="247">Mayotte</option>
+                      <option value="158">Mexico</option>
+                      <option value="74">Micronesia</option>
+                      <option value="141">Moldova</option>
+                      <option value="140">Monaco</option>
+                      <option value="148">Mongolia</option>
+                      <option value="142">Montenegro</option>
+                      <option value="153">Montserrat</option>
+                      <option value="139">Morocco</option>
+                      <option value="160">Mozambique</option>
+                      <option value="1">Myanmar</option>
+                      <option value="161">Namibia</option>
+                      <option value="170">Nauru</option>
+                      <option value="169">Nepal</option>
+                      <option value="167">Netherlands</option>
+                      <option value="252">Netherlands Antilles</option>
+                      <option value="162">New Caledonia</option>
+                      <option value="172">New Zealand</option>
+                      <option value="166">Nicaragua</option>
+                      <option value="163">Niger</option>
+                      <option value="165">Nigeria</option>
+                      <option value="171">Niue</option>
+                      <option value="164">Norfolk Island</option>
+                      <option value="122">North Korea</option>
+                      <option value="150">Northern Marian Islands</option>
+                      <option value="168">Norway</option>
+                      <option value="173">Oman</option>
+                      <option value="179">Pakistan</option>
+                      <option value="186">Palau</option>
+                      <option value="184">Palestinian Territory</option>
+                      <option value="174">Panama</option>
+                      <option value="177">Papua New Guinea</option>
+                      <option value="187">Paraguay</option>
+                      <option value="175">Peru</option>
+                      <option value="178">Philippines</option>
+                      <option value="182">Pitcairn</option>
+                      <option value="180">Poland</option>
+                      <option value="185">Portugal</option>
+                      <option value="183">Puerto Rica</option>
+                      <option value="188">Qatar</option>
+                      <option value="43">Republic of the Congo</option>
+                      <option value="189">Reunion</option>
+                      <option value="190">Romania</option>
+                      <option value="192">Russia</option>
+                      <option value="193">Rwanda</option>
+                      <option value="27">Saint Barthelemy</option>
+                      <option value="201">Saint Helena</option>
+                      <option value="121">Saint Kitts and Nevis</option>
+                      <option value="130">Saint Lucia</option>
+                      <option value="143">Saint Martin</option>
+                      <option value="181">Saint Pierre and Miquelon</option>
+                      <option value="238">Saint Vincent and the Grenadines</option>
+                      <option value="245">Samoa</option>
+                      <option value="206">San Marino</option>
+                      <option value="210">Sao Tome and Principe</option>
+                      <option value="194">Saudi Arabia</option>
+                      <option value="207">Senegal</option>
+                      <option value="191">Serbia</option>
+                      <option value="251">Serbia and Montenegro</option>
+                      <option value="196">Seychelles</option>
+                      <option value="205">Sierra Leone</option>
+                      <option value="200">Singapore</option>
+                      <option value="212">Sint Maarten</option>
+                      <option value="204">Slovakia</option>
+                      <option value="202">Slovenia</option>
+                      <option value="195">Solomon Islands</option>
+                      <option value="208">Somalia</option>
+                      <option value="248">South Africa</option>
+                      <option value="91">South Georgia and the South Sandwich Islands</option>
+                      <option value="123">South Korea</option>
+                      <option value="198">South Sudan</option>
+                      <option value="69">Spain</option>
+                      <option value="132">Sri Lanka</option>
+                      <option value="197">Sudan</option>
+                      <option value="209">Suriname</option>
+                      <option value="203">Svalbard and Jan Mayen</option>
+                      <option value="217">French Southern Territories</option>
+                      <option value="217">Svalvard and Jan Mayen</option>
+                      <option value="214">Swaziland</option>
+                      <option value="199">Sweden</option>
+                      <option value="44">Switzerland</option>
+                      <option value="213">Syria</option>
+                      <option value="229">Taiwan</option>
+                      <option value="220">Tajikistan</option>
+                      <option value="230">Tanzania</option>
+                      <option value="224">Tazania</option>
+                      <option value="224">Tunisia</option>
+                      <option value="219">Thailand</option>
+                      <option value="218">Togo</option>
+                      <option value="221">Tokelau</option>
+                      <option value="225">Tonga</option>
+                      <option value="227">Trinidad and Tobago</option>
+                      <option value="224">Tazania</option>
+                      <option value="224">Tunisia</option>
+                      <option value="226">Turkey</option>
+                      <option value="223">Turkmenistan</option>
+                      <option value="215">Turks and Caicos Islands</option>
+                      <option value="228">Tuvalu</option>
+                      <option value="235">U.S Virgin Islands</option>
+                      <option value="235">Uruguay</option>
+                      <option value="241">U.S. Virgin Islands</option>
+                      <option value="232">Uganda</option>
+                      <option value="231">Ukraine</option>
+                      <option value="3">United Arab Emirates</option>
+                      <option value="78">United Kingdom</option>
+                      <option value="234">United States</option>
+                      <option value="233">United States Minor Outlying Islands</option>
+                      <option value="235">U.S Virgin Islands</option>
+                      <option value="235">Uruguay</option>
+                      <option value="236">Uzbekistan</option>
+                      <option value="244">Vanautu</option>
+                      <option value="244">Wallis and Futuna</option>
+                      <option value="243">Vanuatu</option>
+                      <option value="237">Vatican</option>
+                      <option value="239">Venezuela</option>
+                      <option value="242">Vietnam</option>
+                      <option value="244">Vanautu</option>
+                      <option value="244">Wallis and Futuna</option>
+                      <option value="67">Western Sahara</option>
+                      <option value="246">Yemen</option>
+                      <option value="249">Zambia</option>
+                      <option value="250">Zimbabwe</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="modal__form-field">
+                <div class="modal__form-field-group">
+                  <div>
+                    <div class="modal__form-field">
+                      <label class="modal__form-label">From*</label>
+                      <input class="datepicker" type="text" name="">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="modal__form-field">
+                      <label class="modal__form-label">To*</label>
+                      <input class="datepicker" type="text" name="">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="form-check">
+                      <input class="form-check-input" id="myCurrentJob" type="checkbox">
+                      <label class="form-check-label" for="myCurrentJob">My current Job</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal__form-field">
+                <label class="modal__form-label" for="job_description">Job Description</label>
+                <textarea name="job_description" id="job_description"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer c-btn__wrapper">
+            <button class="c-btn c-btn--borderGray" type="button" data-dismiss="modal"><span>Cancel</span></button>
+            <button class="c-btn c-btn--borderGreen" type="button"><span>Save</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECTION :: END-->
+    <!-- SECTION :: START-->
+    <div class="modal-profile-education modal fade" id="modalProfileEducation" tabindex="-1" role="dialog" aria-labelledby="modalProfileEducation" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div>
+              <h5 class="modal-title">Update Education Details</h5>
+            </div>
+            <div>
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close"><i class="icon-font icon-close"></i></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="modal__step">
+              <p>STEP 4 : YOUR EDUCATIONS</p>
+            </div>
+            <form class="modal__form" action="" method="" autocomplete="off">
+              <p class="modal__form-title">Education / Qualifications</p>
+              <div class="modal__form-group">
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="location">Location (or Division) <span>*</span></label>
+                    <select id="location">
+                      <option value="0">Choose Location</option>
+                      <option value="1">Yangon</option>
+                      <option value="2">Mandalay</option>
+                      <option value="3">NayPyiTaw</option>
+                      <option value="9">Ayeyawady Division</option>
+                      <option value="5">Bago Division</option>
+                      <option value="14">Chin State</option>
+                      <option value="10">Kachin State</option>
+                      <option value="15">Kayah State</option>
+                      <option value="13">Kayin State</option>
+                      <option value="7">Magway Division</option>
+                      <option value="8">Mon State</option>
+                      <option value="11">Rakhine State</option>
+                      <option value="6">Sagaing Division</option>
+                      <option value="4">Shan State</option>
+                      <option value="12">Taninthayi Division</option>
+                      <option value="24">Singapore</option>
+                      <option value="25">Malaysia</option>
+                      <option value="26">Thailand</option>
+                      <option value="27">Australia</option>
+                      <option value="28">UK</option>
+                      <option value="29">USA</option>
+                      <option value="16">International</option>
+                    </select>
+                  </div>
+                </div>
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="school_university">School or University <span>*</span></label>
+                    <select id="school_university" select-dropdown-js>
+                      <option value="0">School or University</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="modal__form-group">
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="degree_level">Degree Level <span>*</span></label>
+                    <select id="degree_level">
+                      <option value="0">Choose Education Level</option>
+                      <option value="1">High School</option>
+                      <option value="2">Professional Certificate</option>
+                      <option value="3">Diploma</option>
+                      <option value="4">Bachelor Degree</option>
+                      <option value="5">Master Degree</option>
+                      <option value="6">PHD</option>
+                    </select>
+                  </div>
+                </div>
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="choose_area_study">Choose Area of Study <span>*</span></label>
+                    <select id="choose_area_study" select-dropdown-js>
+                      <option value="0">Choose Area of Study</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="modal__form-group">
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="country">Country</label>
+                    <select id="country">
+                      <option value="0">Country Studied</option>
+                      <option value="4">Afhganistan</option>
+                      <option value="16">Aland Islands</option>
+                      <option value="7">Albania</option>
+                      <option value="63">Algeria</option>
+                      <option value="12">American Samoa</option>
+                      <option value="10">Anartica</option>
+                      <option value="2">Andorra</option>
+                      <option value="9">Angola</option>
+                      <option value="6">Anguilla</option>
+                      <option value="5">Antigua and Barbuda</option>
+                      <option value="11">Argentina</option>
+                      <option value="8">Armenia</option>
+                      <option value="15">Aruba</option>
+                      <option value="14">Australlia</option>
+                      <option value="13">Austria</option>
+                      <option value="17">Azerbaijan</option>
+                      <option value="19">Babados</option>
+                      <option value="33">Bahamas</option>
+                      <option value="24">Bahrian</option>
+                      <option value="20">Bangladesh</option>
+                      <option value="37">Belarus</option>
+                      <option value="21">Belgium</option>
+                      <option value="38">Belize</option>
+                      <option value="26">Benin</option>
+                      <option value="28">Bermuda</option>
+                      <option value="34">Bhutan</option>
+                      <option value="30">Bolivia</option>
+                      <option value="31">Bonaire, Saint Eustatuis and Saba</option>
+                      <option value="18">Bosnia and Herzegovina</option>
+                      <option value="36">Botswana</option>
+                      <option value="35">Bouvet Island</option>
+                      <option value="32">Brazil</option>
+                      <option value="107">British Indian Ocean Territory</option>
+                      <option value="240">British Virgin Islands</option>
+                      <option value="29">Brunei</option>
+                      <option value="23">Bulgaria</option>
+                      <option value="22">Burkina Faso</option>
+                      <option value="25">Burundi</option>
+                      <option value="118">Cambodia</option>
+                      <option value="48">Cameroon</option>
+                      <option value="39">Canada</option>
+                      <option value="53">Cape Verde</option>
+                      <option value="126">Cayman Islands</option>
+                      <option value="42">Central African Republic</option>
+                      <option value="216">Chad</option>
+                      <option value="47">Chile</option>
+                      <option value="49">China</option>
+                      <option value="55">Christmas Island</option>
+                      <option value="40">Cocos Islands</option>
+                      <option value="50">Colombia</option>
+                      <option value="120">Comoros</option>
+                      <option value="46">Cook Islands</option>
+                      <option value="51">Costa Rica</option>
+                      <option value="99">Croatia</option>
+                      <option value="52">Cuba</option>
+                      <option value="54">Curacao</option>
+                      <option value="56">Cyprus</option>
+                      <option value="57">Czech Republic</option>
+                      <option value="41">Democratic Republic of the Congo</option>
+                      <option value="60">Denmark</option>
+                      <option value="59">Djibouti</option>
+                      <option value="61">Dominica</option>
+                      <option value="62">Dominican Republic</option>
+                      <option value="222">East Timor</option>
+                      <option value="64">Ecuador</option>
+                      <option value="66">Egypt</option>
+                      <option value="211">El Savador</option>
+                      <option value="89">Equatorial Guinea</option>
+                      <option value="68">Eritrea</option>
+                      <option value="65">Estonia</option>
+                      <option value="70">Ethiopia</option>
+                      <option value="73">Falkland Islands</option>
+                      <option value="75">Faroe Islands</option>
+                      <option value="72">Fiji</option>
+                      <option value="71">Finland</option>
+                      <option value="76">France</option>
+                      <option value="81">French Guiana</option>
+                      <option value="176">French Polynesia</option>
+                      <option value="217">French Southern Territories</option>
+                      <option value="217">Svalvard and Jan Mayen</option>
+                      <option value="77">Gabon</option>
+                      <option value="86">Gambia</option>
+                      <option value="88">Gaudeloupe</option>
+                      <option value="58">Germany</option>
+                      <option value="80">Gerogia</option>
+                      <option value="83">Ghana</option>
+                      <option value="84">Gibraltar</option>
+                      <option value="90">Greece</option>
+                      <option value="85">Greenland</option>
+                      <option value="79">Grenada</option>
+                      <option value="93">Guam</option>
+                      <option value="92">Guatemala</option>
+                      <option value="82">Guernsey</option>
+                      <option value="87">Guinea</option>
+                      <option value="94">Guinea - Bissau</option>
+                      <option value="95">Guyana</option>
+                      <option value="100">Haiti</option>
+                      <option value="97">Heart Island and Mcdonald Islands</option>
+                      <option value="98">Honduras</option>
+                      <option value="96">Hong Kong</option>
+                      <option value="101">Hungary</option>
+                      <option value="110">Iceland</option>
+                      <option value="106">India</option>
+                      <option value="102">Indonesia</option>
+                      <option value="253">International</option>
+                      <option value="109">Iran</option>
+                      <option value="108">Iraq</option>
+                      <option value="103">Ireland</option>
+                      <option value="105">Isle of Man</option>
+                      <option value="104">Isreal</option>
+                      <option value="111">Italy</option>
+                      <option value="45">Ivory Coast</option>
+                      <option value="113">Jamaica</option>
+                      <option value="115">Japan</option>
+                      <option value="112">Jersey</option>
+                      <option value="114">Jordan</option>
+                      <option value="127">Kazakhstan</option>
+                      <option value="116">Kenya</option>
+                      <option value="119">Kiribati</option>
+                      <option value="124">Kosovo</option>
+                      <option value="125">Kuwait</option>
+                      <option value="117">Kyrgyzstan</option>
+                      <option value="128">Laos</option>
+                      <option value="137">Latvia</option>
+                      <option value="129">Lebanon</option>
+                      <option value="134">Lesotho</option>
+                      <option value="133">Liberia</option>
+                      <option value="138">Libya</option>
+                      <option value="131">Liechtenstien</option>
+                      <option value="135">Lithuania</option>
+                      <option value="136">Luxembourg</option>
+                      <option value="149">Macao</option>
+                      <option value="146">Macedonia</option>
+                      <option value="144">Madagascar</option>
+                      <option value="157">Malawi</option>
+                      <option value="159">Malaysia</option>
+                      <option value="156">Maldives</option>
+                      <option value="147">Mali</option>
+                      <option value="154">Malta</option>
+                      <option value="145">Marshall Islands</option>
+                      <option value="151">Martinique</option>
+                      <option value="152">Mauritania</option>
+                      <option value="155">Mauritius</option>
+                      <option value="247">Mayotte</option>
+                      <option value="158">Mexico</option>
+                      <option value="74">Micronesia</option>
+                      <option value="141">Moldova</option>
+                      <option value="140">Monaco</option>
+                      <option value="148">Mongolia</option>
+                      <option value="142">Montenegro</option>
+                      <option value="153">Montserrat</option>
+                      <option value="139">Morocco</option>
+                      <option value="160">Mozambique</option>
+                      <option value="1">Myanmar</option>
+                      <option value="161">Namibia</option>
+                      <option value="170">Nauru</option>
+                      <option value="169">Nepal</option>
+                      <option value="167">Netherlands</option>
+                      <option value="252">Netherlands Antilles</option>
+                      <option value="162">New Caledonia</option>
+                      <option value="172">New Zealand</option>
+                      <option value="166">Nicaragua</option>
+                      <option value="163">Niger</option>
+                      <option value="165">Nigeria</option>
+                      <option value="171">Niue</option>
+                      <option value="164">Norfolk Island</option>
+                      <option value="122">North Korea</option>
+                      <option value="150">Northern Marian Islands</option>
+                      <option value="168">Norway</option>
+                      <option value="173">Oman</option>
+                      <option value="179">Pakistan</option>
+                      <option value="186">Palau</option>
+                      <option value="184">Palestinian Territory</option>
+                      <option value="174">Panama</option>
+                      <option value="177">Papua New Guinea</option>
+                      <option value="187">Paraguay</option>
+                      <option value="175">Peru</option>
+                      <option value="178">Philippines</option>
+                      <option value="182">Pitcairn</option>
+                      <option value="180">Poland</option>
+                      <option value="185">Portugal</option>
+                      <option value="183">Puerto Rica</option>
+                      <option value="188">Qatar</option>
+                      <option value="43">Republic of the Congo</option>
+                      <option value="189">Reunion</option>
+                      <option value="190">Romania</option>
+                      <option value="192">Russia</option>
+                      <option value="193">Rwanda</option>
+                      <option value="27">Saint Barthelemy</option>
+                      <option value="201">Saint Helena</option>
+                      <option value="121">Saint Kitts and Nevis</option>
+                      <option value="130">Saint Lucia</option>
+                      <option value="143">Saint Martin</option>
+                      <option value="181">Saint Pierre and Miquelon</option>
+                      <option value="238">Saint Vincent and the Grenadines</option>
+                      <option value="245">Samoa</option>
+                      <option value="206">San Marino</option>
+                      <option value="210">Sao Tome and Principe</option>
+                      <option value="194">Saudi Arabia</option>
+                      <option value="207">Senegal</option>
+                      <option value="191">Serbia</option>
+                      <option value="251">Serbia and Montenegro</option>
+                      <option value="196">Seychelles</option>
+                      <option value="205">Sierra Leone</option>
+                      <option value="200">Singapore</option>
+                      <option value="212">Sint Maarten</option>
+                      <option value="204">Slovakia</option>
+                      <option value="202">Slovenia</option>
+                      <option value="195">Solomon Islands</option>
+                      <option value="208">Somalia</option>
+                      <option value="248">South Africa</option>
+                      <option value="91">South Georgia and the South Sandwich Islands</option>
+                      <option value="123">South Korea</option>
+                      <option value="198">South Sudan</option>
+                      <option value="69">Spain</option>
+                      <option value="132">Sri Lanka</option>
+                      <option value="197">Sudan</option>
+                      <option value="209">Suriname</option>
+                      <option value="203">Svalbard and Jan Mayen</option>
+                      <option value="217">French Southern Territories</option>
+                      <option value="217">Svalvard and Jan Mayen</option>
+                      <option value="214">Swaziland</option>
+                      <option value="199">Sweden</option>
+                      <option value="44">Switzerland</option>
+                      <option value="213">Syria</option>
+                      <option value="229">Taiwan</option>
+                      <option value="220">Tajikistan</option>
+                      <option value="230">Tanzania</option>
+                      <option value="224">Tazania</option>
+                      <option value="224">Tunisia</option>
+                      <option value="219">Thailand</option>
+                      <option value="218">Togo</option>
+                      <option value="221">Tokelau</option>
+                      <option value="225">Tonga</option>
+                      <option value="227">Trinidad and Tobago</option>
+                      <option value="224">Tazania</option>
+                      <option value="224">Tunisia</option>
+                      <option value="226">Turkey</option>
+                      <option value="223">Turkmenistan</option>
+                      <option value="215">Turks and Caicos Islands</option>
+                      <option value="228">Tuvalu</option>
+                      <option value="235">U.S Virgin Islands</option>
+                      <option value="235">Uruguay</option>
+                      <option value="241">U.S. Virgin Islands</option>
+                      <option value="232">Uganda</option>
+                      <option value="231">Ukraine</option>
+                      <option value="3">United Arab Emirates</option>
+                      <option value="78">United Kingdom</option>
+                      <option value="234">United States</option>
+                      <option value="233">United States Minor Outlying Islands</option>
+                      <option value="235">U.S Virgin Islands</option>
+                      <option value="235">Uruguay</option>
+                      <option value="236">Uzbekistan</option>
+                      <option value="244">Vanautu</option>
+                      <option value="244">Wallis and Futuna</option>
+                      <option value="243">Vanuatu</option>
+                      <option value="237">Vatican</option>
+                      <option value="239">Venezuela</option>
+                      <option value="242">Vietnam</option>
+                      <option value="244">Vanautu</option>
+                      <option value="244">Wallis and Futuna</option>
+                      <option value="67">Western Sahara</option>
+                      <option value="246">Yemen</option>
+                      <option value="249">Zambia</option>
+                      <option value="250">Zimbabwe</option>
+                    </select>
+                  </div>
+                </div>
+                <div>
+                  <div class="modal__form-group">
+                    <div>
+                      <div class="modal__form-field">
+                        <label class="modal__form-label">From</label>
+                        <input class="datepicker" type="text">
+                      </div>
+                    </div>
+                    <div>
+                      <div class="modal__form-field">
+                        <label class="modal__form-label">To</label>
+                        <input class="datepicker" type="text">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer c-btn__wrapper">
+            <button class="c-btn c-btn--borderGray" type="button" data-dismiss="modal"><span>Cancel</span></button>
+            <button class="c-btn c-btn--borderGreen" type="button"><span>Save</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECTION :: END-->
+    <!-- SECTION :: START-->
+    <div class="modal-profile-skills modal fade" id="modalProfileSkills" tabindex="-1" role="dialog" aria-labelledby="modalProfileSkills" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div>
+              <h5 class="modal-title">Skills achieved</h5>
+            </div>
+            <div>
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close"><i class="icon-font icon-close"></i></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="modal__step">
+              <p>STEP 5 : YOUR SKILLS</p>
+            </div>
+            <form class="modal__form" action="" method="" autocomplete="off">
+              <div class="modal__form-group">
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="skill">Skill <span>*</span></label>
+                    <input type="text" id="skill" name="skill" placeholder="Type new skill here">
+                  </div>
+                </div>
+                <div>
+                  <div class="modal__form-field">
+                    <label class="modal__form-label" for="skill_level">Skill Level</label>
+                    <select id="skill_level">
+                      <option value="0">Choose Skill Level</option>
+                      <option value="1">Beginner</option>
+                      <option value="2">Intermediate</option>
+                      <option value="3">Professional</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer c-btn__wrapper">
+            <button class="c-btn c-btn--borderGray" type="button" data-dismiss="modal"><span>Cancel</span></button>
+            <button class="c-btn c-btn--borderGreen" type="button"><span>Save</span></button>
+          </div>
+          <div class="modal-footer">
+            <div class="modal__box-wrapper">
+              <div>
+                <div class="modal__box">
+                  <div>
+                    <p><strong>Title </strong> : Content Writing</p>
+                    <p><strong>Skill Level </strong> : Intermediate</p>
+                  </div>
+                  <div><a href="#"><i class="icon-font icon-delete"></i><span>Delete</span></a></div>
+                </div>
+              </div>
+              <div>
+                <div class="modal__box">
+                  <div>
+                    <p><strong>Title </strong> : Content Writing</p>
+                    <p><strong>Skill Level </strong> : Intermediate</p>
+                  </div>
+                  <div><a href="#"><i class="icon-font icon-delete"></i><span>Delete</span></a></div>
+                </div>
+              </div>
+              <div>
+                <div class="modal__box">
+                  <div>
+                    <p><strong>Title </strong> : Content Writing</p>
+                    <p><strong>Skill Level </strong> : Intermediate</p>
+                  </div>
+                  <div><a href="#"><i class="icon-font icon-delete"></i><span>Delete</span></a></div>
+                </div>
+              </div>
+              <div>
+                <div class="modal__box">
+                  <div>
+                    <p><strong>Title </strong> : Content Writing</p>
+                    <p><strong>Skill Level </strong> : Intermediate</p>
+                  </div>
+                  <div><a href="#"><i class="icon-font icon-delete"></i><span>Delete</span></a></div>
+                </div>
+              </div>
+              <div>
+                <div class="modal__box">
+                  <div>
+                    <p><strong>Title </strong> : Content Writing</p>
+                    <p><strong>Skill Level </strong> : Intermediate</p>
+                  </div>
+                  <div><a href="#"><i class="icon-font icon-delete"></i><span>Delete</span></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECTION :: END-->
   </body>
   <!-- SCRIPT :: START-->
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="js/vendor.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
   <script src="js/app.js"></script>
   <!-- SCRIPT :: END-->
 </html>

@@ -1,0 +1,36 @@
+// SECTION :: START
+
+#modalProfileAbout.modal-profile-about.modal.fade(tabindex='-1', role='dialog', aria-labelledby='modalProfileAbout', aria-hidden='true')
+	.modal-dialog(role='document')
+		.modal-content
+			.modal-header
+				div
+					h5.modal-title Update About Me
+				div
+					button.close(type='button', data-dismiss='modal', aria-label='Close')
+						i.icon-font.icon-close
+			.modal-body
+				.modal-body-header
+					p STEP 2 : TELL YOUR STORY
+
+				p.modal-subtitle About Yourself...
+
+				form(action='' method='' autocomplete='off')
+					div
+						label(for='textAbout1')!= "Describe Yourself <span>*</span>"
+						textarea(name='' id='textAbout1')
+							| Digital Marketing Specialist with a proven track record in delivering growth for business website.Currently working at the JobNet.com.mm as Digital Marketing Manager ,managing the content marketing, Email marketing, Social Media Marketing, Google Adwords planning and monitor our digital activities through Google Analytic and identify best practices and improve overall digital performance.
+
+					div
+						label(for='textAbout2')!= "Career Objectives"
+						textarea(name='' id='textAbout2')
+							| Be the best at what I do.
+
+			.modal-footer.c-btn__wrapper
+				button.c-btn.c-btn--borderGray(type='button', data-dismiss='modal')
+					span Cancel
+				button.c-btn.c-btn--borderGreen(type='button')
+					span Save
+
+
+// SECTION :: END

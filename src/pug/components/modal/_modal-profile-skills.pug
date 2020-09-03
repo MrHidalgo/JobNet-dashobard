@@ -1,0 +1,52 @@
+// SECTION :: START
+
+#modalProfileSkills.modal-profile-skills.modal.fade(tabindex='-1', role='dialog', aria-labelledby='modalProfileSkills', aria-hidden='true')
+	.modal-dialog(role='document')
+		.modal-content
+			.modal-header
+				div
+					h5.modal-title Skills achieved
+				div
+					button.close(type='button', data-dismiss='modal', aria-label='Close')
+						i.icon-font.icon-close
+
+			.modal-body
+
+				.modal__step
+					p STEP 5 : YOUR SKILLS
+
+				form.modal__form(action='' method='' autocomplete='off')
+					.modal__form-group
+						div
+							.modal__form-field
+								label.modal__form-label(for="skill")!= "Skill <span>*</span>"
+								input(type='text' id='skill' name='skill' placeholder="Type new skill here")
+						div
+							.modal__form-field
+								label.modal__form-label(for="skill_level")!= "Skill Level"
+								select#skill_level
+									option(value='0') Choose Skill Level
+									option(value='1') Beginner
+									option(value='2') Intermediate
+									option(value='3') Professional
+
+			.modal-footer.c-btn__wrapper
+				button.c-btn.c-btn--borderGray(type='button', data-dismiss='modal')
+					span Cancel
+				button.c-btn.c-btn--borderGreen(type='button')
+					span Save
+
+			.modal-footer
+				.modal__box-wrapper
+					each val, idx in [1,2,3,4,5]
+						div
+							.modal__box
+								div
+									p!= "<strong>Title </strong> : Content Writing"
+									p!= "<strong>Skill Level </strong> : Intermediate"
+								div
+									a(href="#")
+										i.icon-font.icon-delete
+										span Delete
+
+// SECTION :: END

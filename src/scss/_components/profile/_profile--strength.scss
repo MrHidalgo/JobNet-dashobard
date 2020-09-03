@@ -1,0 +1,125 @@
+&__strength {
+	position: relative;
+	padding: 20px 30px;
+
+	&-title {
+		padding-bottom: 40px;
+		font-size: 16px;
+		color: #655e5e;
+		font-weight: 500;
+		letter-spacing: 0.11px;
+	}
+
+	&-progress {
+		position: relative;
+		display: flex;
+		width: 100%;
+		height: 12px;
+		margin-bottom: 25px;
+		border-radius: 6px;
+		background-color: #757575;
+		background-image: linear-gradient(to right, #06aa86 0%, #15c 50%, #639 100%);
+
+		> p {
+			display: flex;
+			width: calc(100% / 4);
+			height: 100%;
+			background-color: #dcdcdc;
+
+			&:first-of-type {
+				border-radius: 6px 0 0 6px;
+			}
+			&:last-of-type {
+				border-radius: 0 6px 6px 0;
+			}
+			&:not(:last-of-type) {
+				border-right: 1px solid #fff;
+			}
+
+			&.is-active {
+				background-color: transparent;
+			}
+		}
+
+		&-ind {
+			position: absolute;
+			top: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 32px;
+			height: 32px;
+			border-radius: 50%;
+			border: 1px solid #5e359d;
+			background-color: #ffffff;
+			box-shadow: 0 3px 5px 1px rgba(0, 0, 0, .24);
+
+			.icon-font {
+				color: #5e359d;
+				font-size: 16px;
+			}
+
+			> div {
+				position: absolute;
+				left: 50%;
+				bottom: calc(100% + 4px);
+				transform: translateX(-50%);
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 27px;
+				padding: 2px 14px;
+				border-radius: 2em;
+				background-color: #eee;
+				color: #0f58ca;
+				font-size: 15px;
+				font-weight: 700;
+			}
+		}
+	}
+
+	&-box {
+		display: flex;
+		padding: 20px;
+		border: 1px solid #dcdcdc;
+		border-radius: 3px;
+		background-color: #eee;
+
+		> div {
+			&:nth-of-type(1) {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 96px;
+				padding-right: 20px;
+			}
+			&:nth-of-type(2) {
+				flex: 1;
+				min-width: 1px;
+				max-width: 100%;
+			}
+		}
+
+		img {
+			display: block;
+			max-width: 100%;
+			height: auto;
+			max-height: 100%;
+		}
+
+		p {
+			padding-bottom: 7px;
+			font-weight: 700;
+			font-size: 14px;
+			text-transform: uppercase;
+			color: #9801ad;
+		}
+
+		span {
+			font-size: 15px;
+			line-height: 20px;
+			color: #616161;
+		}
+	}
+}

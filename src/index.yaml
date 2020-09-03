@@ -4,3 +4,6 @@ PageList:
 - file: index.html
   titleName: JN Dashboard - My Profile
   ready: 1
+- file: manage-account-setting.html
+  titleName: Manage Account Setting
+  ready: 1

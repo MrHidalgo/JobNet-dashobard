@@ -1,0 +1,359 @@
+// SECTION :: START
+
+#modalProfileEducation.modal-profile-education.modal.fade(tabindex='-1', role='dialog', aria-labelledby='modalProfileEducation', aria-hidden='true')
+	.modal-dialog(role='document')
+		.modal-content
+			.modal-header
+				div
+					h5.modal-title Update Education Details
+				div
+					button.close(type='button', data-dismiss='modal', aria-label='Close')
+						i.icon-font.icon-close
+
+			.modal-body
+
+				.modal__step
+					p STEP 4 : YOUR EDUCATIONS
+
+				form.modal__form(action='' method='' autocomplete='off')
+					p.modal__form-title Education / Qualifications
+					.modal__form-group
+						div
+							.modal__form-field
+								label.modal__form-label(for="location")!= "Location (or Division) <span>*</span>"
+								select#location
+									option(value='0') Choose Location
+									option(value='1') Yangon
+									option(value='2') Mandalay
+									option(value='3') NayPyiTaw
+									option(value='9') Ayeyawady Division
+									option(value='5') Bago Division
+									option(value='14') Chin State
+									option(value='10') Kachin State
+									option(value='15') Kayah State
+									option(value='13') Kayin State
+									option(value='7') Magway Division
+									option(value='8') Mon State
+									option(value='11') Rakhine State
+									option(value='6') Sagaing Division
+									option(value='4') Shan State
+									option(value='12') Taninthayi Division
+									option(value='24') Singapore
+									option(value='25') Malaysia
+									option(value='26') Thailand
+									option(value='27') Australia
+									option(value='28') UK
+									option(value='29') USA
+									option(value='16') International
+						div
+							.modal__form-field
+								label.modal__form-label(for="school_university")!= "School or University <span>*</span>"
+								select#school_university(select-dropdown-js)
+									option(value='0') School or University
+					.modal__form-group
+						div
+							.modal__form-field
+								label.modal__form-label(for="degree_level")!= "Degree Level <span>*</span>"
+								select#degree_level
+									option(value='0') Choose Education Level
+									option(value='1') High School
+									option(value='2') Professional Certificate
+									option(value='3') Diploma
+									option(value='4') Bachelor Degree
+									option(value='5') Master Degree
+									option(value='6') PHD
+						div
+							.modal__form-field
+								label.modal__form-label(for="choose_area_study")!= "Choose Area of Study <span>*</span>"
+								select#choose_area_study(select-dropdown-js)
+									option(value='0') Choose Area of Study
+					.modal__form-group
+						div
+							.modal__form-field
+								label.modal__form-label(for="country")!= "Country"
+								select#country
+									option(value='0') Country Studied
+									option(value='4') Afhganistan
+									option(value='16') Aland Islands
+									option(value='7') Albania
+									option(value='63') Algeria
+									option(value='12') American Samoa
+									option(value='10') Anartica
+									option(value='2') Andorra
+									option(value='9') Angola
+									option(value='6') Anguilla
+									option(value='5') Antigua and Barbuda
+									option(value='11') Argentina
+									option(value='8') Armenia
+									option(value='15') Aruba
+									option(value='14') Australlia
+									option(value='13') Austria
+									option(value='17') Azerbaijan
+									option(value='19') Babados
+									option(value='33') Bahamas
+									option(value='24') Bahrian
+									option(value='20') Bangladesh
+									option(value='37') Belarus
+									option(value='21') Belgium
+									option(value='38') Belize
+									option(value='26') Benin
+									option(value='28') Bermuda
+									option(value='34') Bhutan
+									option(value='30') Bolivia
+									option(value='31') Bonaire, Saint Eustatuis and Saba
+									option(value='18') Bosnia and Herzegovina
+									option(value='36') Botswana
+									option(value='35') Bouvet Island
+									option(value='32') Brazil
+									option(value='107') British Indian Ocean Territory
+									option(value='240') British Virgin Islands
+									option(value='29') Brunei
+									option(value='23') Bulgaria
+									option(value='22') Burkina Faso
+									option(value='25') Burundi
+									option(value='118') Cambodia
+									option(value='48') Cameroon
+									option(value='39') Canada
+									option(value='53') Cape Verde
+									option(value='126') Cayman Islands
+									option(value='42') Central African Republic
+									option(value='216') Chad
+									option(value='47') Chile
+									option(value='49') China
+									option(value='55') Christmas Island
+									option(value='40') Cocos Islands
+									option(value='50') Colombia
+									option(value='120') Comoros
+									option(value='46') Cook Islands
+									option(value='51') Costa Rica
+									option(value='99') Croatia
+									option(value='52') Cuba
+									option(value='54') Curacao
+									option(value='56') Cyprus
+									option(value='57') Czech Republic
+									option(value='41') Democratic Republic of the Congo
+									option(value='60') Denmark
+									option(value='59') Djibouti
+									option(value='61') Dominica
+									option(value='62') Dominican Republic
+									option(value='222') East Timor
+									option(value='64') Ecuador
+									option(value='66') Egypt
+									option(value='211') El Savador
+									option(value='89') Equatorial Guinea
+									option(value='68') Eritrea
+									option(value='65') Estonia
+									option(value='70') Ethiopia
+									option(value='73') Falkland Islands
+									option(value='75') Faroe Islands
+									option(value='72') Fiji
+									option(value='71') Finland
+									option(value='76') France
+									option(value='81') French Guiana
+									option(value='176') French Polynesia
+									option(value='217') French Southern Territories
+									option(value='217') Svalvard and Jan Mayen
+									option(value='77') Gabon
+									option(value='86') Gambia
+									option(value='88') Gaudeloupe
+									option(value='58') Germany
+									option(value='80') Gerogia
+									option(value='83') Ghana
+									option(value='84') Gibraltar
+									option(value='90') Greece
+									option(value='85') Greenland
+									option(value='79') Grenada
+									option(value='93') Guam
+									option(value='92') Guatemala
+									option(value='82') Guernsey
+									option(value='87') Guinea
+									option(value='94') Guinea - Bissau
+									option(value='95') Guyana
+									option(value='100') Haiti
+									option(value='97') Heart Island and Mcdonald Islands
+									option(value='98') Honduras
+									option(value='96') Hong Kong
+									option(value='101') Hungary
+									option(value='110') Iceland
+									option(value='106') India
+									option(value='102') Indonesia
+									option(value='253') International
+									option(value='109') Iran
+									option(value='108') Iraq
+									option(value='103') Ireland
+									option(value='105') Isle of Man
+									option(value='104') Isreal
+									option(value='111') Italy
+									option(value='45') Ivory Coast
+									option(value='113') Jamaica
+									option(value='115') Japan
+									option(value='112') Jersey
+									option(value='114') Jordan
+									option(value='127') Kazakhstan
+									option(value='116') Kenya
+									option(value='119') Kiribati
+									option(value='124') Kosovo
+									option(value='125') Kuwait
+									option(value='117') Kyrgyzstan
+									option(value='128') Laos
+									option(value='137') Latvia
+									option(value='129') Lebanon
+									option(value='134') Lesotho
+									option(value='133') Liberia
+									option(value='138') Libya
+									option(value='131') Liechtenstien
+									option(value='135') Lithuania
+									option(value='136') Luxembourg
+									option(value='149') Macao
+									option(value='146') Macedonia
+									option(value='144') Madagascar
+									option(value='157') Malawi
+									option(value='159') Malaysia
+									option(value='156') Maldives
+									option(value='147') Mali
+									option(value='154') Malta
+									option(value='145') Marshall Islands
+									option(value='151') Martinique
+									option(value='152') Mauritania
+									option(value='155') Mauritius
+									option(value='247') Mayotte
+									option(value='158') Mexico
+									option(value='74') Micronesia
+									option(value='141') Moldova
+									option(value='140') Monaco
+									option(value='148') Mongolia
+									option(value='142') Montenegro
+									option(value='153') Montserrat
+									option(value='139') Morocco
+									option(value='160') Mozambique
+									option(value='1') Myanmar
+									option(value='161') Namibia
+									option(value='170') Nauru
+									option(value='169') Nepal
+									option(value='167') Netherlands
+									option(value='252') Netherlands Antilles
+									option(value='162') New Caledonia
+									option(value='172') New Zealand
+									option(value='166') Nicaragua
+									option(value='163') Niger
+									option(value='165') Nigeria
+									option(value='171') Niue
+									option(value='164') Norfolk Island
+									option(value='122') North Korea
+									option(value='150') Northern Marian Islands
+									option(value='168') Norway
+									option(value='173') Oman
+									option(value='179') Pakistan
+									option(value='186') Palau
+									option(value='184') Palestinian Territory
+									option(value='174') Panama
+									option(value='177') Papua New Guinea
+									option(value='187') Paraguay
+									option(value='175') Peru
+									option(value='178') Philippines
+									option(value='182') Pitcairn
+									option(value='180') Poland
+									option(value='185') Portugal
+									option(value='183') Puerto Rica
+									option(value='188') Qatar
+									option(value='43') Republic of the Congo
+									option(value='189') Reunion
+									option(value='190') Romania
+									option(value='192') Russia
+									option(value='193') Rwanda
+									option(value='27') Saint Barthelemy
+									option(value='201') Saint Helena
+									option(value='121') Saint Kitts and Nevis
+									option(value='130') Saint Lucia
+									option(value='143') Saint Martin
+									option(value='181') Saint Pierre and Miquelon
+									option(value='238') Saint Vincent and the Grenadines
+									option(value='245') Samoa
+									option(value='206') San Marino
+									option(value='210') Sao Tome and Principe
+									option(value='194') Saudi Arabia
+									option(value='207') Senegal
+									option(value='191') Serbia
+									option(value='251') Serbia and Montenegro
+									option(value='196') Seychelles
+									option(value='205') Sierra Leone
+									option(value='200') Singapore
+									option(value='212') Sint Maarten
+									option(value='204') Slovakia
+									option(value='202') Slovenia
+									option(value='195') Solomon Islands
+									option(value='208') Somalia
+									option(value='248') South Africa
+									option(value='91') South Georgia and the South Sandwich Islands
+									option(value='123') South Korea
+									option(value='198') South Sudan
+									option(value='69') Spain
+									option(value='132') Sri Lanka
+									option(value='197') Sudan
+									option(value='209') Suriname
+									option(value='203') Svalbard and Jan Mayen
+									option(value='217') French Southern Territories
+									option(value='217') Svalvard and Jan Mayen
+									option(value='214') Swaziland
+									option(value='199') Sweden
+									option(value='44') Switzerland
+									option(value='213') Syria
+									option(value='229') Taiwan
+									option(value='220') Tajikistan
+									option(value='230') Tanzania
+									option(value='224') Tazania
+									option(value='224') Tunisia
+									option(value='219') Thailand
+									option(value='218') Togo
+									option(value='221') Tokelau
+									option(value='225') Tonga
+									option(value='227') Trinidad and Tobago
+									option(value='224') Tazania
+									option(value='224') Tunisia
+									option(value='226') Turkey
+									option(value='223') Turkmenistan
+									option(value='215') Turks and Caicos Islands
+									option(value='228') Tuvalu
+									option(value='235') U.S Virgin Islands
+									option(value='235') Uruguay
+									option(value='241') U.S. Virgin Islands
+									option(value='232') Uganda
+									option(value='231') Ukraine
+									option(value='3') United Arab Emirates
+									option(value='78') United Kingdom
+									option(value='234') United States
+									option(value='233') United States Minor Outlying Islands
+									option(value='235') U.S Virgin Islands
+									option(value='235') Uruguay
+									option(value='236') Uzbekistan
+									option(value='244') Vanautu
+									option(value='244') Wallis and Futuna
+									option(value='243') Vanuatu
+									option(value='237') Vatican
+									option(value='239') Venezuela
+									option(value='242') Vietnam
+									option(value='244') Vanautu
+									option(value='244') Wallis and Futuna
+									option(value='67') Western Sahara
+									option(value='246') Yemen
+									option(value='249') Zambia
+									option(value='250') Zimbabwe
+						div
+							.modal__form-group
+								div
+									.modal__form-field
+										label.modal__form-label!= "From"
+										input.datepicker(type='text')
+								div
+									.modal__form-field
+										label.modal__form-label!= "To"
+										input.datepicker(type='text')
+
+			.modal-footer.c-btn__wrapper
+				button.c-btn.c-btn--borderGray(type='button', data-dismiss='modal')
+					span Cancel
+				button.c-btn.c-btn--borderGreen(type='button')
+					span Save
+
+
+// SECTION :: END

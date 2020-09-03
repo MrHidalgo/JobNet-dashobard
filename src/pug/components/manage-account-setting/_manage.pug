@@ -1,0 +1,107 @@
+// SECTION :: START
+
+section#manage.manage.section
+	.c-grid
+		.manage__wrapper.section__wrapper
+			.manage__wrapper-left.section__wrapper-left
+
+				.section__block
+					.manage__head
+						p MANAGE YOUR ACCOUNT SETTINGS
+
+					.manage__body
+
+						p.manage__title Email, SMS and Alerts
+
+						.manage__block-wrapper
+							div
+								.manage__block
+									div
+										p Updates and News
+										span Get tips, announcements, promotions and popular lists.
+									div
+										.c-checkboxToggle
+											input(type='checkbox' name='' id='updates_news')
+											label(for="updates_news")
+												i
+												span
+													u On
+													u Off
+							div
+								.manage__block
+									div
+										p Message Chat Alerts
+										span Email me Un-read Message Chat Reminders
+									div
+										.c-checkboxToggle
+											input(type='checkbox' name='' id='chat_alerts')
+											label(for="chat_alerts")
+												i
+												span
+													u On
+													u Off
+							div
+								.manage__block
+									div
+										p Profile View Alerts
+										span Email me "Who Viewed My Profile"
+									div
+										.c-checkboxToggle
+											input(type='checkbox' name='' id='view_alerts')
+											label(for="view_alerts")
+												i
+												span
+													u On
+													u Off
+							div
+								.manage__block
+									div
+										p Job Alerts
+										span Stay on top of new opportunities with job alerts.
+										a(href="#") * View Job Alerts
+										u You currently have 1 Job Alert.
+									div
+										.c-checkboxToggle
+											input(type='checkbox' name='' id='job_alerts')
+											label(for="job_alerts")
+												i
+												span
+													u On
+													u Off
+							div
+								.manage__block
+									div
+										p Profile Visibility
+										span Your profile appears in employers and other permitted services.
+									div
+										.c-checkboxToggle
+											input(type='checkbox' name='' id='profile_visibility')
+											label(for="profile_visibility")
+												i
+												span
+													u On
+													u Off
+
+
+						.manage__more
+							a.manage__more-toggle(data-toggle='collapse', href='#manageMoreSetting', role='button', aria-expanded='false', aria-controls='manageMoreSetting') More setting
+
+							#manageMoreSetting.collapse.manage__more-collapse
+								div
+									p!= "You can also <strong>manage your email settings above.</strong>"
+									p To close your account, you must wait at least 24 hours. Closing your account cannot be reversed.
+									p
+										u Once we delete your data and information, there is no way to retrieve it again.
+
+									.c-btn__wrapper
+										a.c-btn.c-btn--borderGray(href="#")
+											span Shut Down Account
+
+
+			.manage__wrapper-right.section__wrapper-right
+
+				.section__block
+
+					include ../profile/_profile--jobs
+
+// SECTION :: END
