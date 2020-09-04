@@ -9,4 +9,4 @@ PageList:
   ready: 100
 - file: job-alert.html
   titleName: Jobb Alert
-  ready: 1
+  ready: 100

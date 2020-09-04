@@ -8238,7 +8238,15 @@ picture {
   background-color: transparent;
 }
 
-/* line 32, src/scss/_components/job-alert/_job-alert.scss */
+@media screen and (max-width: 1023px) {
+  /* line 25, src/scss/_components/job-alert/_job-alert.scss */
+  .job-alert__more .c-btn {
+    max-width: 100%;
+    margin-bottom: 70px;
+  }
+}
+
+/* line 36, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block {
   display: -webkit-box;
   display: -webkit-flex;
@@ -8257,7 +8265,7 @@ picture {
           box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
 }
 
-/* line 40, src/scss/_components/job-alert/_job-alert.scss */
+/* line 44, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block-head {
   padding: 17px 2.5%;
   -webkit-border-radius: 3px 3px 0 0;
@@ -8266,9 +8274,10 @@ picture {
   font-size: 24px;
   font-weight: 500;
   color: #fff;
+  line-height: 1;
 }
 
-/* line 49, src/scss/_components/job-alert/_job-alert.scss */
+/* line 54, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block-body {
   display: -webkit-box;
   display: -webkit-flex;
@@ -8278,7 +8287,7 @@ picture {
   padding: 15px 2.5% 15px;
 }
 
-/* line 55, src/scss/_components/job-alert/_job-alert.scss */
+/* line 60, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block-body:hover .job-alert__block-row {
   background-color: #fafafa;
   -webkit-transition: background-color 0.4s ease-in-out;
@@ -8286,7 +8295,7 @@ picture {
   transition: background-color 0.4s ease-in-out;
 }
 
-/* line 62, src/scss/_components/job-alert/_job-alert.scss */
+/* line 67, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block-row {
   display: -webkit-box;
   display: -webkit-flex;
@@ -8302,14 +8311,45 @@ picture {
   transition: background-color 0.4s ease-in-out;
 }
 
-/* line 69, src/scss/_components/job-alert/_job-alert.scss */
+@media screen and (max-width: 1279px) {
+  /* line 67, src/scss/_components/job-alert/_job-alert.scss */
+  .job-alert__block-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+  }
+}
+
+/* line 80, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block-row > div:nth-of-type(1) {
   width: 100%;
   max-width: 325px;
   padding: 16px 12px;
 }
 
-/* line 74, src/scss/_components/job-alert/_job-alert.scss */
+@media screen and (max-width: 1279px) {
+  /* line 80, src/scss/_components/job-alert/_job-alert.scss */
+  .job-alert__block-row > div:nth-of-type(1) {
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 80, src/scss/_components/job-alert/_job-alert.scss */
+  .job-alert__block-row > div:nth-of-type(1) {
+    max-width: 100%;
+  }
+}
+
+/* line 91, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block-row > div:nth-of-type(2) {
   display: -webkit-box;
   display: -webkit-flex;
@@ -8327,7 +8367,21 @@ picture {
   max-width: 100%;
 }
 
-/* line 81, src/scss/_components/job-alert/_job-alert.scss */
+@media screen and (max-width: 1279px) {
+  /* line 91, src/scss/_components/job-alert/_job-alert.scss */
+  .job-alert__block-row > div:nth-of-type(2) {
+    width: 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-border-radius: 3px;
+            border-radius: 3px;
+    background-color: #eee;
+  }
+}
+
+/* line 104, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block-row > div:nth-of-type(2) > ul {
   position: relative;
   display: -webkit-box;
@@ -8348,7 +8402,22 @@ picture {
   padding: 16px 12px;
 }
 
-/* line 91, src/scss/_components/job-alert/_job-alert.scss */
+@media screen and (max-width: 1279px) {
+  /* line 104, src/scss/_components/job-alert/_job-alert.scss */
+  .job-alert__block-row > div:nth-of-type(2) > ul {
+    padding: 16px 12px;
+    min-height: unset;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 118, src/scss/_components/job-alert/_job-alert.scss */
+  .job-alert__block-row > div:nth-of-type(2) > ul:nth-of-type(1) {
+    display: none;
+  }
+}
+
+/* line 123, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block-row > div:nth-of-type(2) > ul:before {
   content: '';
   position: absolute;
@@ -8363,13 +8432,13 @@ picture {
   background-color: #dcdcdc;
 }
 
-/* line 103, src/scss/_components/job-alert/_job-alert.scss */
+/* line 135, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block-row > div:nth-of-type(2) > ul li {
   width: 100%;
   text-align: center;
 }
 
-/* line 108, src/scss/_components/job-alert/_job-alert.scss */
+/* line 140, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block-row > div:nth-of-type(2) > ul p {
   display: block;
   padding-bottom: 10px;
@@ -8380,20 +8449,36 @@ picture {
   line-height: 1;
 }
 
-/* line 118, src/scss/_components/job-alert/_job-alert.scss */
+/* line 150, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block-row > div:nth-of-type(2) > ul span {
   display: block;
   font-size: 13px;
   color: #222;
 }
 
-/* line 125, src/scss/_components/job-alert/_job-alert.scss */
+/* line 157, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block-row > div:nth-of-type(3) {
   width: 100%;
   max-width: 250px;
 }
 
-/* line 129, src/scss/_components/job-alert/_job-alert.scss */
+@media screen and (max-width: 1279px) {
+  /* line 157, src/scss/_components/job-alert/_job-alert.scss */
+  .job-alert__block-row > div:nth-of-type(3) {
+    max-width: 50%;
+    margin-left: auto;
+    padding: 16px 0 16px 12px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 157, src/scss/_components/job-alert/_job-alert.scss */
+  .job-alert__block-row > div:nth-of-type(3) {
+    max-width: 100%;
+  }
+}
+
+/* line 169, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block-row > div:nth-of-type(3) .c-btn {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -8403,12 +8488,12 @@ picture {
   max-width: 100%;
 }
 
-/* line 134, src/scss/_components/job-alert/_job-alert.scss */
+/* line 174, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block-row > div:nth-of-type(3) .c-btn__wrapper {
   width: 100%;
 }
 
-/* line 139, src/scss/_components/job-alert/_job-alert.scss */
+/* line 179, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block-row > div:nth-of-type(3) .dropdown {
   display: -webkit-box;
   display: -webkit-flex;
@@ -8426,13 +8511,13 @@ picture {
   height: 40px;
 }
 
-/* line 147, src/scss/_components/job-alert/_job-alert.scss */
+/* line 187, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block-row > div:nth-of-type(3) .dropdown > a .icon-font {
   color: #757575;
   font-size: 19px;
 }
 
-/* line 153, src/scss/_components/job-alert/_job-alert.scss */
+/* line 193, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block-row > div:nth-of-type(3) .dropdown-menu {
   position: relative;
   padding: 0;
@@ -8445,7 +8530,7 @@ picture {
   background-color: white;
 }
 
-/* line 163, src/scss/_components/job-alert/_job-alert.scss */
+/* line 203, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block-row > div:nth-of-type(3) .dropdown-item {
   display: -webkit-box;
   display: -webkit-flex;
@@ -8464,12 +8549,12 @@ picture {
   color: #13a790;
 }
 
-/* line 175, src/scss/_components/job-alert/_job-alert.scss */
+/* line 215, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block-row > div:nth-of-type(3) .dropdown-item > div:nth-of-type(1) {
   width: 25px;
 }
 
-/* line 178, src/scss/_components/job-alert/_job-alert.scss */
+/* line 218, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block-row > div:nth-of-type(3) .dropdown-item > div:nth-of-type(2) {
   display: -webkit-box;
   display: -webkit-flex;
@@ -8484,32 +8569,32 @@ picture {
   max-width: 100%;
 }
 
-/* line 187, src/scss/_components/job-alert/_job-alert.scss */
+/* line 227, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block-row > div:nth-of-type(3) .dropdown-item p {
   line-height: 1;
 }
 
-/* line 192, src/scss/_components/job-alert/_job-alert.scss */
+/* line 232, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block-row > div:nth-of-type(3) .dropdown-item--filter .icon-font {
   opacity: 0;
 }
 
-/* line 196, src/scss/_components/job-alert/_job-alert.scss */
+/* line 236, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block-row > div:nth-of-type(3) .dropdown-item--filter.is-active {
   background-color: #b4f8dc;
 }
 
-/* line 200, src/scss/_components/job-alert/_job-alert.scss */
+/* line 240, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block-row > div:nth-of-type(3) .dropdown-item--filter.is-active .icon-font {
   opacity: 1;
 }
 
-/* line 206, src/scss/_components/job-alert/_job-alert.scss */
+/* line 246, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block-row > div:nth-of-type(3) .dropdown-item--delete {
   color: #b4202a;
 }
 
-/* line 215, src/scss/_components/job-alert/_job-alert.scss */
+/* line 255, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block-title {
   display: -webkit-box;
   display: -webkit-flex;
@@ -8522,7 +8607,7 @@ picture {
   padding-bottom: 10px;
 }
 
-/* line 220, src/scss/_components/job-alert/_job-alert.scss */
+/* line 260, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block-title .icon-font {
   margin-right: 10px;
   color: #eebd00;
@@ -8561,14 +8646,14 @@ picture {
   }
 }
 
-/* line 239, src/scss/_components/job-alert/_job-alert.scss */
+/* line 279, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block-title a {
   font-weight: 500;
   font-size: 16px;
   color: #2765cf;
 }
 
-/* line 246, src/scss/_components/job-alert/_job-alert.scss */
+/* line 286, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__block-position {
   display: -webkit-box;
   display: -webkit-flex;
@@ -8580,7 +8665,7 @@ picture {
   color: #757575;
 }
 
-/* line 255, src/scss/_components/job-alert/_job-alert.scss */
+/* line 295, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__box {
   position: relative;
   display: -webkit-box;
@@ -8606,7 +8691,7 @@ picture {
   transition: border-color 0.4s ease-in-out, box-shadow 0.4s ease-in-out, -webkit-box-shadow 0.4s ease-in-out;
 }
 
-/* line 267, src/scss/_components/job-alert/_job-alert.scss */
+/* line 307, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__box:hover {
   border-color: #702699;
   -webkit-box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.24);
@@ -8618,7 +8703,7 @@ picture {
   transition: border-color 0.4s ease-in-out, box-shadow 0.4s ease-in-out, -webkit-box-shadow 0.4s ease-in-out;
 }
 
-/* line 272, src/scss/_components/job-alert/_job-alert.scss */
+/* line 312, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__box:hover .c-btn__wrapper {
   opacity: 1;
   -webkit-transition: opacity 0.4s ease-in-out;
@@ -8626,13 +8711,21 @@ picture {
   transition: opacity 0.4s ease-in-out;
 }
 
-/* line 279, src/scss/_components/job-alert/_job-alert.scss */
+/* line 319, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__box > div:nth-of-type(1) {
   width: 60px;
   padding-bottom: 40px;
 }
 
-/* line 283, src/scss/_components/job-alert/_job-alert.scss */
+@media screen and (max-width: 1023px) {
+  /* line 319, src/scss/_components/job-alert/_job-alert.scss */
+  .job-alert__box > div:nth-of-type(1) {
+    width: 25%;
+    padding-right: 5%;
+  }
+}
+
+/* line 328, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__box > div:nth-of-type(2) {
   padding-left: 20px;
   -webkit-box-flex: 1;
@@ -8643,7 +8736,14 @@ picture {
   max-width: 100%;
 }
 
-/* line 291, src/scss/_components/job-alert/_job-alert.scss */
+@media screen and (max-width: 1023px) {
+  /* line 328, src/scss/_components/job-alert/_job-alert.scss */
+  .job-alert__box > div:nth-of-type(2) {
+    padding-left: 0;
+  }
+}
+
+/* line 339, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__box-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -8658,7 +8758,7 @@ picture {
           justify-content: space-between;
 }
 
-/* line 296, src/scss/_components/job-alert/_job-alert.scss */
+/* line 344, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__box-wrapper > div {
   width: 100%;
   max-width: -webkit-calc((100% - 54px) / 3);
@@ -8666,14 +8766,38 @@ picture {
   padding-bottom: 27px;
 }
 
-/* line 303, src/scss/_components/job-alert/_job-alert.scss */
+@media screen and (max-width: 1279px) {
+  /* line 344, src/scss/_components/job-alert/_job-alert.scss */
+  .job-alert__box-wrapper > div {
+    max-width: -webkit-calc((100% - 27px) / 2);
+    max-width: calc((100% - 27px) / 2);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 344, src/scss/_components/job-alert/_job-alert.scss */
+  .job-alert__box-wrapper > div {
+    max-width: 100%;
+    padding-bottom: 15px;
+  }
+}
+
+/* line 358, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__box-logo {
   position: relative;
   width: 60px;
   height: 60px;
 }
 
-/* line 308, src/scss/_components/job-alert/_job-alert.scss */
+@media screen and (max-width: 1023px) {
+  /* line 358, src/scss/_components/job-alert/_job-alert.scss */
+  .job-alert__box-logo {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* line 367, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__box-logo img {
   display: block;
   max-width: 100%;
@@ -8681,7 +8805,7 @@ picture {
   max-height: 100%;
 }
 
-/* line 316, src/scss/_components/job-alert/_job-alert.scss */
+/* line 375, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__box h3 {
   display: block;
   padding-bottom: 10px;
@@ -8690,7 +8814,7 @@ picture {
   color: #2765cf;
 }
 
-/* line 324, src/scss/_components/job-alert/_job-alert.scss */
+/* line 383, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__box ul {
   display: -webkit-box;
   display: -webkit-flex;
@@ -8703,7 +8827,7 @@ picture {
           flex-direction: column;
 }
 
-/* line 328, src/scss/_components/job-alert/_job-alert.scss */
+/* line 387, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__box ul li {
   display: -webkit-box;
   display: -webkit-flex;
@@ -8716,12 +8840,12 @@ picture {
   padding-bottom: 10px;
 }
 
-/* line 334, src/scss/_components/job-alert/_job-alert.scss */
+/* line 393, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__box ul li > div:nth-of-type(1) {
   width: 26px;
 }
 
-/* line 337, src/scss/_components/job-alert/_job-alert.scss */
+/* line 396, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__box ul li > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -8731,31 +8855,43 @@ picture {
   max-width: 100%;
 }
 
-/* line 344, src/scss/_components/job-alert/_job-alert.scss */
+/* line 403, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__box ul li .icon-font {
   color: #222222;
   font-size: 16px;
 }
 
-/* line 348, src/scss/_components/job-alert/_job-alert.scss */
+/* line 407, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__box ul li .icon-font.icon-calendar-1 {
   color: #663399;
 }
 
-/* line 353, src/scss/_components/job-alert/_job-alert.scss */
+/* line 412, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__box ul li p {
   font-size: 13px;
   line-height: 18px;
   color: #222;
 }
 
-/* line 361, src/scss/_components/job-alert/_job-alert.scss */
+/* line 420, src/scss/_components/job-alert/_job-alert.scss */
 .job-alert__box .c-btn__wrapper {
   opacity: 0;
   padding-top: 10px;
   -webkit-transition: opacity 0.4s ease-in-out;
   -o-transition: opacity 0.4s ease-in-out;
   transition: opacity 0.4s ease-in-out;
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 420, src/scss/_components/job-alert/_job-alert.scss */
+  .job-alert__box .c-btn__wrapper {
+    opacity: 1;
+    max-width: 50%;
+  }
+  /* line 428, src/scss/_components/job-alert/_job-alert.scss */
+  .job-alert__box .c-btn__wrapper button {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=maps/app.css.map */
