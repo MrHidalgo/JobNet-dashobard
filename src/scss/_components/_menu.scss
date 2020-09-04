@@ -1,0 +1,177 @@
+// SECTION :: START
+
+.menu {
+	z-index: 9999;
+	opacity: 0;
+	visibility: hidden;
+	overflow-y: auto;
+	position: fixed;
+	transform: translateX(-100%);
+	top: 0;
+	left: 0;
+	width: 100%;
+	max-width: 350px;
+	height: 100%;
+	box-shadow: 0 39px 56px 4px rgba(0, 0, 0, .24);
+	background-color: #ffffff;
+
+	&.is-animate {
+		@include transition(opacity, visibility, transform);
+	}
+
+	&.is-open {
+		opacity: 1;
+		visibility: visible;
+		transform: translateX(0);
+		@include transition(opacity, visibility, transform);
+	}
+
+	&__close {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+
+		.icon-font {
+			font-size: 14px;
+			color: gray;
+		}
+	}
+
+	&__wrapper {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+
+		&-head {
+			display: flex;
+			align-items: center;
+			padding: 15px;
+			border-bottom: 1px solid #DCDCDC;
+
+			> div {
+				&:nth-of-type(1) {
+					padding-right: 10px;
+				}
+				&:nth-of-type(2) {
+					flex: 1;
+					min-width: 1px;
+					max-width: 100%;
+				}
+			}
+
+			&-img {
+				overflow: hidden;
+				position: relative;
+				width: 65px;
+				height: 65px;
+				border-radius: 50%;
+				background-color: #ffffff;
+
+				img {
+					@extend %imageResCoverAbs;
+				}
+			}
+
+			p {
+				font-weight: 500;
+				font-size: 16px;
+				color: #000000;
+			}
+
+			a {
+				font-size: 13px;
+				color: blue;
+				font-weight: 500;
+			}
+		}
+
+		&-progress {
+			padding: 15px 15px 0;
+			border-bottom: 1px solid #DCDCDC;
+
+			.profile__strength-progress {
+				margin-bottom: 15px;
+
+				&-ind {
+					span {
+						position: relative;
+						top: 1px;
+						font-weight: 500;
+						font-size: 10px;
+					}
+				}
+			}
+		}
+	}
+
+	&__nav {
+		display: flex;
+		flex-direction: column;
+
+		&-item {
+			display: flex;
+
+			&--border {
+				border-bottom: 1px solid #DCDCDC;
+			}
+		}
+
+		&-link {
+			display: flex;
+			align-items: center;
+			width: 100%;
+			min-height: 37px;
+			padding: 0 15px;
+			background-color: transparent;
+			@include transition(background-color);
+
+			&.is-hover {
+				.icon-font,
+				p {
+					color: #639;
+					@include transition(color);
+				}
+			}
+
+			&:hover {
+				background-color: #dcdcdc;
+				@include transition(background-color);
+
+				.icon-font,
+				p {
+					color: #639;
+					@include transition(color);
+				}
+			}
+
+			> div {
+				&:nth-of-type(1) {
+					width: 25px;
+				}
+				&:nth-of-type(2) {
+					flex: 1;
+					min-width: 1px;
+					max-width: 100%;
+				}
+			}
+
+			img {
+				display: block;
+				max-width: 14px;
+				height: auto;
+				max-height: 14px;
+			}
+
+			.icon-font,
+			p {
+				font-weight: 400;
+				color: #524f4f;
+				font-size: 14px;
+				@include transition(color);
+			}
+		}
+	}
+}
+
+// SECTION :: END

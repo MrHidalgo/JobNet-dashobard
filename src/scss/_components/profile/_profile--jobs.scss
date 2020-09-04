@@ -4,6 +4,7 @@
 
 	&-head {
 		padding: 18px 30px;
+		border-radius: 3px 3px 0 0;
 		background-color: #639;
 
 		p {
@@ -54,10 +55,14 @@
 			}
 		}
 
-		p {
+		p,
+		span {
 			overflow: hidden;
 			white-space: nowrap;
 			text-overflow: ellipsis;
+		}
+
+		p {
 			font-size: 15px;
 			font-weight: normal;
 			line-height: 22px;

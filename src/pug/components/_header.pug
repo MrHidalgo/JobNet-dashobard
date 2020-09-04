@@ -13,8 +13,28 @@ header#header.header
 							img.logo__img(src="img/logo.png" alt="")
 
 				div
+					div
+						a.header__hamburger(href="#" menu-open-js)
+							.header__hamburger-img
+								img(src="img/img-user.jpg" alt="")
+							.header__hamburger-circle
+								span
+								span
+								span
+					div
 
-			.header__wrapper-mobile(mobile-block-js)
+						form.header__search(action='' method='' autocomplete='off')
+							i.icon-font.icon-search
+							input(type='text' name='' placeholder='Search Jobs, Companies,..')
+
+					div
+
+						.logo.logo--header
+							a.logo__btn(href="/")
+								img.logo__img(src="img/logo-sq.png" alt="")
+
+
+			.header__wrapper-mobile
 
 				div
 

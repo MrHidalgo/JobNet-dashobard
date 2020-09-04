@@ -1,7 +1,10 @@
 // SECTION :: START
 
 .profile {
-	padding-top: 5px;
+	padding-top: 7px;
+	@include adaptive(1279) {
+		padding-top: 15px;
+	}
 
 	.c-grid {
 		max-width: 1370px;

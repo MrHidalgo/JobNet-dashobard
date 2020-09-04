@@ -46,6 +46,24 @@
 				font-size: 20px;
 				font-weight: 400;
 			}
+
+			&-footer {
+				@include adaptive(767) {
+					flex-direction: column;
+
+					.c-btn {
+						width: 100%;
+
+						&__wrapper {
+							width: 100%;
+
+							&:not(:last-of-type) {
+								margin-bottom: 10px;
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 

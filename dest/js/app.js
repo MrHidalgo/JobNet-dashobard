@@ -338,6 +338,21 @@ window.addEventListener('scroll', function (ev) {});
 			}
 		});
 	};
+
+	var menuCB = function menuCB() {
+		$('[menu-open-js]').on('click', function (ev) {
+			$('#menu').addClass('is-open');
+			$('#overlay').addClass('is-show');
+		});
+		$('[menu-close-js]').on('click', function (ev) {
+			$('#menu').addClass('is-animate').removeClass('is-open');
+			$('#overlay').removeClass('is-show');
+
+			setTimeout(function () {
+				$('#menu').removeClass('is-animate');
+			}, 350);
+		});
+	};
 	/*
  * CALLBACK :: end
  * ============================================= */
@@ -367,6 +382,7 @@ window.addEventListener('scroll', function (ev) {});
 		profileOpportunity();
 		selectDropdown();
 		manageAccountSettingCB();
+		menuCB();
 		// ==========================================
 	};
 

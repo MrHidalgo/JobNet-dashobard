@@ -93,6 +93,22 @@
 			}
 		});
 	};
+
+
+	const menuCB = () => {
+		$('[menu-open-js]').on('click', (ev) => {
+			$('#menu').addClass('is-open');
+			$('#overlay').addClass('is-show');
+		});
+		$('[menu-close-js]').on('click', (ev) => {
+			$('#menu').addClass('is-animate').removeClass('is-open');
+			$('#overlay').removeClass('is-show');
+
+			setTimeout(() => {
+				$('#menu').removeClass('is-animate');
+			}, 350);
+		});
+	};
 	/*
 	* CALLBACK :: end
 	* ============================================= */
@@ -123,6 +139,7 @@
 		profileOpportunity();
 		selectDropdown();
 		manageAccountSettingCB();
+		menuCB();
 		// ==========================================
 	};
 

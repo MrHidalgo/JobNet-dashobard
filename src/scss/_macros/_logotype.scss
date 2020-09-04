@@ -4,7 +4,7 @@
 	&__btn {
 		display: flex;
 		align-items: flex-start;
-		max-width: 187px;
+		max-width: 217px;
 		@include adaptive(1023) {
 			max-width: 157px;
 		}

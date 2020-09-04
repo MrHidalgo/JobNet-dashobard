@@ -47,7 +47,7 @@ section#manage.manage.section
 										span Email me "Who Viewed My Profile"
 									div
 										.c-checkboxToggle
-											input(type='checkbox' name='' id='view_alerts')
+											input(type='checkbox' name='' id='view_alerts' checked)
 											label(for="view_alerts")
 												i
 												span
@@ -58,7 +58,7 @@ section#manage.manage.section
 									div
 										p Job Alerts
 										span Stay on top of new opportunities with job alerts.
-										a(href="#") * View Job Alerts
+										a(href="/job-alert.html") * View Job Alerts
 										u You currently have 1 Job Alert.
 									div
 										.c-checkboxToggle
@@ -75,7 +75,7 @@ section#manage.manage.section
 										span Your profile appears in employers and other permitted services.
 									div
 										.c-checkboxToggle
-											input(type='checkbox' name='' id='profile_visibility')
+											input(type='checkbox' name='' id='profile_visibility' checked)
 											label(for="profile_visibility")
 												i
 												span
@@ -103,5 +103,20 @@ section#manage.manage.section
 				.section__block
 
 					include ../profile/_profile--jobs
+
+		.manage__profile
+			include _profile--main
+
+		.manage__upload
+			a.manage__upload-title(href="#") Upload Your Latest CV
+			.manage__upload-subtitle
+				div
+					p Sent to Employers with your Job Application
+				div
+					i.icon-font.icon-information
+
+			.c-btn__wrapper
+				a.c-btn.c-btn--red(href="#")
+					span Upload your CV
 
 // SECTION :: END

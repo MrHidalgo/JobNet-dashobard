@@ -8,6 +8,9 @@
 	padding: 17px 0;
 	border-top: 1px solid #dcdcdc;
 	text-align: center;
+	@include adaptive(1279) {
+		margin: 20px 0 0;
+	}
 
 	&__link {
 		display: flex;
@@ -19,12 +22,18 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		@include adaptive(767) {
+			flex-direction: column;
+		}
 
 		li {
 			padding: 0 17px;
 
 			&:not(:last-of-type) {
 				border-right: 1px solid #5d5d5d;
+				@include adaptive(767) {
+					border: none;
+				}
 			}
 		}
 	}
