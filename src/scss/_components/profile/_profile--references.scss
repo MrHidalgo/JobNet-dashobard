@@ -1,6 +1,9 @@
 &__references {
 	position: relative;
 	padding: 20px 30px 20px;
+	@include adaptive(767) {
+		padding: 20px 15px;
+	}
 
 	&-header {
 		display: flex;

@@ -12,17 +12,28 @@
 
 	&__wrapper {
 		display: flex;
+		@include adaptive(1279) {
+			flex-wrap: wrap;
+		}
 
 		&-left {
 			flex: 1;
 			min-width: 1px;
 			max-width: 100%;
 			padding-right: 20px;
+			@include adaptive(1279) {
+				padding-right: 0;
+			}
 		}
 
 		&-right {
 			width: 100%;
 			max-width: 365px;
+			@include adaptive(1279) {
+				max-width: 100%;
+				padding-top: 20px;
+				padding-bottom: 20px;
+			}
 
 			.profile__section {
 				padding-bottom: 30px;

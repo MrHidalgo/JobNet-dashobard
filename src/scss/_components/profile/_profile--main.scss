@@ -1,6 +1,9 @@
 &__main {
 	position: relative;
 	padding: 30px 30px 20px;
+	@include adaptive(1023) {
+		padding: 10px 30px;
+	}
 
 	&-bg {
 		z-index: 0;
@@ -17,6 +20,9 @@
 			background-repeat: no-repeat;
 			background-position: center;
 			background-size: cover;
+			@include adaptive(1023) {
+				height: 85px;
+			}
 		}
 	}
 
@@ -48,9 +54,15 @@
 
 		&-wrapper {
 			display: flex;
+			@include adaptive(1023) {
+				flex-wrap: wrap;
+			}
 
 			&-1 {
 				padding-bottom: 20px;
+				@include adaptive(1023) {
+					padding-bottom: 0;
+				}
 			}
 
 			&-2 {
@@ -58,6 +70,9 @@
 					&:nth-of-type(2) {
 						display: flex;
 						justify-content: flex-end;
+						@include adaptive(1023) {
+							justify-content: flex-start;
+						}
 					}
 				}
 			}
@@ -65,6 +80,13 @@
 			> div {
 				width: 100%;
 				max-width: 50%;
+				@include adaptive(1023) {
+					max-width: 100%;
+
+					&:nth-of-type(1) {
+						padding-bottom: 20px;
+					}
+				}
 			}
 		}
 	}
@@ -73,9 +95,22 @@
 		display: flex;
 		padding-top: 34px;
 		border-top: 1px solid #dcdcdc;
+		@include adaptive(1023) {
+			flex-wrap: wrap;
+		}
+		@include adaptive(767) {
+			padding-top: 20px;
+		}
 
 		> div {
 			width: calc(100% / 4);
+			@include adaptive(1023) {
+				width: 50%;
+				padding-bottom: 10px;
+			}
+			@include adaptive(767) {
+				width: 100%;
+			}
 		}
 
 		p {
@@ -120,6 +155,10 @@
 		border-radius: 5px;
 		box-shadow: 0 3px 5px 1px rgba(0, 0, 0, .24);
 		background-color: #ffffff;
+		@include adaptive(767) {
+			width: 105px;
+			height: 105px;
+		}
 
 		img {
 			@extend %imageResCoverAbs;
@@ -170,10 +209,19 @@
 			width: 100%;
 			max-width: 50%;
 			padding-bottom: 10px;
+			@include adaptive(767) {
+				max-width: 100%;
+			}
 
 			&:nth-of-type(1),
 			&:nth-of-type(3) {
 				max-width: 40%;
+				@include adaptive(1023) {
+					max-width: 50%;
+				}
+				@include adaptive(767) {
+					max-width: 100%;
+				}
 			}
 		}
 
@@ -205,12 +253,30 @@
 	}
 
 	&-action {
+		@include adaptive(1023) {
+			justify-content: space-between;
+		}
+		@include adaptive(767) {
+			flex-wrap: wrap;
+		}
+
 		.c-btn {
 			min-width: 195px;
 			text-transform: uppercase;
+			@include adaptive(1023) {
+				width: 100%;
+				max-width: calc((100% - 20px) / 2);
+			}
+			@include adaptive(767) {
+				max-width: 100%;
+			}
 
 			&:not(:last-of-type) {
 				margin-right: 15px;
+				@include adaptive(767) {
+					margin-right: 0;
+					margin-bottom: 20px;
+				}
 			}
 
 			span {
@@ -219,7 +285,8 @@
 		}
 	}
 
-	&-update {
+	&-update,
+	&-uploadMobile {
 		position: relative;
 
 		.icon-font {
@@ -323,6 +390,19 @@
 		}
 	}
 
+	&-update {
+		@include adaptive(767) {
+			display: none;
+		}
+	}
+
+	&-uploadMobile {
+		display: none;
+		@include adaptive(767) {
+			display: flex;
+		}
+	}
+
 	&-toggle {
 		white-space: nowrap;
 		position: relative;
@@ -334,6 +414,9 @@
 		min-height: 90px;
 		border: 1px dashed #06aa86;
 		padding: 7px 15px 11px;
+		@include adaptive(1023) {
+			max-width: 100%;
+		}
 
 		&-title {
 			padding-bottom: 10px;

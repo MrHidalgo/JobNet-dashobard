@@ -73,5 +73,8 @@
 		font-size: 13px;
 		color: #15c;
 		text-align: center;
+		@include adaptive(1279) {
+			text-align: left;
+		}
 	}
 }

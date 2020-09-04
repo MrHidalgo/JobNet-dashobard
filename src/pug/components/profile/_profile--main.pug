@@ -56,21 +56,21 @@
 							span Update Profile
 							i.icon-font.icon-keyboard-arrow-down
 						.dropdown-menu
-							a.dropdown-item(href='#')
+							a.dropdown-item(href='#' data-toggle="modal" data-target="#modalProfileMain")
 								div
 									i.icon-font.icon-cogwheel
 								div
 									p Personal Details
 								div
 									i.icon-font.icon-plus-sign
-							a.dropdown-item(href='#')
+							a.dropdown-item(href='#' data-toggle="modal" data-target="#modalProfileAbout")
 								div
 									i.icon-font.icon-cogwheel
 								div
 									p About Me
 								div
 									i.icon-font.icon-plus-sign
-							a.dropdown-item(href='#')
+							a.dropdown-item(href='#' data-toggle="modal" data-target="#modalProfileExperiences")
 								div
 									i.icon-font.icon-cogwheel
 								div
@@ -78,7 +78,7 @@
 									span 2 work experiences on your profile
 								div
 									i.icon-font.icon-plus-sign
-							a.dropdown-item(href='#')
+							a.dropdown-item(href='#' data-toggle="modal" data-target="#modalProfileEducation")
 								div
 									i.icon-font.icon-cogwheel
 								div
@@ -86,7 +86,7 @@
 									span 3 educations on your profile
 								div
 									i.icon-font.icon-plus-sign
-							a.dropdown-item(href='#')
+							a.dropdown-item(href='#' data-toggle="modal" data-target="#modalProfileSkills")
 								div
 									i.icon-font.icon-cogwheel
 								div
@@ -94,7 +94,7 @@
 									span 6 skills on your profile
 								div
 									i.icon-font.icon-plus-sign
-							a.dropdown-item(href='#')
+							a.dropdown-item(href='#' data-toggle="modal" data-target="#modalProfileLanguages")
 								div
 									i.icon-font.icon-cogwheel
 								div
@@ -102,7 +102,7 @@
 									span 1 language on your profile
 								div
 									i.icon-font.icon-plus-sign
-							a.dropdown-item(href='#')
+							a.dropdown-item(href='#' data-toggle="modal" data-target="#modalProfileReferences")
 								div
 									i.icon-font.icon-cogwheel
 								div
@@ -110,7 +110,7 @@
 									span 0 reference on your profile
 								div
 									i.icon-font.icon-plus-sign
-							a.dropdown-item(href='#')
+							a.dropdown-item(href='#' data-toggle="modal" data-target="#modalProfilePreferred")
 								div
 									i.icon-font.icon-cogwheel
 								div
@@ -119,7 +119,10 @@
 								div
 									i.icon-font.icon-plus-sign
 
-						a.c-btn.c-btn--borderGreen.profile__main-upload(href="#")
+						a.c-btn.c-btn--purple.profile__main-uploadMobile(href="#" data-toggle="modal" data-target="#modalProfileUpdate")
+							span Update Profile
+							i.icon-font.icon-keyboard-arrow-down
+						a.c-btn.c-btn--borderGreen.profile__main-upload(href="#" data-toggle="modal" data-target="#modalProfileCV")
 							span Upload your CV
 				div
 					.profile__main-toggle

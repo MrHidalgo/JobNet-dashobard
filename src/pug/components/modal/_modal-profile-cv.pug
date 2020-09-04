@@ -1,0 +1,46 @@
+// SECTION :: START
+
+#modalProfileCV.modal-profile-cv.modal.fade(tabindex='-1', role='dialog', aria-labelledby='modalProfileCV', aria-hidden='true')
+	.modal-dialog(role='document')
+		.modal-content
+			.modal-header
+				div
+					h5.modal-title Upload CV
+				div
+					button.close(type='button', data-dismiss='modal', aria-label='Close')
+						i.icon-font.icon-close
+
+			.modal-body
+
+				.modal__step
+					p UPLOAD YOUR CV
+
+				form.modal__form(action='' method='' autocomplete='off')
+					.modal__cv
+						.modal__cv-header
+							div
+								p!= "CV Attachments <span>(Upload your CV here..)</span>"
+							div
+
+						.modal__cv-body.modal__cv-body-1
+							div
+								.modal__form-field
+									label.modal__form-label(for="cv_file")!= "CV File Attachment <span>*</span>"
+									input(type='file' id='cv_file' name='cv_file')
+							div
+								.modal__form-field
+									label.modal__form-label(for="cv_name")!= "CV Name (Any Choice) <span>*</span>"
+									input(type='email' id='cv_name' name='cv_name')
+							div
+								.form-check
+									input#myDefaultCV.form-check-input(type='checkbox' checked)
+									label.form-check-label(for='myDefaultCV') My Default CV
+
+			.modal-footer.c-btn__wrapper
+				button.c-btn.c-btn--borderGray(type='button', data-dismiss='modal')
+					span Cancel
+				button.c-btn.c-btn--borderGreen(type='button')
+					span Save CV
+
+
+// SECTION :: END
