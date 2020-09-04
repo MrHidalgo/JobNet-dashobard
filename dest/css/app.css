@@ -175,7 +175,7 @@
 }
 
 /* line 23, src/scss/_generated/_spriteFont.scss */
-.icon-antenna:before, .icon-approved:before, .icon-bank:before, .icon-book:before, .icon-calendar-1:before, .icon-calendar:before, .icon-chevron:before, .icon-circle-check:before, .icon-clock:before, .icon-close:before, .icon-cogwheel:before, .icon-cost:before, .icon-cursor:before, .icon-delete:before, .icon-dollar-symbol:before, .icon-double-arrows:before, .icon-download:before, .icon-edit:before, .icon-email:before, .icon-facebook-circle:before, .icon-facebook:before, .icon-factory:before, .icon-fast-forward:before, .icon-filter:before, .icon-fire:before, .icon-folder:before, .icon-google-plus-circle:before, .icon-google:before, .icon-graph:before, .icon-home:before, .icon-information:before, .icon-keyboard-arrow-down:before, .icon-like:before, .icon-linkedin-circle:before, .icon-linkedin:before, .icon-locked:before, .icon-mail:before, .icon-menu:before, .icon-notification:before, .icon-office-building:before, .icon-photo:before, .icon-pin:before, .icon-plus-sign:before, .icon-plus:before, .icon-printer:before, .icon-programming:before, .icon-search:before, .icon-settings:before, .icon-shopping-bag:before, .icon-sort:before, .icon-star-empty:before, .icon-star:before, .icon-success:before, .icon-three-chevron-arrows:before, .icon-twitter-circle:before, .icon-twitter:before, .icon-upload:before, .icon-user:before, .icon-users:before {
+.icon-antenna:before, .icon-approved:before, .icon-bank:before, .icon-bell:before, .icon-book:before, .icon-calendar-1:before, .icon-calendar:before, .icon-checked:before, .icon-chevron:before, .icon-circle-check:before, .icon-clock:before, .icon-close:before, .icon-cogwheel:before, .icon-cost:before, .icon-cursor:before, .icon-delete:before, .icon-dollar-symbol:before, .icon-double-arrows:before, .icon-download:before, .icon-edit:before, .icon-email:before, .icon-facebook-circle:before, .icon-facebook:before, .icon-factory:before, .icon-fast-forward:before, .icon-filter:before, .icon-fire:before, .icon-folder:before, .icon-google-plus-circle:before, .icon-google:before, .icon-graph:before, .icon-home:before, .icon-information:before, .icon-keyboard-arrow-down:before, .icon-like:before, .icon-linkedin-circle:before, .icon-linkedin:before, .icon-locked:before, .icon-mail:before, .icon-menu:before, .icon-more:before, .icon-notification:before, .icon-office-building:before, .icon-photo:before, .icon-pin:before, .icon-plus-sign:before, .icon-plus:before, .icon-printer:before, .icon-programming:before, .icon-search:before, .icon-settings:before, .icon-shopping-bag:before, .icon-sort:before, .icon-star-empty:before, .icon-star:before, .icon-success:before, .icon-three-chevron-arrows:before, .icon-twitter-circle:before, .icon-twitter:before, .icon-upload:before, .icon-user:before, .icon-users:before {
   font-family: "iconFont", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -186,299 +186,314 @@
   text-transform: none;
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
+/* line 221, src/scss/_generated/_spriteFont.scss */
 .icon-antenna:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
+/* line 221, src/scss/_generated/_spriteFont.scss */
 .icon-approved:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
+/* line 221, src/scss/_generated/_spriteFont.scss */
 .icon-bank:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-book:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-bell:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-calendar-1:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-book:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-calendar:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-calendar-1:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-chevron:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-calendar:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-circle-check:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-checked:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-clock:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-chevron:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-close:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-circle-check:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-cogwheel:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-clock:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-cost:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-close:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-cursor:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-cogwheel:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-delete:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-cost:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-dollar-symbol:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-cursor:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-double-arrows:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-delete:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-download:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-dollar-symbol:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-edit:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-double-arrows:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-email:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-download:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-facebook-circle:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-edit:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-facebook:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-email:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-factory:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-facebook-circle:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-fast-forward:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-facebook:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-filter:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-factory:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-fire:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-fast-forward:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-folder:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-filter:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-google-plus-circle:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-fire:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-google:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-folder:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-graph:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-google-plus-circle:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-home:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-google:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-information:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-graph:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-keyboard-arrow-down:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-home:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-like:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-information:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-linkedin-circle:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-keyboard-arrow-down:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-linkedin:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-like:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-locked:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-linkedin-circle:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-mail:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-linkedin:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-menu:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-locked:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-notification:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-mail:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-office-building:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-menu:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-photo:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-more:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-pin:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-notification:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-plus-sign:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-office-building:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-plus:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-photo:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-printer:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-pin:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-programming:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-plus-sign:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-search:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-plus:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-settings:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-printer:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-shopping-bag:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-programming:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-sort:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-search:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-star-empty:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-settings:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-star:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-shopping-bag:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-success:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-sort:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-three-chevron-arrows:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-star-empty:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-twitter-circle:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-star:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-twitter:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-success:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-upload:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-three-chevron-arrows:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-user:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-twitter-circle:before {
   content: "";
 }
 
-/* line 212, src/scss/_generated/_spriteFont.scss */
-.icon-users:before {
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-twitter:before {
   content: "";
+}
+
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-upload:before {
+  content: "";
+}
+
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-user:before {
+  content: "";
+}
+
+/* line 221, src/scss/_generated/_spriteFont.scss */
+.icon-users:before {
+  content: "";
 }
 
 @font-face {
@@ -7166,6 +7181,561 @@ picture {
 /* line 132, src/scss/_components/manage-account-setting/_manage.scss */
 .manage__more-collapse .c-btn__wrapper {
   padding-top: 15px;
+}
+
+/* line 3, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert {
+  padding-top: 5px;
+}
+
+/* line 6, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert .c-grid {
+  max-width: 1370px;
+}
+
+/* line 11, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__wrapper-1 {
+  padding-bottom: 30px;
+}
+
+/* line 16, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__title {
+  padding-bottom: 20px;
+  font-size: 24px;
+  color: #222;
+}
+
+/* line 22, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__more {
+  padding-top: 25px;
+}
+
+/* line 25, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__more .c-btn {
+  width: 100%;
+  max-width: -webkit-calc((100% - 54px) / 3);
+  max-width: calc((100% - 54px) / 3);
+  background-color: transparent;
+}
+
+/* line 32, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+}
+
+/* line 40, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block-head {
+  padding: 17px 2.5%;
+  -webkit-border-radius: 3px 3px 0 0;
+          border-radius: 3px 3px 0 0;
+  background-color: #663399;
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+}
+
+/* line 49, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block-body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 15px 2.5% 15px;
+}
+
+/* line 55, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block-body:hover .job-alert__block-row {
+  background-color: #fafafa;
+  -webkit-transition: background-color 0.4s ease-in-out;
+  -o-transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
+}
+
+/* line 62, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -webkit-transition: background-color 0.4s ease-in-out;
+  -o-transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
+}
+
+/* line 69, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block-row > div:nth-of-type(1) {
+  width: 100%;
+  max-width: 325px;
+  padding: 16px 12px;
+}
+
+/* line 74, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block-row > div:nth-of-type(2) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 81, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block-row > div:nth-of-type(2) > ul {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+  min-height: 86px;
+  padding: 16px 12px;
+}
+
+/* line 91, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block-row > div:nth-of-type(2) > ul:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  display: block;
+  width: 1px;
+  height: 36px;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-color: #dcdcdc;
+}
+
+/* line 103, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block-row > div:nth-of-type(2) > ul li {
+  width: 100%;
+  text-align: center;
+}
+
+/* line 108, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block-row > div:nth-of-type(2) > ul p {
+  display: block;
+  padding-bottom: 10px;
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #757575;
+  line-height: 1;
+}
+
+/* line 118, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block-row > div:nth-of-type(2) > ul span {
+  display: block;
+  font-size: 13px;
+  color: #222;
+}
+
+/* line 125, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block-row > div:nth-of-type(3) {
+  width: 100%;
+  max-width: 250px;
+}
+
+/* line 129, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block-row > div:nth-of-type(3) .c-btn {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 134, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block-row > div:nth-of-type(3) .c-btn__wrapper {
+  width: 100%;
+}
+
+/* line 139, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block-row > div:nth-of-type(3) .dropdown {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50px;
+  height: 40px;
+}
+
+/* line 147, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block-row > div:nth-of-type(3) .dropdown > a .icon-font {
+  color: #757575;
+  font-size: 19px;
+}
+
+/* line 153, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block-row > div:nth-of-type(3) .dropdown-menu {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  border: none;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  -webkit-box-shadow: 0 3px 10px 1px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 3px 10px 1px rgba(0, 0, 0, 0.24);
+  background-color: white;
+}
+
+/* line 163, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block-row > div:nth-of-type(3) .dropdown-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  min-width: 180px;
+  min-height: 40px;
+  padding: 0 8%;
+  border-bottom: 1px solid #dcdcdc;
+  font-size: 16px;
+  color: #13a790;
+}
+
+/* line 175, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block-row > div:nth-of-type(3) .dropdown-item > div:nth-of-type(1) {
+  width: 25px;
+}
+
+/* line 178, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block-row > div:nth-of-type(3) .dropdown-item > div:nth-of-type(2) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 187, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block-row > div:nth-of-type(3) .dropdown-item p {
+  line-height: 1;
+}
+
+/* line 192, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block-row > div:nth-of-type(3) .dropdown-item--filter .icon-font {
+  opacity: 0;
+}
+
+/* line 196, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block-row > div:nth-of-type(3) .dropdown-item--filter.is-active {
+  background-color: #b4f8dc;
+}
+
+/* line 200, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block-row > div:nth-of-type(3) .dropdown-item--filter.is-active .icon-font {
+  opacity: 1;
+}
+
+/* line 206, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block-row > div:nth-of-type(3) .dropdown-item--delete {
+  color: #b4202a;
+}
+
+/* line 215, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 10px;
+}
+
+/* line 220, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block-title .icon-font {
+  margin-right: 10px;
+  color: #eebd00;
+  font-size: 20px;
+  -webkit-animation: ring .3s infinite alternate;
+          animation: ring .3s infinite alternate;
+}
+
+@-webkit-keyframes ring {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(-14deg);
+            transform: rotate(-14deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes ring {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(-14deg);
+            transform: rotate(-14deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+/* line 239, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block-title a {
+  font-weight: 500;
+  font-size: 16px;
+  color: #2765cf;
+}
+
+/* line 246, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__block-position {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #757575;
+}
+
+/* line 255, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__box {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 40px 27px 20px;
+  border-top: 2px solid white;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+  -webkit-transition: border-color 0.4s ease-in-out, -webkit-box-shadow 0.4s ease-in-out;
+  transition: border-color 0.4s ease-in-out, -webkit-box-shadow 0.4s ease-in-out;
+  -o-transition: border-color 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+  transition: border-color 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+  transition: border-color 0.4s ease-in-out, box-shadow 0.4s ease-in-out, -webkit-box-shadow 0.4s ease-in-out;
+}
+
+/* line 267, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__box:hover {
+  border-color: #702699;
+  -webkit-box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.24);
+  -webkit-transition: border-color 0.4s ease-in-out, -webkit-box-shadow 0.4s ease-in-out;
+  transition: border-color 0.4s ease-in-out, -webkit-box-shadow 0.4s ease-in-out;
+  -o-transition: border-color 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+  transition: border-color 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+  transition: border-color 0.4s ease-in-out, box-shadow 0.4s ease-in-out, -webkit-box-shadow 0.4s ease-in-out;
+}
+
+/* line 272, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__box:hover .c-btn__wrapper {
+  opacity: 1;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+}
+
+/* line 279, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__box > div:nth-of-type(1) {
+  width: 60px;
+  padding-bottom: 40px;
+}
+
+/* line 283, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__box > div:nth-of-type(2) {
+  padding-left: 20px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 291, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__box-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 296, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__box-wrapper > div {
+  width: 100%;
+  max-width: -webkit-calc((100% - 54px) / 3);
+  max-width: calc((100% - 54px) / 3);
+  padding-bottom: 27px;
+}
+
+/* line 303, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__box-logo {
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+
+/* line 308, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__box-logo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+/* line 316, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__box h3 {
+  display: block;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #2765cf;
+}
+
+/* line 324, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__box ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 328, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__box ul li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 10px;
+}
+
+/* line 334, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__box ul li > div:nth-of-type(1) {
+  width: 26px;
+}
+
+/* line 337, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__box ul li > div:nth-of-type(2) {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 344, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__box ul li .icon-font {
+  color: #222222;
+  font-size: 16px;
+}
+
+/* line 348, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__box ul li .icon-font.icon-calendar-1 {
+  color: #663399;
+}
+
+/* line 353, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__box ul li p {
+  font-size: 13px;
+  line-height: 18px;
+  color: #222;
+}
+
+/* line 361, src/scss/_components/job-alert/_job-alert.scss */
+.job-alert__box .c-btn__wrapper {
+  opacity: 0;
+  padding-top: 10px;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
 }
 
 /*# sourceMappingURL=maps/app.css.map */

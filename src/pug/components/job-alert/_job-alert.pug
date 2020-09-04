@@ -1,0 +1,97 @@
+// SECTION :: START
+
+section#job-alert.job-alert
+	.c-grid
+		.job-alert__wrapper.job-alert__wrapper-1
+
+			.job-alert__block
+				.job-alert__block-head
+					p!= "My Job Alerts <span>(1 of 5)</span>"
+				.job-alert__block-body
+					.job-alert__block-row
+						div
+							.job-alert__block-title
+								i.icon-font.icon-bell
+								a(href="#") Digital Marketing Manager
+							p.job-alert__block-position Yangon
+						div
+							ul
+								li
+									p INDUSTRY
+									span -
+							ul
+								li
+									p EXP: LEVEL
+									span -
+							ul
+								li
+									p FFECTIVE TIME
+									span 08/25/2020 04:08 PM
+							ul
+								li
+									p FREQUENCY
+									span Weekly
+
+						div
+							.c-btn__wrapper
+								a.c-btn.c-btn--borderOrange(href="#")
+									span See Open Jobs
+								.dropdown
+									a#jobAlertBlockMore(href='#' data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+										i.icon-font.icon-more
+									.dropdown-menu.dropdown-menu-right(aria-labelledby='jobAlertBlockMore')
+										a.dropdown-item.dropdown-item--filter(href='#')
+											div
+												i.icon-font.icon-checked
+											div
+												p Daily
+										a.dropdown-item.dropdown-item--filter.is-active(href='#')
+											div
+												i.icon-font.icon-checked
+											div
+												p Weekly
+										a.dropdown-item.dropdown-item--delete(href='#')
+											div
+												i.icon-font.icon-delete
+											div
+												p Delete
+
+		.job-alert__wrapper.job-alert__wrapper-2
+
+			p.job-alert__title Jobs You Will Love...
+
+			.job-alert__box-wrapper
+				each val, idx in [1,2,3,4,5,6,7,8,9]
+					div
+						a.job-alert__box(href="#")
+							div
+								.job-alert__box-logo
+									img(src="img/img-employers-kbz-bank.png" alt="")
+							div
+								h3 Digital Marketing Specialist
+								ul
+									li
+										div
+											i.icon-font.icon-pin
+										div
+											p Yangon
+									li
+										div
+											i.icon-font.icon-cogwheel
+										div
+											p Healthcare/Beauty Care
+									li
+										div
+											i.icon-font.icon-calendar-1
+										div
+											p 02.01.2020
+
+								.c-btn__wrapper
+									button.c-btn.c-btn--purple(type='button')
+										span Apply Now
+
+			.c-btn__wrapper.c-btn__wrapper--center.job-alert__more
+				a.c-btn.c-btn--borderGreen(href="#")
+					span See More Jobs
+
+// SECTION :: END

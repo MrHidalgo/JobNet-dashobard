@@ -7,3 +7,6 @@ PageList:
 - file: manage-account-setting.html
   titleName: Manage Account Setting
   ready: 1
+- file: job-alert.html
+  titleName: Jobb Alert
+  ready: 1
