@@ -1,0 +1,45 @@
+// SECTION :: START
+
+section#job-alert.job-alert
+	.c-grid
+		.job-alert__wrapper.job-alert__wrapper-1
+
+		.job-alert__wrapper.job-alert__wrapper-2
+
+			p.job-alert__title Jobs You Will Love...
+
+			.job-alert__box-wrapper
+				each val, idx in [1,2,3,4,5,6,7,8,9]
+					div
+						a.job-alert__box(href="#")
+							div
+								.job-alert__box-logo
+									img(src="img/img-employers-kbz-bank.png" alt="")
+							div
+								h3 Digital Marketing Specialist
+								ul
+									li
+										div
+											i.icon-font.icon-pin
+										div
+											p Yangon
+									li
+										div
+											i.icon-font.icon-cogwheel
+										div
+											p Healthcare/Beauty Care
+									li
+										div
+											i.icon-font.icon-calendar-1
+										div
+											p 02.01.2020
+
+								.c-btn__wrapper
+									button.c-btn.c-btn--purple(type='button')
+										span Apply Now
+
+			.c-btn__wrapper.c-btn__wrapper--center.job-alert__more
+				a.c-btn.c-btn--borderGreen(href="#")
+					span See More Jobs
+
+// SECTION :: END

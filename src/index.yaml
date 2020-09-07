@@ -15,7 +15,7 @@ PageList:
   ready: 100
 - file: applications.html
   titleName: Applications
-  ready: 1
+  ready: 100
 - file: dashboard.html
   titleName: Dashboard
   ready: 1

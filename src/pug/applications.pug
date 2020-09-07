@@ -1,0 +1,15 @@
+---
+title: JobNet | Applications
+
+pageClassName: p-applications
+---
+extends shared/_layout
+
+block content
+	div.body.body--start(class!= pageClassName)
+
+		include components/search/_search
+
+		include components/applications/_job
+		include components/applications/_update
+		include components/applications/_job-alert

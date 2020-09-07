@@ -1,0 +1,69 @@
+// SECTION :: START
+
+section#applications-job.applications-job
+	.c-grid
+		.applications-job__wrapper
+			.applications-job__wrapper-header
+				p My Job Applications
+			.applications-job__wrapper-body
+
+				.applications-job__table
+					.applications-job__table-head
+						.applications-job__table-tr
+							.applications-job__table-th
+								p COMPANY
+							.applications-job__table-th
+								p JOB TITLE
+							.applications-job__table-th
+								p APPLIED DATE
+							.applications-job__table-th
+								p POSTED DATE
+							.applications-job__table-th
+								p CLIENT ACTIVE
+							.applications-job__table-th
+								p STATUS
+							.applications-job__table-th
+					.applications-job__table-body
+						each val, idx in [1,2,3,4,5,6]
+							.applications-job__table-tr
+								.applications-job__table-td
+									div
+										i Application Status
+										.applications-job__table-logo-wrapper
+											.applications-job__table-logo
+												img(src="img/img-employers-kbz-bank.png" alt="")
+											a(href="#") MMOne Online Company
+									div
+										.applications-job__table-arrow
+
+								.applications-job__table-td
+									div
+										i COMPANY
+										a(href="#") MMOne Online Company
+									div
+										i JOB TITLE
+										a(href="#") Senior Business Development Manager (High Bonus)
+								.applications-job__table-td
+									i JOB TITLE
+									u 19 Sep 2019
+								.applications-job__table-td
+									i APPLIED DATE
+									u 12 Sep 2019
+								.applications-job__table-td
+									i POSTED DATE
+									u 04 Sep 2020
+								.applications-job__table-td
+									.applications-job__table-badge
+										div
+											i.icon-font.icon-envelope
+										div
+											p CLOSED
+
+								.applications-job__table-td
+									.c-btn__wrapper.c-btn__wrapper--center
+										a.c-btn.c-btn--borderOrange(href="#")
+											span View Similar Jobs
+
+			.applications-job__wrapper-footer
+
+// SECTION :: END

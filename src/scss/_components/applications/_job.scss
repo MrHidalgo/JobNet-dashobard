@@ -1,0 +1,455 @@
+// SECTION :: START
+
+.applications-job {
+	padding-top: 5px;
+	@include adaptive(1279) {
+		padding-top: 15px;
+	}
+
+	.c-grid {
+		max-width: 1370px;
+	}
+
+	&__wrapper {
+		border-radius: 3px;
+		background-color: #fff;
+		box-shadow: 0 3px 5px 1px rgba(0, 0, 0, .24);
+
+		&-header {
+			background-color: #663399;
+
+			p {
+				padding: 17px 33px;
+				font-size: 24px;
+				color: #fff;
+			}
+		}
+
+		&-footer {
+			padding: 5px;
+			border-top: 1px solid #cdcdcd;
+		}
+	}
+
+	&__table {
+		display: table;
+		width: 100%;
+		padding-bottom: 25px;
+		@include adaptive(1279) {
+			display: flex;
+			flex-direction: column;
+		}
+
+		&-head {
+			display: table-header-group;
+			@include adaptive(1279) {
+				display: none;
+			}
+		}
+
+		&-body {
+			display: table-row-group;
+
+			.applications-job__table {
+				&-tr {
+					height: 46px;
+					background-color: #ffffff;
+					@include adaptive(1279) {
+						height: auto;
+						border-bottom: 1px solid #dcdcdc;
+					}
+
+					&:nth-of-type(odd) {
+						background-color: #fafafa;
+						@include adaptive(1279) {
+							background-color: transparent;
+						}
+					}
+				}
+
+				&-td {
+					&:nth-of-type(1) {
+						padding-right: 25px;
+						padding-left: 24px;
+						@include adaptive(1279) {
+							display: flex;
+							align-items: center;
+							padding-top: 5px;
+							padding-left: 10px;
+							padding-right: 0;
+
+							> div {
+								width: 100%;
+								max-width: calc(100% / 2);
+
+								&:nth-of-type(1) {
+									display: flex;
+									flex-direction: column;
+								}
+
+								&:nth-of-type(2) {
+									display: flex;
+									align-items: center;
+									justify-content: center;
+									padding-top: 29px;
+									padding-left: 0;
+									padding-right: 0;
+								}
+							}
+						}
+
+						> div {
+							> i {
+								display: none;
+								overflow: hidden;
+								white-space: nowrap;
+								text-transform: uppercase;
+								text-overflow: ellipsis;
+								font-style: normal;
+								font-weight: 500;
+								font-size: 14px;
+								line-height: 29px;
+								color: #222;
+								@include adaptive(1279) {
+									display: block;
+								}
+								@include adaptive(767) {
+									font-size: 10px;
+								}
+							}
+						}
+					}
+					&:nth-of-type(2) {
+						@include adaptive(1279) {
+							padding-top: 5px;
+							padding-bottom: 5px;
+						}
+
+						> div {
+							&:nth-of-type(1) {
+								display: none;
+								@include adaptive(1279) {
+									display: block;
+								}
+							}
+							&:nth-of-type(2) {
+								overflow: hidden;
+								white-space: nowrap;
+								text-overflow: ellipsis;
+							}
+
+							> i {
+								display: none;
+								overflow: hidden;
+								white-space: nowrap;
+								text-transform: uppercase;
+								text-overflow: ellipsis;
+								font-style: normal;
+								font-weight: 500;
+								font-size: 14px;
+								line-height: 29px;
+								color: #222;
+								@include adaptive(1279) {
+									display: block;
+								}
+								@include adaptive(767) {
+									font-size: 10px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		&-tr {
+			display: table-row;
+			@include adaptive(1279) {
+				display: flex;
+				flex-wrap: wrap;
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+		}
+
+		&-th,
+		&-td {
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			position: relative;
+			max-width: 250px;
+			padding: 0 10px;
+			display: table-cell;
+			text-align: center;
+			vertical-align: middle;
+
+			&:nth-of-type(1),
+			&:nth-of-type(2) {
+				text-align: left;
+			}
+
+			&:not(:first-of-type) {
+				&:after {
+					content: '';
+					position: absolute;
+					top: 50%;
+					transform: translateY(-50%);
+					left: 0;
+					width: 1px;
+					height: 30px;
+					background-color: #dcdcdc;
+					@include adaptive(1279) {
+						display: none;
+					}
+				}
+			}
+		}
+
+		&-th {
+			max-width: 250px;
+			padding: 7px 10px;
+			text-align: center;
+			border-bottom: 1px solid #dcdcdc;
+
+			p {
+				line-height: 30px;
+				font-size: 11px;
+				text-transform: uppercase;
+				font-weight: 700;
+				color: #222222;
+			}
+		}
+
+		&-td {
+			@include adaptive(1279) {
+				width: 100%;
+
+				&:nth-of-type(1) {
+					order: 1;
+					max-width: calc((100% - (100% / 3)));
+				}
+				&:nth-of-type(2) {
+					order: 3;
+					max-width: 100%;
+					border-top: 1px solid #dcdcdc;
+				}
+				&:nth-of-type(3),
+				&:nth-of-type(4),
+				&:nth-of-type(5) {
+					max-width: calc(100% / 3);
+					height: 64px;
+					padding-top: 5px;
+					border-top: 1px solid #dcdcdc;
+					border-bottom: 1px solid #dcdcdc;
+					background-color: #fafafa;
+				}
+				&:nth-of-type(3) {
+					order: 4;
+					border-right: 1px solid #dcdcdc;
+				}
+				&:nth-of-type(4) {
+					order: 5;
+					border-right: 1px solid #dcdcdc;
+				}
+				&:nth-of-type(5) {
+					order: 6;
+				}
+				&:nth-of-type(6) {
+					order: 2;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					max-width: calc(100% / 3);
+					padding-top: 29px;
+					padding-left: 0;
+					padding-right: 0;
+				}
+				&:nth-of-type(7) {
+					order: 7;
+					max-width: 100%;
+					padding: 10px 7px;
+				}
+			}
+
+			> a,
+			> div a {
+				line-height: 24px;
+				font-size: 13px;
+				color: #15c;
+
+				&:hover {
+					color: #15c;
+				}
+			}
+
+			> u {
+				text-align: center;
+				text-decoration: none;
+				font-size: 13px;
+				color: #616161;
+			}
+
+			> i {
+				overflow: hidden;
+				white-space: nowrap;
+				text-transform: uppercase;
+				text-overflow: ellipsis;
+				display: none;
+				font-style: normal;
+				font-weight: 500;
+				font-size: 14px;
+				line-height: 29px;
+				color: #222;
+				@include adaptive(1279) {
+					display: block;
+				}
+				@include adaptive(767) {
+					font-size: 10px;
+				}
+			}
+
+			.c-btn {
+				height: 33px;
+				@include adaptive(1279) {
+					width: 100%;
+					height: 50px;
+				}
+
+				span {
+					font-size: 11px;
+				}
+			}
+		}
+
+		&-logo {
+			overflow: hidden;
+			position: relative;
+			width: 34px;
+			height: 34px;
+			@include adaptive(1279) {
+				width: 74px;
+				height: 74px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			&-wrapper {
+				display: flex;
+				align-items: center;
+
+				a {
+					padding: 5px 0 5px 5px;
+					line-height: 24px;
+					font-size: 13px;
+					color: #15c;
+					@include adaptive(1279) {
+						display: none;
+					}
+				}
+			}
+
+			img {
+				@extend %imageResCoverAbs;
+			}
+		}
+
+		&-arrow {
+			display: none;
+			position: relative;
+			width: 20px;
+			height: 20px;
+			background-color: #1ac880;
+			@include adaptive(1279) {
+				display: flex;
+			}
+
+			&:before,
+			&:after {
+				content: '';
+				position: absolute;
+				top: 0;
+				width: 0;
+				height: 0;
+				border-width: 10px;
+				border-style: solid;
+			}
+
+			&:before {
+				left: -20px;
+				border-color: #1ac880 #1ac880 #1ac880 transparent;
+			}
+			&:after {
+				right: -20px;
+				border-color: transparent transparent transparent #1ac880;
+			}
+		}
+
+		&-badge {
+			overflow: hidden;
+			position: relative;
+			display: flex;
+			align-items: center;
+			width: 130px;
+			height: 30px;
+			margin-left: auto;
+			margin-right: auto;
+			background-color: #ad4a34;
+			border-radius: 3px;
+
+			> div {
+				width: 100%;
+
+				&:nth-of-type(1) {
+					position: relative;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					max-width: 40px;
+					height: 30px;
+					padding-left: 10px;
+					background-color: #c76c6c;
+					@include adaptive(767) {
+						max-width: 30px;
+					}
+
+					&:after {
+						content: '';
+						position: absolute;
+						top: 0;
+						right: -30px;
+						width: 0;
+						height: 0;
+						border-width: 15px;
+						border-style: solid;
+						border-color: transparent transparent transparent #c76c6c;
+					}
+				}
+				&:nth-of-type(2) {
+					flex: 1;
+					min-width: 1px;
+					max-width: 100%;
+					padding-left: 10px;
+				}
+			}
+
+			.icon-font {
+				color: #ffffff;
+				font-size: 18px;
+			}
+
+			p {
+				color: #ffffff;
+				text-align: center;
+				text-transform: uppercase;
+				font-size: 11px;
+				font-weight: 500;
+				@include adaptive(767) {
+					font-size: 10px;
+				}
+			}
+		}
+	}
+}
+
+// SECTION :: END
