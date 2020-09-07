@@ -9864,4 +9864,465 @@ picture {
   }
 }
 
+/* line 3, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended {
+  padding-top: 5px;
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 3, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+  .recommended {
+    padding-top: 15px;
+  }
+}
+
+/* line 9, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended .c-grid {
+  max-width: 1370px;
+}
+
+/* line 13, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 7px 25px;
+  margin-bottom: 24px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  background-color: #663399;
+  -webkit-box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+}
+
+@media screen and (max-width: 767px) {
+  /* line 13, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+  .recommended__header {
+    padding: 10px 18px;
+  }
+}
+
+/* line 25, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__header p {
+  margin-right: 23px;
+  padding-right: 23px;
+  color: #ffffff;
+  line-height: 49px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 25, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+  .recommended__header p {
+    margin-right: 15px;
+    padding-right: 15px;
+    line-height: 40px;
+    font-size: 14px;
+  }
+}
+
+/* line 38, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__header p:not(:last-of-type) {
+  border-right: 1px solid #dcdcdc;
+}
+
+/* line 42, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__header p b {
+  margin-right: 5px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 42, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+  .recommended__header p b {
+    font-size: 16px;
+  }
+}
+
+/* line 53, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+}
+
+/* line 60, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 64, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-wrapper > div {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* line 70, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-head, .recommended__box-body {
+  width: 100%;
+}
+
+/* line 75, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-head {
+  background-color: #663399;
+}
+
+/* line 78, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-head p {
+  position: relative;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 48px;
+  display: inline-block;
+  min-width: 370px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #a328d6;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 78, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+  .recommended__box-head p {
+    min-width: -webkit-calc(100% - 125px);
+    min-width: calc(100% - 125px);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* line 95, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-head p:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -48px;
+  width: 0;
+  height: 0;
+  border-width: 24px;
+  border-style: solid;
+  border-color: transparent transparent transparent #a328d6;
+}
+
+/* line 109, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-body {
+  padding: 30px 25px 48px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 109, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+  .recommended__box-body {
+    padding: 30px 20px;
+  }
+}
+
+/* line 116, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-more {
+  padding-top: 35px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 116, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+  .recommended__box-more {
+    margin-top: 20px;
+  }
+}
+
+/* line 122, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-more .c-btn {
+  width: 100%;
+  min-width: unset;
+  max-width: 416px;
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 122, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+  .recommended__box-more .c-btn {
+    max-width: 100%;
+  }
+}
+
+/* line 132, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-profile {
+  padding-bottom: 30px;
+}
+
+/* line 135, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-profile .icon-font {
+  margin-right: 10px;
+  color: #ffffff;
+}
+
+/* line 141, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 24px;
+  border-top: 3px solid transparent;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+  -webkit-transition: border-color 0.4s ease-in-out;
+  -o-transition: border-color 0.4s ease-in-out;
+  transition: border-color 0.4s ease-in-out;
+}
+
+/* line 151, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-block:hover {
+  border-color: #663399;
+  -webkit-transition: border-color 0.4s ease-in-out;
+  -o-transition: border-color 0.4s ease-in-out;
+  transition: border-color 0.4s ease-in-out;
+}
+
+/* line 156, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-block:hover .recommended__box-block-footer .c-btn__wrapper {
+  opacity: 1;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+}
+
+/* line 163, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-block-wrapper {
+  position: relative;
+  left: -13px;
+  width: -webkit-calc(100% + 13px);
+  width: calc(100% + 13px);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+/* line 170, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-block-wrapper > div {
+  width: -webkit-calc(100% / 4);
+  width: calc(100% / 4);
+  padding-left: 13px;
+  padding-bottom: 13px;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 170, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+  .recommended__box-block-wrapper > div {
+    width: -webkit-calc(100% / 2);
+    width: calc(100% / 2);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 170, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+  .recommended__box-block-wrapper > div {
+    width: 100%;
+  }
+}
+
+/* line 183, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-block-head {
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 183, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+  .recommended__box-block-head {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  /* line 193, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+  .recommended__box-block-head > div:nth-of-type(2) {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    min-width: 1px;
+    max-width: 100%;
+    padding-left: 20px;
+  }
+}
+
+/* line 203, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-block-body {
+  padding-bottom: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 206, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+  .recommended__box-block-body .recommended__box-block-subtitle,
+  .recommended__box-block-body .recommended__box-block-desc {
+    display: none;
+  }
+}
+
+/* line 213, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-block-footer {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+  border-top: 1px solid #dcdcdc;
+}
+
+/* line 220, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-block-footer .c-btn {
+  width: 100%;
+  height: 36px;
+}
+
+/* line 224, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-block-footer .c-btn__wrapper {
+  opacity: 0;
+  z-index: 5;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+}
+
+/* line 235, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-block-footer > div {
+  width: 50%;
+}
+
+/* line 239, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-block-footer p {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* line 244, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-block-footer p .icon-font {
+  margin-right: 8px;
+  color: #7d20a4;
+}
+
+/* line 249, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-block-footer p span {
+  position: relative;
+  top: 1px;
+  color: #616161;
+  font-size: 12px;
+  line-height: 1;
+}
+
+/* line 259, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-block-logo {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  text-align: center;
+  border: 1px solid rgba(220, 220, 220, 0.5);
+}
+
+/* line 266, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-block-logo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+/* line 274, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-block-details {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 274, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+  .recommended__box-block-details {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+/* line 282, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-block-title {
+  padding-bottom: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #15c;
+}
+
+/* line 289, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-block-subtitle {
+  padding-bottom: 8px;
+  font-weight: 500;
+  font-size: 11px;
+  color: #616161;
+}
+
+/* line 296, src/scss/_components/recommended-jobs/_recommended-jobs.scss */
+.recommended__box-block-desc {
+  font-size: 13px;
+  color: #616161;
+}
+
 /*# sourceMappingURL=maps/app.css.map */

@@ -1,0 +1,14 @@
+---
+title: JobNet | Recommended Jobs
+
+pageClassName: p-recommended-jobs
+---
+extends shared/_layout
+
+block modal
+block content
+	div.body.body--start(class!= pageClassName)
+
+		include components/search/_search
+
+		include components/recommended-jobs/_recommended
