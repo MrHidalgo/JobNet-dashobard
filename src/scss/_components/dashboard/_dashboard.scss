@@ -1,0 +1,90 @@
+// SECTION :: START
+
+.dashboard {
+	padding-top: 7px;
+
+	.c-grid {
+		max-width: 1370px;
+	}
+
+	&__wrapper {
+		position: relative;
+		display: flex;
+
+		&-left {
+			width: 405px;
+
+			#manage {
+				position: sticky;
+				top: -60px;
+				left: 0;
+			}
+		}
+
+		&-right {
+			flex: 1;
+			min-width: 1px;
+			max-width: 100%;
+			padding-left: 20px;
+		}
+	}
+
+	&__line {
+		height: 1px;
+		margin: 22px 0;
+		border: none;
+		background-color: #dcdcdc;
+	}
+
+	@import "dashboard--stat";
+	@import "dashboard--employers";
+	@import "dashboard--jobs";
+	@import "dashboard--hiring";
+	@import "dashboard--news";
+
+	.manage {
+		padding: 0;
+
+		&__profile,
+		&__upload {
+			display: flex;
+		}
+
+		&__profile {
+			margin: 0;
+			margin-bottom: 20px;
+
+			.profile__main {
+				overflow: hidden;
+
+				&-bg {
+					> div {
+						height: 140px;
+					}
+				}
+
+				&-body-wrapper {
+					&-1 {
+						padding: 30px 10px 15px;
+					}
+				}
+
+				&-head {
+					padding: 15px 5px;
+				}
+
+				&-name span,
+				&-position span,
+				&-country span {
+					min-width: 75px;
+				}
+
+				&-steps-title {
+					padding-bottom: 15px;
+				}
+			}
+		}
+	}
+}
+
+// SECTION :: END

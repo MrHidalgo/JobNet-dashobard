@@ -1,0 +1,50 @@
+.dashboard__hiring
+	.dashboard__hiring-head
+		div
+			p Companies Hiring Now
+		div
+			a.dashboard__hiring-btn.dashboard__hiring-btn--prev(href="#")
+				i.icon-font.icon-keyboard-arrow-down
+			a.dashboard__hiring-btn.dashboard__hiring-btn--next(href="#")
+				i.icon-font.icon-keyboard-arrow-down
+
+	.dashboard__hiring-body
+
+		hr
+
+		.dashboard__hiring-slider
+			mixin swiperContent()
+				each val, idx in [1,2,3]
+					.swiper-slide
+						.swiper-slide-left
+
+							img(src="img/img-dashbobard-hiring.png" alt="")
+
+						.swiper-slide-right
+							p ASIA GENERAL HOLDING CO.,LTD
+							ul
+								li
+									i
+									span Our Vision To contribute to the infra-structural development of nations in the field of Power Distribution, which will bring prosperity to the people and to our stakeholders. Our Mission To continuously develop, innovate and creating to use latest technologies and processes that will help us provide power distribution equipment and services meeting international standards to our customers. To expand and diversity in newer market and products with active involvement of all concerned.
+								li
+									i
+									span Establishment in 2008, we have emphasized on manufacturing products of superior quality able to compete with international standards and provide our customers with satisfaction. Asia General is known throughout Myanmar as a manufacturer of a complete range switchgear panels, as well as power and distribution transformers designed to grant the reliability and efficiency required in utility, industrial, and commercial applications. We are a leader in switchgear panel and transformer manufacturing throughout Myanmar and offer liquid-filled and dry-type transformers, as well as services for complete life-cycle support, including replacement parts and components. HQ at Yuzana Tower and Factory at Hlaing Tar Yar. Our Products are Transformer, Panel and Switchgear. AG Transformer and switch gear operates a Quality Management System approved to ISO9001:2008 and ISO9001:2015.
+								li
+									i
+									span We AG establish guide lines and Employees have opportunities to develop their skills through on-the-job training, in-house training programs,oversea training programs and other management development programs that for individual career growth.
+								li
+									i
+									span Treat our people with fairness, trust and respect. Create climate for action through pleasant workplace an environment to unleash people potential. Empower and develop talented people to grow with the organization.
+								li
+									a(href="#") Read More
+
+							.swiper-slide-block
+								div
+									p Open Jobs
+									span 20
+								div
+									.c-btn__wrapper
+										a.c-btn.c-btn--green(href="#")
+											span See All Jobs
+
+			+swiper('dashboardHiringSlider', 'swiperContent', false, false, false)

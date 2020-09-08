@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* line 14, src/scss/_utilities/_extend.scss */
-.modal#modalProfileMain .modal__header-user img, .modal#modalProfileCV .modal__header-user img, .modal#modalProfileQr .modal-body-user img, .header__hamburger-img img, .header__user-ava img, .header__user-img img, .menu__wrapper-head-img img, .profile__main-user img, .profile__news-link-img img, .applications-job__table-logo img {
+.modal#modalProfileMain .modal__header-user img, .modal#modalProfileCV .modal__header-user img, .modal#modalProfileQr .modal-body-user img, .header__hamburger-img img, .header__user-ava img, .header__user-img img, .menu__wrapper-head-img img, .profile__main-user img, .profile__news-link-img img, .applications-job__table-logo img, .dashboard__news-block-head img {
   position: absolute;
   top: 0;
   left: 0;
@@ -11160,6 +11160,1125 @@ picture {
 /* line 94, src/scss/_components/applications/_update.scss */
 .applications-update__wrapper .c-btn__wrapper {
   width: 100%;
+}
+
+/* line 3, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard {
+  padding-top: 7px;
+}
+
+/* line 6, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard .c-grid {
+  max-width: 1370px;
+}
+
+/* line 10, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 14, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__wrapper-left {
+  width: 405px;
+}
+
+/* line 17, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__wrapper-left #manage {
+  position: -webkit-sticky;
+  position: sticky;
+  top: -60px;
+  left: 0;
+}
+
+/* line 24, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__wrapper-right {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+  padding-left: 20px;
+}
+
+/* line 32, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__line {
+  height: 1px;
+  margin: 22px 0;
+  border: none;
+  background-color: #dcdcdc;
+}
+
+/* line 1, src/scss/_components/dashboard/_dashboard--stat.scss */
+.dashboard__stat {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  background-color: #fff;
+}
+
+/* line 9, src/scss/_components/dashboard/_dashboard--stat.scss */
+.dashboard__stat-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+/* line 14, src/scss/_components/dashboard/_dashboard--stat.scss */
+.dashboard__stat-wrapper > div {
+  width: 100%;
+  max-width: -webkit-calc((100% - 26px) / 3);
+  max-width: calc((100% - 26px) / 3);
+}
+
+/* line 20, src/scss/_components/dashboard/_dashboard--stat.scss */
+.dashboard__stat-head {
+  padding: 10px 0;
+  -webkit-box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.12);
+  background-color: #663399;
+}
+
+/* line 25, src/scss/_components/dashboard/_dashboard--stat.scss */
+.dashboard__stat-head p {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16.02px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* line 35, src/scss/_components/dashboard/_dashboard--stat.scss */
+.dashboard__stat-body {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+/* line 39, src/scss/_components/dashboard/_dashboard--stat.scss */
+.dashboard__stat-body p {
+  font-size: 40px;
+  padding: 25px 0 20px;
+  line-height: 1;
+  color: #5a5ace;
+}
+
+/* line 46, src/scss/_components/dashboard/_dashboard--stat.scss */
+.dashboard__stat-body a {
+  line-height: 1;
+  font-size: 16px;
+  text-align: center;
+  color: #5a5ace;
+  font-weight: 500;
+}
+
+/* line 1, src/scss/_components/dashboard/_dashboard--employers.scss */
+.dashboard__employers {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+/* line 7, src/scss/_components/dashboard/_dashboard--employers.scss */
+.dashboard__employers-wrapper {
+  position: relative;
+  margin-bottom: 20px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+}
+
+/* line 14, src/scss/_components/dashboard/_dashboard--employers.scss */
+.dashboard__employers-wrapper p {
+  padding: 18px 18px 15px;
+  font-size: 24px;
+  color: #222;
+  line-height: 1;
+}
+
+/* line 22, src/scss/_components/dashboard/_dashboard--employers.scss */
+.dashboard__employers > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  max-width: -webkit-calc(100% / 6);
+  max-width: calc(100% / 6);
+  min-height: 114px;
+}
+
+/* line 30, src/scss/_components/dashboard/_dashboard--employers.scss */
+.dashboard__employers > div:not(:last-of-type) {
+  border-right: 1px solid #dfdfdf;
+}
+
+/* line 34, src/scss/_components/dashboard/_dashboard--employers.scss */
+.dashboard__employers > div a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 15px;
+}
+
+/* line 42, src/scss/_components/dashboard/_dashboard--employers.scss */
+.dashboard__employers > div a img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 2, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-wrapper {
+  overflow: hidden;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+  margin-bottom: 20px;
+}
+
+/* line 9, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-wrapper hr {
+  position: relative;
+  left: 18px;
+  width: -webkit-calc(100% - 36px);
+  width: calc(100% - 36px);
+  height: 1px;
+  margin: 25px 0 30px;
+  border: none;
+  background-color: #dcdcdc;
+}
+
+/* line 18, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-wrapper hr.mt0 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  background-color: transparent;
+}
+
+/* line 26, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-head {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  background-color: #663399;
+}
+
+/* line 31, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-head p {
+  position: relative;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 0 10px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* line 39, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-head p:after {
+  content: '';
+  position: absolute;
+  top: -webkit-calc(100% + 20px);
+  top: calc(100% + 20px);
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #f89a29;
+}
+
+/* line 51, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-title {
+  padding-left: 18px;
+  padding-right: 18px;
+  font-size: 24px;
+  line-height: 1;
+  color: #222;
+}
+
+/* line 59, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-heading {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-bottom: 25px;
+}
+
+/* line 67, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-heading > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* line 72, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-heading p {
+  font-size: 16px;
+  color: #757575;
+}
+
+/* line 76, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-heading p a {
+  font-weight: 500;
+  color: #5a5ace;
+}
+
+/* line 82, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-heading span {
+  padding-right: 10px;
+  font-size: 14px;
+  line-height: 32px;
+  color: #616161;
+}
+
+/* line 90, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-recommended {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* line 95, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-recommended > div:nth-of-type(1) {
+  width: 56px;
+}
+
+/* line 98, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-recommended > div:nth-of-type(2) {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+  padding-left: 18px;
+}
+
+/* line 104, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-recommended > div:nth-of-type(2) a,
+.dashboard__jobs-recommended > div:nth-of-type(2) p {
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+}
+
+/* line 111, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-recommended > div:nth-of-type(2) a {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 29px;
+  color: #5a5ace;
+}
+
+/* line 119, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-recommended > div:nth-of-type(2) p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #616161;
+}
+
+/* line 127, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-recommended > div:nth-of-type(3) {
+  width: 150px;
+}
+
+/* line 130, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-recommended > div:nth-of-type(3) > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* line 135, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-recommended > div:nth-of-type(3) > div:nth-of-type(1) .icon-font {
+  color: #f69322;
+}
+
+/* line 140, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-recommended > div:nth-of-type(3) > div:nth-of-type(2) .icon-font {
+  color: #25d754;
+}
+
+/* line 145, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-recommended > div:nth-of-type(3) > div .icon-font {
+  margin-right: 10px;
+}
+
+/* line 149, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-recommended > div:nth-of-type(3) > div span {
+  font-size: 14px;
+  line-height: 22px;
+  color: #616161;
+}
+
+/* line 156, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-recommended > div:nth-of-type(4) {
+  padding-left: 18px;
+}
+
+/* line 159, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-recommended > div:nth-of-type(4) .c-btn {
+  min-width: unset;
+  width: 100px;
+  height: 25px;
+}
+
+/* line 164, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-recommended > div:nth-of-type(4) .c-btn span {
+  font-size: 11px;
+}
+
+/* line 168, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-recommended > div:nth-of-type(4) .c-btn__wrapper {
+  position: relative;
+  right: -20px;
+}
+
+/* line 176, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-recommended-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 18px 18px 0;
+  margin-top: 10px;
+}
+
+/* line 182, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-recommended-wrapper > div {
+  padding: 10px 20px;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+/* line 188, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-recommended-logo {
+  overflow: hidden;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 56px;
+  height: 56px;
+}
+
+/* line 197, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-recommended-logo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+/* line 207, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-last-wrapper {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+/* line 212, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-last-wrapper .swiper-slide {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 155px !important;
+}
+
+/* line 217, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-last-wrapper .swiper-slide-head {
+  position: relative;
+  width: 100%;
+  height: 155px;
+  padding: 10px;
+  border: 1px solid #dcdcdc;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+}
+
+/* line 227, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-last-wrapper .swiper-slide-head img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+/* line 235, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-last-wrapper .swiper-slide-body {
+  padding-top: 13px;
+}
+
+/* line 238, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-last-wrapper .swiper-slide-body p,
+.dashboard__jobs-last-wrapper .swiper-slide-body span,
+.dashboard__jobs-last-wrapper .swiper-slide-body i {
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  display: block;
+  line-height: 1;
+}
+
+/* line 248, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-last-wrapper .swiper-slide-body p {
+  padding-bottom: 5px;
+  font-size: 14px;
+  color: #5a5ace;
+}
+
+/* line 254, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-last-wrapper .swiper-slide-body span {
+  padding-bottom: 10px;
+  font-size: 14px;
+  color: #616161;
+}
+
+/* line 260, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-last-wrapper .swiper-slide-body i {
+  font-size: 12px;
+  font-style: normal;
+  color: #757575;
+}
+
+/* line 271, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-recent {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5.7% 2.5% 2.5% 7.5%;
+  border: 1px solid #dcdcdc;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  -webkit-box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+}
+
+/* line 279, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-recent-wrapper {
+  position: relative;
+  left: -17px;
+  width: -webkit-calc(100% + 17px);
+  width: calc(100% + 17px);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding: 0 18px 18px;
+}
+
+/* line 287, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-recent-wrapper > div {
+  width: -webkit-calc(100% / 2);
+  width: calc(100% / 2);
+  padding-left: 17px;
+  padding-bottom: 17px;
+}
+
+/* line 294, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-recent > a {
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  color: #5a5ace;
+}
+
+/* line 306, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-recent > p {
+  font-size: 14px;
+  color: #616161;
+}
+
+/* line 311, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-recent .c-btn {
+  width: 140px;
+  min-width: unset;
+  height: 25px;
+}
+
+/* line 316, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-recent .c-btn span {
+  font-size: 11px;
+}
+
+/* line 320, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-recent .c-btn__wrapper {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+/* line 1, src/scss/_components/dashboard/_dashboard--hiring.scss */
+.dashboard__hiring {
+  margin-bottom: 20px;
+  padding: 18px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+}
+
+/* line 8, src/scss/_components/dashboard/_dashboard--hiring.scss */
+.dashboard__hiring-head {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 14, src/scss/_components/dashboard/_dashboard--hiring.scss */
+.dashboard__hiring-head > div:nth-of-type(2) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* line 20, src/scss/_components/dashboard/_dashboard--hiring.scss */
+.dashboard__hiring-head p {
+  font-size: 24px;
+  color: #222;
+}
+
+/* line 27, src/scss/_components/dashboard/_dashboard--hiring.scss */
+.dashboard__hiring-body hr {
+  height: 1px;
+  margin: 25px 0 30px;
+  border: none;
+  background-color: #dcdcdc;
+}
+
+/* line 35, src/scss/_components/dashboard/_dashboard--hiring.scss */
+.dashboard__hiring-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30px;
+}
+
+/* line 41, src/scss/_components/dashboard/_dashboard--hiring.scss */
+.dashboard__hiring-btn .icon-font {
+  color: #000000;
+  font-size: 13px;
+}
+
+/* line 47, src/scss/_components/dashboard/_dashboard--hiring.scss */
+.dashboard__hiring-btn--prev .icon-font {
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+/* line 52, src/scss/_components/dashboard/_dashboard--hiring.scss */
+.dashboard__hiring-btn--next .icon-font {
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+/* line 59, src/scss/_components/dashboard/_dashboard--hiring.scss */
+.dashboard__hiring .swiper-slide {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+/* line 63, src/scss/_components/dashboard/_dashboard--hiring.scss */
+.dashboard__hiring .swiper-slide-left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: -webkit-calc(100% / 3);
+  width: calc(100% / 3);
+}
+
+/* line 69, src/scss/_components/dashboard/_dashboard--hiring.scss */
+.dashboard__hiring .swiper-slide-left img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+/* line 77, src/scss/_components/dashboard/_dashboard--hiring.scss */
+.dashboard__hiring .swiper-slide-right {
+  width: -webkit-calc(100% - (100% / 3));
+  width: calc(100% - (100% / 3));
+  padding: 20px 0 40px 3.7%;
+}
+
+/* line 81, src/scss/_components/dashboard/_dashboard--hiring.scss */
+.dashboard__hiring .swiper-slide-right > p {
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #639;
+}
+
+/* line 90, src/scss/_components/dashboard/_dashboard--hiring.scss */
+.dashboard__hiring .swiper-slide-block {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  padding: 7px;
+  border: 1px solid #dcdcdc;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+}
+
+/* line 99, src/scss/_components/dashboard/_dashboard--hiring.scss */
+.dashboard__hiring .swiper-slide-block > div:nth-of-type(1) {
+  width: 35%;
+  padding: 6px 0 3px;
+  text-align: center;
+  border-right: 1px solid #dcdcdc;
+}
+
+/* line 105, src/scss/_components/dashboard/_dashboard--hiring.scss */
+.dashboard__hiring .swiper-slide-block > div:nth-of-type(1) > p {
+  padding-bottom: 5px;
+  font-size: 14px;
+  color: #222;
+  font-weight: 700;
+}
+
+/* line 112, src/scss/_components/dashboard/_dashboard--hiring.scss */
+.dashboard__hiring .swiper-slide-block > div:nth-of-type(1) > span {
+  font-size: 40px;
+  color: #639;
+  line-height: 1;
+}
+
+/* line 118, src/scss/_components/dashboard/_dashboard--hiring.scss */
+.dashboard__hiring .swiper-slide-block > div:nth-of-type(2) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 65%;
+}
+
+/* line 127, src/scss/_components/dashboard/_dashboard--hiring.scss */
+.dashboard__hiring .swiper-slide ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 131, src/scss/_components/dashboard/_dashboard--hiring.scss */
+.dashboard__hiring .swiper-slide ul li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 10px;
+}
+
+/* line 136, src/scss/_components/dashboard/_dashboard--hiring.scss */
+.dashboard__hiring .swiper-slide ul li i {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 6px;
+  height: 6px;
+  margin-right: 10px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background-color: #ac46bd;
+}
+
+/* line 145, src/scss/_components/dashboard/_dashboard--hiring.scss */
+.dashboard__hiring .swiper-slide ul li span {
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  font-size: 14px;
+  display: block;
+  width: 100%;
+  line-height: 1.2;
+  color: #616161;
+}
+
+/* line 156, src/scss/_components/dashboard/_dashboard--hiring.scss */
+.dashboard__hiring .swiper-slide ul li a {
+  font-size: 12px;
+  margin-left: 5px;
+  text-decoration: underline;
+  color: #15c;
+}
+
+/* line 1, src/scss/_components/dashboard/_dashboard--news.scss */
+.dashboard__news {
+  padding: 18px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+}
+
+/* line 7, src/scss/_components/dashboard/_dashboard--news.scss */
+.dashboard__news-head {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 12, src/scss/_components/dashboard/_dashboard--news.scss */
+.dashboard__news-head p {
+  font-size: 24px;
+  color: #222;
+}
+
+/* line 19, src/scss/_components/dashboard/_dashboard--news.scss */
+.dashboard__news-body hr {
+  height: 1px;
+  margin: 25px 0 30px;
+  border: none;
+  background-color: #dcdcdc;
+}
+
+/* line 28, src/scss/_components/dashboard/_dashboard--news.scss */
+.dashboard__news-body .c-btn__wrapper .icon-font {
+  z-index: 2;
+  position: relative;
+  margin-left: 10px;
+  color: #ffffff;
+  font-size: 11px;
+  -webkit-transform: scaleX(-1);
+      -ms-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+/* line 40, src/scss/_components/dashboard/_dashboard--news.scss */
+.dashboard__news-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+  border: 1px solid #dcdcdc;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+}
+
+/* line 47, src/scss/_components/dashboard/_dashboard--news.scss */
+.dashboard__news-block-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 51, src/scss/_components/dashboard/_dashboard--news.scss */
+.dashboard__news-block-wrapper > div {
+  width: 100%;
+  max-width: -webkit-calc((100% - 34px) / 3);
+  max-width: calc((100% - 34px) / 3);
+  padding-bottom: 18px;
+}
+
+/* line 58, src/scss/_components/dashboard/_dashboard--news.scss */
+.dashboard__news-block-head {
+  overflow: hidden;
+  position: relative;
+  height: 104px;
+}
+
+/* line 68, src/scss/_components/dashboard/_dashboard--news.scss */
+.dashboard__news-block-body {
+  padding: 9% 4.5% 4.5%;
+}
+
+/* line 71, src/scss/_components/dashboard/_dashboard--news.scss */
+.dashboard__news-block-body > p {
+  font-family: 'Lucida Grande', sans-serif;
+  min-height: 42px;
+  font-weight: 500;
+  line-height: 21px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+/* line 81, src/scss/_components/dashboard/_dashboard--news.scss */
+.dashboard__news-block-body > span {
+  overflow: hidden;
+  position: relative;
+  display: block;
+  max-height: 80px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #616161;
+}
+
+/* line 90, src/scss/_components/dashboard/_dashboard--news.scss */
+.dashboard__news-block-body > span:after {
+  content: '...';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* line 99, src/scss/_components/dashboard/_dashboard--news.scss */
+.dashboard__news-block-footer {
+  padding-top: 20px;
+}
+
+/* line 102, src/scss/_components/dashboard/_dashboard--news.scss */
+.dashboard__news-block-footer .c-btn {
+  width: 100%;
+}
+
+/* line 45, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard .manage {
+  padding: 0;
+}
+
+/* line 48, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard .manage__profile, .dashboard .manage__upload {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 53, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard .manage__profile {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+/* line 57, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard .manage__profile .profile__main {
+  overflow: hidden;
+}
+
+/* line 61, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard .manage__profile .profile__main-bg > div {
+  height: 140px;
+}
+
+/* line 67, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard .manage__profile .profile__main-body-wrapper-1 {
+  padding: 30px 10px 15px;
+}
+
+/* line 72, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard .manage__profile .profile__main-head {
+  padding: 15px 5px;
+}
+
+/* line 76, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard .manage__profile .profile__main-name span,
+.dashboard .manage__profile .profile__main-position span,
+.dashboard .manage__profile .profile__main-country span {
+  min-width: 75px;
+}
+
+/* line 82, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard .manage__profile .profile__main-steps-title {
+  padding-bottom: 15px;
 }
 
 /*# sourceMappingURL=maps/app.css.map */

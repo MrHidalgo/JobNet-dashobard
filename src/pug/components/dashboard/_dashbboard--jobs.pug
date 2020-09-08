@@ -1,0 +1,70 @@
+.dashboard__jobs-wrapper
+	.dashboard__jobs-head
+		p Recommended Jobs
+
+	.dashboard__jobs-recommended-wrapper
+		each val, idx in [1,2,3,4]
+			div
+				.dashboard__jobs-recommended
+					div
+						.dashboard__jobs-recommended-logo
+							img(src="img/img-employers-kbz-bank.png" alt="")
+					div
+						a(href="#") Digital Marketing Manager(Work From Home)
+						p PHANTOM GAMES COMPANY LIMITED
+					div
+						div
+							i.icon-font.icon-pin
+							span Mandalay
+						div
+							i.icon-font.icon-dollar-symbol
+							span Negotiable
+					div
+						.c-btn__wrapper
+							a.c-btn.c-btn--green(href="#")
+								span Apply now
+
+	hr.mt0
+	p.dashboard__jobs-title Last Search Results
+	hr
+
+	.dashboard__jobs-heading
+		div
+			p!= "<a href='#'>Digital Marketing Manager</a>, Yangon"
+		div
+			span Create Job Alert
+			.c-checkboxToggle
+				input(type='checkbox' name='' id='profile_visibility' checked)
+				label(for="profile_visibility")
+					i
+					span
+						u On
+						u Off
+
+	.dashboard__jobs-last-wrapper
+		mixin swiperContent()
+			each val, idx in [1,2,3,4,5,6]
+				a.swiper-slide(href="#")
+					.swiper-slide-head
+						img(src="img/img-employers-kbz-bank.png" alt="")
+					.swiper-slide-body
+						p Digital Marketing Manager
+						span Innopower Co.,Ltd.
+						i Yangon
+
+		+swiper('dashboardJobsLast', 'swiperContent', false, false, false)
+
+	hr
+	p.dashboard__jobs-title Recent Job Searches
+	hr
+
+	.dashboard__jobs-recent-wrapper
+		each val, idx in [1,2,3,4]
+			div
+				.dashboard__jobs-recent
+					a(href="#") general manager
+					p --
+					p Engineering, Technical, HSE
+					.c-btn__wrapper
+						a.c-btn.c-btn--green(href="#")
+							span See All jobs
