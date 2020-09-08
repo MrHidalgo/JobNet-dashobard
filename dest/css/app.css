@@ -1313,6 +1313,18 @@ picture {
 }
 
 /* line 55, src/scss/_macros/_btn.scss */
+.c-btn[disabled] {
+  pointer-events: none;
+  border-color: #e0e0e0 !important;
+  background-color: #e0e0e0 !important;
+}
+
+/* line 60, src/scss/_macros/_btn.scss */
+.c-btn[disabled] span {
+  color: #fefefe;
+}
+
+/* line 65, src/scss/_macros/_btn.scss */
 .c-btn__wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1324,7 +1336,7 @@ picture {
           align-items: center;
 }
 
-/* line 59, src/scss/_macros/_btn.scss */
+/* line 69, src/scss/_macros/_btn.scss */
 .c-btn__wrapper--center {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -1332,7 +1344,7 @@ picture {
           justify-content: center;
 }
 
-/* line 64, src/scss/_macros/_btn.scss */
+/* line 74, src/scss/_macros/_btn.scss */
 .c-btn span {
   z-index: 2;
   position: relative;
@@ -1346,229 +1358,229 @@ picture {
   transition: color 0.4s ease-in-out;
 }
 
-/* line 75, src/scss/_macros/_btn.scss */
+/* line 85, src/scss/_macros/_btn.scss */
 .c-btn--white {
   background-color: #fff;
 }
 
-/* line 78, src/scss/_macros/_btn.scss */
+/* line 88, src/scss/_macros/_btn.scss */
 .c-btn--white:before, .c-btn--white:after {
   background-color: #fafafa;
 }
 
-/* line 83, src/scss/_macros/_btn.scss */
+/* line 93, src/scss/_macros/_btn.scss */
 .c-btn--white span {
   color: #663399;
 }
 
-/* line 88, src/scss/_macros/_btn.scss */
+/* line 98, src/scss/_macros/_btn.scss */
 .c-btn--green {
   background-color: #1ac880;
 }
 
-/* line 91, src/scss/_macros/_btn.scss */
+/* line 101, src/scss/_macros/_btn.scss */
 .c-btn--green:before, .c-btn--green:after {
   background-color: #1bd186;
 }
 
-/* line 96, src/scss/_macros/_btn.scss */
+/* line 106, src/scss/_macros/_btn.scss */
 .c-btn--green span {
   color: #ffffff;
 }
 
-/* line 101, src/scss/_macros/_btn.scss */
+/* line 111, src/scss/_macros/_btn.scss */
 .c-btn--red {
   background-color: #fb0109;
 }
 
-/* line 104, src/scss/_macros/_btn.scss */
+/* line 114, src/scss/_macros/_btn.scss */
 .c-btn--red:before, .c-btn--red:after {
   background-color: #fe0810;
 }
 
-/* line 109, src/scss/_macros/_btn.scss */
+/* line 119, src/scss/_macros/_btn.scss */
 .c-btn--red span {
   color: #ffffff;
 }
 
-/* line 114, src/scss/_macros/_btn.scss */
+/* line 124, src/scss/_macros/_btn.scss */
 .c-btn--purple {
   background-color: #663399;
 }
 
-/* line 117, src/scss/_macros/_btn.scss */
+/* line 127, src/scss/_macros/_btn.scss */
 .c-btn--purple:before, .c-btn--purple:after {
   background-color: #6b36a1;
 }
 
-/* line 122, src/scss/_macros/_btn.scss */
+/* line 132, src/scss/_macros/_btn.scss */
 .c-btn--purple span {
   color: #ffffff;
 }
 
-/* line 127, src/scss/_macros/_btn.scss */
+/* line 137, src/scss/_macros/_btn.scss */
 .c-btn--orange {
   background-color: #f69322;
 }
 
-/* line 130, src/scss/_macros/_btn.scss */
+/* line 140, src/scss/_macros/_btn.scss */
 .c-btn--orange:before, .c-btn--orange:after {
   background-color: #f6982c;
 }
 
-/* line 135, src/scss/_macros/_btn.scss */
+/* line 145, src/scss/_macros/_btn.scss */
 .c-btn--orange span {
   color: #ffffff;
 }
 
-/* line 140, src/scss/_macros/_btn.scss */
+/* line 150, src/scss/_macros/_btn.scss */
 .c-btn--green {
   background-color: #36AF90;
 }
 
-/* line 143, src/scss/_macros/_btn.scss */
+/* line 153, src/scss/_macros/_btn.scss */
 .c-btn--green:before, .c-btn--green:after {
   background-color: #38b796;
 }
 
-/* line 148, src/scss/_macros/_btn.scss */
+/* line 158, src/scss/_macros/_btn.scss */
 .c-btn--green span {
   color: #ffffff;
 }
 
-/* line 153, src/scss/_macros/_btn.scss */
+/* line 163, src/scss/_macros/_btn.scss */
 .c-btn--borderPurple {
   border: 1px solid #663399;
   background-color: #fff;
 }
 
-/* line 158, src/scss/_macros/_btn.scss */
+/* line 168, src/scss/_macros/_btn.scss */
 .c-btn--borderPurple:hover span {
   color: #ffffff;
 }
 
-/* line 163, src/scss/_macros/_btn.scss */
+/* line 173, src/scss/_macros/_btn.scss */
 .c-btn--borderPurple:before, .c-btn--borderPurple:after {
   background-color: #8244c1;
 }
 
-/* line 168, src/scss/_macros/_btn.scss */
+/* line 178, src/scss/_macros/_btn.scss */
 .c-btn--borderPurple span {
   color: #663399;
 }
 
-/* line 173, src/scss/_macros/_btn.scss */
+/* line 183, src/scss/_macros/_btn.scss */
 .c-btn--borderGreen {
   border: 1px solid #36AF90;
   background-color: #fff;
 }
 
-/* line 177, src/scss/_macros/_btn.scss */
+/* line 187, src/scss/_macros/_btn.scss */
 .c-btn--borderGreen:before, .c-btn--borderGreen:after {
   background-color: #f8f8f8;
 }
 
-/* line 182, src/scss/_macros/_btn.scss */
+/* line 192, src/scss/_macros/_btn.scss */
 .c-btn--borderGreen span {
   color: #36AF90;
 }
 
-/* line 187, src/scss/_macros/_btn.scss */
+/* line 197, src/scss/_macros/_btn.scss */
 .c-btn--borderRed {
   border: 1px solid red;
   background-color: #fff;
 }
 
-/* line 191, src/scss/_macros/_btn.scss */
+/* line 201, src/scss/_macros/_btn.scss */
 .c-btn--borderRed:before, .c-btn--borderRed:after {
   background-color: #f8f8f8;
 }
 
-/* line 196, src/scss/_macros/_btn.scss */
+/* line 206, src/scss/_macros/_btn.scss */
 .c-btn--borderRed span {
   color: red;
 }
 
-/* line 201, src/scss/_macros/_btn.scss */
+/* line 211, src/scss/_macros/_btn.scss */
 .c-btn--borderBlue {
   border: 1px solid #2A65D1;
   background-color: #fff;
 }
 
-/* line 206, src/scss/_macros/_btn.scss */
+/* line 216, src/scss/_macros/_btn.scss */
 .c-btn--borderBlue:hover span {
   color: #ffffff;
 }
 
-/* line 211, src/scss/_macros/_btn.scss */
+/* line 221, src/scss/_macros/_btn.scss */
 .c-btn--borderBlue:before, .c-btn--borderBlue:after {
   background-color: #5686dd;
 }
 
-/* line 216, src/scss/_macros/_btn.scss */
+/* line 226, src/scss/_macros/_btn.scss */
 .c-btn--borderBlue span {
   color: #2A65D1;
 }
 
-/* line 221, src/scss/_macros/_btn.scss */
+/* line 231, src/scss/_macros/_btn.scss */
 .c-btn--borderOrange {
   border: 1px solid #f69322;
   background-color: transparent;
 }
 
-/* line 226, src/scss/_macros/_btn.scss */
+/* line 236, src/scss/_macros/_btn.scss */
 .c-btn--borderOrange:hover span {
   color: #f69322;
 }
 
-/* line 231, src/scss/_macros/_btn.scss */
+/* line 241, src/scss/_macros/_btn.scss */
 .c-btn--borderOrange:before, .c-btn--borderOrange:after {
   background-color: #f8f8f8;
 }
 
-/* line 236, src/scss/_macros/_btn.scss */
+/* line 246, src/scss/_macros/_btn.scss */
 .c-btn--borderOrange span {
   color: #f69322;
 }
 
-/* line 241, src/scss/_macros/_btn.scss */
+/* line 251, src/scss/_macros/_btn.scss */
 .c-btn--borderWhite {
   border: 1px solid #fff;
   background-color: transparent;
 }
 
-/* line 246, src/scss/_macros/_btn.scss */
+/* line 256, src/scss/_macros/_btn.scss */
 .c-btn--borderWhite:hover span {
   color: #000;
 }
 
-/* line 251, src/scss/_macros/_btn.scss */
+/* line 261, src/scss/_macros/_btn.scss */
 .c-btn--borderWhite:before, .c-btn--borderWhite:after {
   background-color: #f8f8f8;
 }
 
-/* line 256, src/scss/_macros/_btn.scss */
+/* line 266, src/scss/_macros/_btn.scss */
 .c-btn--borderWhite span {
   color: #fff;
 }
 
-/* line 261, src/scss/_macros/_btn.scss */
+/* line 271, src/scss/_macros/_btn.scss */
 .c-btn--borderGray {
   border: 1px solid silver;
   background-color: transparent;
 }
 
-/* line 266, src/scss/_macros/_btn.scss */
+/* line 276, src/scss/_macros/_btn.scss */
 .c-btn--borderGray:hover span {
   color: #000;
 }
 
-/* line 271, src/scss/_macros/_btn.scss */
+/* line 281, src/scss/_macros/_btn.scss */
 .c-btn--borderGray:before, .c-btn--borderGray:after {
   background-color: gainsboro;
 }
 
-/* line 276, src/scss/_macros/_btn.scss */
+/* line 286, src/scss/_macros/_btn.scss */
 .c-btn--borderGray span {
   color: gray;
 }
@@ -12573,6 +12585,548 @@ picture {
 
 /* line 98, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard .manage__profile .profile__main-steps-title {
+  padding-bottom: 15px;
+}
+
+/* line 3, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views {
+  padding-top: 7px;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 3, src/scss/_components/employer-views/_employer-views.scss */
+  .employer-views {
+    padding-top: 15px;
+  }
+}
+
+/* line 9, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views .c-grid {
+  max-width: 1370px;
+}
+
+/* line 13, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 13, src/scss/_components/employer-views/_employer-views.scss */
+  .employer-views__wrapper {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
+
+/* line 19, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__wrapper-left {
+  width: 405px;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 19, src/scss/_components/employer-views/_employer-views.scss */
+  .employer-views__wrapper-left {
+    -webkit-box-ordinal-group: 4;
+    -webkit-order: 3;
+        -ms-flex-order: 3;
+            order: 3;
+    width: 100%;
+  }
+}
+
+/* line 26, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__wrapper-left #manage {
+  position: -webkit-sticky;
+  position: sticky;
+  top: -60px;
+  left: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 26, src/scss/_components/employer-views/_employer-views.scss */
+  .employer-views__wrapper-left #manage {
+    position: static;
+  }
+}
+
+/* line 36, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__wrapper-middle {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 36, src/scss/_components/employer-views/_employer-views.scss */
+  .employer-views__wrapper-middle {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 20px;
+  }
+}
+
+/* line 50, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__wrapper-right {
+  width: 365px;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 50, src/scss/_components/employer-views/_employer-views.scss */
+  .employer-views__wrapper-right {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+        -ms-flex-order: 2;
+            order: 2;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+}
+
+/* line 58, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__wrapper-right .profile__employers-divider {
+  margin-bottom: 0;
+  background-color: transparent;
+}
+
+/* line 65, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__section {
+  overflow: hidden;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+}
+
+/* line 71, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__section-head {
+  background-color: #663399;
+}
+
+/* line 74, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__section-head p {
+  padding: 18px 30px;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 1;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 74, src/scss/_components/employer-views/_employer-views.scss */
+  .employer-views__section-head p {
+    padding: 17px 4.5%;
+    font-size: 24px;
+    text-transform: capitalize;
+  }
+}
+
+/* line 90, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 93, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__list-left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 165px;
+  padding: 25px 15px;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 93, src/scss/_components/employer-views/_employer-views.scss */
+  .employer-views__list-left {
+    width: 263px;
+    padding: 39px 15px 39px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 93, src/scss/_components/employer-views/_employer-views.scss */
+  .employer-views__list-left {
+    width: 197px;
+    padding: 29px 15px 29px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 93, src/scss/_components/employer-views/_employer-views.scss */
+  .employer-views__list-left {
+    width: 109px;
+    padding: 16px 15px 16px;
+  }
+}
+
+/* line 112, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__list-left img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+/* line 120, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__list-right {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+  padding: 25px 30px 25px 0;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 120, src/scss/_components/employer-views/_employer-views.scss */
+  .employer-views__list-right {
+    padding: 39px 39px 39px 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 120, src/scss/_components/employer-views/_employer-views.scss */
+  .employer-views__list-right {
+    padding: 29px 29px 29px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 120, src/scss/_components/employer-views/_employer-views.scss */
+  .employer-views__list-right {
+    padding: 16px 16px 16px 0;
+  }
+}
+
+/* line 135, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__list-right hr {
+  height: 1px;
+  margin-bottom: 12px;
+  border: none;
+  background-color: #c8c8c8;
+}
+
+/* line 143, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__list-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 147, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__list-wrapper > div {
+  border-bottom: 1px solid #c8c8c8;
+}
+
+/* line 152, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__list-title {
+  line-height: 1;
+  font-size: 15px;
+  font-weight: 500;
+  color: #757575;
+}
+
+/* line 159, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__list-subtitle {
+  padding-bottom: 10px;
+  font-size: 15px;
+  color: #757575;
+}
+
+/* line 164, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__list-subtitlea {
+  color: #2765cf;
+}
+
+/* line 169, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__list-date {
+  padding-bottom: 12px;
+  font-size: 13px;
+  color: #757575;
+  line-height: 1;
+}
+
+/* line 176, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__list-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 176, src/scss/_components/employer-views/_employer-views.scss */
+  .employer-views__list-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+/* line 184, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__list-info > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 184, src/scss/_components/employer-views/_employer-views.scss */
+  .employer-views__list-info > div {
+    width: 100%;
+  }
+  /* line 191, src/scss/_components/employer-views/_employer-views.scss */
+  .employer-views__list-info > div:nth-of-type(1) {
+    padding-bottom: 20px;
+  }
+}
+
+/* line 196, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__list-info > div p {
+  padding-bottom: 7px;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #757575;
+}
+
+/* line 204, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__list-info > div span {
+  font-size: 13px;
+  color: #222;
+}
+
+/* line 211, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__list-action {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 211, src/scss/_components/employer-views/_employer-views.scss */
+  .employer-views__list-action {
+    position: relative;
+    left: -109px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: -webkit-calc(100% + 109px);
+    width: calc(100% + 109px);
+    padding-left: 16px;
+  }
+}
+
+/* line 222, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__list-action .c-btn {
+  width: 100%;
+  min-width: unset;
+  max-width: -webkit-calc((100% - 15px) / 2);
+  max-width: calc((100% - 15px) / 2);
+  height: 38px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 222, src/scss/_components/employer-views/_employer-views.scss */
+  .employer-views__list-action .c-btn {
+    max-width: 100%;
+  }
+  /* line 230, src/scss/_components/employer-views/_employer-views.scss */
+  .employer-views__list-action .c-btn:first-of-type {
+    margin-bottom: 10px;
+  }
+}
+
+/* line 235, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__list-action .c-btn.c-btn--borderGreen {
+  border-width: 2px;
+}
+
+/* line 239, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__list-action .c-btn span {
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+/* line 248, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__pagination {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 55px;
+  padding: 0 20px;
+}
+
+/* line 254, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__pagination > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* line 259, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__pagination a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30px;
+  height: 30px;
+  color: #616161;
+}
+
+/* line 268, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__pagination-double {
+  font-size: 10px;
+}
+
+/* line 271, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__pagination-double--next {
+  -webkit-transform: scaleX(-1);
+      -ms-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+/* line 276, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__pagination-arrow {
+  font-size: 6px;
+}
+
+/* line 279, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__pagination-arrow--prev {
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+/* line 282, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views__pagination-arrow--next {
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+/* line 291, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views .manage {
+  padding: 0;
+}
+
+/* line 294, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views .manage__profile, .employer-views .manage__upload {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 299, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views .manage__profile {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+/* line 303, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views .manage__profile .profile__main {
+  overflow: hidden;
+}
+
+/* line 307, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views .manage__profile .profile__main-bg > div {
+  height: 140px;
+}
+
+/* line 313, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views .manage__profile .profile__main-body-wrapper-1 {
+  padding: 30px 10px 15px;
+}
+
+/* line 318, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views .manage__profile .profile__main-head {
+  padding: 15px 5px;
+}
+
+/* line 322, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views .manage__profile .profile__main-name span,
+.employer-views .manage__profile .profile__main-position span,
+.employer-views .manage__profile .profile__main-country span {
+  min-width: 75px;
+}
+
+/* line 328, src/scss/_components/employer-views/_employer-views.scss */
+.employer-views .manage__profile .profile__main-steps-title {
   padding-bottom: 15px;
 }
 

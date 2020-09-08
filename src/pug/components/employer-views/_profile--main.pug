@@ -1,0 +1,87 @@
+.profile__main.section__block
+	.profile__main-bg
+		div
+
+	.profile__main-box
+		.profile__main-head
+			div
+				.profile__main-user
+					img(src="img/img-user.jpg" alt="")
+
+			div
+				.c-btn__wrapper
+					a.c-btn.c-btn--green(href="#")
+						span MY PROFILE
+
+		.profile__main-body
+			.profile__main-body-wrapper.profile__main-body-wrapper-1
+				div
+					p.profile__main-name!= "<span>CONTACT</span>Htet Aung Kyaw"
+					p.profile__main-position!= "<span>PHONE</span> 09972418987"
+					p.profile__main-country!= "<span>EMAIL</span> htetaungkyaw.viper@gmail.com"
+
+				div
+
+			.profile__main-body-wrapper.profile__main-body-wrapper-2
+				div
+				div
+					.profile__main-toggle
+						p.profile__main-toggle-title Show Recruiters you are Open to work
+						.profile__main-toggle-wrapper
+							div
+								span Open to Work opportunity
+							div
+								.profile__main-toggle-box
+									div(profile-opportunity-js)
+										i Yes
+									div.is-active(profile-opportunity-js)
+										i No
+
+		.profile__main-footer
+			div
+				p CURRENT JOB TITLE
+				span Digital Marketing Manger
+			div
+				p CURRENT EXPERIENCE LEVEL
+				span Manager
+
+		.profile__main-strength
+			p.profile__main-strength-title PROFILE STRENGTH
+			.profile__strength-progress
+				p.is-active
+				p.is-active
+				p.is-active
+				p.is-active
+				.profile__strength-progress-ind(style='left: 98%;')
+					span 98%
+
+		.profile__main-steps
+			p.profile__main-steps-title COMPLETE THESE STEPS
+			ul
+				li
+					div
+						a(href="#") Upload Resume
+					div
+						.c-btn__wrapper
+							a.c-btn.c-btn--green(href="#")
+								span Get Started
+				li
+					div
+						a(href="#") Set up Your Profile
+					div
+						.c-btn__wrapper
+							a.c-btn.c-btn--green(href="#")
+								span Get Started
+				li
+					div
+						p Set up Job Alerts
+					div
+						i.icon-font.icon-circle-check
+
+
+		.profile__main-prefooter
+			p.profile__main-prefooter-title UPDATE YOUR PROFILE
+			p.profile__main-prefooter-subtitle To Receive More Job Offers from Employers
+			.c-btn__wrapper
+				a.c-btn.c-btn--orange(href="#")
+					span Update My Profile

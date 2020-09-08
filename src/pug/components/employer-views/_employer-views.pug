@@ -1,0 +1,74 @@
+// SECTION :: START
+
+section#employer-views.employer-views
+	.c-grid
+		.employer-views__wrapper
+			.employer-views__wrapper-left
+
+				include _manage
+
+			.employer-views__wrapper-middle
+
+				.employer-views__section
+					.employer-views__section-head
+						p who viewed your profile
+
+					.employer-views__list-wrapper
+						each val, idx in [1,2,3,4,5,6]
+							div
+								.employer-views__list
+									.employer-views__list-left
+
+										img(src="img/img-employers-kbz-bank.png" alt="")
+
+									.employer-views__list-right
+										p.employer-views__list-title Someone viewed your profile at
+										if(idx === 0)
+											p.employer-views__list-subtitle Leading International Company
+										else
+											a.employer-views__list-subtitle(href='#') ananda
+										p.employer-views__list-date 03.09.2020 05:44 PM
+										hr
+										.employer-views__list-info
+											div
+												p INDUSTRY
+												span Internet Services
+											div
+												p EMPLOYEES
+												span 51-100
+
+										.employer-views__list-action.c-btn__wrapper
+											if(idx === 0)
+												a.c-btn.c-btn--borderGreen(href="#" disabled)
+													span View Company
+												a.c-btn.c-btn--green(href="#" disabled)
+													span 2 Open Jobs
+											else
+												a.c-btn.c-btn--borderGreen(href="#")
+													span View Company
+												a.c-btn.c-btn--green(href="#")
+													span 2 Open Jobs
+
+
+					.employer-views__pagination
+						a.employer-views__pagination-double.employer-views__pagination-double--prev(href="#")
+							i.icon-font.icon-double-arrows
+						a.employer-views__pagination-arrow.employer-views__pagination-arrow--prev(href="#")
+							i.icon-font.icon-keyboard-arrow-down
+						div
+							a.employer-views__pagination-num(href="#") 1
+							a.employer-views__pagination-num(href="#") 2
+						a.employer-views__pagination-arrow.employer-views__pagination-arrow--next(href="#")
+							i.icon-font.icon-keyboard-arrow-down
+						a.employer-views__pagination-double.employer-views__pagination-double--next(href="#")
+							i.icon-font.icon-double-arrows
+
+			.employer-views__wrapper-right
+
+				.profile__section
+
+					include _profile--jobs
+
+					include _profile--employers
+
+// SECTION :: END

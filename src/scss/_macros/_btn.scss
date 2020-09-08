@@ -52,6 +52,16 @@
 		right: 0;
 	}
 
+	&[disabled] {
+		pointer-events: none;
+		border-color: #e0e0e0 !important;
+		background-color: #e0e0e0 !important;
+
+		span {
+			color: #fefefe;
+		}
+	}
+
 	&__wrapper {
 		display: flex;
 		align-items: center;
