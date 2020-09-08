@@ -322,6 +322,30 @@ window.addEventListener('scroll', function (ev) {});
 			}, 350);
 		});
 	};
+
+	var stickyBox = function stickyBox() {
+		var elem = $('[sticky-box-js] .manage__upload');
+
+		function helperFixed() {
+			if ($(window).width() > 1279) {
+				if (elem.length > 0 && $(document).scrollTop() > 392) {
+					$('[sticky-box-js]').css({
+						position: 'fixed',
+						width: 405,
+						bottom: 40
+					});
+				} else {
+					$('[sticky-box-js]').css({ position: 'static' });
+				}
+			}
+		}
+
+		helperFixed();
+
+		$(window).on("resize scroll", function () {
+			helperFixed();
+		});
+	};
 	/*
  * CALLBACK :: end
  * ============================================= */
@@ -352,6 +376,7 @@ window.addEventListener('scroll', function (ev) {});
 		selectDropdown();
 		manageAccountSettingCB();
 		menuCB();
+		stickyBox();
 		// ==========================================
 	};
 

@@ -23,15 +23,6 @@
 				width: 100%;
 				padding-top: 20px;
 			}
-
-			#manage {
-				position: sticky;
-				top: -60px;
-				left: 0;
-				@include adaptive(1279) {
-					position: static;
-				}
-			}
 		}
 
 		&-right {

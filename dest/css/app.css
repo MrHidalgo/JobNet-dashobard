@@ -11079,7 +11079,20 @@ picture {
   }
 }
 
-/* line 35, src/scss/_components/applications/_update.scss */
+/* line 34, src/scss/_components/applications/_update.scss */
+.applications-update__wrapper-left .icon-font {
+  color: #fb010a;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 34, src/scss/_components/applications/_update.scss */
+  .applications-update__wrapper-left .icon-font {
+    display: none;
+  }
+}
+
+/* line 43, src/scss/_components/applications/_update.scss */
 .applications-update__wrapper-middle {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -11091,24 +11104,11 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 35, src/scss/_components/applications/_update.scss */
+  /* line 43, src/scss/_components/applications/_update.scss */
   .applications-update__wrapper-middle {
     width: 100%;
     padding-right: 0;
     padding-bottom: 20px;
-  }
-}
-
-/* line 46, src/scss/_components/applications/_update.scss */
-.applications-update__wrapper-middle .icon-font {
-  color: #fb010a;
-  font-size: 24px;
-}
-
-@media screen and (max-width: 1279px) {
-  /* line 46, src/scss/_components/applications/_update.scss */
-  .applications-update__wrapper-middle .icon-font {
-    display: none;
   }
 }
 
@@ -11224,22 +11224,7 @@ picture {
   }
 }
 
-/* line 27, src/scss/_components/dashboard/_dashboard.scss */
-.dashboard__wrapper-left #manage {
-  position: -webkit-sticky;
-  position: sticky;
-  top: -60px;
-  left: 0;
-}
-
-@media screen and (max-width: 1279px) {
-  /* line 27, src/scss/_components/dashboard/_dashboard.scss */
-  .dashboard__wrapper-left #manage {
-    position: static;
-  }
-}
-
-/* line 37, src/scss/_components/dashboard/_dashboard.scss */
+/* line 28, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__wrapper-right {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -11251,13 +11236,13 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 37, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 28, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__wrapper-right {
     padding-left: 0;
   }
 }
 
-/* line 48, src/scss/_components/dashboard/_dashboard.scss */
+/* line 39, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__line {
   height: 1px;
   margin: 22px 0;
@@ -12537,12 +12522,12 @@ picture {
   width: 100%;
 }
 
-/* line 61, src/scss/_components/dashboard/_dashboard.scss */
+/* line 52, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard .manage {
   padding: 0;
 }
 
-/* line 64, src/scss/_components/dashboard/_dashboard.scss */
+/* line 55, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard .manage__profile, .dashboard .manage__upload {
   display: -webkit-box;
   display: -webkit-flex;
@@ -12550,40 +12535,40 @@ picture {
   display: flex;
 }
 
-/* line 69, src/scss/_components/dashboard/_dashboard.scss */
+/* line 60, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard .manage__profile {
   margin: 0;
   margin-bottom: 20px;
 }
 
-/* line 73, src/scss/_components/dashboard/_dashboard.scss */
+/* line 64, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard .manage__profile .profile__main {
   overflow: hidden;
 }
 
-/* line 77, src/scss/_components/dashboard/_dashboard.scss */
+/* line 68, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard .manage__profile .profile__main-bg > div {
   height: 140px;
 }
 
-/* line 83, src/scss/_components/dashboard/_dashboard.scss */
+/* line 74, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard .manage__profile .profile__main-body-wrapper-1 {
   padding: 30px 10px 15px;
 }
 
-/* line 88, src/scss/_components/dashboard/_dashboard.scss */
+/* line 79, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard .manage__profile .profile__main-head {
   padding: 15px 5px;
 }
 
-/* line 92, src/scss/_components/dashboard/_dashboard.scss */
+/* line 83, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard .manage__profile .profile__main-name span,
 .dashboard .manage__profile .profile__main-position span,
 .dashboard .manage__profile .profile__main-country span {
   min-width: 75px;
 }
 
-/* line 98, src/scss/_components/dashboard/_dashboard.scss */
+/* line 89, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard .manage__profile .profile__main-steps-title {
   padding-bottom: 15px;
 }
@@ -12638,22 +12623,7 @@ picture {
   }
 }
 
-/* line 26, src/scss/_components/employer-views/_employer-views.scss */
-.employer-views__wrapper-left #manage {
-  position: -webkit-sticky;
-  position: sticky;
-  top: -60px;
-  left: 0;
-}
-
-@media screen and (max-width: 1279px) {
-  /* line 26, src/scss/_components/employer-views/_employer-views.scss */
-  .employer-views__wrapper-left #manage {
-    position: static;
-  }
-}
-
-/* line 36, src/scss/_components/employer-views/_employer-views.scss */
+/* line 27, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__wrapper-middle {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -12666,7 +12636,7 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 36, src/scss/_components/employer-views/_employer-views.scss */
+  /* line 27, src/scss/_components/employer-views/_employer-views.scss */
   .employer-views__wrapper-middle {
     -webkit-box-ordinal-group: 2;
     -webkit-order: 1;
@@ -12678,13 +12648,13 @@ picture {
   }
 }
 
-/* line 50, src/scss/_components/employer-views/_employer-views.scss */
+/* line 41, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__wrapper-right {
   width: 365px;
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 50, src/scss/_components/employer-views/_employer-views.scss */
+  /* line 41, src/scss/_components/employer-views/_employer-views.scss */
   .employer-views__wrapper-right {
     -webkit-box-ordinal-group: 3;
     -webkit-order: 2;
@@ -12695,13 +12665,13 @@ picture {
   }
 }
 
-/* line 58, src/scss/_components/employer-views/_employer-views.scss */
+/* line 49, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__wrapper-right .profile__employers-divider {
   margin-bottom: 0;
   background-color: transparent;
 }
 
-/* line 65, src/scss/_components/employer-views/_employer-views.scss */
+/* line 56, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__section {
   overflow: hidden;
   -webkit-border-radius: 3px;
@@ -12711,12 +12681,12 @@ picture {
           box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
 }
 
-/* line 71, src/scss/_components/employer-views/_employer-views.scss */
+/* line 62, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__section-head {
   background-color: #663399;
 }
 
-/* line 74, src/scss/_components/employer-views/_employer-views.scss */
+/* line 65, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__section-head p {
   padding: 18px 30px;
   font-weight: 500;
@@ -12727,7 +12697,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 74, src/scss/_components/employer-views/_employer-views.scss */
+  /* line 65, src/scss/_components/employer-views/_employer-views.scss */
   .employer-views__section-head p {
     padding: 17px 4.5%;
     font-size: 24px;
@@ -12735,7 +12705,7 @@ picture {
   }
 }
 
-/* line 90, src/scss/_components/employer-views/_employer-views.scss */
+/* line 81, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__list {
   display: -webkit-box;
   display: -webkit-flex;
@@ -12743,7 +12713,7 @@ picture {
   display: flex;
 }
 
-/* line 93, src/scss/_components/employer-views/_employer-views.scss */
+/* line 84, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__list-left {
   display: -webkit-box;
   display: -webkit-flex;
@@ -12762,7 +12732,7 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 93, src/scss/_components/employer-views/_employer-views.scss */
+  /* line 84, src/scss/_components/employer-views/_employer-views.scss */
   .employer-views__list-left {
     width: 263px;
     padding: 39px 15px 39px;
@@ -12770,7 +12740,7 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 93, src/scss/_components/employer-views/_employer-views.scss */
+  /* line 84, src/scss/_components/employer-views/_employer-views.scss */
   .employer-views__list-left {
     width: 197px;
     padding: 29px 15px 29px;
@@ -12778,14 +12748,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 93, src/scss/_components/employer-views/_employer-views.scss */
+  /* line 84, src/scss/_components/employer-views/_employer-views.scss */
   .employer-views__list-left {
     width: 109px;
     padding: 16px 15px 16px;
   }
 }
 
-/* line 112, src/scss/_components/employer-views/_employer-views.scss */
+/* line 103, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__list-left img {
   display: block;
   max-width: 100%;
@@ -12793,7 +12763,7 @@ picture {
   max-height: 100%;
 }
 
-/* line 120, src/scss/_components/employer-views/_employer-views.scss */
+/* line 111, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__list-right {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -12805,27 +12775,27 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 120, src/scss/_components/employer-views/_employer-views.scss */
+  /* line 111, src/scss/_components/employer-views/_employer-views.scss */
   .employer-views__list-right {
     padding: 39px 39px 39px 0;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 120, src/scss/_components/employer-views/_employer-views.scss */
+  /* line 111, src/scss/_components/employer-views/_employer-views.scss */
   .employer-views__list-right {
     padding: 29px 29px 29px 0;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 120, src/scss/_components/employer-views/_employer-views.scss */
+  /* line 111, src/scss/_components/employer-views/_employer-views.scss */
   .employer-views__list-right {
     padding: 16px 16px 16px 0;
   }
 }
 
-/* line 135, src/scss/_components/employer-views/_employer-views.scss */
+/* line 126, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__list-right hr {
   height: 1px;
   margin-bottom: 12px;
@@ -12833,7 +12803,7 @@ picture {
   background-color: #c8c8c8;
 }
 
-/* line 143, src/scss/_components/employer-views/_employer-views.scss */
+/* line 134, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__list-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -12846,12 +12816,12 @@ picture {
           flex-direction: column;
 }
 
-/* line 147, src/scss/_components/employer-views/_employer-views.scss */
+/* line 138, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__list-wrapper > div {
   border-bottom: 1px solid #c8c8c8;
 }
 
-/* line 152, src/scss/_components/employer-views/_employer-views.scss */
+/* line 143, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__list-title {
   line-height: 1;
   font-size: 15px;
@@ -12859,19 +12829,19 @@ picture {
   color: #757575;
 }
 
-/* line 159, src/scss/_components/employer-views/_employer-views.scss */
+/* line 150, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__list-subtitle {
   padding-bottom: 10px;
   font-size: 15px;
   color: #757575;
 }
 
-/* line 164, src/scss/_components/employer-views/_employer-views.scss */
+/* line 155, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__list-subtitlea {
   color: #2765cf;
 }
 
-/* line 169, src/scss/_components/employer-views/_employer-views.scss */
+/* line 160, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__list-date {
   padding-bottom: 12px;
   font-size: 13px;
@@ -12879,7 +12849,7 @@ picture {
   line-height: 1;
 }
 
-/* line 176, src/scss/_components/employer-views/_employer-views.scss */
+/* line 167, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__list-info {
   display: -webkit-box;
   display: -webkit-flex;
@@ -12893,7 +12863,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 176, src/scss/_components/employer-views/_employer-views.scss */
+  /* line 167, src/scss/_components/employer-views/_employer-views.scss */
   .employer-views__list-info {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -12903,7 +12873,7 @@ picture {
   }
 }
 
-/* line 184, src/scss/_components/employer-views/_employer-views.scss */
+/* line 175, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__list-info > div {
   display: -webkit-box;
   display: -webkit-flex;
@@ -12918,17 +12888,17 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 184, src/scss/_components/employer-views/_employer-views.scss */
+  /* line 175, src/scss/_components/employer-views/_employer-views.scss */
   .employer-views__list-info > div {
     width: 100%;
   }
-  /* line 191, src/scss/_components/employer-views/_employer-views.scss */
+  /* line 182, src/scss/_components/employer-views/_employer-views.scss */
   .employer-views__list-info > div:nth-of-type(1) {
     padding-bottom: 20px;
   }
 }
 
-/* line 196, src/scss/_components/employer-views/_employer-views.scss */
+/* line 187, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__list-info > div p {
   padding-bottom: 7px;
   font-weight: 500;
@@ -12937,13 +12907,13 @@ picture {
   color: #757575;
 }
 
-/* line 204, src/scss/_components/employer-views/_employer-views.scss */
+/* line 195, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__list-info > div span {
   font-size: 13px;
   color: #222;
 }
 
-/* line 211, src/scss/_components/employer-views/_employer-views.scss */
+/* line 202, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__list-action {
   display: -webkit-box;
   display: -webkit-flex;
@@ -12956,7 +12926,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 211, src/scss/_components/employer-views/_employer-views.scss */
+  /* line 202, src/scss/_components/employer-views/_employer-views.scss */
   .employer-views__list-action {
     position: relative;
     left: -109px;
@@ -12971,7 +12941,7 @@ picture {
   }
 }
 
-/* line 222, src/scss/_components/employer-views/_employer-views.scss */
+/* line 213, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__list-action .c-btn {
   width: 100%;
   min-width: unset;
@@ -12981,29 +12951,29 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 222, src/scss/_components/employer-views/_employer-views.scss */
+  /* line 213, src/scss/_components/employer-views/_employer-views.scss */
   .employer-views__list-action .c-btn {
     max-width: 100%;
   }
-  /* line 230, src/scss/_components/employer-views/_employer-views.scss */
+  /* line 221, src/scss/_components/employer-views/_employer-views.scss */
   .employer-views__list-action .c-btn:first-of-type {
     margin-bottom: 10px;
   }
 }
 
-/* line 235, src/scss/_components/employer-views/_employer-views.scss */
+/* line 226, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__list-action .c-btn.c-btn--borderGreen {
   border-width: 2px;
 }
 
-/* line 239, src/scss/_components/employer-views/_employer-views.scss */
+/* line 230, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__list-action .c-btn span {
   font-size: 13px;
   font-weight: 500;
   text-transform: capitalize;
 }
 
-/* line 248, src/scss/_components/employer-views/_employer-views.scss */
+/* line 239, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__pagination {
   display: -webkit-box;
   display: -webkit-flex;
@@ -13017,7 +12987,7 @@ picture {
   padding: 0 20px;
 }
 
-/* line 254, src/scss/_components/employer-views/_employer-views.scss */
+/* line 245, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__pagination > div {
   display: -webkit-box;
   display: -webkit-flex;
@@ -13029,7 +12999,7 @@ picture {
           align-items: center;
 }
 
-/* line 259, src/scss/_components/employer-views/_employer-views.scss */
+/* line 250, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__pagination a {
   display: -webkit-box;
   display: -webkit-flex;
@@ -13048,43 +13018,43 @@ picture {
   color: #616161;
 }
 
-/* line 268, src/scss/_components/employer-views/_employer-views.scss */
+/* line 259, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__pagination-double {
   font-size: 10px;
 }
 
-/* line 271, src/scss/_components/employer-views/_employer-views.scss */
+/* line 262, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__pagination-double--next {
   -webkit-transform: scaleX(-1);
       -ms-transform: scaleX(-1);
           transform: scaleX(-1);
 }
 
-/* line 276, src/scss/_components/employer-views/_employer-views.scss */
+/* line 267, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__pagination-arrow {
   font-size: 6px;
 }
 
-/* line 279, src/scss/_components/employer-views/_employer-views.scss */
+/* line 270, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__pagination-arrow--prev {
   -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
           transform: rotate(90deg);
 }
 
-/* line 282, src/scss/_components/employer-views/_employer-views.scss */
+/* line 273, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views__pagination-arrow--next {
   -webkit-transform: rotate(-90deg);
       -ms-transform: rotate(-90deg);
           transform: rotate(-90deg);
 }
 
-/* line 291, src/scss/_components/employer-views/_employer-views.scss */
+/* line 282, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views .manage {
   padding: 0;
 }
 
-/* line 294, src/scss/_components/employer-views/_employer-views.scss */
+/* line 285, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views .manage__profile, .employer-views .manage__upload {
   display: -webkit-box;
   display: -webkit-flex;
@@ -13092,40 +13062,40 @@ picture {
   display: flex;
 }
 
-/* line 299, src/scss/_components/employer-views/_employer-views.scss */
+/* line 290, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views .manage__profile {
   margin: 0;
   margin-bottom: 20px;
 }
 
-/* line 303, src/scss/_components/employer-views/_employer-views.scss */
+/* line 294, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views .manage__profile .profile__main {
   overflow: hidden;
 }
 
-/* line 307, src/scss/_components/employer-views/_employer-views.scss */
+/* line 298, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views .manage__profile .profile__main-bg > div {
   height: 140px;
 }
 
-/* line 313, src/scss/_components/employer-views/_employer-views.scss */
+/* line 304, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views .manage__profile .profile__main-body-wrapper-1 {
   padding: 30px 10px 15px;
 }
 
-/* line 318, src/scss/_components/employer-views/_employer-views.scss */
+/* line 309, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views .manage__profile .profile__main-head {
   padding: 15px 5px;
 }
 
-/* line 322, src/scss/_components/employer-views/_employer-views.scss */
+/* line 313, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views .manage__profile .profile__main-name span,
 .employer-views .manage__profile .profile__main-position span,
 .employer-views .manage__profile .profile__main-country span {
   min-width: 75px;
 }
 
-/* line 328, src/scss/_components/employer-views/_employer-views.scss */
+/* line 319, src/scss/_components/employer-views/_employer-views.scss */
 .employer-views .manage__profile .profile__main-steps-title {
   padding-bottom: 15px;
 }

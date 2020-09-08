@@ -30,6 +30,14 @@
 			@include adaptive(1279) {
 				display: none;
 			}
+
+			.icon-font {
+				color: #fb010a;
+				font-size: 24px;
+				@include adaptive(1279) {
+					display: none;
+				}
+			}
 		}
 
 		&-middle {
@@ -41,14 +49,6 @@
 				width: 100%;
 				padding-right: 0;
 				padding-bottom: 20px;
-			}
-
-			.icon-font {
-				color: #fb010a;
-				font-size: 24px;
-				@include adaptive(1279) {
-					display: none;
-				}
 			}
 
 			span {

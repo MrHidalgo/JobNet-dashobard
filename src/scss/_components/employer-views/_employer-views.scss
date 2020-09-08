@@ -22,15 +22,6 @@
 				order: 3;
 				width: 100%;
 			}
-
-			#manage {
-				position: sticky;
-				top: -60px;
-				left: 0;
-				@include adaptive(1279) {
-					position: static;
-				}
-			}
 		}
 
 		&-middle {
