@@ -47,11 +47,17 @@
 		&-wrapper {
 			display: flex;
 			justify-content: space-between;
+			@include adaptive(767) {
+				flex-wrap: wrap;
+			}
 
 			> div {
 				width: 100%;
 				max-width: calc((100% - 34px) / 3);
 				padding-bottom: 18px;
+				@include adaptive(767) {
+					max-width: 100%;
+				}
 			}
 		}
 

@@ -1,19 +1,71 @@
 &__stat {
+	overflow: hidden;
 	display: flex;
 	flex-direction: column;
+	height: 100%;
 	text-align: center;
 	box-shadow: 0 3px 5px 1px rgba(0, 0, 0, .24);
 	border-radius: 3px;
 	background-color: #fff;
+	@include adaptive(767) {
+		box-shadow: none;
+	}
+
+	&-heading {
+		display: none;
+		width: 100% !important;
+		max-width: 100% !important;
+		border-radius: 3px 3px 0 0;
+		background-color: #663399;
+		@include adaptive(767) {
+			display: block;
+		}
+
+		p {
+			padding: 17px 4.5%;
+			font-size: 24px;
+			color: #ffffff;
+			line-height: 1;
+		}
+	}
 
 	&-wrapper {
+		overflow: hidden;
 		display: flex;
 		justify-content: space-between;
-		padding-bottom: 20px;
+		margin-bottom: 20px;
+		@include adaptive(767) {
+			flex-wrap: wrap;
+			box-shadow: 0 3px 5px 1px rgba(0, 0, 0, .24);
+		}
 
 		> div {
 			width: 100%;
 			max-width: calc((100% - 26px) / 3);
+			@include adaptive(767) {
+				max-width: calc(100% / 3);
+
+				&:not(:first-of-type) {
+					position: relative;
+
+					&:after {
+						content: '';
+						position: absolute;
+						top: 50%;
+						transform: translateY(-50%);
+						right: 0;
+						width: 1px;
+						height: 50%;
+						background-color: #dfdfdf;
+					}
+				}
+
+				&:last-of-type {
+					&:after {
+						display: none !important;
+					}
+				}
+			}
 		}
 	}
 
@@ -21,6 +73,10 @@
 		padding: 10px 0;
 		box-shadow: 0 3px 5px 1px rgba(0, 0, 0, .12);
 		background-color: #663399;
+		@include adaptive(767) {
+			background-color: transparent;
+			box-shadow: none;
+		}
 
 		p {
 			font-weight: 500;
@@ -29,6 +85,11 @@
 			text-align: center;
 			text-transform: uppercase;
 			color: #fff;
+			@include adaptive(767) {
+				color: #ac47bd;
+				font-size: 12px;
+				text-transform: capitalize;
+			}
 		}
 	}
 
@@ -41,6 +102,9 @@
 			padding: 25px 0 20px;
 			line-height: 1;
 			color: #5a5ace;
+			@include adaptive(767) {
+				padding: 20px 0 15px;
+			}
 		}
 
 		a {
@@ -49,6 +113,9 @@
 			text-align: center;
 			color: #5a5ace;
 			font-weight: 500;
+			@include adaptive(767) {
+				font-size: 14px;
+			}
 		}
 	}
 }
