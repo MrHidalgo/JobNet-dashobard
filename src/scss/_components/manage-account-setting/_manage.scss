@@ -142,6 +142,7 @@
 		margin-top: 20px;
 		margin-bottom: 20px;
 		@include adaptive(1279) {
+			overflow: hidden;
 			display: flex;
 		}
 
@@ -209,6 +210,9 @@
 			&-name,
 			&-position,
 			&-country {
+				overflow: hidden;
+				white-space: nowrap;
+				text-overflow: ellipsis;
 				display: flex;
 				align-items: center;
 				padding: 2px;

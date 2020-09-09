@@ -5,6 +5,9 @@
 	@include adaptive(1023) {
 		padding-top: 15px;
 	}
+	@include adaptive(767) {
+		overflow: hidden;
+	}
 
 	.c-grid {
 		max-width: 1370px;
@@ -90,6 +93,11 @@
 					min-width: calc(100% - 125px);
 					padding-left: 20px;
 					padding-right: 20px;
+				}
+				@include adaptive(374) {
+					padding-left: 10px;
+					padding-right: 10px;
+					font-size: 12px;
 				}
 
 				&:after {

@@ -324,7 +324,7 @@ window.addEventListener('scroll', function (ev) {});
 	};
 
 	var stickyBox = function stickyBox() {
-		var elem = $('[sticky-box-js] .manage__upload');
+		var elem = $('[sticky-box-js]');
 
 		function helperFixed() {
 			if ($(window).width() > 1279) {
@@ -337,6 +337,8 @@ window.addEventListener('scroll', function (ev) {});
 				} else {
 					$('[sticky-box-js]').css({ position: 'static' });
 				}
+			} else {
+				$('[sticky-box-js]').css({ position: 'static', width: '100%' });
 			}
 		}
 

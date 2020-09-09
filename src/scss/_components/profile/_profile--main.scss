@@ -283,6 +283,10 @@
 				font-size: 14px;
 			}
 		}
+
+		.dropdown-menu {
+			transform: translate3d(0px, 306px, 0px) !important;
+		}
 	}
 
 	&-update,
@@ -416,6 +420,9 @@
 		padding: 7px 15px 11px;
 		@include adaptive(1023) {
 			max-width: 100%;
+		}
+		@include adaptive(767) {
+			white-space: normal;
 		}
 
 		&-title {

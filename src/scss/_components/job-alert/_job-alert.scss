@@ -2,6 +2,9 @@
 
 .job-alert {
 	padding-top: 5px;
+	@include adaptive(1279) {
+		padding-top: 15px;
+	}
 
 	.c-grid {
 		max-width: 1370px;
@@ -322,7 +325,6 @@
 				@include adaptive(1023) {
 					width: 25%;
 					padding-right: 5%;
-
 				}
 			}
 			&:nth-of-type(2) {
@@ -417,16 +419,22 @@
 			}
 		}
 
-		.c-btn__wrapper {
-			opacity: 0;
-			padding-top: 10px;
-			@include transition(opacity);
-			@include adaptive(1023) {
-				opacity: 1;
-				max-width: 50%;
+		.c-btn {
+			width: 100%;
 
-				button {
-					width: 100%;
+			&__wrapper {
+				opacity: 0;
+				padding-top: 10px;
+				width: 100%;
+				max-width: calc(100% - 80px);
+				@include transition(opacity);
+				@include adaptive(1023) {
+					opacity: 1;
+					max-width: calc(100% - (30%));
+
+					button {
+						width: 100%;
+					}
 				}
 			}
 		}

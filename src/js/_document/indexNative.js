@@ -112,7 +112,7 @@
 
 
 	const stickyBox = () => {
-		const elem = $('[sticky-box-js] .manage__upload');
+		const elem = $('[sticky-box-js]');
 
 		function helperFixed() {
 			if($(window).width() > 1279) {
@@ -125,6 +125,8 @@
 				} else {
 					$('[sticky-box-js]').css({position: 'static'});
 				}
+			} else {
+				$('[sticky-box-js]').css({position: 'static', width: '100%'});
 			}
 		}
 

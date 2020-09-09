@@ -30,12 +30,13 @@
 	}
 
 	&-wrapper {
-		overflow: hidden;
 		display: flex;
 		justify-content: space-between;
 		margin-bottom: 20px;
 		@include adaptive(767) {
+			overflow: hidden;
 			flex-wrap: wrap;
+			border-radius: 3px;
 			box-shadow: 0 3px 5px 1px rgba(0, 0, 0, .24);
 		}
 
