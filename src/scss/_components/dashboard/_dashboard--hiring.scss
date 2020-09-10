@@ -20,6 +20,9 @@
 		p {
 			font-size: 24px;
 			color: #222;
+			@include adaptive(767) {
+				font-size: 22px;
+			}
 		}
 	}
 
@@ -87,6 +90,9 @@
 				@include adaptive(1279) {
 					width: 100%;
 					padding-left: 0;
+				}
+				@include adaptive(767) {
+					padding-bottom: 0;
 				}
 
 				> p {

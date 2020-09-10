@@ -883,9 +883,13 @@ picture {
 /* line 103, src/scss/_shared/_common.scss */
 .c-checkboxToggle {
   position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-/* line 106, src/scss/_shared/_common.scss */
+/* line 107, src/scss/_shared/_common.scss */
 .c-checkboxToggle input {
   opacity: 0;
   position: absolute;
@@ -893,7 +897,7 @@ picture {
   height: 0;
 }
 
-/* line 113, src/scss/_shared/_common.scss */
+/* line 114, src/scss/_shared/_common.scss */
 .c-checkboxToggle input:checked + label {
   border-color: #08aa86;
   -webkit-transition: border-color 0.4s ease-in-out;
@@ -901,7 +905,7 @@ picture {
   transition: border-color 0.4s ease-in-out;
 }
 
-/* line 117, src/scss/_shared/_common.scss */
+/* line 118, src/scss/_shared/_common.scss */
 .c-checkboxToggle input:checked + label i {
   -webkit-transform: translateX(100%);
       -ms-transform: translateX(100%);
@@ -915,7 +919,7 @@ picture {
   transition: transform 0.4s ease-in-out, border-color 0.4s ease-in-out, background-color 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
 }
 
-/* line 127, src/scss/_shared/_common.scss */
+/* line 128, src/scss/_shared/_common.scss */
 .c-checkboxToggle label {
   cursor: pointer;
   position: relative;
@@ -932,7 +936,7 @@ picture {
   transition: border-color 0.4s ease-in-out;
 }
 
-/* line 138, src/scss/_shared/_common.scss */
+/* line 139, src/scss/_shared/_common.scss */
 .c-checkboxToggle label i {
   z-index: 2;
   position: absolute;
@@ -951,7 +955,7 @@ picture {
   transition: transform 0.4s ease-in-out, border-color 0.4s ease-in-out, background-color 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
 }
 
-/* line 151, src/scss/_shared/_common.scss */
+/* line 152, src/scss/_shared/_common.scss */
 .c-checkboxToggle label span {
   position: absolute;
   top: 0;
@@ -972,7 +976,7 @@ picture {
   height: 100%;
 }
 
-/* line 161, src/scss/_shared/_common.scss */
+/* line 162, src/scss/_shared/_common.scss */
 .c-checkboxToggle label span u {
   position: absolute;
   padding-top: 3px;
@@ -983,27 +987,27 @@ picture {
   font-weight: 400;
 }
 
-/* line 170, src/scss/_shared/_common.scss */
+/* line 171, src/scss/_shared/_common.scss */
 .c-checkboxToggle label span u:nth-of-type(1) {
   left: 8px;
 }
 
-/* line 173, src/scss/_shared/_common.scss */
+/* line 174, src/scss/_shared/_common.scss */
 .c-checkboxToggle label span u:nth-of-type(2) {
   right: 8px;
 }
 
-/* line 181, src/scss/_shared/_common.scss */
+/* line 182, src/scss/_shared/_common.scss */
 .select2-container--open {
   z-index: 9999;
 }
 
-/* line 184, src/scss/_shared/_common.scss */
+/* line 185, src/scss/_shared/_common.scss */
 .select2-container--open > .select2-search {
   padding: 5px 10px;
 }
 
-/* line 187, src/scss/_shared/_common.scss */
+/* line 188, src/scss/_shared/_common.scss */
 .select2-container--open > .select2-search__field {
   width: 100%;
   height: 36px;
@@ -1017,7 +1021,7 @@ picture {
   font-weight: 400;
 }
 
-/* line 201, src/scss/_shared/_common.scss */
+/* line 202, src/scss/_shared/_common.scss */
 #overlay {
   opacity: 0;
   visibility: hidden;
@@ -1037,7 +1041,7 @@ picture {
   transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out;
 }
 
-/* line 216, src/scss/_shared/_common.scss */
+/* line 217, src/scss/_shared/_common.scss */
 #overlay.is-show {
   opacity: 1;
   visibility: visible;
@@ -1650,10 +1654,10 @@ picture {
   /* line 59, src/scss/_macros/_modal.scss */
   .modal.modal-profile-qr .modal-footer, .modal.modal-profile-main .modal-footer, .modal.modal-profile-cv .modal-footer, .modal.modal-profile-update .modal-footer, .modal.modal-profile-experiences .modal-footer, .modal.modal-profile-education .modal-footer, .modal.modal-profile-skills .modal-footer, .modal.modal-profile-languages .modal-footer, .modal.modal-profile-references .modal-footer, .modal.modal-profile-preferred .modal-footer, .modal.modal-manage-account .modal-footer, .modal.modal-profile-about .modal-footer {
     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -1664,7 +1668,7 @@ picture {
     margin-bottom: 10px;
   }
   /* line 70, src/scss/_macros/_modal.scss */
-  .modal.modal-profile-qr .modal-footer .c-btn:last-of-type, .modal.modal-profile-main .modal-footer .c-btn:last-of-type, .modal.modal-profile-cv .modal-footer .c-btn:last-of-type, .modal.modal-profile-update .modal-footer .c-btn:last-of-type, .modal.modal-profile-experiences .modal-footer .c-btn:last-of-type, .modal.modal-profile-education .modal-footer .c-btn:last-of-type, .modal.modal-profile-skills .modal-footer .c-btn:last-of-type, .modal.modal-profile-languages .modal-footer .c-btn:last-of-type, .modal.modal-profile-references .modal-footer .c-btn:last-of-type, .modal.modal-profile-preferred .modal-footer .c-btn:last-of-type, .modal.modal-manage-account .modal-footer .c-btn:last-of-type, .modal.modal-profile-about .modal-footer .c-btn:last-of-type {
+  .modal.modal-profile-qr .modal-footer .c-btn:first-of-type, .modal.modal-profile-main .modal-footer .c-btn:first-of-type, .modal.modal-profile-cv .modal-footer .c-btn:first-of-type, .modal.modal-profile-update .modal-footer .c-btn:first-of-type, .modal.modal-profile-experiences .modal-footer .c-btn:first-of-type, .modal.modal-profile-education .modal-footer .c-btn:first-of-type, .modal.modal-profile-skills .modal-footer .c-btn:first-of-type, .modal.modal-profile-languages .modal-footer .c-btn:first-of-type, .modal.modal-profile-references .modal-footer .c-btn:first-of-type, .modal.modal-profile-preferred .modal-footer .c-btn:first-of-type, .modal.modal-manage-account .modal-footer .c-btn:first-of-type, .modal.modal-profile-about .modal-footer .c-btn:first-of-type {
     margin-bottom: 0;
   }
   /* line 74, src/scss/_macros/_modal.scss */
@@ -6293,7 +6297,15 @@ picture {
   }
 }
 
-/* line 8, src/scss/_components/profile/_profile--main.scss */
+@media screen and (max-width: 767px) {
+  /* line 1, src/scss/_components/profile/_profile--main.scss */
+  .profile__main {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/* line 12, src/scss/_components/profile/_profile--main.scss */
 .profile__main-bg {
   z-index: 0;
   position: absolute;
@@ -6303,7 +6315,7 @@ picture {
   height: 100%;
 }
 
-/* line 16, src/scss/_components/profile/_profile--main.scss */
+/* line 20, src/scss/_components/profile/_profile--main.scss */
 .profile__main-bg > div {
   width: 100%;
   height: 140px;
@@ -6315,13 +6327,13 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 16, src/scss/_components/profile/_profile--main.scss */
+  /* line 20, src/scss/_components/profile/_profile--main.scss */
   .profile__main-bg > div {
     height: 85px;
   }
 }
 
-/* line 29, src/scss/_components/profile/_profile--main.scss */
+/* line 33, src/scss/_components/profile/_profile--main.scss */
 .profile__main-box {
   z-index: 2;
   position: relative;
@@ -6336,12 +6348,12 @@ picture {
           flex-direction: column;
 }
 
-/* line 35, src/scss/_components/profile/_profile--main.scss */
+/* line 39, src/scss/_components/profile/_profile--main.scss */
 .profile__main-box > div {
   width: 100%;
 }
 
-/* line 40, src/scss/_components/profile/_profile--main.scss */
+/* line 44, src/scss/_components/profile/_profile--main.scss */
 .profile__main-head {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6358,7 +6370,15 @@ picture {
   padding-bottom: 20px;
 }
 
-/* line 46, src/scss/_components/profile/_profile--main.scss */
+@media screen and (max-width: 767px) {
+  /* line 44, src/scss/_components/profile/_profile--main.scss */
+  .profile__main-head {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+/* line 54, src/scss/_components/profile/_profile--main.scss */
 .profile__main-head > div {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6370,12 +6390,12 @@ picture {
           align-items: flex-end;
 }
 
-/* line 52, src/scss/_components/profile/_profile--main.scss */
+/* line 60, src/scss/_components/profile/_profile--main.scss */
 .profile__main-body {
   padding-bottom: 20px;
 }
 
-/* line 55, src/scss/_components/profile/_profile--main.scss */
+/* line 63, src/scss/_components/profile/_profile--main.scss */
 .profile__main-body-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6384,7 +6404,7 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 55, src/scss/_components/profile/_profile--main.scss */
+  /* line 63, src/scss/_components/profile/_profile--main.scss */
   .profile__main-body-wrapper {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -6392,19 +6412,44 @@ picture {
   }
 }
 
-/* line 61, src/scss/_components/profile/_profile--main.scss */
+/* line 69, src/scss/_components/profile/_profile--main.scss */
 .profile__main-body-wrapper-1 {
   padding-bottom: 20px;
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 61, src/scss/_components/profile/_profile--main.scss */
+  /* line 69, src/scss/_components/profile/_profile--main.scss */
   .profile__main-body-wrapper-1 {
     padding-bottom: 0;
   }
 }
 
-/* line 70, src/scss/_components/profile/_profile--main.scss */
+@media screen and (max-width: 767px) {
+  /* line 69, src/scss/_components/profile/_profile--main.scss */
+  .profile__main-body-wrapper-1 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+/* line 79, src/scss/_components/profile/_profile--main.scss */
+.profile__main-body-wrapper-1 .profile__main-toggle {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 79, src/scss/_components/profile/_profile--main.scss */
+  .profile__main-body-wrapper-1 .profile__main-toggle {
+    white-space: normal;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 15px;
+  }
+}
+
+/* line 91, src/scss/_components/profile/_profile--main.scss */
 .profile__main-body-wrapper-2 > div:nth-of-type(2) {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6417,7 +6462,7 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 70, src/scss/_components/profile/_profile--main.scss */
+  /* line 91, src/scss/_components/profile/_profile--main.scss */
   .profile__main-body-wrapper-2 > div:nth-of-type(2) {
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
@@ -6426,24 +6471,24 @@ picture {
   }
 }
 
-/* line 80, src/scss/_components/profile/_profile--main.scss */
+/* line 101, src/scss/_components/profile/_profile--main.scss */
 .profile__main-body-wrapper > div {
   width: 100%;
   max-width: 50%;
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 80, src/scss/_components/profile/_profile--main.scss */
+  /* line 101, src/scss/_components/profile/_profile--main.scss */
   .profile__main-body-wrapper > div {
     max-width: 100%;
   }
-  /* line 86, src/scss/_components/profile/_profile--main.scss */
+  /* line 107, src/scss/_components/profile/_profile--main.scss */
   .profile__main-body-wrapper > div:nth-of-type(1) {
     padding-bottom: 20px;
   }
 }
 
-/* line 94, src/scss/_components/profile/_profile--main.scss */
+/* line 115, src/scss/_components/profile/_profile--main.scss */
 .profile__main-footer {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6454,7 +6499,7 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 94, src/scss/_components/profile/_profile--main.scss */
+  /* line 115, src/scss/_components/profile/_profile--main.scss */
   .profile__main-footer {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -6463,20 +6508,22 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 94, src/scss/_components/profile/_profile--main.scss */
+  /* line 115, src/scss/_components/profile/_profile--main.scss */
   .profile__main-footer {
     padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
-/* line 105, src/scss/_components/profile/_profile--main.scss */
+/* line 128, src/scss/_components/profile/_profile--main.scss */
 .profile__main-footer > div {
   width: -webkit-calc(100% / 4);
   width: calc(100% / 4);
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 105, src/scss/_components/profile/_profile--main.scss */
+  /* line 128, src/scss/_components/profile/_profile--main.scss */
   .profile__main-footer > div {
     width: 50%;
     padding-bottom: 10px;
@@ -6484,13 +6531,13 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 105, src/scss/_components/profile/_profile--main.scss */
+  /* line 128, src/scss/_components/profile/_profile--main.scss */
   .profile__main-footer > div {
     width: 100%;
   }
 }
 
-/* line 116, src/scss/_components/profile/_profile--main.scss */
+/* line 139, src/scss/_components/profile/_profile--main.scss */
 .profile__main-footer p {
   font-weight: 500;
   font-size: 11px;
@@ -6499,13 +6546,20 @@ picture {
   color: #757575;
 }
 
-/* line 124, src/scss/_components/profile/_profile--main.scss */
+@media screen and (max-width: 767px) {
+  /* line 139, src/scss/_components/profile/_profile--main.scss */
+  .profile__main-footer p {
+    font-weight: 700;
+  }
+}
+
+/* line 150, src/scss/_components/profile/_profile--main.scss */
 .profile__main-footer span {
   font-size: 14px;
   line-height: 29px;
 }
 
-/* line 130, src/scss/_components/profile/_profile--main.scss */
+/* line 156, src/scss/_components/profile/_profile--main.scss */
 .profile__main-edit {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6517,14 +6571,21 @@ picture {
           align-items: center;
 }
 
-/* line 134, src/scss/_components/profile/_profile--main.scss */
+@media screen and (max-width: 767px) {
+  /* line 156, src/scss/_components/profile/_profile--main.scss */
+  .profile__main-edit {
+    display: none;
+  }
+}
+
+/* line 163, src/scss/_components/profile/_profile--main.scss */
 .profile__main-edit .icon-font {
   margin-right: 3px;
   color: #639;
   font-size: 16px;
 }
 
-/* line 140, src/scss/_components/profile/_profile--main.scss */
+/* line 169, src/scss/_components/profile/_profile--main.scss */
 .profile__main-edit span {
   color: #000000;
   font-size: 13px;
@@ -6533,7 +6594,7 @@ picture {
   font-weight: 500;
 }
 
-/* line 149, src/scss/_components/profile/_profile--main.scss */
+/* line 178, src/scss/_components/profile/_profile--main.scss */
 .profile__main-user {
   overflow: hidden;
   position: relative;
@@ -6548,14 +6609,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 149, src/scss/_components/profile/_profile--main.scss */
+  /* line 178, src/scss/_components/profile/_profile--main.scss */
   .profile__main-user {
     width: 105px;
     height: 105px;
   }
 }
 
-/* line 168, src/scss/_components/profile/_profile--main.scss */
+/* line 197, src/scss/_components/profile/_profile--main.scss */
 .profile__main-qr {
   position: relative;
   width: 32px;
@@ -6568,7 +6629,7 @@ picture {
           box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
 }
 
-/* line 177, src/scss/_components/profile/_profile--main.scss */
+/* line 206, src/scss/_components/profile/_profile--main.scss */
 .profile__main-qr img {
   display: block;
   max-width: 100%;
@@ -6576,21 +6637,21 @@ picture {
   max-height: 100%;
 }
 
-/* line 185, src/scss/_components/profile/_profile--main.scss */
+/* line 214, src/scss/_components/profile/_profile--main.scss */
 .profile__main-name {
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
 }
 
-/* line 191, src/scss/_components/profile/_profile--main.scss */
+/* line 220, src/scss/_components/profile/_profile--main.scss */
 .profile__main-position {
   padding-bottom: 7px;
   font-size: 14px;
   line-height: 20px;
 }
 
-/* line 197, src/scss/_components/profile/_profile--main.scss */
+/* line 226, src/scss/_components/profile/_profile--main.scss */
 .profile__main-country {
   font-weight: 500;
   font-size: 11px;
@@ -6598,7 +6659,40 @@ picture {
   color: #757575;
 }
 
-/* line 204, src/scss/_components/profile/_profile--main.scss */
+@media screen and (max-width: 767px) {
+  /* line 226, src/scss/_components/profile/_profile--main.scss */
+  .profile__main-country {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+/* line 237, src/scss/_components/profile/_profile--main.scss */
+.profile__main-country .profile__main-edit {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 237, src/scss/_components/profile/_profile--main.scss */
+  .profile__main-country .profile__main-edit {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+/* line 245, src/scss/_components/profile/_profile--main.scss */
 .profile__main-info {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6609,7 +6703,7 @@ picture {
           flex-wrap: wrap;
 }
 
-/* line 208, src/scss/_components/profile/_profile--main.scss */
+/* line 249, src/scss/_components/profile/_profile--main.scss */
 .profile__main-info > div {
   width: 100%;
   max-width: 50%;
@@ -6617,32 +6711,32 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 208, src/scss/_components/profile/_profile--main.scss */
+  /* line 249, src/scss/_components/profile/_profile--main.scss */
   .profile__main-info > div {
     max-width: 100%;
   }
 }
 
-/* line 216, src/scss/_components/profile/_profile--main.scss */
+/* line 257, src/scss/_components/profile/_profile--main.scss */
 .profile__main-info > div:nth-of-type(1), .profile__main-info > div:nth-of-type(3) {
   max-width: 40%;
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 216, src/scss/_components/profile/_profile--main.scss */
+  /* line 257, src/scss/_components/profile/_profile--main.scss */
   .profile__main-info > div:nth-of-type(1), .profile__main-info > div:nth-of-type(3) {
     max-width: 50%;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 216, src/scss/_components/profile/_profile--main.scss */
+  /* line 257, src/scss/_components/profile/_profile--main.scss */
   .profile__main-info > div:nth-of-type(1), .profile__main-info > div:nth-of-type(3) {
     max-width: 100%;
   }
 }
 
-/* line 228, src/scss/_components/profile/_profile--main.scss */
+/* line 269, src/scss/_components/profile/_profile--main.scss */
 .profile__main-info-box {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6654,12 +6748,12 @@ picture {
           align-items: center;
 }
 
-/* line 233, src/scss/_components/profile/_profile--main.scss */
+/* line 274, src/scss/_components/profile/_profile--main.scss */
 .profile__main-info-box > div:nth-of-type(1) {
   width: 30px;
 }
 
-/* line 236, src/scss/_components/profile/_profile--main.scss */
+/* line 277, src/scss/_components/profile/_profile--main.scss */
 .profile__main-info-box > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -6669,20 +6763,20 @@ picture {
   max-width: 100%;
 }
 
-/* line 243, src/scss/_components/profile/_profile--main.scss */
+/* line 284, src/scss/_components/profile/_profile--main.scss */
 .profile__main-info-box .icon-font {
   font-size: 14px;
   color: gray;
 }
 
-/* line 248, src/scss/_components/profile/_profile--main.scss */
+/* line 289, src/scss/_components/profile/_profile--main.scss */
 .profile__main-info-box span {
   font-size: 14px;
   line-height: 24px;
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 255, src/scss/_components/profile/_profile--main.scss */
+  /* line 296, src/scss/_components/profile/_profile--main.scss */
   .profile__main-action {
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
@@ -6692,7 +6786,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 255, src/scss/_components/profile/_profile--main.scss */
+  /* line 296, src/scss/_components/profile/_profile--main.scss */
   .profile__main-action {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -6700,14 +6794,14 @@ picture {
   }
 }
 
-/* line 263, src/scss/_components/profile/_profile--main.scss */
+/* line 304, src/scss/_components/profile/_profile--main.scss */
 .profile__main-action .c-btn {
   min-width: 195px;
   text-transform: uppercase;
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 263, src/scss/_components/profile/_profile--main.scss */
+  /* line 304, src/scss/_components/profile/_profile--main.scss */
   .profile__main-action .c-btn {
     width: 100%;
     max-width: -webkit-calc((100% - 20px) / 2);
@@ -6716,42 +6810,42 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 263, src/scss/_components/profile/_profile--main.scss */
+  /* line 304, src/scss/_components/profile/_profile--main.scss */
   .profile__main-action .c-btn {
     max-width: 100%;
   }
 }
 
-/* line 274, src/scss/_components/profile/_profile--main.scss */
+/* line 315, src/scss/_components/profile/_profile--main.scss */
 .profile__main-action .c-btn:not(:last-of-type) {
   margin-right: 15px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 274, src/scss/_components/profile/_profile--main.scss */
+  /* line 315, src/scss/_components/profile/_profile--main.scss */
   .profile__main-action .c-btn:not(:last-of-type) {
     margin-right: 0;
     margin-bottom: 20px;
   }
 }
 
-/* line 282, src/scss/_components/profile/_profile--main.scss */
+/* line 323, src/scss/_components/profile/_profile--main.scss */
 .profile__main-action .c-btn span {
   font-size: 14px;
 }
 
-/* line 287, src/scss/_components/profile/_profile--main.scss */
+/* line 328, src/scss/_components/profile/_profile--main.scss */
 .profile__main-action .dropdown-menu {
   -webkit-transform: translate3d(0px, 306px, 0px) !important;
           transform: translate3d(0px, 306px, 0px) !important;
 }
 
-/* line 292, src/scss/_components/profile/_profile--main.scss */
+/* line 333, src/scss/_components/profile/_profile--main.scss */
 .profile__main-update, .profile__main-uploadMobile {
   position: relative;
 }
 
-/* line 296, src/scss/_components/profile/_profile--main.scss */
+/* line 337, src/scss/_components/profile/_profile--main.scss */
 .profile__main-update .icon-font, .profile__main-uploadMobile .icon-font {
   z-index: 2;
   position: absolute;
@@ -6764,7 +6858,7 @@ picture {
   color: #ffffff;
 }
 
-/* line 306, src/scss/_components/profile/_profile--main.scss */
+/* line 347, src/scss/_components/profile/_profile--main.scss */
 .profile__main-update + .dropdown-menu, .profile__main-uploadMobile + .dropdown-menu {
   overflow-y: auto;
   position: absolute;
@@ -6781,7 +6875,7 @@ picture {
   background-color: #fff;
 }
 
-/* line 318, src/scss/_components/profile/_profile--main.scss */
+/* line 359, src/scss/_components/profile/_profile--main.scss */
 .profile__main-update + .dropdown-menu .dropdown-item, .profile__main-uploadMobile + .dropdown-menu .dropdown-item {
   cursor: pointer;
   display: -webkit-box;
@@ -6799,14 +6893,14 @@ picture {
   transition: background-color 0.4s ease-in-out;
 }
 
-/* line 326, src/scss/_components/profile/_profile--main.scss */
+/* line 367, src/scss/_components/profile/_profile--main.scss */
 .profile__main-update + .dropdown-menu .dropdown-item:hover, .profile__main-uploadMobile + .dropdown-menu .dropdown-item:hover {
   -webkit-transition: background-color 0.4s ease-in-out;
   -o-transition: background-color 0.4s ease-in-out;
   transition: background-color 0.4s ease-in-out;
 }
 
-/* line 329, src/scss/_components/profile/_profile--main.scss */
+/* line 370, src/scss/_components/profile/_profile--main.scss */
 .profile__main-update + .dropdown-menu .dropdown-item:hover .icon-font,
 .profile__main-update + .dropdown-menu .dropdown-item:hover p,
 .profile__main-update + .dropdown-menu .dropdown-item:hover span, .profile__main-uploadMobile + .dropdown-menu .dropdown-item:hover .icon-font,
@@ -6818,7 +6912,7 @@ picture {
   transition: color 0.4s ease-in-out;
 }
 
-/* line 338, src/scss/_components/profile/_profile--main.scss */
+/* line 379, src/scss/_components/profile/_profile--main.scss */
 .profile__main-update + .dropdown-menu .dropdown-item > div:nth-of-type(1), .profile__main-uploadMobile + .dropdown-menu .dropdown-item > div:nth-of-type(1) {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6832,7 +6926,7 @@ picture {
   padding-right: 8px;
 }
 
-/* line 344, src/scss/_components/profile/_profile--main.scss */
+/* line 385, src/scss/_components/profile/_profile--main.scss */
 .profile__main-update + .dropdown-menu .dropdown-item > div:nth-of-type(1) .icon-font, .profile__main-uploadMobile + .dropdown-menu .dropdown-item > div:nth-of-type(1) .icon-font {
   font-size: 20px;
   -webkit-transition: color 0.4s ease-in-out;
@@ -6840,7 +6934,7 @@ picture {
   transition: color 0.4s ease-in-out;
 }
 
-/* line 350, src/scss/_components/profile/_profile--main.scss */
+/* line 391, src/scss/_components/profile/_profile--main.scss */
 .profile__main-update + .dropdown-menu .dropdown-item > div:nth-of-type(2), .profile__main-uploadMobile + .dropdown-menu .dropdown-item > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -6850,7 +6944,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 356, src/scss/_components/profile/_profile--main.scss */
+/* line 397, src/scss/_components/profile/_profile--main.scss */
 .profile__main-update + .dropdown-menu .dropdown-item > div:nth-of-type(3), .profile__main-uploadMobile + .dropdown-menu .dropdown-item > div:nth-of-type(3) {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6864,7 +6958,7 @@ picture {
   padding-left: 8px;
 }
 
-/* line 362, src/scss/_components/profile/_profile--main.scss */
+/* line 403, src/scss/_components/profile/_profile--main.scss */
 .profile__main-update + .dropdown-menu .dropdown-item > div:nth-of-type(3) .icon-font, .profile__main-uploadMobile + .dropdown-menu .dropdown-item > div:nth-of-type(3) .icon-font {
   font-size: 14px;
   -webkit-transition: color 0.4s ease-in-out;
@@ -6872,7 +6966,7 @@ picture {
   transition: color 0.4s ease-in-out;
 }
 
-/* line 369, src/scss/_components/profile/_profile--main.scss */
+/* line 410, src/scss/_components/profile/_profile--main.scss */
 .profile__main-update + .dropdown-menu .dropdown-item .icon-font,
 .profile__main-update + .dropdown-menu .dropdown-item p,
 .profile__main-update + .dropdown-menu .dropdown-item span, .profile__main-uploadMobile + .dropdown-menu .dropdown-item .icon-font,
@@ -6882,7 +6976,7 @@ picture {
   color: #777a7d;
 }
 
-/* line 376, src/scss/_components/profile/_profile--main.scss */
+/* line 417, src/scss/_components/profile/_profile--main.scss */
 .profile__main-update + .dropdown-menu .dropdown-item p,
 .profile__main-update + .dropdown-menu .dropdown-item span, .profile__main-uploadMobile + .dropdown-menu .dropdown-item p,
 .profile__main-uploadMobile + .dropdown-menu .dropdown-item span {
@@ -6893,7 +6987,7 @@ picture {
   display: block;
 }
 
-/* line 384, src/scss/_components/profile/_profile--main.scss */
+/* line 425, src/scss/_components/profile/_profile--main.scss */
 .profile__main-update + .dropdown-menu .dropdown-item p, .profile__main-uploadMobile + .dropdown-menu .dropdown-item p {
   font-size: 15px;
   -webkit-transition: color 0.4s ease-in-out;
@@ -6901,7 +6995,7 @@ picture {
   transition: color 0.4s ease-in-out;
 }
 
-/* line 389, src/scss/_components/profile/_profile--main.scss */
+/* line 430, src/scss/_components/profile/_profile--main.scss */
 .profile__main-update + .dropdown-menu .dropdown-item span, .profile__main-uploadMobile + .dropdown-menu .dropdown-item span {
   font-size: 12px;
   -webkit-transition: color 0.4s ease-in-out;
@@ -6910,19 +7004,19 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 397, src/scss/_components/profile/_profile--main.scss */
+  /* line 438, src/scss/_components/profile/_profile--main.scss */
   .profile__main-update {
     display: none;
   }
 }
 
-/* line 403, src/scss/_components/profile/_profile--main.scss */
+/* line 444, src/scss/_components/profile/_profile--main.scss */
 .profile__main-uploadMobile {
   display: none;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 403, src/scss/_components/profile/_profile--main.scss */
+  /* line 444, src/scss/_components/profile/_profile--main.scss */
   .profile__main-uploadMobile {
     display: -webkit-box;
     display: -webkit-flex;
@@ -6931,7 +7025,7 @@ picture {
   }
 }
 
-/* line 410, src/scss/_components/profile/_profile--main.scss */
+/* line 451, src/scss/_components/profile/_profile--main.scss */
 .profile__main-toggle {
   white-space: nowrap;
   position: relative;
@@ -6956,20 +7050,21 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 410, src/scss/_components/profile/_profile--main.scss */
+  /* line 451, src/scss/_components/profile/_profile--main.scss */
   .profile__main-toggle {
     max-width: 100%;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 410, src/scss/_components/profile/_profile--main.scss */
+  /* line 451, src/scss/_components/profile/_profile--main.scss */
   .profile__main-toggle {
-    white-space: normal;
+    display: none;
+    min-height: unset;
   }
 }
 
-/* line 428, src/scss/_components/profile/_profile--main.scss */
+/* line 470, src/scss/_components/profile/_profile--main.scss */
 .profile__main-toggle-title {
   padding-bottom: 10px;
   font-weight: 500;
@@ -6977,7 +7072,15 @@ picture {
   color: #757575;
 }
 
-/* line 435, src/scss/_components/profile/_profile--main.scss */
+@media screen and (max-width: 767px) {
+  /* line 470, src/scss/_components/profile/_profile--main.scss */
+  .profile__main-toggle-title {
+    padding-bottom: 5px;
+    font-size: 12px;
+  }
+}
+
+/* line 481, src/scss/_components/profile/_profile--main.scss */
 .profile__main-toggle-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6993,7 +7096,7 @@ picture {
           justify-content: space-between;
 }
 
-/* line 441, src/scss/_components/profile/_profile--main.scss */
+/* line 487, src/scss/_components/profile/_profile--main.scss */
 .profile__main-toggle-box {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7005,7 +7108,7 @@ picture {
           align-items: center;
 }
 
-/* line 445, src/scss/_components/profile/_profile--main.scss */
+/* line 491, src/scss/_components/profile/_profile--main.scss */
 .profile__main-toggle-box > div {
   cursor: pointer;
   display: -webkit-box;
@@ -7028,7 +7131,15 @@ picture {
   transition: background-color 0.4s ease-in-out;
 }
 
-/* line 455, src/scss/_components/profile/_profile--main.scss */
+@media screen and (max-width: 767px) {
+  /* line 491, src/scss/_components/profile/_profile--main.scss */
+  .profile__main-toggle-box > div {
+    width: 46px;
+    height: 21px;
+  }
+}
+
+/* line 505, src/scss/_components/profile/_profile--main.scss */
 .profile__main-toggle-box > div.is-active {
   background-color: #06aa86;
   -webkit-transition: background-color 0.4s ease-in-out;
@@ -7036,7 +7147,7 @@ picture {
   transition: background-color 0.4s ease-in-out;
 }
 
-/* line 459, src/scss/_components/profile/_profile--main.scss */
+/* line 509, src/scss/_components/profile/_profile--main.scss */
 .profile__main-toggle-box > div.is-active i {
   color: #ffffff;
   -webkit-transition: color 0.4s ease-in-out;
@@ -7044,19 +7155,19 @@ picture {
   transition: color 0.4s ease-in-out;
 }
 
-/* line 465, src/scss/_components/profile/_profile--main.scss */
+/* line 515, src/scss/_components/profile/_profile--main.scss */
 .profile__main-toggle-box > div:nth-of-type(1) {
   -webkit-border-radius: 3px 0 0 3px;
           border-radius: 3px 0 0 3px;
 }
 
-/* line 468, src/scss/_components/profile/_profile--main.scss */
+/* line 518, src/scss/_components/profile/_profile--main.scss */
 .profile__main-toggle-box > div:nth-of-type(2) {
   -webkit-border-radius: 0 3px 3px 0;
           border-radius: 0 3px 3px 0;
 }
 
-/* line 473, src/scss/_components/profile/_profile--main.scss */
+/* line 523, src/scss/_components/profile/_profile--main.scss */
 .profile__main-toggle-box i {
   font-style: normal;
   font-weight: 500;
@@ -7067,9 +7178,16 @@ picture {
   transition: color 0.4s ease-in-out;
 }
 
-/* line 482, src/scss/_components/profile/_profile--main.scss */
+/* line 532, src/scss/_components/profile/_profile--main.scss */
 .profile__main-toggle span {
   font-size: 14px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 532, src/scss/_components/profile/_profile--main.scss */
+  .profile__main-toggle span {
+    font-size: 11px;
+  }
 }
 
 /* line 1, src/scss/_components/profile/_profile--strength.scss */
@@ -7094,7 +7212,14 @@ picture {
   letter-spacing: 0.11px;
 }
 
-/* line 16, src/scss/_components/profile/_profile--strength.scss */
+@media screen and (max-width: 767px) {
+  /* line 8, src/scss/_components/profile/_profile--strength.scss */
+  .profile__strength-title {
+    padding-bottom: 20px;
+  }
+}
+
+/* line 19, src/scss/_components/profile/_profile--strength.scss */
 .profile__strength-progress {
   position: relative;
   display: -webkit-box;
@@ -7113,7 +7238,7 @@ picture {
   background-image: linear-gradient(to right, #06aa86 0%, #15c 50%, #639 100%);
 }
 
-/* line 26, src/scss/_components/profile/_profile--strength.scss */
+/* line 29, src/scss/_components/profile/_profile--strength.scss */
 .profile__strength-progress > p {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7125,29 +7250,29 @@ picture {
   background-color: #dcdcdc;
 }
 
-/* line 32, src/scss/_components/profile/_profile--strength.scss */
+/* line 35, src/scss/_components/profile/_profile--strength.scss */
 .profile__strength-progress > p:first-of-type {
   -webkit-border-radius: 6px 0 0 6px;
           border-radius: 6px 0 0 6px;
 }
 
-/* line 35, src/scss/_components/profile/_profile--strength.scss */
+/* line 38, src/scss/_components/profile/_profile--strength.scss */
 .profile__strength-progress > p:last-of-type {
   -webkit-border-radius: 0 6px 6px 0;
           border-radius: 0 6px 6px 0;
 }
 
-/* line 38, src/scss/_components/profile/_profile--strength.scss */
+/* line 41, src/scss/_components/profile/_profile--strength.scss */
 .profile__strength-progress > p:not(:last-of-type) {
   border-right: 1px solid #fff;
 }
 
-/* line 42, src/scss/_components/profile/_profile--strength.scss */
+/* line 45, src/scss/_components/profile/_profile--strength.scss */
 .profile__strength-progress > p.is-active {
   background-color: transparent;
 }
 
-/* line 47, src/scss/_components/profile/_profile--strength.scss */
+/* line 50, src/scss/_components/profile/_profile--strength.scss */
 .profile__strength-progress-ind {
   position: absolute;
   top: 50%;
@@ -7176,20 +7301,20 @@ picture {
           box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
 }
 
-/* line 61, src/scss/_components/profile/_profile--strength.scss */
+/* line 64, src/scss/_components/profile/_profile--strength.scss */
 .profile__strength-progress-ind .icon-font {
   color: #5e359d;
   font-size: 16px;
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 61, src/scss/_components/profile/_profile--strength.scss */
+  /* line 64, src/scss/_components/profile/_profile--strength.scss */
   .profile__strength-progress-ind .icon-font {
     display: none;
   }
 }
 
-/* line 69, src/scss/_components/profile/_profile--strength.scss */
+/* line 72, src/scss/_components/profile/_profile--strength.scss */
 .profile__strength-progress-ind > div {
   position: absolute;
   left: 50%;
@@ -7221,7 +7346,7 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 69, src/scss/_components/profile/_profile--strength.scss */
+  /* line 72, src/scss/_components/profile/_profile--strength.scss */
   .profile__strength-progress-ind > div {
     left: 0;
     bottom: 0;
@@ -7237,7 +7362,7 @@ picture {
   }
 }
 
-/* line 99, src/scss/_components/profile/_profile--strength.scss */
+/* line 102, src/scss/_components/profile/_profile--strength.scss */
 .profile__strength-box {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7250,7 +7375,14 @@ picture {
   background-color: #eee;
 }
 
-/* line 107, src/scss/_components/profile/_profile--strength.scss */
+@media screen and (max-width: 767px) {
+  /* line 102, src/scss/_components/profile/_profile--strength.scss */
+  .profile__strength-box {
+    padding-right: 10px;
+  }
+}
+
+/* line 113, src/scss/_components/profile/_profile--strength.scss */
 .profile__strength-box > div:nth-of-type(1) {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7268,7 +7400,7 @@ picture {
   padding-right: 20px;
 }
 
-/* line 114, src/scss/_components/profile/_profile--strength.scss */
+/* line 120, src/scss/_components/profile/_profile--strength.scss */
 .profile__strength-box > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -7278,7 +7410,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 121, src/scss/_components/profile/_profile--strength.scss */
+/* line 127, src/scss/_components/profile/_profile--strength.scss */
 .profile__strength-box img {
   display: block;
   max-width: 100%;
@@ -7286,7 +7418,7 @@ picture {
   max-height: 100%;
 }
 
-/* line 128, src/scss/_components/profile/_profile--strength.scss */
+/* line 134, src/scss/_components/profile/_profile--strength.scss */
 .profile__strength-box p {
   padding-bottom: 7px;
   font-weight: 700;
@@ -7295,7 +7427,7 @@ picture {
   color: #9801ad;
 }
 
-/* line 136, src/scss/_components/profile/_profile--strength.scss */
+/* line 142, src/scss/_components/profile/_profile--strength.scss */
 .profile__strength-box span {
   font-size: 15px;
   line-height: 20px;
@@ -11448,7 +11580,7 @@ picture {
   /* line 82, src/scss/_components/dashboard/_dashboard--stat.scss */
   .dashboard__stat-head p {
     color: #ac47bd;
-    font-size: 12px;
+    font-size: 13px;
     text-transform: capitalize;
   }
 }
@@ -11513,7 +11645,15 @@ picture {
   }
 }
 
-/* line 10, src/scss/_components/dashboard/_dashboard--employers.scss */
+@media screen and (max-width: 767px) {
+  /* line 1, src/scss/_components/dashboard/_dashboard--employers.scss */
+  .dashboard__employers {
+    padding-bottom: 0;
+    margin-bottom: 20px;
+  }
+}
+
+/* line 14, src/scss/_components/dashboard/_dashboard--employers.scss */
 .dashboard__employers-wrapper {
   position: relative;
   margin-bottom: 20px;
@@ -11525,13 +11665,13 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 10, src/scss/_components/dashboard/_dashboard--employers.scss */
+  /* line 14, src/scss/_components/dashboard/_dashboard--employers.scss */
   .dashboard__employers-wrapper {
     margin-bottom: 0;
   }
 }
 
-/* line 20, src/scss/_components/dashboard/_dashboard--employers.scss */
+/* line 24, src/scss/_components/dashboard/_dashboard--employers.scss */
 .dashboard__employers-wrapper p {
   padding: 18px 18px 15px;
   font-size: 24px;
@@ -11539,7 +11679,7 @@ picture {
   line-height: 1;
 }
 
-/* line 28, src/scss/_components/dashboard/_dashboard--employers.scss */
+/* line 32, src/scss/_components/dashboard/_dashboard--employers.scss */
 .dashboard__employers > div {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11560,18 +11700,17 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 28, src/scss/_components/dashboard/_dashboard--employers.scss */
+  /* line 32, src/scss/_components/dashboard/_dashboard--employers.scss */
   .dashboard__employers > div {
     max-width: -webkit-calc(100% / 3);
     max-width: calc(100% / 3);
-    padding-top: 20px;
     margin-bottom: 20px;
   }
-  /* line 40, src/scss/_components/dashboard/_dashboard--employers.scss */
+  /* line 43, src/scss/_components/dashboard/_dashboard--employers.scss */
   .dashboard__employers > div:nth-of-type(1), .dashboard__employers > div:nth-of-type(2), .dashboard__employers > div:nth-of-type(3) {
     position: relative;
   }
-  /* line 45, src/scss/_components/dashboard/_dashboard--employers.scss */
+  /* line 48, src/scss/_components/dashboard/_dashboard--employers.scss */
   .dashboard__employers > div:nth-of-type(1):after, .dashboard__employers > div:nth-of-type(2):after, .dashboard__employers > div:nth-of-type(3):after {
     content: '';
     position: absolute;
@@ -11581,18 +11720,25 @@ picture {
     height: 1px;
     background-color: #dfdfdf;
   }
-  /* line 56, src/scss/_components/dashboard/_dashboard--employers.scss */
+  /* line 59, src/scss/_components/dashboard/_dashboard--employers.scss */
   .dashboard__employers > div:nth-of-type(3) {
     border: none !important;
   }
 }
 
-/* line 61, src/scss/_components/dashboard/_dashboard--employers.scss */
+@media screen and (max-width: 767px) {
+  /* line 32, src/scss/_components/dashboard/_dashboard--employers.scss */
+  .dashboard__employers > div {
+    min-height: 95px;
+  }
+}
+
+/* line 67, src/scss/_components/dashboard/_dashboard--employers.scss */
 .dashboard__employers > div:not(:last-of-type) {
   border-right: 1px solid #dfdfdf;
 }
 
-/* line 65, src/scss/_components/dashboard/_dashboard--employers.scss */
+/* line 71, src/scss/_components/dashboard/_dashboard--employers.scss */
 .dashboard__employers > div a {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11611,7 +11757,7 @@ picture {
   padding: 0 15px;
 }
 
-/* line 73, src/scss/_components/dashboard/_dashboard--employers.scss */
+/* line 79, src/scss/_components/dashboard/_dashboard--employers.scss */
 .dashboard__employers > div a img {
   display: block;
   max-width: 100%;
@@ -11663,14 +11809,15 @@ picture {
 /* line 31, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-head p {
   position: relative;
+  padding: 0 10px;
   font-weight: 500;
   font-size: 12px;
-  padding: 0 10px;
+  line-height: 1;
   text-transform: uppercase;
   color: #fff;
 }
 
-/* line 39, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 40, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-head p:after {
   content: '';
   position: absolute;
@@ -11682,7 +11829,7 @@ picture {
   background-color: #f89a29;
 }
 
-/* line 51, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 52, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-title {
   padding-left: 18px;
   padding-right: 18px;
@@ -11691,7 +11838,7 @@ picture {
   color: #222;
 }
 
-/* line 59, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 60, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-heading {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11711,15 +11858,16 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 59, src/scss/_components/dashboard/_dashboard--jobs.scss */
+  /* line 60, src/scss/_components/dashboard/_dashboard--jobs.scss */
   .dashboard__jobs-heading {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
+    padding-bottom: 0;
   }
 }
 
-/* line 70, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 72, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-heading > div {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11732,29 +11880,45 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 70, src/scss/_components/dashboard/_dashboard--jobs.scss */
+  /* line 72, src/scss/_components/dashboard/_dashboard--jobs.scss */
   .dashboard__jobs-heading > div {
     width: 100%;
   }
-  /* line 76, src/scss/_components/dashboard/_dashboard--jobs.scss */
+  /* line 78, src/scss/_components/dashboard/_dashboard--jobs.scss */
   .dashboard__jobs-heading > div:first-of-type {
     padding-bottom: 10px;
   }
+  /* line 82, src/scss/_components/dashboard/_dashboard--jobs.scss */
+  .dashboard__jobs-heading > div:nth-of-type(2) {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
 }
 
-/* line 82, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 90, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-heading p {
   font-size: 16px;
   color: #757575;
 }
 
-/* line 86, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 94, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-heading p a {
   font-weight: 500;
   color: #5a5ace;
 }
 
-/* line 92, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 100, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-heading span {
   padding-right: 10px;
   font-size: 14px;
@@ -11762,7 +11926,15 @@ picture {
   color: #616161;
 }
 
-/* line 100, src/scss/_components/dashboard/_dashboard--jobs.scss */
+@media screen and (max-width: 767px) {
+  /* line 100, src/scss/_components/dashboard/_dashboard--jobs.scss */
+  .dashboard__jobs-heading span {
+    padding-right: 0;
+    padding-left: 15px;
+  }
+}
+
+/* line 112, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-recommended {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11775,7 +11947,7 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 100, src/scss/_components/dashboard/_dashboard--jobs.scss */
+  /* line 112, src/scss/_components/dashboard/_dashboard--jobs.scss */
   .dashboard__jobs-recommended {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -11783,12 +11955,12 @@ picture {
   }
 }
 
-/* line 108, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 120, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-recommended > div:nth-of-type(1) {
   width: 56px;
 }
 
-/* line 111, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 123, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-recommended > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -11800,7 +11972,7 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 111, src/scss/_components/dashboard/_dashboard--jobs.scss */
+  /* line 123, src/scss/_components/dashboard/_dashboard--jobs.scss */
   .dashboard__jobs-recommended > div:nth-of-type(2) {
     -webkit-box-flex: unset;
     -webkit-flex: unset;
@@ -11811,7 +11983,7 @@ picture {
   }
 }
 
-/* line 121, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 133, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-recommended > div:nth-of-type(2) a,
 .dashboard__jobs-recommended > div:nth-of-type(2) p {
   overflow: hidden;
@@ -11820,7 +11992,7 @@ picture {
      text-overflow: ellipsis;
 }
 
-/* line 128, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 140, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-recommended > div:nth-of-type(2) a {
   display: block;
   font-weight: 500;
@@ -11829,7 +12001,7 @@ picture {
   color: #5a5ace;
 }
 
-/* line 136, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 148, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-recommended > div:nth-of-type(2) p {
   font-size: 12px;
   font-weight: 400;
@@ -11838,13 +12010,13 @@ picture {
   color: #616161;
 }
 
-/* line 144, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 156, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-recommended > div:nth-of-type(3) {
   width: 150px;
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 144, src/scss/_components/dashboard/_dashboard--jobs.scss */
+  /* line 156, src/scss/_components/dashboard/_dashboard--jobs.scss */
   .dashboard__jobs-recommended > div:nth-of-type(3) {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
@@ -11857,7 +12029,18 @@ picture {
   }
 }
 
-/* line 154, src/scss/_components/dashboard/_dashboard--jobs.scss */
+@media screen and (max-width: 767px) {
+  /* line 156, src/scss/_components/dashboard/_dashboard--jobs.scss */
+  .dashboard__jobs-recommended > div:nth-of-type(3) {
+    -webkit-box-flex: unset;
+    -webkit-flex: unset;
+        -ms-flex: unset;
+            flex: unset;
+    width: 65%;
+  }
+}
+
+/* line 170, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-recommended > div:nth-of-type(3) > div {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11869,52 +12052,71 @@ picture {
           align-items: center;
 }
 
-/* line 159, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 175, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-recommended > div:nth-of-type(3) > div:nth-of-type(1) .icon-font {
   color: #f69322;
 }
 
-/* line 164, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 180, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-recommended > div:nth-of-type(3) > div:nth-of-type(2) .icon-font {
   color: #25d754;
 }
 
-/* line 169, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 185, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-recommended > div:nth-of-type(3) > div .icon-font {
   margin-right: 10px;
 }
 
-/* line 173, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 189, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-recommended > div:nth-of-type(3) > div span {
   font-size: 14px;
   line-height: 22px;
   color: #616161;
 }
 
-/* line 180, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 196, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-recommended > div:nth-of-type(4) {
   padding-left: 18px;
 }
 
-/* line 183, src/scss/_components/dashboard/_dashboard--jobs.scss */
+@media screen and (max-width: 767px) {
+  /* line 196, src/scss/_components/dashboard/_dashboard--jobs.scss */
+  .dashboard__jobs-recommended > div:nth-of-type(4) {
+    margin-left: auto;
+    padding-left: 20px;
+  }
+}
+
+/* line 203, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-recommended > div:nth-of-type(4) .c-btn {
   min-width: unset;
   width: 100px;
   height: 25px;
 }
 
-/* line 188, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 208, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-recommended > div:nth-of-type(4) .c-btn span {
   font-size: 11px;
 }
 
-/* line 192, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 212, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-recommended > div:nth-of-type(4) .c-btn__wrapper {
   position: relative;
   right: -20px;
 }
 
-/* line 200, src/scss/_components/dashboard/_dashboard--jobs.scss */
+@media screen and (max-width: 767px) {
+  /* line 212, src/scss/_components/dashboard/_dashboard--jobs.scss */
+  .dashboard__jobs-recommended > div:nth-of-type(4) .c-btn__wrapper {
+    right: 0;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+}
+
+/* line 224, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-recommended-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11929,13 +12131,21 @@ picture {
   margin-top: 10px;
 }
 
-/* line 206, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 230, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-recommended-wrapper > div {
   padding: 10px 20px;
   border-bottom: 1px solid #dfdfdf;
 }
 
-/* line 212, src/scss/_components/dashboard/_dashboard--jobs.scss */
+@media screen and (max-width: 767px) {
+  /* line 230, src/scss/_components/dashboard/_dashboard--jobs.scss */
+  .dashboard__jobs-recommended-wrapper > div {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* line 240, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-recommended-logo {
   overflow: hidden;
   position: relative;
@@ -11955,7 +12165,7 @@ picture {
   height: 56px;
 }
 
-/* line 221, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 249, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-recommended-logo img {
   display: block;
   max-width: 100%;
@@ -11963,13 +12173,21 @@ picture {
   max-height: 100%;
 }
 
-/* line 231, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 259, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-last-wrapper {
   padding-left: 18px;
   padding-right: 18px;
 }
 
-/* line 236, src/scss/_components/dashboard/_dashboard--jobs.scss */
+@media screen and (max-width: 767px) {
+  /* line 259, src/scss/_components/dashboard/_dashboard--jobs.scss */
+  .dashboard__jobs-last-wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+/* line 268, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-last-wrapper .swiper-slide {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11983,7 +12201,7 @@ picture {
   width: 155px !important;
 }
 
-/* line 241, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 273, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-last-wrapper .swiper-slide-head {
   position: relative;
   width: 100%;
@@ -11997,7 +12215,7 @@ picture {
           box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
 }
 
-/* line 251, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 283, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-last-wrapper .swiper-slide-head img {
   display: block;
   max-width: 100%;
@@ -12005,12 +12223,12 @@ picture {
   max-height: 100%;
 }
 
-/* line 259, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 291, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-last-wrapper .swiper-slide-body {
   padding-top: 13px;
 }
 
-/* line 262, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 294, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-last-wrapper .swiper-slide-body p,
 .dashboard__jobs-last-wrapper .swiper-slide-body span,
 .dashboard__jobs-last-wrapper .swiper-slide-body i {
@@ -12022,28 +12240,67 @@ picture {
   line-height: 1;
 }
 
-/* line 272, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 304, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-last-wrapper .swiper-slide-body p {
   padding-bottom: 5px;
   font-size: 14px;
   color: #5a5ace;
 }
 
-/* line 278, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 310, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-last-wrapper .swiper-slide-body span {
   padding-bottom: 10px;
   font-size: 14px;
   color: #616161;
 }
 
-/* line 284, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 316, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-last-wrapper .swiper-slide-body i {
   font-size: 12px;
   font-style: normal;
   color: #757575;
 }
 
-/* line 295, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 329, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-last-btn--next .icon-font {
+  -webkit-transform: scaleX(-1);
+      -ms-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+/* line 334, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-last-btn-wrapper {
+  display: none;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 334, src/scss/_components/dashboard/_dashboard--jobs.scss */
+  .dashboard__jobs-last-btn-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 15px;
+  }
+}
+
+/* line 346, src/scss/_components/dashboard/_dashboard--jobs.scss */
+.dashboard__jobs-last-btn .icon-font {
+  font-size: 16px;
+  color: gray;
+}
+
+/* line 353, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-recent {
   display: -webkit-box;
   display: -webkit-flex;
@@ -12062,7 +12319,7 @@ picture {
           box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
 }
 
-/* line 303, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 361, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-recent-wrapper {
   position: relative;
   left: -17px;
@@ -12078,7 +12335,7 @@ picture {
   padding: 0 18px 18px;
 }
 
-/* line 311, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 369, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-recent-wrapper > div {
   width: -webkit-calc(100% / 2);
   width: calc(100% / 2);
@@ -12087,13 +12344,13 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 311, src/scss/_components/dashboard/_dashboard--jobs.scss */
+  /* line 369, src/scss/_components/dashboard/_dashboard--jobs.scss */
   .dashboard__jobs-recent-wrapper > div {
     width: 100%;
   }
 }
 
-/* line 321, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 379, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-recent > a {
   overflow: hidden;
   white-space: nowrap;
@@ -12107,25 +12364,25 @@ picture {
   color: #5a5ace;
 }
 
-/* line 333, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 391, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-recent > p {
   font-size: 14px;
   color: #616161;
 }
 
-/* line 338, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 396, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-recent .c-btn {
   width: 140px;
   min-width: unset;
   height: 25px;
 }
 
-/* line 343, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 401, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-recent .c-btn span {
   font-size: 11px;
 }
 
-/* line 347, src/scss/_components/dashboard/_dashboard--jobs.scss */
+/* line 405, src/scss/_components/dashboard/_dashboard--jobs.scss */
 .dashboard__jobs-recent .c-btn__wrapper {
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
@@ -12178,7 +12435,14 @@ picture {
   color: #222;
 }
 
-/* line 27, src/scss/_components/dashboard/_dashboard--hiring.scss */
+@media screen and (max-width: 767px) {
+  /* line 20, src/scss/_components/dashboard/_dashboard--hiring.scss */
+  .dashboard__hiring-head p {
+    font-size: 22px;
+  }
+}
+
+/* line 30, src/scss/_components/dashboard/_dashboard--hiring.scss */
 .dashboard__hiring-body hr {
   height: 1px;
   margin: 25px 0 30px;
@@ -12186,7 +12450,7 @@ picture {
   background-color: #dcdcdc;
 }
 
-/* line 35, src/scss/_components/dashboard/_dashboard--hiring.scss */
+/* line 38, src/scss/_components/dashboard/_dashboard--hiring.scss */
 .dashboard__hiring-btn {
   display: -webkit-box;
   display: -webkit-flex;
@@ -12203,27 +12467,27 @@ picture {
   width: 30px;
 }
 
-/* line 41, src/scss/_components/dashboard/_dashboard--hiring.scss */
+/* line 44, src/scss/_components/dashboard/_dashboard--hiring.scss */
 .dashboard__hiring-btn .icon-font {
   color: #000000;
   font-size: 13px;
 }
 
-/* line 47, src/scss/_components/dashboard/_dashboard--hiring.scss */
+/* line 50, src/scss/_components/dashboard/_dashboard--hiring.scss */
 .dashboard__hiring-btn--prev .icon-font {
   -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
           transform: rotate(90deg);
 }
 
-/* line 52, src/scss/_components/dashboard/_dashboard--hiring.scss */
+/* line 55, src/scss/_components/dashboard/_dashboard--hiring.scss */
 .dashboard__hiring-btn--next .icon-font {
   -webkit-transform: rotate(-90deg);
       -ms-transform: rotate(-90deg);
           transform: rotate(-90deg);
 }
 
-/* line 59, src/scss/_components/dashboard/_dashboard--hiring.scss */
+/* line 62, src/scss/_components/dashboard/_dashboard--hiring.scss */
 .dashboard__hiring .swiper-slide {
   display: -webkit-box;
   display: -webkit-flex;
@@ -12236,7 +12500,7 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 59, src/scss/_components/dashboard/_dashboard--hiring.scss */
+  /* line 62, src/scss/_components/dashboard/_dashboard--hiring.scss */
   .dashboard__hiring .swiper-slide {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -12244,7 +12508,7 @@ picture {
   }
 }
 
-/* line 66, src/scss/_components/dashboard/_dashboard--hiring.scss */
+/* line 69, src/scss/_components/dashboard/_dashboard--hiring.scss */
 .dashboard__hiring .swiper-slide-left {
   display: -webkit-box;
   display: -webkit-flex;
@@ -12263,14 +12527,14 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 66, src/scss/_components/dashboard/_dashboard--hiring.scss */
+  /* line 69, src/scss/_components/dashboard/_dashboard--hiring.scss */
   .dashboard__hiring .swiper-slide-left {
     width: 100%;
     height: 140px;
   }
 }
 
-/* line 76, src/scss/_components/dashboard/_dashboard--hiring.scss */
+/* line 79, src/scss/_components/dashboard/_dashboard--hiring.scss */
 .dashboard__hiring .swiper-slide-left img {
   display: block;
   max-width: 100%;
@@ -12278,7 +12542,7 @@ picture {
   max-height: 100%;
 }
 
-/* line 84, src/scss/_components/dashboard/_dashboard--hiring.scss */
+/* line 87, src/scss/_components/dashboard/_dashboard--hiring.scss */
 .dashboard__hiring .swiper-slide-right {
   width: -webkit-calc(100% - (100% / 3));
   width: calc(100% - (100% / 3));
@@ -12286,14 +12550,21 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 84, src/scss/_components/dashboard/_dashboard--hiring.scss */
+  /* line 87, src/scss/_components/dashboard/_dashboard--hiring.scss */
   .dashboard__hiring .swiper-slide-right {
     width: 100%;
     padding-left: 0;
   }
 }
 
-/* line 92, src/scss/_components/dashboard/_dashboard--hiring.scss */
+@media screen and (max-width: 767px) {
+  /* line 87, src/scss/_components/dashboard/_dashboard--hiring.scss */
+  .dashboard__hiring .swiper-slide-right {
+    padding-bottom: 0;
+  }
+}
+
+/* line 98, src/scss/_components/dashboard/_dashboard--hiring.scss */
 .dashboard__hiring .swiper-slide-right > p {
   padding-bottom: 10px;
   font-size: 18px;
@@ -12302,7 +12573,7 @@ picture {
   color: #639;
 }
 
-/* line 101, src/scss/_components/dashboard/_dashboard--hiring.scss */
+/* line 107, src/scss/_components/dashboard/_dashboard--hiring.scss */
 .dashboard__hiring .swiper-slide-block {
   position: relative;
   display: -webkit-box;
@@ -12316,7 +12587,7 @@ picture {
           border-radius: 3px;
 }
 
-/* line 110, src/scss/_components/dashboard/_dashboard--hiring.scss */
+/* line 116, src/scss/_components/dashboard/_dashboard--hiring.scss */
 .dashboard__hiring .swiper-slide-block > div:nth-of-type(1) {
   width: 35%;
   padding: 6px 0 3px;
@@ -12324,7 +12595,7 @@ picture {
   border-right: 1px solid #dcdcdc;
 }
 
-/* line 116, src/scss/_components/dashboard/_dashboard--hiring.scss */
+/* line 122, src/scss/_components/dashboard/_dashboard--hiring.scss */
 .dashboard__hiring .swiper-slide-block > div:nth-of-type(1) > p {
   padding-bottom: 5px;
   font-size: 14px;
@@ -12332,14 +12603,14 @@ picture {
   font-weight: 700;
 }
 
-/* line 123, src/scss/_components/dashboard/_dashboard--hiring.scss */
+/* line 129, src/scss/_components/dashboard/_dashboard--hiring.scss */
 .dashboard__hiring .swiper-slide-block > div:nth-of-type(1) > span {
   font-size: 40px;
   color: #639;
   line-height: 1;
 }
 
-/* line 129, src/scss/_components/dashboard/_dashboard--hiring.scss */
+/* line 135, src/scss/_components/dashboard/_dashboard--hiring.scss */
 .dashboard__hiring .swiper-slide-block > div:nth-of-type(2) {
   display: -webkit-box;
   display: -webkit-flex;
@@ -12356,7 +12627,7 @@ picture {
   width: 65%;
 }
 
-/* line 138, src/scss/_components/dashboard/_dashboard--hiring.scss */
+/* line 144, src/scss/_components/dashboard/_dashboard--hiring.scss */
 .dashboard__hiring .swiper-slide ul {
   display: -webkit-box;
   display: -webkit-flex;
@@ -12369,7 +12640,7 @@ picture {
           flex-direction: column;
 }
 
-/* line 142, src/scss/_components/dashboard/_dashboard--hiring.scss */
+/* line 148, src/scss/_components/dashboard/_dashboard--hiring.scss */
 .dashboard__hiring .swiper-slide ul li {
   display: -webkit-box;
   display: -webkit-flex;
@@ -12382,7 +12653,7 @@ picture {
   padding-bottom: 10px;
 }
 
-/* line 147, src/scss/_components/dashboard/_dashboard--hiring.scss */
+/* line 153, src/scss/_components/dashboard/_dashboard--hiring.scss */
 .dashboard__hiring .swiper-slide ul li i {
   display: -webkit-box;
   display: -webkit-flex;
@@ -12396,7 +12667,7 @@ picture {
   background-color: #ac46bd;
 }
 
-/* line 156, src/scss/_components/dashboard/_dashboard--hiring.scss */
+/* line 162, src/scss/_components/dashboard/_dashboard--hiring.scss */
 .dashboard__hiring .swiper-slide ul li span {
   overflow: hidden;
   white-space: nowrap;
@@ -12409,7 +12680,7 @@ picture {
   color: #616161;
 }
 
-/* line 167, src/scss/_components/dashboard/_dashboard--hiring.scss */
+/* line 173, src/scss/_components/dashboard/_dashboard--hiring.scss */
 .dashboard__hiring .swiper-slide ul li a {
   font-size: 12px;
   margin-left: 5px;
@@ -12593,36 +12864,89 @@ picture {
   margin-bottom: 20px;
 }
 
-/* line 64, src/scss/_components/dashboard/_dashboard.scss */
+@media screen and (max-width: 767px) {
+  /* line 60, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard .manage__profile {
+    -webkit-box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+            box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+  }
+}
+
+/* line 67, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard .manage__profile .profile__main {
   overflow: hidden;
 }
 
-/* line 68, src/scss/_components/dashboard/_dashboard.scss */
+/* line 71, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard .manage__profile .profile__main-bg > div {
   height: 140px;
 }
 
-/* line 74, src/scss/_components/dashboard/_dashboard.scss */
+@media screen and (max-width: 767px) {
+  /* line 71, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard .manage__profile .profile__main-bg > div {
+    height: 110px;
+  }
+}
+
+/* line 80, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard .manage__profile .profile__main-body-wrapper-1 {
   padding: 30px 10px 15px;
 }
 
-/* line 79, src/scss/_components/dashboard/_dashboard.scss */
+/* line 85, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard .manage__profile .profile__main-toggle {
+  display: block;
+}
+
+/* line 89, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard .manage__profile .profile__main-head {
   padding: 15px 5px;
 }
 
-/* line 83, src/scss/_components/dashboard/_dashboard.scss */
+@media screen and (max-width: 767px) {
+  /* line 89, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard .manage__profile .profile__main-head {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 100, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard .manage__profile .profile__main-body-wrapper-1 > div:nth-of-type(1) {
+    padding-bottom: 0;
+  }
+}
+
+/* line 109, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard .manage__profile .profile__main-name span,
 .dashboard .manage__profile .profile__main-position span,
 .dashboard .manage__profile .profile__main-country span {
   min-width: 75px;
 }
 
-/* line 89, src/scss/_components/dashboard/_dashboard.scss */
+/* line 115, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard .manage__profile .profile__main-steps-title {
   padding-bottom: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 115, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard .manage__profile .profile__main-steps-title {
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 122, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard .manage__profile .profile__main-strength {
+    padding-bottom: 5px;
+  }
+  /* line 126, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard .manage__profile .profile__main-strength-title {
+    padding-bottom: 20px;
+  }
 }
 
 /* line 3, src/scss/_components/employer-views/_employer-views.scss */

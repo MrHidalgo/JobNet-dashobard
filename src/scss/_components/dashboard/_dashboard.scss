@@ -60,6 +60,9 @@
 		&__profile {
 			margin: 0;
 			margin-bottom: 20px;
+			@include adaptive(767) {
+				box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.24);
+			}
 
 			.profile__main {
 				overflow: hidden;
@@ -67,6 +70,9 @@
 				&-bg {
 					> div {
 						height: 140px;
+						@include adaptive(767) {
+							height: 110px;
+						}
 					}
 				}
 
@@ -76,8 +82,28 @@
 					}
 				}
 
+				&-toggle {
+					display: block;
+				}
+
 				&-head {
 					padding: 15px 5px;
+					@include adaptive(767) {
+						padding-top: 0;
+						padding-bottom: 0;
+					}
+				}
+
+				&-body {
+					&-wrapper {
+						&-1  {
+							> div:nth-of-type(1) {
+								@include adaptive(767) {
+									padding-bottom: 0;
+								}
+							}
+						}
+					}
 				}
 
 				&-name span,
@@ -88,6 +114,19 @@
 
 				&-steps-title {
 					padding-bottom: 15px;
+					@include adaptive(767) {
+						padding-bottom: 0;
+					}
+				}
+
+				&-strength {
+					@include adaptive(767) {
+						padding-bottom: 5px;
+
+						&-title {
+							padding-bottom: 20px;
+						}
+					}
 				}
 			}
 		}

@@ -4,6 +4,10 @@
 	@include adaptive(1023) {
 		padding: 10px 30px;
 	}
+	@include adaptive(767) {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 
 	&-bg {
 		z-index: 0;
@@ -42,6 +46,10 @@
 		align-items: flex-end;
 		justify-content: space-between;
 		padding-bottom: 20px;
+		@include adaptive(767) {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
 
 		> div {
 			display: flex;
@@ -62,6 +70,19 @@
 				padding-bottom: 20px;
 				@include adaptive(1023) {
 					padding-bottom: 0;
+				}
+				@include adaptive(767) {
+					padding-left: 15px;
+					padding-right: 15px;
+				}
+
+				.profile__main-toggle {
+					display: none;
+					@include adaptive(767) {
+						white-space: normal;
+						display: flex;
+						margin-bottom: 15px;
+					}
 				}
 			}
 
@@ -100,6 +121,8 @@
 		}
 		@include adaptive(767) {
 			padding-top: 20px;
+			padding-left: 15px;
+			padding-right: 15px;
 		}
 
 		> div {
@@ -119,6 +142,9 @@
 			line-height: 24px;
 			text-transform: uppercase;
 			color: #757575;
+			@include adaptive(767) {
+				font-weight: 700;
+			}
 		}
 
 		span {
@@ -130,6 +156,9 @@
 	&-edit {
 		display: flex;
 		align-items: center;
+		@include adaptive(767) {
+			display: none;
+		}
 
 		.icon-font {
 			margin-right: 3px;
@@ -199,6 +228,18 @@
 		font-size: 11px;
 		text-transform: uppercase;
 		color: #757575;
+		@include adaptive(767) {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+
+		.profile__main-edit {
+			display: none;
+			@include adaptive(767) {
+				display: flex;
+			}
+		}
 	}
 
 	&-info {
@@ -422,7 +463,8 @@
 			max-width: 100%;
 		}
 		@include adaptive(767) {
-			white-space: normal;
+			display: none;
+			min-height: unset;
 		}
 
 		&-title {
@@ -430,6 +472,10 @@
 			font-weight: 500;
 			font-size: 16px;
 			color: #757575;
+			@include adaptive(767) {
+				padding-bottom: 5px;
+				font-size: 12px;
+			}
 		}
 
 		&-wrapper {
@@ -451,6 +497,10 @@
 				height: 26px;
 				background-color: #dcdcdc;
 				@include transition(background-color);
+				@include adaptive(767) {
+					width: 46px;
+					height: 21px;
+				}
 
 				&.is-active {
 					background-color: #06aa86;
@@ -481,6 +531,9 @@
 
 		span {
 			font-size: 14px;
+			@include adaptive(767) {
+				font-size: 11px;
+			}
 		}
 	}
 }

@@ -30,9 +30,10 @@
 
 		p {
 			position: relative;
+			padding: 0 10px;
 			font-weight: 500;
 			font-size: 12px;
-			padding: 0 10px;
+			line-height: 1;
 			text-transform: uppercase;
 			color: #fff;
 
@@ -65,6 +66,7 @@
 		padding-bottom: 25px;
 		@include adaptive(767) {
 			flex-wrap: wrap;
+			padding-bottom: 0;
 		}
 
 		> div {
@@ -75,6 +77,12 @@
 
 				&:first-of-type {
 					padding-bottom: 10px;
+				}
+
+				&:nth-of-type(2) {
+					display: flex;
+					justify-content: flex-end;
+					flex-direction: row-reverse;
 				}
 			}
 		}
@@ -94,6 +102,10 @@
 			font-size: 14px;
 			line-height: 32px;
 			color: #616161;
+			@include adaptive(767) {
+				padding-right: 0;
+				padding-left: 15px;
+			}
 		}
 	}
 
@@ -150,6 +162,10 @@
 					max-width: 100%;
 					padding-left: 74px;
 				}
+				@include adaptive(767) {
+					flex: unset;
+					width: 65%;
+				}
 
 				> div {
 					display: flex;
@@ -179,6 +195,10 @@
 			}
 			&:nth-of-type(4) {
 				padding-left: 18px;
+				@include adaptive(767) {
+					margin-left: auto;
+					padding-left: 20px;
+				}
 
 				.c-btn {
 					min-width: unset;
@@ -192,6 +212,10 @@
 					&__wrapper {
 						position: relative;
 						right: -20px;
+						@include adaptive(767) {
+							right: 0;
+							justify-content: flex-end;
+						}
 					}
 				}
 			}
@@ -206,6 +230,10 @@
 			> div {
 				padding: 10px 20px;
 				border-bottom: 1px solid #dfdfdf;
+				@include adaptive(767) {
+					padding-left: 0;
+					padding-right: 0;
+				}
 			}
 		}
 
@@ -231,6 +259,10 @@
 		&-wrapper {
 			padding-left: 18px;
 			padding-right: 18px;
+			@include adaptive(767) {
+				padding-left: 40px;
+				padding-right: 40px;
+			}
 
 			.swiper {
 				&-slide {
@@ -288,6 +320,32 @@
 						}
 					}
 				}
+			}
+		}
+
+		&-btn {
+			&--prev {}
+			&--next {
+				.icon-font {
+					transform: scaleX(-1);
+				}
+			}
+
+			&-wrapper {
+				display: none;
+				align-items: center;
+				justify-content: space-between;
+				padding-left: 40px;
+				padding-right: 40px;
+				@include adaptive(767) {
+					display: flex;
+					padding-bottom: 15px;
+				}
+			}
+
+			.icon-font {
+				font-size: 16px;
+				color: gray;
 			}
 		}
 	}

@@ -58,7 +58,7 @@
 
 			&-footer {
 				@include adaptive(767) {
-					flex-direction: column;
+					flex-direction: column-reverse;
 					padding-left: 20px;
 					padding-right: 20px;
 
@@ -67,7 +67,7 @@
 						margin: 0;
 						margin-bottom: 10px;
 
-						&:last-of-type {
+						&:first-of-type {
 							margin-bottom: 0;
 						}
 
